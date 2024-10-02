@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import styles from './page.module.scss';
 import { unstable_setRequestLocale } from 'next-intl/server';
+import Hero from '@/components/Hero';
 
 export default function Home({
   params: { locale },
@@ -12,7 +13,21 @@ export default function Home({
 
   return (
     <main className={styles.main}>
-      <h1>{t('subtitle')}</h1>
+      <Hero />
+      <div className={styles.spacer}>
+        <p>
+          ima gasaima gasaima gasaima gasaima gasaima gasaima gasaima gasaima
+          gasaima gasaima gasaima gasaima gasaima gasaima gasaima gasaima
+          gasaima gasaima gasaima gasaima gasaima gasaima gasaima gasaima
+          gasaima gasaima gasaima gasaima gasaima gasaima gasaima gasaima
+          gasaima gasaima gasaima gasa
+        </p>
+      </div>
+      {/* <Services />
+      <AboutUs />
+      <MaskAnimation />
+      <WhyUs />
+      <CtaSection /> */}
     </main>
   );
 }

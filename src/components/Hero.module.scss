@@ -1,0 +1,69 @@
+.hero {
+  height: 300vh;
+  width: calc(100vw - (100vw - 100%));
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+
+  &__content {
+    width: 100%;
+    padding: 9rem 2rem 0;
+    position: relative;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: clamp(2rem, 10vw, 25rem);
+    width: 100%;
+    word-wrap: break-word;
+    hyphens: auto;
+    white-space: nowrap;
+    position: relative;
+    z-index: 2;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 436px;
+      height: 436px;
+      background: url('/sun.svg') no-repeat center center;
+      position: absolute;
+      top: -4rem;
+      right: 1rem;
+      z-index: -1;
+    }
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+
+    span {
+      font-family: var(--font-pphatton);
+      font-style: italic;
+    }
+  }
+
+  &__button {
+    display: inline-flex;
+    border: 1px solid #aeaeb2;
+    border-radius: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    padding: 18.5px 1.5rem;
+    line-height: 1;
+  }
+
+  &__image {
+    width: 638px;
+    height: 350px;
+    position: absolute;
+    // bottom: calc(100vh + 200px);
+    top: calc(100vh - 500px);
+    right: 132px;
+    z-index: -2;
+    transform-origin: bottom right;
+  }
+}

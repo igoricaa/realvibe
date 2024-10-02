@@ -1,7 +1,22 @@
 {
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "events": "Event Organization",
+    "video-production": "Video Production",
+    "contact": "Contact"
+  },
   "home": {
-    "subtitle": "Inspiration in Action - Art in Creation",
-    "button": "Get started"
+    "hero": {
+      "title": "RealVibe Studio®",
+      "subtitle": {
+        "one": "Inspiration in",
+        "two": "Action -",
+        "three": "Art in ",
+        "four": "Creation"
+      },
+      "cta": "Get started"
+    }
   },
   "notFoundPage": {
     "title": "404"

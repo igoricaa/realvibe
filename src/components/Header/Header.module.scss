@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+    &__desktopMenu {
+      display: flex;
+      gap: 4rem;
+      align-items: center;
+      text-transform: uppercase;
+      font-weight: 500;
+
+      &__item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        &::after {
+          content: '';
+          display: block;
+          width: 1.5rem;
+          height: 1.5rem;
+          background-image: url('/arrow-white.svg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+        }
+
+        &:hover {
+          &::after {
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+      }
+    }
+  }
+}

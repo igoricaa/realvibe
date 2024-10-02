@@ -6,17 +6,13 @@ export const routing = defineRouting({
   defaultLocale: 'en',
   pathnames: {
     '/': '/',
-    '/o-nama': {
+    '/about-us': {
       en: '/about-us',
       sr: '/o-nama',
     },
-    '/kontakt': {
+    '/contact': {
       en: '/contact',
       sr: '/kontakt',
-    },
-    '/nasi-radovi': {
-      en: '/our-work',
-      sr: '/nasi-radovi',
     },
     // '/nasi-radovi/[...projectSlug]': {
     //   en: '/our-work/[...projectSlug]',

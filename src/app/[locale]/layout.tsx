@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 import '../globals.scss';
 import { ThemeProvider } from 'next-themes';
 import Header from '@/components/Header/Header';
@@ -15,6 +16,16 @@ const inter = Inter({
   variable: '--font-inter',
   weight: ['300', '400', '500', '700'],
   style: ['normal', 'italic'],
+});
+
+const pphatton = localFont({
+  src: [
+    {
+      path: '../../../fonts/PPHatton-Medium.woff2',
+      weight: '500',
+    },
+  ],
+  variable: '--font-pphatton',
 });
 
 // export const metadata: Metadata = {
@@ -41,7 +52,7 @@ export default async function RootLayout({
 
   return (
     <html lang='en'>
-      <body className={`${inter.variable}`}>
+      <body className={`${inter.variable} ${pphatton.variable}`}>
         <NextIntlClientProvider messages={messages} locale={locale}>
           <ThemeProvider defaultTheme='dark' attribute='data-theme'>
             <Lenis>
