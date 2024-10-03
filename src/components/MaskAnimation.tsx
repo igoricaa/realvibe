@@ -44,7 +44,7 @@ const MaskAnimation: React.FC = () => {
 
   return (
     <div ref={containerRef} className={styles.mask}>
-      <div className={[styles.content, styles.content__layout].join(' ')}>
+      <div className={styles.content}>
         <svg
           className={styles.content__img}
           width='100%'
