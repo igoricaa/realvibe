@@ -36,6 +36,7 @@
       transform: translate(-50%, calc(-50% - 95px));
       animation: float 20s ease-in-out infinite;
       z-index: -1;
+      opacity: 0.6;
     }
 
     @media screen and (min-height: 920px) {
@@ -122,15 +123,6 @@
     line-height: 1;
   }
 
-  //   &__image__container {
-  //     width: 638px;
-  //     height: 350px;
-  //     position: absolute;
-  //     top: calc(100vh - 500px);
-  //     right: 132px;
-  //     z-index: -2;
-  //   }
-
   &__image {
     width: 638px;
     height: 350px;
@@ -181,10 +173,4 @@
       transform: rotate(90deg);
     }
   }
-  //   .wireframe {
-  //     position: absolute;
-  //     top: calc(100vh - 500px);
-  //     left: 50%;
-  //     z-index: -5;
-  //   }
 }

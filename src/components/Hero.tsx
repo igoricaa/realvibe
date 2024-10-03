@@ -7,13 +7,14 @@ import heroImage from '../../public/hero-image.png';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import styles from './Hero.module.scss';
 import { useRef, useEffect, useState } from 'react';
-import wireframe from '../../public/wireframe.svg';
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
   const imageTextRef = useRef<HTMLDivElement>(null);
+  const imageRef = useRef<HTMLImageElement>(null);
   const [viewportHeight, setViewportHeight] = useState(0);
   const [viewportWidth, setViewportWidth] = useState(0);
+  const [imageHeight, setImageHeight] = useState(0);
 
   const { scrollYProgress } = useScroll({
     target: heroRef,
@@ -26,10 +27,23 @@ const Hero = () => {
       setViewportWidth(document.body.clientWidth);
     };
 
-    updateViewportDimensions();
-    window.addEventListener('resize', updateViewportDimensions);
+    const updateImageHeight = () => {
+      console.log(imageRef.current?.offsetHeight);
+      if (imageRef.current) {
+        setImageHeight(imageRef.current.offsetHeight);
+      }
+    };
 
-    return () => window.removeEventListener('resize', updateViewportDimensions);
+    updateViewportDimensions();
+    updateImageHeight();
+
+    window.addEventListener('resize', updateViewportDimensions);
+    window.addEventListener('resize', updateImageHeight);
+
+    return () => {
+      window.removeEventListener('resize', updateViewportDimensions);
+      window.removeEventListener('resize', updateImageHeight);
+    };
   }, []);
 
   const animationDuration = 0.5;
@@ -49,16 +63,10 @@ const Hero = () => {
     clamp: true,
   });
 
-  const width = useTransform(
+  const imageScale = useTransform(
     animationProgress,
     [0, 1],
-    [638, viewportWidth - 64]
-  );
-
-  const height = useTransform(
-    animationProgress,
-    [0, 1],
-    [350, viewportHeight - 64]
+    [1, Math.max(1, viewportWidth / 638)]
   );
 
   const yPositionUp = useTransform(
@@ -67,10 +75,16 @@ const Hero = () => {
     [0, -viewportHeight]
   );
 
+  // const yPositionDown = useTransform(
+  //   animationProgress,
+  //   [0, 1],
+  //   [0, viewportHeight / 2]
+  // );
+
   const yPositionDown = useTransform(
     animationProgress,
     [0, 1],
-    [0, viewportHeight / 2 - 150]
+    [0, (viewportHeight - imageHeight) / 2]
   );
 
   const xPosition = useTransform(animationProgress, [0, 1], [0, 100]);
@@ -96,8 +110,7 @@ const Hero = () => {
       <motion.div
         className={styles.hero__image}
         style={{
-          width,
-          height,
+          scale: imageScale,
           y: yPositionDown,
           x: xPosition,
         }}
@@ -116,7 +129,13 @@ const Hero = () => {
             leave a lasting impression.
           </p>
         </motion.div>
-        <Image src={heroImage} alt='RealVibe hero image' fill />
+        <Image
+          ref={imageRef}
+          src={heroImage}
+          alt='RealVibe hero image'
+          fill
+          style={{ objectFit: 'cover' }}
+        />
       </motion.div>
 
       <motion.div
@@ -125,13 +144,6 @@ const Hero = () => {
       >
         <p>Scroll Down</p>
       </motion.div>
-      {/* <Image
-        className={styles.wireframe}
-        src={wireframe}
-        alt='RealVibe wireframe'
-        width={343}
-        height={343}
-      /> */}
     </div>
   );
 };

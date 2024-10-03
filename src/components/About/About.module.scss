@@ -1,10 +1,12 @@
 .about {
-  padding: 0 var(--side-padding);
+  padding: 7rem var(--side-padding) 0;
 
   &__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
 
     h2 {
       font-weight: 600;
@@ -15,7 +17,8 @@
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
     gap: 1rem;
-    margin-top: 5rem;
+    max-width: 1440px;
+    margin: 5rem auto 0;
 
     p {
       grid-column: 4 / span 9;
