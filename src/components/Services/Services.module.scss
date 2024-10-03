@@ -1,0 +1,15 @@
+.services {
+  //   padding-top: 12rem;
+  padding: var(--side-padding);
+
+  &__item {
+    &__header {
+      display: flex;
+      gap: 1.5rem;
+
+      &__title {
+        text-transform: uppercase;
+      }
+    }
+  }
+}

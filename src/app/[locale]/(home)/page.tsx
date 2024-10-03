@@ -2,6 +2,8 @@ import { useTranslations } from 'next-intl';
 import styles from './page.module.scss';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import Hero from '@/components/Hero';
+import Services from '@/components/Services/Services';
+import About from '@/components/About/About';
 
 export default function Home({
   params: { locale },
@@ -14,17 +16,13 @@ export default function Home({
   return (
     <main className={styles.main}>
       <Hero />
-      <div className={styles.spacer}>
-        <p>
-          ima gasaima gasaima gasaima gasaima gasaima gasaima gasaima gasaima
-          gasaima gasaima gasaima gasaima gasaima gasaima gasaima gasaima
-          gasaima gasaima gasaima gasaima gasaima gasaima gasaima gasaima
-          gasaima gasaima gasaima gasaima gasaima gasaima gasaima gasaima
-          gasaima gasaima gasaima gasa
-        </p>
+      <Services />
+      <About />
+      <div style={{ height: '100vh' }}>
+        <h3>gotovooo</h3>
       </div>
-      {/* <Services />
-      <AboutUs />
+      {/* 
+      <HorizontalSlider />
       <MaskAnimation />
       <WhyUs />
       <CtaSection /> */}

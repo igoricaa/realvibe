@@ -1,0 +1,36 @@
+.about {
+  padding: 0 var(--side-padding);
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      font-weight: 600;
+    }
+  }
+
+  &__description {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 5rem;
+
+    p {
+      grid-column: 4 / span 9;
+      position: relative;
+
+      &::before {
+        content: '';
+        display: block;
+        width: 79px;
+        height: 90px;
+        background: url('/about/about-us-shape.svg') no-repeat center center;
+        position: absolute;
+        top: -45px;
+        left: -90px;
+      }
+    }
+  }
+}

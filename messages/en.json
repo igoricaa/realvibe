@@ -16,6 +16,36 @@
         "four": "Creation"
       },
       "cta": "Get started"
+    },
+    "services": {
+      "service-1": {
+        "title": "Event Organization",
+        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service. "
+      },
+      "service-2": {
+        "title": "Concepting and Screening Ad Campaigns",
+        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service. "
+      },
+      "service-3": {
+        "title": "Film Production",
+        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service. "
+      },
+      "service-4": {
+        "title": "Producing Music Videos",
+        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service. "
+      }
+    },
+    "about": {
+      "title": "Everything you need under one roof",
+      "description": "At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages to the final execution, our dedicated team will support you every step of the way. Discover the convenience and excellence of having everything under one roof with RealVibe Studio. Contact us today to discuss your next event!",
+      "cta": "Contact Us",
+      "company-values": {
+        "our-mission": {
+          "title": "Our Mission",
+          "description": "At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly",
+          "cta": "More About Us"
+        }
+      }
     }
   },
   "notFoundPage": {
