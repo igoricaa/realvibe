@@ -58,6 +58,7 @@ const Services = () => {
             animate={{ gap: activeService === index ? '1.5rem' : '0rem' }}
           >
             <motion.div
+              className={styles.services__item__header__icon}
               initial={{ width: 0 }}
               animate={{ width: activeService === index ? 'auto' : 0 }}
               transition={{ duration: 0.3 }}
@@ -71,7 +72,7 @@ const Services = () => {
                       opacity: 0,
                       transition: { delay: 0, duration: 0.1 },
                     }}
-                    transition={{ delay: 0.3, duration: 0.3 }}
+                    transition={{ delay: 0.3, duration: 0.25 }}
                   >
                     <Image
                       src={service.icon}
