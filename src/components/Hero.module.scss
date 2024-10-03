@@ -10,6 +10,83 @@
     width: 100%;
     padding: 9rem var(--side-padding) 0;
     position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 436px;
+      height: 436px;
+      background: url('/sun.svg') no-repeat center center;
+      position: absolute;
+      top: 10vh;
+      right: 5vw;
+      z-index: -1;
+      animation: rotate 25s linear infinite;
+    }
+
+    &::before {
+      display: block;
+      content: ' ';
+      position: absolute;
+      background: url('/wireframe.svg') no-repeat center center;
+      width: 343px;
+      height: 343px;
+      top: 50vh;
+      left: 50%;
+      transform: translate(-50%, calc(-50% - 95px));
+      animation: float 20s ease-in-out infinite;
+      z-index: -1;
+    }
+
+    @media screen and (min-height: 920px) {
+      &::after {
+        top: 15vh;
+      }
+    }
+
+    @media screen and (min-width: 1700px) {
+      &::after {
+        transform: scale(1.2);
+        top: 17vh;
+        right: 7vw;
+      }
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes float {
+      0%,
+      100% {
+        transform: translate(-50%, calc(-50% - 95px));
+      }
+      20% {
+        transform: translate(
+          calc(-50% - #{random(300)}px),
+          calc(-50% - #{random(300)}px)
+        );
+      }
+
+      60% {
+        transform: translate(
+          calc(-50% + #{random(300)}px),
+          calc(-50% + #{random(300)}px)
+        );
+      }
+
+      80% {
+        transform: translate(
+          calc(-50% - #{random(300)}px),
+          calc(-50% - #{random(300)}px)
+        );
+      }
+    }
   }
 
   &__title {
@@ -21,23 +98,12 @@
     white-space: nowrap;
     position: relative;
     z-index: 2;
-
-    &::after {
-      content: '';
-      display: block;
-      width: 436px;
-      height: 436px;
-      background: url('/sun.svg') no-repeat center center;
-      position: absolute;
-      top: -4rem;
-      right: 1rem;
-      z-index: -1;
-    }
   }
 
   &__subtitle {
     font-size: 1.5rem;
     margin-left: 1rem;
+    z-index: 2;
 
     span {
       font-family: var(--font-pphatton);
@@ -72,7 +138,8 @@
     top: calc(100vh - 500px);
     right: 132px;
     z-index: -2;
-    transform-origin: bottom right;
+    transform-origin: top right;
+    will-change: transform;
 
     &__text {
       position: absolute;
@@ -92,17 +159,6 @@
         margin-top: 1rem;
       }
     }
-
-    // &::before {
-    //   display: block;
-    //   content: ' ';
-    //   position: absolute;
-    //   background: url('/wireframe.svg') no-repeat center center;
-    //   width: 343px;
-    //   height: 343px;
-    //   top: calc(100vh - 500px);
-    //   left: 50%;
-    // }
   }
 
   .scrollDown {
