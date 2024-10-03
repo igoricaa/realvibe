@@ -21,7 +21,7 @@ const inter = Inter({
 const pphatton = localFont({
   src: [
     {
-      path: '../../fonts/PPHatton-Medium.woff2',
+      path: '../../fonts/pphatton-medium.woff2',
       weight: '500',
     },
   ],
