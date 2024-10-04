@@ -6,6 +6,7 @@ import Services from '@/components/Services/Services';
 import About from '@/components/About/About';
 import MaskAnimation from '@/components/MaskAnimation';
 import WhyUs from '@/components/WhyUs';
+import ContactSection from '@/components/ContactSection';
 
 export default function Home({
   params: { locale },
@@ -22,7 +23,7 @@ export default function Home({
       <About />
       <MaskAnimation />
       <WhyUs />
-      {/*<CtaSection /> */}
+      <ContactSection />
     </main>
   );
 }

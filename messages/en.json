@@ -83,6 +83,10 @@
           "description": "Our positive, collaborative spirit fosters a great working environment and exceptional outcomes."
         }
       }
+    },
+    "contact": {
+      "title": "Reach out! We will definitely have a solution for your needs",
+      "linkText": "Contact us"
     }
   },
   "notFoundPage": {

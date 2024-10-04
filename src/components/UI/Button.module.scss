@@ -1,0 +1,54 @@
+.button {
+  --arrow-size: 3rem;
+  --gap: 1rem;
+
+  background-color: var(--text-color);
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+  padding: 1.5rem 3rem;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap);
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+
+  & * {
+    transition: all 0.3s ease-in-out;
+  }
+
+  &__text {
+    z-index: 1;
+    background-color: var(--text-color);
+    color: var(--text-color-inverted);
+  }
+
+  &::before {
+    content: '';
+    width: var(--arrow-size);
+    height: var(--arrow-size);
+    background: url('/arrow-pink.svg') no-repeat center center;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover {
+    background-color: var(--text-color-inverted);
+    color: var(--text-color);
+
+    & .button__text {
+      transform: translateX(calc(-1 * var(--gap) - var(--arrow-size)));
+      color: var(--text-color);
+      background-color: var(--text-color-inverted);
+    }
+
+    &::before {
+      transform: translateX(calc(260px + var(--gap)));
+    }
+  }
+}
