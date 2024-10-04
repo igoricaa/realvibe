@@ -3,7 +3,15 @@ import styles from './GridBg.module.scss';
 
 const GridBg = () => {
   return (
-    <div className={styles.gridBg}>
+    <div
+      style={{
+        position: 'fixed',
+        inset: 0,
+        width: '100vw',
+        height: '100vh',
+        zIndex: -10,
+      }}
+    >
       <Image
         src='/grid-bg.png'
         alt='Grid background'
