@@ -7,6 +7,7 @@ import heroImage from '../../public/hero-image.png';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import styles from './Hero.module.scss';
 import { useRef, useEffect, useState } from 'react';
+import Button from './UI/Button';
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -102,9 +103,9 @@ const Hero = () => {
           {t('subtitle.one')} <span>{t('subtitle.two')}</span>{' '}
           {t('subtitle.three')} <span>{t('subtitle.four')}</span>
         </p>
-        <Link href='/contact' className={styles.hero__button}>
-          {t('cta')}
-        </Link>
+        <Button variant='secondary'>
+          <Link href='/contact'>{t('cta')}</Link>
+        </Button>
       </motion.div>
 
       <motion.div

@@ -6,6 +6,7 @@ import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
+import Button from '@/components/UI/Button';
 
 type CompanyValue = {
   title: string;
@@ -69,7 +70,9 @@ const AboutSlider = () => {
                 />
                 <h4>{t('our-mission.title')}</h4>
                 <p>{t('our-mission.description')}</p>
-                <Link href={'/contact'}>{t('our-mission.cta')}</Link>
+                <Button variant='secondary'>
+                  <Link href={'/contact'}>{t('our-mission.cta')}</Link>
+                </Button>
               </div>
             </motion.div>
           ))}

@@ -13,8 +13,8 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   return (
     <MagneticWrapper>
-      <button className={styles.button}>
-        <span className={styles.button__text}>{children}</span>
+      <button className={`${styles.button} ${styles[variant]}`}>
+        {children}
       </button>
     </MagneticWrapper>
   );

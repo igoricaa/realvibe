@@ -20,9 +20,6 @@
 
   & * {
     transition: all 0.3s ease-in-out;
-  }
-
-  &__text {
     z-index: 1;
     background-color: var(--text-color);
     color: var(--text-color-inverted);
@@ -35,13 +32,13 @@
     background: url('/arrow-pink.svg') no-repeat center center;
     display: inline-block;
     transition: all 0.3s ease-in-out;
+    background-size: cover;
   }
 
   &:hover {
     background-color: var(--text-color-inverted);
-    color: var(--text-color);
 
-    & .button__text {
+    & * {
       transform: translateX(calc(-1 * var(--gap) - var(--arrow-size)));
       color: var(--text-color);
       background-color: var(--text-color-inverted);
@@ -49,6 +46,42 @@
 
     &::before {
       transform: translateX(calc(260px + var(--gap)));
+    }
+  }
+
+  &.secondary {
+    --gap: 0.5rem;
+    --arrow-size: 1.5rem;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid var(--text-color);
+
+    & * {
+      color: var(--text-color);
+      background-color: transparent;
+      transition: all 0.3s ease-in-out;
+    }
+
+    &::before {
+      background: url('/arrow-white.svg') no-repeat center center;
+      background-size: cover;
+    }
+
+    &:hover {
+      background-color: var(--text-color);
+      color: var(--text-color-inverted);
+
+      & * {
+        transform: translateX(calc(-1 * var(--gap) - var(--arrow-size)));
+        color: var(--text-color-inverted);
+      }
+
+      &::before {
+        background: url('/arrow-black.svg') no-repeat center center;
+        background-size: cover;
+        transform: translateX(calc(133px + var(--gap)));
+      }
     }
   }
 }

@@ -9,6 +9,7 @@ import Lenis from '@/components/UI/Lenis';
 import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider, useTranslations } from 'next-intl';
 import { routing } from '@/i18n/routing';
+import GridBg from '@/components/UI/GridBg';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -56,6 +57,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages} locale={locale}>
           <ThemeProvider defaultTheme='dark' attribute='data-theme'>
             <Lenis>
+              <GridBg />
               <Header />
               {children}
               <Footer />

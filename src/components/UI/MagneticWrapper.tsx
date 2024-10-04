@@ -22,7 +22,7 @@ const MagneticWrapper = ({ children }: { children: React.ReactNode }) => {
   const { x, y } = position;
   return (
     <motion.div
-      style={{ position: 'relative' }}
+      style={{ position: 'relative', width: 'fit-content' }}
       ref={ref}
       onMouseMove={handleMouse}
       onMouseLeave={reset}

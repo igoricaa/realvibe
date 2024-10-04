@@ -112,15 +112,14 @@
     }
   }
 
-  &__button {
-    display: inline-flex;
-    border: 1px solid #aeaeb2;
-    border-radius: 2rem;
-    font-weight: 500;
-    text-transform: uppercase;
+  & button {
     margin-top: 3rem;
-    padding: 18.5px 1.5rem;
-    line-height: 1;
+
+    &:hover {
+      &::before {
+        transform: translateX(calc(108px + var(--gap))) !important;
+      }
+    }
   }
 
   &__image {
