@@ -38,7 +38,7 @@ const MaskAnimation: React.FC = () => {
     ]
   );
 
-  const imageScale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
+  const imageScale = useTransform(scrollYProgress, [0, 1], [1, 1]);
 
   const imageBrightness = useTransform(scrollYProgress, [0, 1], [100, 150]);
 

@@ -46,6 +46,43 @@
           "cta": "More About Us"
         }
       }
+    },
+    "why-us": {
+      "title": "Why work with us",
+      "reasons": {
+        "reason-1": {
+          "title": {
+            "one": "Personalized",
+            "two": "Service",
+            "three": ""
+          },
+          "description": "We believe every event is unique. Through close collaboration with you, we craft a personalized approach that ensures your event is a true reflection of your vision and personality."
+        },
+        "reason-2": {
+          "title": {
+            "one": "Experienced &",
+            "two": "Creative",
+            "three": "team"
+          },
+          "description": "Our team's unique blend of experience and innovation drives the creation of exceptional, visionary projects."
+        },
+        "reason-3": {
+          "title": {
+            "one": "Stress-Free",
+            "two": "Experience",
+            "three": ""
+          },
+          "description": "RealVibe studio handles everything from initial planning to flawless execution, ensuring a smooth and efficient process that brings your vision to life."
+        },
+        "reason-4": {
+          "title": {
+            "one": "Really Good",
+            "two": "Vibe",
+            "three": ""
+          },
+          "description": "Our positive, collaborative spirit fosters a great working environment and exceptional outcomes."
+        }
+      }
     }
   },
   "notFoundPage": {

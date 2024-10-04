@@ -5,6 +5,7 @@ import Hero from '@/components/Hero';
 import Services from '@/components/Services/Services';
 import About from '@/components/About/About';
 import MaskAnimation from '@/components/MaskAnimation';
+import WhyUs from '@/components/WhyUs';
 
 export default function Home({
   params: { locale },
@@ -20,12 +21,8 @@ export default function Home({
       <Services />
       <About />
       <MaskAnimation />
-
-      <div style={{ height: '100vh' }}>
-        <h3>gotovooo</h3>
-      </div>
-      {/* <WhyUs />
-      <CtaSection /> */}
+      <WhyUs />
+      {/*<CtaSection /> */}
     </main>
   );
 }
