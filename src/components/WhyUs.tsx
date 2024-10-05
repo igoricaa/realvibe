@@ -13,7 +13,6 @@ const WhyUs = () => {
 
   useEffect(() => {
     if (isInView) {
-      console.log('test');
       controls.start('visible');
     }
   }, [controls, isInView]);

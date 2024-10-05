@@ -8,6 +8,7 @@ import { useScroll, motion, useTransform } from 'framer-motion';
 import styles from './Hero.module.scss';
 import { useRef, useEffect, useState } from 'react';
 import Button from './UI/Button';
+import BackgroundGradient from './UI/BackgroundGradient';
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -29,7 +30,6 @@ const Hero = () => {
     };
 
     const updateImageHeight = () => {
-      console.log(imageRef.current?.offsetHeight);
       if (imageRef.current) {
         setImageHeight(imageRef.current.offsetHeight);
       }
@@ -93,59 +93,63 @@ const Hero = () => {
   const t = useTranslations('home.hero');
 
   return (
-    <div className={styles.hero} ref={heroRef}>
-      <motion.div
-        className={styles.hero__content}
-        style={{ opacity: opacityFast, y: yPositionUp }}
-      >
-        <h1 className={styles.hero__title}>{t('title')}</h1>
-        <p className={styles.hero__subtitle}>
-          {t('subtitle.one')} <span>{t('subtitle.two')}</span>{' '}
-          {t('subtitle.three')} <span>{t('subtitle.four')}</span>
-        </p>
-        <Button variant='secondary'>
-          <Link href='/contact'>{t('cta')}</Link>
-        </Button>
-      </motion.div>
-
-      <motion.div
-        className={styles.hero__image}
-        style={{
-          scale: imageScale,
-          y: yPositionDown,
-          x: xPosition,
-        }}
-      >
+    <>
+      <BackgroundGradient />
+      <div className={styles.hero} ref={heroRef}>
         <motion.div
-          ref={imageTextRef}
-          className={styles.hero__image__text}
-          style={{ opacity: opacityFast }}
+          className={styles.hero__content}
+          style={{ opacity: opacityFast, y: yPositionUp }}
         >
-          <h6>REALVIBE DEMO REEL</h6>
-          <p>
-            RealVibe excels at organizing professional
-            <br />
-            business events that inspire, engage, and
-            <br />
-            leave a lasting impression.
+          <h1 className={styles.hero__title}>{t('title')}</h1>
+          <p className={styles.hero__subtitle}>
+            {t('subtitle.one')} <span>{t('subtitle.two')}</span>{' '}
+            {t('subtitle.three')} <span>{t('subtitle.four')}</span>
           </p>
+          <Button variant='secondary'>
+            <Link href='/contact'>{t('cta')}</Link>
+          </Button>
         </motion.div>
-        <Image
-          ref={imageRef}
-          src={heroImage}
-          alt='RealVibe hero image'
-          fill
-          style={{ objectFit: 'cover' }}
-        />
-      </motion.div>
 
-      <motion.div
-        className={styles.scrollDown}
-        style={{ opacity: opacitySlow }}
-      >
-        <p>Scroll Down</p>
-      </motion.div>
-    </div>
+        <motion.div
+          className={styles.hero__image}
+          style={{
+            scale: imageScale,
+            y: yPositionDown,
+            x: xPosition,
+          }}
+        >
+          <motion.div
+            ref={imageTextRef}
+            className={styles.hero__image__text}
+            style={{ opacity: opacityFast }}
+          >
+            <h6>REALVIBE DEMO REEL</h6>
+            <p>
+              RealVibe excels at organizing professional
+              <br />
+              business events that inspire, engage, and
+              <br />
+              leave a lasting impression.
+            </p>
+          </motion.div>
+          <Image
+            ref={imageRef}
+            src={heroImage}
+            alt='RealVibe hero image'
+            fill
+            style={{ objectFit: 'cover' }}
+            priority
+          />
+        </motion.div>
+
+        <motion.div
+          className={styles.scrollDown}
+          style={{ opacity: opacitySlow }}
+        >
+          <p>Scroll Down</p>
+        </motion.div>
+      </div>
+    </>
   );
 };
 
