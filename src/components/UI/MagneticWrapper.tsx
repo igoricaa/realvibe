@@ -2,10 +2,12 @@
 
 import { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
+import useMediaQuery from '@/hooks/useMediaQuery';
 
 const MagneticWrapper = ({ children }: { children: React.ReactNode }) => {
   const ref = useRef<HTMLDivElement>(null);
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const isMobile = useMediaQuery('(max-width: 768px)');
 
   const handleMouse = (e: React.MouseEvent<HTMLDivElement>) => {
     const { clientX, clientY } = e;
@@ -22,7 +24,10 @@ const MagneticWrapper = ({ children }: { children: React.ReactNode }) => {
   const { x, y } = position;
   return (
     <motion.div
-      style={{ position: 'relative', width: 'fit-content' }}
+      style={{
+        position: 'relative',
+        width: isMobile ? '100%' : 'fit-content',
+      }}
       ref={ref}
       onMouseMove={handleMouse}
       onMouseLeave={reset}

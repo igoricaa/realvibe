@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
 import Button from '@/components/UI/Button';
+import useMediaQuery from '@/hooks/useMediaQuery';
 
 type CompanyValue = {
   title: string;
@@ -22,17 +23,17 @@ const companyValues: CompanyValue[] = [
   },
   {
     title: 'Naša misija',
-    image: '/about/our-mission.png',
+    image: '/about/vision.png',
     icon: '/about/our-mission-icon.svg',
   },
   {
     title: 'Naša misija',
-    image: '/about/our-mission.png',
+    image: '/about/team.png',
     icon: '/about/our-mission-icon.svg',
   },
   {
     title: 'Naša misija',
-    image: '/about/our-mission.png',
+    image: '/about/partners.png',
     icon: '/about/our-mission-icon.svg',
   },
 ];
@@ -43,13 +44,17 @@ const AboutSlider = () => {
   const { scrollYProgress } = useScroll({
     target: targetRef,
   });
+  const isMobile = useMediaQuery('(max-width: 768px)');
 
   const x = useTransform(scrollYProgress, [0, 1], ['0', '-80%']);
 
   return (
     <section ref={targetRef} className={styles.about__slider}>
       <div className={styles.about__slider__container}>
-        <motion.div style={{ x }} className={styles.about__slider__content}>
+        <motion.div
+          style={{ x: isMobile ? 0 : x }}
+          className={styles.about__slider__content}
+        >
           {companyValues.map((value, index) => (
             <motion.div
               key={index}
@@ -62,12 +67,9 @@ const AboutSlider = () => {
                 <Image src={value.image} alt={value.title} fill />
               </div>
               <div className={styles.about__slider__item__content}>
-                <Image
-                  src={value.icon}
-                  alt={value.title}
-                  width={78}
-                  height={67}
-                />
+                <div className={styles.about__slider__item__content__icon}>
+                  <Image src={value.icon} alt={value.title} fill />
+                </div>
                 <h4>{t('our-mission.title')}</h4>
                 <p>{t('our-mission.description')}</p>
                 <Button variant='secondary'>

@@ -14,9 +14,9 @@ const About = () => {
         <Button>
           <Link href={'/contact'}>{t('cta')}</Link>
         </Button>
-      </div>
-      <div className={styles.about__description}>
-        <p>{t('description')}</p>
+        <div className={styles.about__description}>
+          <p>{t('description')}</p>
+        </div>
       </div>
 
       <AboutSlider />
