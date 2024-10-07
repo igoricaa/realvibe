@@ -8,7 +8,9 @@
 
   &__content {
     width: 100%;
-    padding: 9rem var(--side-padding) 0;
+    padding-left: var(--side-padding);
+    padding-right: var(--side-padding);
+    padding-top: 9rem;
     position: relative;
 
     &::after {
@@ -172,4 +174,11 @@
       transform: rotate(90deg);
     }
   }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  
 }

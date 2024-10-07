@@ -81,3 +81,15 @@ p {
   font-size: 1rem;
   line-height: 145%;
 }
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --side-padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --side-padding: 1rem;
+  }
+}

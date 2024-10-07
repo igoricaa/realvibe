@@ -2,10 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: var(--side-padding);
+  padding: var(--side-padding);
   position: sticky;
   top: 0;
   z-index: 100;
+
+  &__logoWrapper {
+    position: relative;
+
+    width: 81px;
+    height: 44px;
+  }
+
+  &__nav__mobile {
+    display: none;
+  }
 
   &__nav {
     display: flex;
@@ -44,6 +55,40 @@
             visibility: visible;
           }
         }
+      }
+    }
+
+    &__side__area {
+      position: relative;
+      width: 20px;
+      height: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    &__logoWrapper {
+      width: 59px;
+      height: 32px;
+    }
+    &__nav {
+      display: none;
+    }
+
+    &__nav__mobile {
+      display: flex;
+
+      &__menuWrapper {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+      }
+
+      &__burger {
+        position: relative;
+        width: 16px;
+        height: 33px;
       }
     }
   }
