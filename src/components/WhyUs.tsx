@@ -4,12 +4,14 @@ import { useTranslations } from 'next-intl';
 import styles from './WhyUs.module.scss';
 import { motion, useAnimation, useInView } from 'framer-motion';
 import { useEffect, useRef } from 'react';
+import useMediaQuery from '@/hooks/useMediaQuery';
 
 const WhyUs = () => {
   const t = useTranslations('home.why-us');
   const controls = useAnimation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
+  const isMobile = useMediaQuery('(max-width: 768px)');
 
   useEffect(() => {
     if (isInView) {
@@ -27,8 +29,14 @@ const WhyUs = () => {
             animate={controls}
             initial='hidden'
             variants={{
-              visible: { opacity: 1, y: index % 2 === 0 ? 0 : 48 },
-              hidden: { opacity: 0, y: index % 2 === 0 ? 120 : 168 },
+              visible: {
+                opacity: 1,
+                y: isMobile ? 0 : index % 2 === 0 ? 0 : 48,
+              },
+              hidden: {
+                opacity: 0,
+                y: isMobile ? 0 : index % 2 === 0 ? 120 : 168,
+              },
             }}
             transition={{ duration: 1.5, delay: index * 0.2 }}
             className={`${styles.whyUs__reason} ${
