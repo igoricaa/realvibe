@@ -123,14 +123,8 @@ const Hero = () => {
             className={styles.hero__image__text}
             style={{ opacity: opacityFast }}
           >
-            <h6>REALVIBE DEMO REEL</h6>
-            <p>
-              RealVibe excels at organizing professional
-              <br />
-              business events that inspire, engage, and
-              <br />
-              leave a lasting impression.
-            </p>
+            <h6>{t('demo.title')}</h6>
+            <p dangerouslySetInnerHTML={{ __html: t('demo.description') }} />
           </motion.div>
           <Image
             ref={imageRef}

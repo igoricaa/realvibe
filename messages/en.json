@@ -6,6 +6,21 @@
     "video-production": "Video Production",
     "contact": "Contact"
   },
+  "footer": {
+    "title": "RealVibe Studio®",
+    "subtitle": {
+      "one": "Inspiration in",
+      "two": "Action -",
+      "three": "Art in ",
+      "four": "Creation"
+    },
+    "socials": {
+      "title": {
+        "one": "Our",
+        "two": "Social Media"
+      }
+    }
+  },
   "home": {
     "hero": {
       "title": "RealVibe Studio®",
@@ -15,24 +30,28 @@
         "three": "Art in ",
         "four": "Creation"
       },
-      "cta": "Get started"
+      "cta": "Get started",
+      "demo": {
+        "title": "RealVibe Demo Reel",
+        "description": "RealVibe excels at organizing professional<br/>business events that inspire, engage, and<br/>leave a lasting impression."
+      }
     },
     "services": {
       "service-1": {
         "title": "Event Organization",
-        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service. "
+        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service."
       },
       "service-2": {
         "title": "Concepting and Screening Ad Campaigns",
-        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service. "
+        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service."
       },
       "service-3": {
         "title": "Film Production",
-        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service. "
+        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service."
       },
       "service-4": {
         "title": "Producing Music Videos",
-        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service. "
+        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service."
       }
     },
     "about": {
