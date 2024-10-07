@@ -16,11 +16,11 @@
     &::after {
       content: '';
       display: block;
-      width: 436px;
-      height: 436px;
+      width: 19rem;
+      height: 19rem;
       background: url('/sun.svg') no-repeat center center;
       position: absolute;
-      top: 10vh;
+      top: 21vh;
       right: 5vw;
       z-index: -1;
       animation: rotate 25s linear infinite;
@@ -31,8 +31,9 @@
       content: ' ';
       position: absolute;
       background: url('/wireframe.svg') no-repeat center center;
-      width: 343px;
-      height: 343px;
+      background-size: cover;
+      width: 21.5rem;
+      height: 21.5rem;
       top: 50vh;
       left: 50%;
       transform: translate(-50%, calc(-50% - 95px));
@@ -180,5 +181,91 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .hero {
+    height: calc(100vh - 5rem - 65px);
+    padding-top: 5rem;
+
+    &__content {
+      padding-top: 0;
+
+      &::before {
+        width: 6.5rem;
+        height: 6.5rem;
+      }
+
+      button {
+        display: none;
+      }
+    }
+
+    &__title {
+      margin-left: -0.5rem;
+      font-size: 76px;
+      white-space: normal;
+      display: flex;
+      flex-direction: column;
+
+      span:first-child {
+        width: 100%;
+        white-space: nowrap;
+        word-break: keep-all;
+      }
+
+      span:last-child {
+        align-self: flex-start;
+      }
+    }
+
+    &__subtitle {
+      font-size: 1rem;
+      margin-left: 0;
+    }
+
+    & button {
+      margin-top: 3rem;
+
+      &:hover {
+        &::before {
+          transform: translateX(calc(108px + var(--gap))) !important;
+        }
+      }
+    }
+
+    &__image {
+      width: 257px;
+      height: 141px;
+      top: calc(50vh - 134px);
+      right: 1rem;
+
+      &__text {
+        bottom: -7.125rem;
+        right: 0;
+
+        p {
+          margin-top: 12px;
+        }
+      }
+    }
+
+    .scrollDown {
+      top: unset;
+      bottom: 0;
+      left: 1rem;
+      gap: 0.5rem;
+
+      p {
+        font-size: 14px;
+      }
+
+      &::after {
+        content: '';
+        background: url('/arrow-white.svg') no-repeat center center;
+        background-size: cover;
+        display: block;
+        width: 18px;
+        height: 18px;
+        transform: rotate(90deg);
+      }
+    }
+  }
 }

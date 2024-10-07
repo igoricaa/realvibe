@@ -9,6 +9,7 @@ import styles from './Hero.module.scss';
 import { useRef, useEffect, useState } from 'react';
 import Button from './UI/Button';
 import BackgroundGradient from './UI/BackgroundGradient';
+import useMediaQuery from '../hooks/useMediaQuery';
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -22,6 +23,8 @@ const Hero = () => {
     target: heroRef,
     offset: ['start start', 'end start'],
   });
+
+  const isMobile = useMediaQuery('(max-width: 768px)');
 
   useEffect(() => {
     const updateViewportDimensions = () => {
@@ -76,12 +79,6 @@ const Hero = () => {
     [0, -viewportHeight]
   );
 
-  // const yPositionDown = useTransform(
-  //   animationProgress,
-  //   [0, 1],
-  //   [0, viewportHeight / 2]
-  // );
-
   const yPositionDown = useTransform(
     animationProgress,
     [0, 1],
@@ -98,9 +95,15 @@ const Hero = () => {
       <div className={styles.hero} ref={heroRef}>
         <motion.div
           className={styles.hero__content}
-          style={{ opacity: opacityFast, y: yPositionUp }}
+          style={{
+            opacity: isMobile ? 1 : opacityFast,
+            y: isMobile ? 0 : yPositionUp,
+          }}
         >
-          <h1 className={styles.hero__title}>{t('title')}</h1>
+          <h1 className={styles.hero__title}>
+            <span>{t('title.one')}</span>
+            <span>{t('title.two')}</span>
+          </h1>
           <p className={styles.hero__subtitle}>
             {t('subtitle.one')} <span>{t('subtitle.two')}</span>{' '}
             {t('subtitle.three')} <span>{t('subtitle.four')}</span>
@@ -113,15 +116,17 @@ const Hero = () => {
         <motion.div
           className={styles.hero__image}
           style={{
-            scale: imageScale,
-            y: yPositionDown,
-            x: xPosition,
+            scale: isMobile ? 1 : imageScale,
+            y: isMobile ? 0 : yPositionDown,
+            x: isMobile ? 0 : xPosition,
           }}
         >
           <motion.div
             ref={imageTextRef}
             className={styles.hero__image__text}
-            style={{ opacity: opacityFast }}
+            style={{
+              opacity: isMobile ? 1 : opacityFast,
+            }}
           >
             <h6>{t('demo.title')}</h6>
             <p dangerouslySetInnerHTML={{ __html: t('demo.description') }} />
