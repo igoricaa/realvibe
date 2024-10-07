@@ -1,5 +1,5 @@
 .mask {
-  height: 200vh;
+  height: 150vh;
 }
 
 .content {
@@ -9,15 +9,24 @@
   position: sticky;
   top: 0;
   height: 100vh;
-  grid-template-areas: 'img img';
-  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'img';
+  grid-template-columns: 1fr;
 
   &__img {
     height: auto;
+
+    image {
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 
 @media screen and (min-width: 53em) {
+  .mask {
+    height: 200vh;
+  }
+
   .content {
     width: 100%;
     grid-template-areas: 'img';
