@@ -51,6 +51,12 @@
       max-width: calc(1440px / 12 * 7);
       z-index: 1;
       padding-top: 2rem;
+
+      span {
+        color: var(--color-main);
+        font-family: var(--font-pphatton);
+        font-style: italic;
+      }
     }
 
     &__image {

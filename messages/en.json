@@ -45,19 +45,19 @@
     "services": {
       "service-1": {
         "title": "Event Organization",
-        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service."
+        "description": "Effective advertising is a <span>powerful tool</span> to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or <span>service</span>."
       },
       "service-2": {
         "title": "Concepting and Screening Ad Campaigns",
-        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service."
+        "description": "Effective advertising is a <span>powerful tool</span> to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or <span>service</span>."
       },
       "service-3": {
         "title": "Film Production",
-        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service."
+        "description": "Effective advertising is a <span>powerful tool</span> to reasch your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or <span>service</span>."
       },
       "service-4": {
         "title": "Producing Music Videos",
-        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service."
+        "description": "Effective advertising is a <span>powerful tool</span> to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or <span>service</span>."
       }
     },
     "about": {

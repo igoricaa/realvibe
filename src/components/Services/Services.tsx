@@ -106,9 +106,12 @@ const Services = () => {
                   exit={{ opacity: 0, y: 20, transition: { duration: 0.3 } }}
                   transition={{ delay: 0.3, duration: 0.3 }}
                 >
-                  <p className={styles.services__item__description}>
-                    {t(`service-${index + 1}.description`)}
-                  </p>
+                  <p
+                    className={styles.services__item__description}
+                    dangerouslySetInnerHTML={{
+                      __html: t.raw(`service-${index + 1}.description`),
+                    }}
+                  />
                 </motion.div>
                 <motion.div
                   className={styles.services__item__image}
