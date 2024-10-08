@@ -8,6 +8,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    overflow: hidden;
     padding-left: calc((100vw - 4rem) / 12);
   }
 
@@ -28,7 +29,15 @@
     width: calc((100vw - 4rem) * (8 / 12));
     max-width: calc(1440px * 8 / 12);
     will-change: transform;
-    // transition: opacity 1s ease-out, transform 1s ease-out, y 1s ease-out;
+    opacity: 0;
+    transform: translateY(300px);
+    transition: opacity 1s ease-out,
+      transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+    &.inView {
+      opacity: 1;
+      transform: translateY(0);
+    }
 
     &__image {
       position: relative;
