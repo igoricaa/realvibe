@@ -80,7 +80,10 @@ const AboutSlider = () => {
                   <div className={styles.about__slider__item__content__icon}>
                     <Image src={value.icon} alt={value.title} fill />
                   </div>
-                  <h4>{t('our-mission.title')}</h4>
+                  <h4 className={styles.about__slider__item__content__title}>
+                    {t('our-mission.title.one')}
+                    <span>{t('our-mission.title.two')}</span>
+                  </h4>
                   <p>{t('our-mission.description')}</p>
                   <Button variant='secondary'>
                     <Link href={'/contact'}>{t('our-mission.cta')}</Link>

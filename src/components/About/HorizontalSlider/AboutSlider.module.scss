@@ -50,8 +50,13 @@
       display: flex;
       flex-direction: column;
 
-      h4 {
+      &__title {
         margin-top: 1rem;
+
+        span {
+          font-family: var(--font-pphatton);
+          font-style: italic;
+        }
       }
 
       p {
