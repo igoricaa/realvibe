@@ -27,6 +27,7 @@
     align-items: center;
     width: calc((100vw - 4rem) * (8 / 12));
     max-width: calc(1440px * 8 / 12);
+    will-change: transform;
 
     &__image {
       position: relative;

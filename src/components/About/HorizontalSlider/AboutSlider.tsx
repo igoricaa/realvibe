@@ -64,7 +64,7 @@ const AboutSlider = () => {
               transition={{ duration: 1, ease: 'easeOut' }}
             >
               <div className={styles.about__slider__item__image}>
-                <Image src={value.image} alt={value.title} fill />
+                <Image src={value.image} alt={value.title} fill sizes='(max-width: 768px) 75vw, 448px' />
               </div>
               <div className={styles.about__slider__item__content}>
                 <div className={styles.about__slider__item__content__icon}>
