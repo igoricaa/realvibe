@@ -5,7 +5,7 @@ import Hero from '@/components/Hero';
 import Services from '@/components/Services/Services';
 import About from '@/components/About/About';
 import MaskAnimation from '@/components/MaskAnimation';
-import WhyUs from '@/components/WhyUs';
+import WhyUs from '@/components/WhyUs/WhyUs';
 import ContactSection from '@/components/ContactSection';
 
 export default function Home({
