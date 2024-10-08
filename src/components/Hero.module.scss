@@ -181,7 +181,7 @@
 
 @media screen and (max-width: 768px) {
   .hero {
-    height: calc(100vh - 5rem - 65px);
+    height: calc(100vh - 65px);
     padding-top: 5rem;
 
     &__content {
@@ -253,7 +253,7 @@
 
     .scrollDown {
       top: unset;
-      bottom: 0;
+      bottom: 2rem;
       left: 1rem;
       gap: 0.5rem;
 
