@@ -79,6 +79,10 @@
       padding: 1.5rem 0;
 
       &__header {
+        &__title {
+          font-size: 2rem;
+        }
+
         &__icon {
           align-self: flex-start;
 

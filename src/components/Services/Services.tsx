@@ -77,7 +77,12 @@ const Services = () => {
                     }}
                     transition={{ delay: 0.3, duration: 0.25 }}
                   >
-                    <Image src={service.icon} alt={service.title} fill />
+                    <Image
+                      src={service.icon}
+                      alt={service.title}
+                      fill
+                      sizes='(max-width: 768px) 22px, 59px'
+                    />
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -117,7 +122,12 @@ const Services = () => {
                   }}
                   transition={{ duration: 0.3, delay: 0.3 }}
                 >
-                  <Image src={service.image} alt={service.title} fill />
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    fill
+                    sizes='(max-width: 768px) 95vw, 535px'
+                  />
                 </motion.div>
               </motion.div>
             )}
