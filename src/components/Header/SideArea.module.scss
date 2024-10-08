@@ -179,8 +179,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .sidearea {
+@media screen and (max-width: 1024px) {
+  .sidearea__wrapper {
     display: none;
   }
+}
+
+@media screen and (max-width: 768px) {
 }
