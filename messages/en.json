@@ -7,7 +7,10 @@
     "contact": "Contact"
   },
   "footer": {
-    "title": "RealVibe Studio®",
+    "title": {
+      "one": "RealVibe ",
+      "two": "Studio®"
+    },
     "subtitle": {
       "one": "Inspiration in",
       "two": "Action -",
@@ -24,7 +27,7 @@
   "home": {
     "hero": {
       "title": {
-        "one": "RealVibe",
+        "one": "RealVibe ",
         "two": "Studio®"
       },
       "subtitle": {

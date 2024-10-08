@@ -1,6 +1,10 @@
 .footer {
   background-color: #000;
-  padding: 4rem 2rem;
+  padding: 4rem var(--side-padding);
+
+  > div:has(> button) {
+    display: none;
+  }
 
   &__title {
     text-transform: uppercase;
@@ -69,6 +73,80 @@
           text-transform: uppercase;
           border: 1px solid #fff;
           border-radius: 3rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 2.5rem 1.5rem;
+
+    > div:has(> button) {
+      display: block;
+      margin-top: 2rem;
+
+      button {
+        --arrow-size: 3rem !important;
+        font-size: 2rem !important;
+        width: 100% !important;
+      }
+    }
+
+    &__title {
+      font-size: 4rem;
+      white-space: normal;
+      display: flex;
+      flex-direction: column;
+
+      span:first-child {
+        width: 100%;
+        white-space: nowrap;
+        word-break: keep-all;
+      }
+
+      span:last-child {
+        align-self: flex-start;
+      }
+    }
+    &__content {
+      grid-template-columns: 1fr;
+      margin-top: 1rem;
+
+      &__subtitle {
+        font-size: 1.25rem;
+        margin-left: 0;
+      }
+
+      &__left {
+        grid-column: auto;
+        gap: 0;
+
+        button {
+          display: none;
+        }
+      }
+
+      &__socials {
+        margin-top: 2rem;
+        grid-column: auto;
+
+        &__title {
+          font-size: 1rem;
+        }
+
+        &__items {
+          display: flex;
+          gap: 1rem;
+          margin-top: 1rem;
+
+          a {
+            font-size: 14px;
+          }
         }
       }
     }

@@ -7,7 +7,10 @@ const Footer = () => {
 
   return (
     <footer className={styles.footer}>
-      <h1 className={styles.footer__title}>{t('title')}</h1>
+      <h1 className={styles.footer__title}>
+        <span>{t('title.one')}</span>
+        <span>{t('title.two')}</span>
+      </h1>
 
       <div className={styles.footer__content}>
         <div className={styles.footer__content__left}>
@@ -16,7 +19,7 @@ const Footer = () => {
             {t('subtitle.three')} <span>{t('subtitle.four')}</span>
           </p>
 
-          <Button variant='secondary' className={styles.footer__content__cta}>
+          <Button variant='secondary'>
             <a href='mailto:contact@realvibestudio.yahoo'>
               contact@realvibestudio.yahoo
             </a>
@@ -39,6 +42,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <Button variant='secondary'>
+        <a href='mailto:contact@realvibestudio.yahoo'>Contact Us</a>
+      </Button>
     </footer>
   );
 };
