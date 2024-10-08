@@ -28,6 +28,7 @@
     width: calc((100vw - 4rem) * (8 / 12));
     max-width: calc(1440px * 8 / 12);
     will-change: transform;
+    // transition: opacity 1s ease-out, transform 1s ease-out, y 1s ease-out;
 
     &__image {
       position: relative;

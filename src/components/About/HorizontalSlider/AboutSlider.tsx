@@ -5,7 +5,7 @@ import styles from './AboutSlider.module.scss';
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import { useScroll, useTransform, motion } from 'framer-motion';
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import Button from '@/components/UI/Button';
 import useMediaQuery from '@/hooks/useMediaQuery';
 
@@ -59,12 +59,23 @@ const AboutSlider = () => {
             <motion.div
               key={index}
               className={styles.about__slider__item}
-              initial={{ opacity: 0, y: 300 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, transform: 'translateY(300px)' }}
+              whileInView={{ opacity: 1, transform: 'translateY(0)' }}
               transition={{ duration: 1, ease: 'easeOut' }}
+              // viewport={{ once: true }}
+
+              // initial={{ opacity: 0, y: 300 }}
+              // whileInView={{ opacity: 1, y: 0 }}
+              // viewport={{ once: true}}
+              // transition={{ duration: 1, ease: 'easeOut' }}
             >
               <div className={styles.about__slider__item__image}>
-                <Image src={value.image} alt={value.title} fill sizes='(max-width: 768px) 75vw, 448px' />
+                <Image
+                  src={value.image}
+                  alt={value.title}
+                  fill
+                  sizes='(max-width: 768px) 75vw, 448px'
+                />
               </div>
               <div className={styles.about__slider__item__content}>
                 <div className={styles.about__slider__item__content__icon}>
