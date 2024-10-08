@@ -1,6 +1,7 @@
 .footer {
   background-color: #000;
   padding: 4rem var(--side-padding);
+  transition: transform 0.5s ease-in-out;
 
   > div:has(> button) {
     display: none;

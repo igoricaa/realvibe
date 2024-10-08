@@ -4,9 +4,10 @@ import logo from '@/../public/realvibe-logo.svg';
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import burger from '@/../public/burger.svg';
+import SideArea from './SideArea';
 
 const Header = () => {
-  const t = useTranslations('nav');
+  const t = useTranslations('nav.menu');
 
   const routes = [
     { href: '/', label: t('home') },
@@ -17,7 +18,7 @@ const Header = () => {
   ];
 
   return (
-    <header className={styles.header}>
+    <header id='header' className={styles.header}>
       <div className={styles.header__logoWrapper}>
         <Image src={logo} alt='Real Vibe Production logo' fill priority />
       </div>
@@ -32,9 +33,7 @@ const Header = () => {
             </li>
           ))}
         </ul>
-        <div className={styles.header__nav__side__area}>
-          <Image src={burger} alt='Burger icon' fill priority />
-        </div>
+        <SideArea />
       </nav>
       <nav className={styles.header__nav__mobile}>
         <div className={styles.header__nav__mobile__menuWrapper}>

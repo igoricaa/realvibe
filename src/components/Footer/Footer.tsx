@@ -6,7 +6,7 @@ const Footer = () => {
   const t = useTranslations('footer');
 
   return (
-    <footer className={styles.footer}>
+    <footer id='footer' className={styles.footer}>
       <h1 className={styles.footer__title}>
         <span>{t('title.one')}</span>
         <span>{t('title.two')}</span>

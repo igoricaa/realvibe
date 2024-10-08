@@ -17,7 +17,7 @@ export default function Home({
   const t = useTranslations('home');
 
   return (
-    <main className={styles.main}>
+    <main id='main' className={styles.main}>
       <Hero />
       <Services />
       <About />
