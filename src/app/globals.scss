@@ -1,8 +1,10 @@
 :root {
-  --background: white;
-  --foreground: black;
+  --background: #fff;
+  --foreground: #000;
   --text-color: #000;
   --text-color-inverted: #fff;
+  --inverted-main: #000;
+  --footer-background: #fff;
   --side-padding: 2rem;
   --color-main: rgba(255, 0, 221, 1);
   --color-main-rgb: 255, 0, 221;
@@ -19,9 +21,11 @@
 
 [data-theme='dark'] {
   --background: #212121;
-  --foreground: white;
+  --foreground: #fff;
+  --inverted-main: #000;
   --text-color: #fff;
   --text-color-inverted: #000;
+  --footer-background: #000;
 }
 
 body.translated {

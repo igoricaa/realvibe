@@ -10,6 +10,7 @@ import { useRef, useEffect, useState } from 'react';
 import Button from './UI/Button';
 import BackgroundGradient from './UI/BackgroundGradient';
 import useMediaQuery from '../hooks/useMediaQuery';
+import ArrowIcon from './UI/icons/ArrowIcon';
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -147,6 +148,7 @@ const Hero = () => {
           style={{ opacity: opacitySlow }}
         >
           <p>Scroll Down</p>
+          <ArrowIcon />
         </motion.div>
       </div>
     </>

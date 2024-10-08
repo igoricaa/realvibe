@@ -8,6 +8,12 @@
   z-index: 100;
   transition: transform 0.5s ease-in-out;
 
+  &__helper__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
   &__logoWrapper {
     position: relative;
 
@@ -41,7 +47,7 @@
           display: block;
           width: 1.5rem;
           height: 1.5rem;
-          background-image: url('/arrow-white.svg');
+          background-image: url('/icons/arrow-white.svg');
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
@@ -86,10 +92,13 @@
         display: none;
       }
 
-      &__burger {
-        position: relative;
+      svg {
         width: 16px;
         height: 33px;
+
+        path {
+          fill: var(--foreground);
+        }
       }
     }
   }

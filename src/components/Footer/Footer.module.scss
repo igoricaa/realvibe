@@ -1,5 +1,5 @@
 .footer {
-  background-color: #000;
+  background-color: var(--footer-background);
   padding: 4rem var(--side-padding);
   transition: transform 0.5s ease-in-out;
 
@@ -42,7 +42,7 @@
         font-size: 1.5rem !important;
 
         &:hover {
-          &::before {
+          svg {
             transform: translateX(calc(436px + var(--gap))) !important;
           }
         }

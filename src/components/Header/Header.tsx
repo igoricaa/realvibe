@@ -3,8 +3,9 @@ import styles from './Header.module.scss';
 import logo from '@/../public/realvibe-logo.svg';
 import { Link } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
-import burger from '@/../public/burger.svg';
 import SideArea from './SideArea';
+import ThemeSwitcher from '../UI/ThemeSwitcher';
+import BurgerIcon from '../UI/icons/BurgerIcon';
 
 const Header = () => {
   const t = useTranslations('nav.menu');
@@ -17,10 +18,17 @@ const Header = () => {
     { href: '/contact', label: t('contact') },
   ];
 
+  // const handleClick = () => {
+  //   console.log('clicked');
+  // };
+
   return (
     <header id='header' className={styles.header}>
-      <div className={styles.header__logoWrapper}>
-        <Image src={logo} alt='Real Vibe Production logo' fill priority />
+      <div className={styles.header__helper__wrapper}>
+        <div className={styles.header__logoWrapper}>
+          <Image src={logo} alt='Real Vibe Production logo' fill priority />
+        </div>
+        <ThemeSwitcher />
       </div>
       <nav className={styles.header__nav}>
         <ul className={styles.header__nav__desktopMenu}>
@@ -48,9 +56,7 @@ const Header = () => {
             ))}
           </ul>
         </div>
-        <div className={styles.header__nav__mobile__burger}>
-          <Image src={burger} alt='Burger icon' fill priority />
-        </div>
+        <BurgerIcon />
       </nav>
     </header>
   );

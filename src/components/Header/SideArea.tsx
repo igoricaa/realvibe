@@ -7,8 +7,8 @@ import featuredProject from '@/../public/featured-project.png';
 import XIcon from '../UI/icons/XIcon';
 import { services, Service } from '@/data';
 import Button from '../UI/Button';
-import burger from '@/../public/burger.svg';
 import { useState } from 'react';
+import BurgerIcon from '../UI/icons/BurgerIcon';
 
 const SideArea = () => {
   const t = useTranslations('nav.sidearea');
@@ -20,20 +20,17 @@ const SideArea = () => {
   };
 
   return (
-    <>
-      <div className={styles.header__nav__side__area} onClick={handleClick}>
-        <Image src={burger} alt='Burger icon' fill priority />
-      </div>
+    <section className={styles.sidearea__wrapper}>
+      <BurgerIcon onClick={handleClick} />
       <div
         className={`${styles.overlay} ${isOpen ? styles.open : ''}`}
         data-lenis-prevent
       ></div>
-      <section
+      <div
         id='sidearea'
         className={`${styles.sidearea} ${isOpen ? styles.open : ''}`}
         data-lenis-prevent
       >
-        {/* TODO boju sredi - dark/light theme */}
         <XIcon color='#fff' onClick={handleClick} />
         <div className={styles.sidearea__contentWrapper}>
           <h4 className={styles.sidearea__title}>
@@ -99,9 +96,11 @@ const SideArea = () => {
             </div>
           </div>
         </div>
-        <Button>{t('cta')}</Button>
-      </section>
-    </>
+        <Button>
+          <a href='/contact'>{t('cta')}</a>
+        </Button>
+      </div>
+    </section>
   );
 };
 
