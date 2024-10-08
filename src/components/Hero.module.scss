@@ -131,7 +131,6 @@
     position: absolute;
     top: calc(100vh - 500px);
     right: 132px;
-    z-index: -2;
     transform-origin: top right;
     will-change: transform;
 
@@ -195,6 +194,11 @@
 
       button {
         display: none;
+      }
+
+      &::after {
+        top: 2rem;
+        right: -5rem;
       }
     }
 
