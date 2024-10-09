@@ -118,6 +118,7 @@
 
 @media screen and (max-width: 768px) {
   .whyUs__reason {
+    transition-delay: 0s;
     &.inView {
       transform: translateY(0);
     }

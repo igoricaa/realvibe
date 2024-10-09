@@ -4,10 +4,10 @@
   --text-color: #000;
   --text-color-inverted: #fff;
   --inverted-main: #000;
-  --footer-background: #fff;
-  --side-padding: 2rem;
   --color-main: rgba(255, 0, 221, 1);
   --color-main-rgb: 255, 0, 221;
+  --footer-background: var(--color-main);
+  --side-padding: 2rem;
 
   --color1: 18, 113, 255;
   --color2: 221, 74, 255;
@@ -41,8 +41,6 @@ body.translated {
 body {
   background-color: var(--background);
   color: var(--foreground);
-
-  // overflow: hidden;
 }
 
 html,
