@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import styles from './ContactSection.module.scss';
-import { Link } from '@/i18n/routing';
+import Link from 'next/link';
 import Button from './UI/Button';
 
 const ContactSection = () => {
