@@ -43,6 +43,10 @@
         }
       },
       "cta": "Reach out to us"
+    },
+    "locale": {
+      "en": "en",
+      "sr": "sr"
     }
   },
   "footer": {

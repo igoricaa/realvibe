@@ -6,13 +6,14 @@ import { useTranslations } from 'next-intl';
 import SideArea from './SideArea';
 import ThemeSwitcher from '../UI/ThemeSwitcher';
 import BurgerIcon from '../UI/icons/BurgerIcon';
+import LocaleSwitcher from '../UI/LocaleSwitcher';
 
 const Header = () => {
   const t = useTranslations('nav.menu');
 
   const routes = [
     { href: '/', label: t('home') },
-    { href: '/about', label: t('about') },
+    { href: '/about-us', label: t('about') },
     { href: '/events', label: t('events') },
     { href: '/video-production', label: t('video-production') },
     { href: '/contact', label: t('contact') },
@@ -41,6 +42,7 @@ const Header = () => {
             </li>
           ))}
         </ul>
+        <LocaleSwitcher />
         <SideArea />
       </nav>
       <nav className={styles.header__nav__mobile}>
