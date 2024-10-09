@@ -29,6 +29,10 @@
     width: var(--arrow-size);
     height: var(--arrow-size);
     transition: all 0.3s ease-in-out;
+
+    path {
+      fill: var(--color-main);
+    }
   }
 
   &:hover {
@@ -59,9 +63,15 @@
       transition: all 0.3s ease-in-out;
     }
 
+    svg {
+      path {
+        fill: var(--contrast-color);
+      }
+    }
+
     &:hover {
-      background-color: var(--text-color);
-      color: var(--text-color-inverted);
+      background-color: var(--contrast-color);
+      color: var(--contrast-color-inverted);
 
       & > *:not(svg) {
         transform: translateX(calc(-1 * var(--gap) - var(--arrow-size)));

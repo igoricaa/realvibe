@@ -7,31 +7,57 @@ import featuredProject from '@/../public/featured-project.png';
 import XIcon from '../UI/icons/XIcon';
 import { services, Service } from '@/data';
 import Button from '../UI/Button';
-import { useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import BurgerIcon from '../UI/icons/BurgerIcon';
 
 const SideArea = () => {
   const t = useTranslations('nav.sidearea');
   const [isOpen, setIsOpen] = useState(false);
+  const sideAreaRef = useRef<HTMLDivElement>(null);
+  const overlayRef = useRef<HTMLDivElement>(null);
 
-  const handleClick = () => {
-    setIsOpen(!isOpen);
+  const toggleSideArea = useCallback(() => {
+    setIsOpen((prevIsOpen) => !prevIsOpen);
     document.body.classList.toggle('translated');
-  };
+  }, []);
+
+  useEffect(() => {
+    const handleOutsideClick = (event: MouseEvent) => {
+      if (isOpen && event.target instanceof Element) {
+        const overlay = overlayRef.current;
+        const sidearea = sideAreaRef.current;
+        if (
+          sidearea &&
+          !sidearea.contains(event.target) &&
+          overlay?.contains(event.target)
+        ) {
+          toggleSideArea();
+        }
+      }
+    };
+
+    document.addEventListener('click', handleOutsideClick);
+
+    return () => {
+      document.removeEventListener('click', handleOutsideClick);
+    };
+  }, [isOpen, toggleSideArea]);
 
   return (
     <section className={styles.sidearea__wrapper}>
-      <BurgerIcon onClick={handleClick} />
+      <BurgerIcon onClick={toggleSideArea} />
       <div
         className={`${styles.overlay} ${isOpen ? styles.open : ''}`}
         data-lenis-prevent
+        ref={overlayRef}
       ></div>
       <div
         id='sidearea'
+        ref={sideAreaRef}
         className={`${styles.sidearea} ${isOpen ? styles.open : ''}`}
         data-lenis-prevent
       >
-        <XIcon color='#fff' onClick={handleClick} />
+        <XIcon color='#fff' onClick={toggleSideArea} />
         <div className={styles.sidearea__contentWrapper}>
           <h4 className={styles.sidearea__title}>
             {t('title.one')} <span>{t('title.two')}</span>

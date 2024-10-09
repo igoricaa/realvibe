@@ -15,6 +15,10 @@
     word-wrap: break-word;
     hyphens: auto;
     white-space: nowrap;
+
+    span {
+      font-weight: 700;
+    }
   }
 
   &__content {

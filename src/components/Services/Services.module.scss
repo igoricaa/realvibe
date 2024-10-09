@@ -2,7 +2,7 @@
   padding-left: var(--side-padding);
   padding-right: var(--side-padding);
   padding-top: 12rem;
-  max-width: 1440px;
+  max-width: calc(1440px + var(--side-padding) * 2);
   margin: 0 auto;
 
   &:has(.active) {

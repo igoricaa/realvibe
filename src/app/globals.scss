@@ -9,6 +9,8 @@
   --color-main-rgb: 255, 0, 221;
   --footer-background: var(--color-main);
   --side-padding: 2rem;
+  --rgb-contrast: 0, 0, 0;
+  --rgb-contrast-inverted: 255, 255, 255;
 
   --color1: 18, 113, 255;
   --color2: 221, 74, 255;
@@ -28,6 +30,8 @@
   --text-color: #fff;
   --text-color-inverted: #000;
   --footer-background: #000;
+  --rgb-contrast: 255, 255, 255;
+  --rgb-contrast-inverted: 0, 0, 0;
 }
 
 body {
@@ -73,13 +77,17 @@ ul {
   list-style: none;
 }
 
-h1,
+h1 {
+  font-weight: 700;
+  line-height: 1;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
 }
 

@@ -102,6 +102,10 @@
     white-space: nowrap;
     position: relative;
     z-index: 2;
+
+    span {
+      font-weight: 700;
+    }
   }
 
   &__subtitle {

@@ -16,6 +16,10 @@
     position: relative;
     width: fit-content;
 
+    span {
+      font-weight: 500;
+    }
+
     &::before {
       content: '';
       position: absolute;
