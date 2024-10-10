@@ -1,0 +1,110 @@
+.mobileMenu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobileMenu {
+    display: flex;
+    position: relative;
+
+    > svg {
+      width: 16px;
+      height: 33px;
+
+      path {
+        fill: var(--foreground);
+      }
+    }
+
+    &__menuWrapper {
+      visibility: hidden;
+      position: fixed;
+      inset: 0;
+      background-color: var(--background);
+      width: 100vw;
+      height: 100vh;
+      z-index: 9999999;
+      transform: translateX(100%);
+      transition: transform 0.4s ease-in-out, visibility 0s ease-in-out 1s;
+      padding: 1rem 1.75rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &__open {
+        visibility: visible;
+        transition: transform 0.4s ease-in-out, visibility 0s ease-in-out 0s;
+        transform: translateX(0);
+      }
+    }
+
+    &__close {
+      position: absolute;
+      top: 1.5rem;
+      right: 2rem;
+
+      svg {
+        width: 27px;
+        height: 27px;
+      }
+    }
+
+    &__localeSwitcher {
+      position: absolute;
+      top: 4.5rem;
+      right: 2rem;
+    }
+
+    &__themeSwitcher {
+      margin-top: 1rem;
+    }
+
+    &__menu {
+      text-transform: uppercase;
+      font-weight: 500;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    &__footer {
+      &__title {
+        text-transform: uppercase;
+        font-size: clamp(2rem, 10vw, 25rem);
+        font-size: 76px;
+        width: 100%;
+        white-space: normal;
+        display: flex;
+        flex-direction: column;
+
+        span {
+          font-weight: 700;
+
+          &:first-child {
+            width: 100%;
+            white-space: nowrap;
+            word-break: keep-all;
+          }
+
+          &:last-child {
+            align-self: flex-start;
+          }
+        }
+      }
+
+      &__subtitle {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        z-index: 2;
+        font-size: 1rem;
+        margin-left: 0;
+
+        span {
+          font-family: var(--font-pphatton);
+          font-style: italic;
+        }
+      }
+    }
+  }
+}

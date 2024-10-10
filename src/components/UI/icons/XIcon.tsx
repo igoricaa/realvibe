@@ -2,7 +2,7 @@ function XIcon({
   color = '#fff',
   onClick,
 }: {
-  color: string;
+  color?: string;
   onClick?: () => void;
 }) {
   return (

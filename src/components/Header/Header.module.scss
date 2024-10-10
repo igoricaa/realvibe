@@ -14,17 +14,6 @@
     gap: 1.5rem;
   }
 
-  &__logoWrapper {
-    position: relative;
-
-    width: 81px;
-    height: 44px;
-  }
-
-  &__nav__mobile {
-    display: none;
-  }
-
   &__nav {
     display: flex;
     align-items: center;
@@ -83,31 +72,8 @@
       gap: 1rem;
     }
 
-    &__logoWrapper {
-      width: 59px;
-      height: 32px;
-    }
     &__nav {
       display: none;
-    }
-
-    &__nav__mobile {
-      display: flex;
-
-      &__menuWrapper {
-        opacity: 0;
-        visibility: hidden;
-        display: none;
-      }
-
-      svg {
-        width: 16px;
-        height: 33px;
-
-        path {
-          fill: var(--foreground);
-        }
-      }
     }
   }
 }

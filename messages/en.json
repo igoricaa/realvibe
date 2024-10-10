@@ -5,7 +5,19 @@
       "about": "About Us",
       "events": "Event Organization",
       "video-production": "Video Production",
-      "contact": "Contact"
+      "contact": "Contact",
+      "mobile": {
+        "title": {
+          "one": "RealVibe ",
+          "two": "Studio®"
+        },
+        "subtitle": {
+          "one": "Inspiration in",
+          "two": "Action -",
+          "three": "Art in ",
+          "four": "Creation"
+        }
+      }
     },
     "sidearea": {
       "title": {

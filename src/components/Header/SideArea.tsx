@@ -57,7 +57,7 @@ const SideArea = () => {
         className={`${styles.sidearea} ${isOpen ? styles.open : ''}`}
         data-lenis-prevent
       >
-        <XIcon color='#fff' onClick={toggleSideArea} />
+        <XIcon onClick={toggleSideArea} />
         <div className={styles.sidearea__contentWrapper}>
           <h4 className={styles.sidearea__title}>
             {t('title.one')} <span>{t('title.two')}</span>

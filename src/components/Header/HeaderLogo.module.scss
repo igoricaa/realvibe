@@ -1,0 +1,12 @@
+.logoWrapper {
+  position: relative;
+  width: 81px;
+  height: 44px;
+}
+
+@media screen and (max-width: 768px) {
+  .logoWrapper {
+    width: 59px;
+    height: 32px;
+  }
+}
