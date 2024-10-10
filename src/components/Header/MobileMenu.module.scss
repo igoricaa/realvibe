@@ -46,6 +46,10 @@
       svg {
         width: 27px;
         height: 27px;
+
+        path {
+          fill: var(--foreground);
+        }
       }
     }
 
@@ -71,8 +75,7 @@
     &__footer {
       &__title {
         text-transform: uppercase;
-        font-size: clamp(2rem, 10vw, 25rem);
-        font-size: 76px;
+        font-size: clamp(3rem, 17vw, 8rem);
         width: 100%;
         white-space: normal;
         display: flex;
@@ -94,17 +97,29 @@
       }
 
       &__subtitle {
-        font-size: 1.5rem;
-        margin-left: 1rem;
-        z-index: 2;
-        font-size: 1rem;
-        margin-left: 0;
+        font-size: 1.25rem;
+        margin-top: 1rem;
 
         span {
           font-family: var(--font-pphatton);
           font-style: italic;
         }
       }
+
+      button {
+        margin-top: 2rem;
+        --arrow-size: 3rem !important;
+        font-size: 2rem !important;
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .mobileMenu {
+    &__menu {
+      gap: 1.5rem;
     }
   }
 }

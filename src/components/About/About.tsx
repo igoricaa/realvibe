@@ -1,8 +1,8 @@
 import { useTranslations } from 'next-intl';
 import styles from './About.module.scss';
-import Link from 'next/link';
 import AboutSlider from './HorizontalSlider/AboutSlider';
 import Button from '../UI/Button';
+import Link from '../UI/Link';
 
 const About = () => {
   const t = useTranslations('home.about');

@@ -1,12 +1,12 @@
 import styles from './Header.module.scss';
 
-import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import SideArea from './SideArea';
 import ThemeSwitcher from '../UI/ThemeSwitcher';
 import LocaleSwitcher from '../UI/LocaleSwitcher';
 import MobileMenu from './MobileMenu';
 import HeaderLogo from './HeaderLogo';
+import Link from '../UI/Link';
 
 const Header = () => {
   const t = useTranslations('nav.menu');
@@ -18,10 +18,6 @@ const Header = () => {
     { href: '/video-production', label: t('video-production') },
     { href: '/contact', label: t('contact') },
   ];
-
-  // const handleClick = () => {
-  //   console.log('clicked');
-  // };
 
   return (
     <header id='header' className={styles.header}>

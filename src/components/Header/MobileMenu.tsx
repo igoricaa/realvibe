@@ -1,7 +1,6 @@
 'use client';
 
 import styles from './MobileMenu.module.scss';
-import Link from 'next/link';
 import BurgerIcon from '../UI/icons/BurgerIcon';
 import { useState } from 'react';
 import XIcon from '../UI/icons/XIcon';
@@ -9,6 +8,8 @@ import LocaleSwitcher from '../UI/LocaleSwitcher';
 import HeaderLogo from './HeaderLogo';
 import ThemeSwitcher from '../UI/ThemeSwitcher';
 import { useTranslations } from 'next-intl';
+import Link from '../UI/Link';
+import Button from '../UI/Button';
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,7 +50,11 @@ const MobileMenu = () => {
 
           <ul className={styles.mobileMenu__menu}>
             {routes.map((route) => (
-              <li className={styles.mobileMenu__menu__item} key={route.href}>
+              <li
+                className={styles.mobileMenu__menu__item}
+                key={route.href}
+                onClick={toggleMenu}
+              >
                 <Link href={route.href as any}>{route.label}</Link>
               </li>
             ))}
@@ -65,6 +70,7 @@ const MobileMenu = () => {
             {t('mobile.subtitle.three')}{' '}
             <span>{t('mobile.subtitle.four')}</span>
           </p>
+          <Button variant="secondary">{t('mobile.cta')}</Button>
         </div>
       </div>
       <BurgerIcon onClick={toggleMenu} />
