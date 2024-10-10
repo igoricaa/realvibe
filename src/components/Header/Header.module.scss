@@ -75,6 +75,14 @@
 
 @media screen and (max-width: 768px) {
   .header {
+    align-items: flex-start;
+
+    &__helper__wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
     &__logoWrapper {
       width: 59px;
       height: 32px;

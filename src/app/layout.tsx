@@ -10,6 +10,7 @@ import { getLocale, getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
 import GridBg from '@/components/UI/GridBg';
 import { locales } from '@/i18n/config';
+import Cursor from '@/components/UI/Cursor';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -55,6 +56,7 @@ Readonly<{
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider defaultTheme='dark' attribute='data-theme'>
             <Lenis>
+              <Cursor />
               <GridBg />
               <Header />
               {children}

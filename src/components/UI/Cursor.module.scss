@@ -1,0 +1,21 @@
+.cursorIcon {
+  position: fixed;
+  z-index: 999999;
+  pointer-events: none;
+}
+
+.cursorBall {
+  position: fixed;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: black;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 888888;
+}
+
+@media screen and (max-width: 1024px) {
+  .cursorContainer {
+    display: none;
+  }
+}

@@ -62,6 +62,7 @@ body {
   font-weight: 400;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  cursor: none !important;
 
   &::-webkit-scrollbar {
     display: none;

@@ -1,10 +1,10 @@
 .switcher {
-  --switcher-width: 5rem;
-  --switcher-height: 2.5rem;
+  --switcher-width: 3.75rem;
+  --switcher-height: 1.875rem;
   --switcher-radius: 1.25rem;
   --switcher-padding: 0.25rem;
-  --switcher-slider-width: 2rem;
-  --switcher-slider-height: 2rem;
+  --switcher-slider-width: 1.5rem;
+  --switcher-slider-height: 1.5rem;
   --switcher-icon-width: 14px;
   --switcher-icon-height: 13px;
 
@@ -56,7 +56,7 @@
     transition: transform 0.3s ease;
 
     &.sliderRight {
-      transform: translateX(40px);
+      transform: translateX(28px);
     }
   }
 }
@@ -78,6 +78,25 @@
         svg path {
           fill: #ffc83e;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .switcher {
+    --switcher-width: 3rem;
+    --switcher-height: 1.5rem;
+    --switcher-radius: 1.25rem;
+    --switcher-padding: 0.25rem;
+    --switcher-slider-width: 18px;
+    --switcher-slider-height: 18px;
+    --switcher-icon-width: 14px;
+    --switcher-icon-height: 13px;
+
+    .slider {
+      &.sliderRight {
+        transform: translateX(22px);
       }
     }
   }
