@@ -1,16 +1,16 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Link from './UI/Link';
+import Link from '../UI/Link';
 import Image from 'next/image';
 import heroImage from '../../public/hero-image.png';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import styles from './Hero.module.scss';
 import { useRef, useEffect, useState } from 'react';
-import Button from './UI/Button';
-import BackgroundGradient from './UI/BackgroundGradient';
-import useMediaQuery from '../hooks/useMediaQuery';
-import ArrowIcon from './UI/icons/ArrowIcon';
+import Button from '../UI/Button';
+import BackgroundGradient from '../UI/BackgroundGradient';
+import useMediaQuery from '../../hooks/useMediaQuery';
+import ArrowIcon from '../UI/icons/ArrowIcon';
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -19,7 +19,7 @@ const Hero = () => {
   const [viewportHeight, setViewportHeight] = useState(0);
   const [viewportWidth, setViewportWidth] = useState(0);
   const [imageHeight, setImageHeight] = useState(0);
-  const t = useTranslations('home.hero');
+  const t = useTranslations('services.event.hero');
 
   const { scrollYProgress } = useScroll({
     target: heroRef,

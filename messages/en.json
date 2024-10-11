@@ -173,6 +173,30 @@
       "linkText": "Contact us"
     }
   },
+  "services": {
+    "event-organization": {
+      "hero": {
+        "title": {
+          "one": "Event planing &",
+          "two": "Organization"
+        },
+        "subtitle": {
+          "one": "Reaction for this ",
+          "two": "Action - ",
+          "three": "Will be your ",
+          "four": "Success"
+        },
+        "cta": "Get started",
+        "demo": {
+          "title": "RealVibe Demo Reel",
+          "description": "RealVibe excels at organizing professional<br/>business events that inspire, engage, and<br/>leave a lasting impression."
+        }
+      }
+    },
+    "video-production": {},
+    "concepting-and-screening-ad-campaigns": {},
+    "music-videos-production": {}
+  },
   "notFoundPage": {
     "title": "404"
   }
