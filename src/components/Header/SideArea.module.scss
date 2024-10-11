@@ -48,6 +48,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 1.5rem;
   padding: 5rem 6rem 4.5rem;
   color: var(--text-color-inverted);
 
@@ -223,12 +224,34 @@
 
     button {
       font-size: 2rem !important;
-      
+
       &:hover {
         svg {
           transform: translateX(calc(292px + var(--gap)));
         }
       }
+    }
+  }
+}
+
+@media screen and (max-height: 750px) {
+  .sidearea {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+
+    &__image {
+      height: 200px;
+    }
+  }
+}
+
+@media screen and (max-height: 680px) {
+  .sidearea {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+
+    &__image {
+      height: 170px;
     }
   }
 }
