@@ -62,13 +62,14 @@ const SideArea = () => {
           <h4 className={styles.sidearea__title}>
             {t('title.one')} <span>{t('title.two')}</span>
           </h4>
-          <Image
-            src={featuredProject}
-            alt='Real Vibe Featured Project'
-            width={532}
-            height={342}
-            className={styles.sidearea__image}
-          />
+          <div className={styles.sidearea__image}>
+            <Image
+              src={featuredProject}
+              alt='Real Vibe Featured Project'
+              fill
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
           <div className={styles.sidearea__content}>
             <div className={styles.sidearea__services}>
               <h5 className={styles.sidearea__services__title}>

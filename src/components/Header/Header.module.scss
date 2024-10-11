@@ -29,7 +29,7 @@
       &__item {
         display: flex;
         align-items: center;
-        gap: 0.5rem;
+        position: relative;
 
         &::after {
           content: '';
@@ -43,6 +43,8 @@
           opacity: 0;
           visibility: hidden;
           transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+          position: absolute;
+          right: -2rem;
         }
 
         &:hover {
