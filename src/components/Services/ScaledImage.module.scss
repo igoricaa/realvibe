@@ -12,3 +12,10 @@
   width: 771px;
   position: relative;
 }
+
+@media screen and (max-width: 768px) {
+  .scaledImage__wrapper {
+    grid-column: span 12;
+    width: calc(100vw - (var(--side-padding) * 2));
+  }
+}

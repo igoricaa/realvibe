@@ -3,7 +3,8 @@
 import Image from 'next/image';
 import styles from './ScaledImage.module.scss';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import useMediaQuery from '@/hooks/useMediaQuery';
 
 const ScaledImage = ({ slug }: { slug: string }) => {
   const ref = useRef(null);
@@ -11,8 +12,28 @@ const ScaledImage = ({ slug }: { slug: string }) => {
     target: ref,
     offset: ['start end', 'center center'],
   });
+  const isMobile = useMediaQuery('(max-width: 768px)');
+  const [viewportWidth, setViewportWidth] = useState(0);
 
-  const width = useTransform(scrollYProgress, [0, 1], [0, 771]);
+  useEffect(() => {
+    const updateViewportDimensions = () => {
+      setViewportWidth(document.body.clientWidth);
+    };
+
+    updateViewportDimensions();
+
+    window.addEventListener('resize', updateViewportDimensions);
+
+    return () => {
+      window.removeEventListener('resize', updateViewportDimensions);
+    };
+  }, []);
+
+  const width = useTransform(
+    scrollYProgress,
+    [0, 1],
+    [0, isMobile ? viewportWidth - 32 : 771]
+  );
   const height = useTransform(scrollYProgress, [0, 1], [0, 423]);
 
   return (
