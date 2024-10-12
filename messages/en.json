@@ -177,7 +177,7 @@
     "event-organization": {
       "hero": {
         "title": {
-          "one": "Event planing &",
+          "one": "Event planing & ",
           "two": "Organization"
         },
         "subtitle": {
@@ -186,10 +186,82 @@
           "three": "Will be your ",
           "four": "Success"
         },
-        "cta": "Get started",
-        "demo": {
-          "title": "RealVibe Demo Reel",
-          "description": "RealVibe excels at organizing professional<br/>business events that inspire, engage, and<br/>leave a lasting impression."
+        "cta": "Get started"
+      },
+      "description": {
+        "one": "We specialize in organizing a diverse range of events, including festivals, campaigns, concerts, seminars and more,so reach out, and we will tailor a unique event solution to your needs."
+      },
+      "offering": {
+        "title": "We offer you:",
+        "offering-1": {
+          "title": {
+            "one": "End-to-end event ",
+            "two": "planning"
+          },
+          "description": "From concept to execution, we handle every aspect of your event."
+        },
+        "offering-2": {
+          "title": {
+            "one": "Finding the perfect  ",
+            "two": "location"
+          },
+          "description": "Whether it's a team building or a grand festival, we'll secure the ideal venue for your event."
+        },
+        "offering-3": {
+          "title": {
+            "one": "Quality  ",
+            "two": "catering"
+          },
+          "description": "Indulge your guests with delectable cuisine tailored to your preferences."
+        },
+        "offering-4": {
+          "title": {
+            "one": "Video ",
+            "two": "production"
+          },
+          "description": "Capture every moment with professional video production services."
+        },
+        "offering-5": {
+          "title": {
+            "one": "Transportation ",
+            "two": "organisation"
+          },
+          "description": "Ensure seamless logistics with our transportation services."
+        },
+        "offering-6": {
+          "title": {
+            "one": "Venue ",
+            "two": "decoration"
+          },
+          "description": "Transform your venue into a captivating space with our creative décor solutions."
+        },
+        "offering-7": {
+          "title": {
+            "one": "Sound ",
+            "two": "engineering"
+          },
+          "description": "Set the perfect ambiance with high-quality sound equipment and expertise."
+        },
+        "offering-8": {
+          "title": {
+            "one": "Promotional ",
+            "two": "material"
+          },
+          "description": "Elevate your event with eye-catching promotional materials."
+        },
+        "offering-9": {
+          "title": {
+            "one": "Advertisement & ",
+            "two": "promotion"
+          },
+          "description": "Reach your target audience effectively with strategic advertising and promotion."
+        },
+        "offering-10": {
+          "title": {
+            "one": "The best team ",
+            "two": "for you"
+          },
+          "description": "Our experienced and dedicated team is committed to bringing your concept to life."
         }
       }
     },

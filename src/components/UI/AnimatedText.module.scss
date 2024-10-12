@@ -1,0 +1,33 @@
+.animatedText {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--text-color);
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1;
+
+  .word {
+    position: relative;
+    margin-right: 12px;
+    margin-top: 0.5rem;
+
+    span {
+      font-weight: 600;
+    }
+
+    .shadow {
+      position: absolute;
+      opacity: 20%;
+      //   transform: skewX(-20deg);
+      //   filter: blur(8px);
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}

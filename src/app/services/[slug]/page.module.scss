@@ -1,0 +1,17 @@
+.service {
+  .description {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+
+    p {
+      grid-column: 2 / span 10;
+    }
+  }
+
+  .offering {
+    padding-left: var(--side-padding);
+    padding-right: var(--side-padding);
+
+    
+  }
+}

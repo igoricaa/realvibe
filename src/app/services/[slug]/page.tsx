@@ -1,5 +1,7 @@
 import { useTranslations } from 'next-intl';
 import styles from './page.module.scss';
+import Hero from '@/components/Services/Hero';
+import AnimatedText from '@/components/UI/AnimatedText';
 
 const services = [
   {
@@ -25,7 +27,19 @@ export async function generateStaticParams() {
 const ServicePage = ({ params }: { params: { slug: string } }) => {
   const t = useTranslations(`services.${params.slug}`);
 
-  return <main className={styles.service}></main>;
+  return (
+    <main className={styles.service}>
+      <Hero slug={params.slug} />
+      <div className={styles.description}>
+        <AnimatedText>{t('description.one')}</AnimatedText>
+      </div>
+
+      <div className={styles.offering}>
+        <h2>{t('offering.title')}</h2>
+        <div className={styles.offering__list}></div>
+      </div>
+    </main>
+  );
 };
 
 export default ServicePage;
