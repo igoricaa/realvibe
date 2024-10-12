@@ -57,21 +57,15 @@ const Hero = ({ slug }: { slug: string }) => {
         >
           <h1 className={styles.hero__title}>
             <span>{t('title.one')}</span>
-            {hasTranslation('title.two', t, slug) && (
-              <span>{t('title.two')}</span>
-            )}
+            {slug === 'event-organization' && <span>{t('title.two')}</span>}
           </h1>
           <p className={styles.hero__subtitle}>
-            {t('subtitle.one')}{' '}
-            {hasTranslation('subtitle.two', t, slug) && (
-              <span>{t('subtitle.two')}</span>
-            )}{' '}
-            {hasTranslation('subtitle.three', t, slug) && (
+            {t('subtitle.one')}
+            {slug === 'event-organization' && <span>{t('subtitle.two')}</span>}
+            {slug === 'event-organization' && (
               <span>{t('subtitle.three')}</span>
             )}
-            {hasTranslation('subtitle.four', t, slug) && (
-              <span>{t('subtitle.four')}</span>
-            )}
+            {slug === 'event-organization' && <span>{t('subtitle.four')}</span>}
           </p>
           <Button variant='secondary'>
             <Link href='/contact'>{t('cta')}</Link>

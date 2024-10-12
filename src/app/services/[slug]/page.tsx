@@ -41,10 +41,10 @@ const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
       <div className={styles.service__description}>
         <AnimatedText>{t('description.one')}</AnimatedText>
         {hasTranslation('description.two', t, slug) && (
-          <>
-            <ScaledImage slug={slug} />
-            <AnimatedText>{t('description.two')}</AnimatedText>
-          </>
+          <ScaledImage slug={slug} />
+        )}
+        {hasTranslation('description.two', t, slug) && (
+          <AnimatedText>{t('description.two')}</AnimatedText>
         )}
       </div>
 
