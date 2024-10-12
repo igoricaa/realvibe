@@ -1,4 +1,6 @@
 .service {
+  padding-bottom: 7.75rem;
+
   .description {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -9,6 +11,7 @@
   }
 
   .offering {
+    margin-top: 8.375rem;
     padding-left: var(--side-padding);
     padding-right: var(--side-padding);
 
@@ -21,6 +24,31 @@
 
     &__spacer {
       grid-column: span 1;
+    }
+  }
+
+  .contact {
+    max-width: 1440px;
+    margin: 5rem auto 0;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+
+    > * {
+      grid-column: 2 / span 10;
+    }
+
+    &__subtitle {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+
+      span {
+        font-family: var(--font-pphatton);
+        font-style: italic;
+      }
+    }
+
+    button {
+      margin-top: 3rem;
     }
   }
 }

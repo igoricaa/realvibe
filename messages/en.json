@@ -263,6 +263,16 @@
           },
           "description": "Our experienced and dedicated team is committed to bringing your concept to life."
         }
+      },
+      "contact": {
+        "title": "Let RealVibe turn your event concepts into an unforgettable reality. Let's begin planning your next extraordinary event together!",
+        "subtitle": {
+          "one": "Schedule a free ",
+          "two": "Consultation ",
+          "three": "with our team and let's make ",
+          "four": "things happen!"
+        },
+        "cta": "Contact Us"
       }
     },
     "video-production": {},

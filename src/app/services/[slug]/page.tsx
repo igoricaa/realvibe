@@ -4,6 +4,8 @@ import Hero from '@/components/Services/Hero';
 import AnimatedText from '@/components/UI/AnimatedText';
 import OfferingItem from '@/components/Services/OfferingItem';
 import React from 'react';
+import Button from '@/components/UI/Button';
+import { Link } from 'next-view-transitions';
 
 const services = [
   {
@@ -77,6 +79,19 @@ const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
             );
           })}
         </div>
+      </div>
+
+      <div className={styles.contact}>
+        <h2 className={styles.contact__title}>{t('contact.title')}</h2>
+        <p className={styles.contact__subtitle}>
+          {t('contact.subtitle.one')}
+          <span>{t('contact.subtitle.two')}</span>
+          {t('contact.subtitle.three')}
+          <span>{t('contact.subtitle.four')}</span>
+        </p>
+        <Button>
+          <Link href={'/contact'}>{t('contact.cta')}</Link>
+        </Button>
       </div>
     </main>
   );

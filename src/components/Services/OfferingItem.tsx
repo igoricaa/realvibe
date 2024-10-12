@@ -13,7 +13,7 @@ const OfferingItem = ({
 }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-  const isOdd = index % 2 === 0;
+  const isEven = index % 2 !== 0;
 
   return (
     <div
@@ -22,10 +22,10 @@ const OfferingItem = ({
       key={index}
       style={{
         transform: isInView
-          ? isOdd
-            ? 'translateY(-40px)'
+          ? isEven
+            ? 'translateY(40px)'
             : 'none'
-          : isOdd
+          : isEven
           ? 'translateY(240px)'
           : 'translateY(200px)',
         opacity: isInView ? 1 : 0,
