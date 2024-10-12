@@ -1,0 +1,14 @@
+.scaledImage__wrapper {
+  grid-column: 2 / span 10;
+  margin: 3rem 0;
+  overflow: hidden;
+  max-width: 771px;
+  max-height: 423px;
+  border-radius: 4rem;
+}
+
+.scaledImage__image {
+  aspect-ratio: 16 / 9;
+  width: 771px;
+  position: relative;
+}

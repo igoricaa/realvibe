@@ -275,7 +275,147 @@
         "cta": "Contact Us"
       }
     },
-    "video-production": {},
+    "video-production": {
+      "hero": {
+        "title": {
+          "one": "Film Production"
+        },
+        "subtitle": {
+          "one": "Sound? Camera? Aaaaaand ",
+          "two": "ACTION!"
+        },
+        "cta": "Get started"
+      },
+      "description": {
+        "one": "Beside the stunning and diverse locations in Serbia, our country offers numerous advantages for foreign productions. We have a wealth of talented professionals, which is crucial for delivering a high-quality final product.",
+        "two": "Additionally, filming in Serbia can help you save money while providing an incredible adventure and a top-notch production. At RealVibe, we are dedicated to turning your story into a cinematic masterpiece."
+      },
+      "offering": {
+        "title": "We offer you:",
+        "offering-1": {
+          "title": {
+            "one": "Pre ",
+            "two": "Production"
+          },
+          "description": "Detailed planning and preparation to ensure a smooth filming process."
+        },
+        "offering-2": {
+          "title": {
+            "one": "Creative ",
+            "two": "Room"
+          },
+          "description": "A space for brainstorming and developing innovative ideas."
+        },
+        "offering-3": {
+          "title": {
+            "one": "Experienced & Innovative ",
+            "two": "Creative Team"
+          },
+          "description": "A blend of seasoned experts and fresh talent to bring your vision to life."
+        },
+        "offering-4": {
+          "title": {
+            "one": "Production ",
+            "two": "Planning"
+          },
+          "description": "Comprehensive strategies to manage every aspect of your film."
+        },
+        "offering-5": {
+          "title": {
+            "one": "Location ",
+            "two": "Scouting"
+          },
+          "description": "Identifying the perfect settings to enhance your narrative."
+        },
+        "offering-6": {
+          "title": {
+            "one": "Hardworking ",
+            "two": "Crew"
+          },
+          "description": "Dedicated professionals committed to excellence."
+        },
+        "offering-7": {
+          "title": {
+            "one": "Sound Stage & ",
+            "two": "Studio Rentals"
+          },
+          "description": "Access to state-of-the-art facilities for high-quality production."
+        },
+        "offering-8": {
+          "title": {
+            "one": "Expert ",
+            "two": "Consultants"
+          },
+          "description": "Expert guidance to navigate every phase of production."
+        },
+        "offering-9": {
+          "title": {
+            "one": "Casting ",
+            "two": "assistance"
+          },
+          "description": "Finding the right talent to embody your characters."
+        },
+        "offering-10": {
+          "title": {
+            "one": "Travel & ",
+            "two": "Transport"
+          },
+          "description": "Seamless logistics to keep your production on track."
+        },
+        "offering-11": {
+          "title": {
+            "one": "Lodging ",
+            "two": "organisation"
+          },
+          "description": "Comfortable accomodation options for your cast and crew."
+        },
+        "offering-12": {
+          "title": {
+            "one": "Catering ",
+            "two": "organisation"
+          },
+          "description": "Delicious and tailored catering services to keep everyone energized."
+        },
+        "offering-13": {
+          "title": {
+            "one": "Post - ",
+            "two": "Production"
+          },
+          "description": "Comprehensive editing, sound design, and finishing touches."
+        },
+        "offering-14": {
+          "title": {
+            "one": "Permits ",
+            "two": "logistics"
+          },
+          "description": "Assistance with obtaining necessary filming permits."
+        },
+        "offering-15": {
+          "title": {
+            "one": "Simplified transport ",
+            "two": "processes"
+          },
+          "description": "ATA Carnet - Red Gate Option - Import/Export."
+        },
+        "offering-16": {
+          "title": {
+            "one": "Insurance ",
+            "two": "processes"
+          },
+          "description": "For your crew and equipment."
+        }
+      },
+      "contact": {
+        "title": "Let RealVibe help you transform your story into a work of art. Start your cinematic journey with us today!",
+        "subtitle": {
+          "one": "Schedule a free ",
+          "two": "Consultation ",
+          "three": "with our team and let's make ",
+          "four": "things happen!"
+        },
+        "cta": "Contact Us"
+      }
+    },
     "concepting-and-screening-ad-campaigns": {},
     "music-videos-production": {}
   },

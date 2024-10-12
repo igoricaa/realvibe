@@ -1,16 +1,18 @@
 .service {
   padding-bottom: 7.75rem;
 
-  .description {
+  &__description {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
+    max-width: 1440px;
+    margin: 0 auto;
 
     p {
       grid-column: 2 / span 10;
     }
   }
 
-  .offering {
+  &__offering {
     margin-top: 8.375rem;
     padding-left: var(--side-padding);
     padding-right: var(--side-padding);
@@ -27,7 +29,7 @@
     }
   }
 
-  .contact {
+  &__contact {
     max-width: 1440px;
     margin: 5rem auto 0;
     display: grid;
@@ -61,14 +63,14 @@
 
 @media screen and (max-width: 768px) {
   .service {
-    .description {
+    &__description {
       padding: 0 var(--side-padding);
       p {
         grid-column: span 12;
       }
     }
 
-    .offering {
+    &__offering {
       margin-top: 6rem;
 
       &__list {
@@ -82,7 +84,7 @@
       }
     }
 
-    .contact {
+    &__contact {
       margin-top: 8rem;
       padding: 0 var(--side-padding);
 

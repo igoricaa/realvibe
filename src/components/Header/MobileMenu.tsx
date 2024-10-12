@@ -23,7 +23,7 @@ const MobileMenu = () => {
     { href: '/', label: t('home') },
     { href: '/about-us', label: t('about') },
     { href: '/services/event-organization', label: t('events') },
-    { href: '/video-production', label: t('video-production') },
+    { href: '/services/video-production', label: t('video-production') },
     { href: '/contact', label: t('contact') },
   ];
 
@@ -70,7 +70,7 @@ const MobileMenu = () => {
             {t('mobile.subtitle.three')}{' '}
             <span>{t('mobile.subtitle.four')}</span>
           </p>
-          <Button variant="secondary">{t('mobile.cta')}</Button>
+          <Button variant='secondary'>{t('mobile.cta')}</Button>
         </div>
       </div>
       <BurgerIcon onClick={toggleMenu} />

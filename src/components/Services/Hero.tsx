@@ -10,6 +10,7 @@ import { useRef, useState } from 'react';
 import Button from '../UI/Button';
 import BackgroundGradient from '../UI/BackgroundGradient';
 import useMediaQuery from '../../hooks/useMediaQuery';
+import { hasTranslation } from '@/utilities/utilities';
 
 const Hero = ({ slug }: { slug: string }) => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -56,11 +57,21 @@ const Hero = ({ slug }: { slug: string }) => {
         >
           <h1 className={styles.hero__title}>
             <span>{t('title.one')}</span>
-            <span>{t('title.two')}</span>
+            {hasTranslation('title.two', t, slug) && (
+              <span>{t('title.two')}</span>
+            )}
           </h1>
           <p className={styles.hero__subtitle}>
-            {t('subtitle.one')} <span>{t('subtitle.two')}</span>{' '}
-            {t('subtitle.three')} <span>{t('subtitle.four')}</span>
+            {t('subtitle.one')}{' '}
+            {hasTranslation('subtitle.two', t, slug) && (
+              <span>{t('subtitle.two')}</span>
+            )}{' '}
+            {hasTranslation('subtitle.three', t, slug) && (
+              <span>{t('subtitle.three')}</span>
+            )}
+            {hasTranslation('subtitle.four', t, slug) && (
+              <span>{t('subtitle.four')}</span>
+            )}
           </p>
           <Button variant='secondary'>
             <Link href='/contact'>{t('cta')}</Link>

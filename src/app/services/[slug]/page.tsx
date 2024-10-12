@@ -6,6 +6,8 @@ import OfferingItem from '@/components/Services/OfferingItem';
 import React from 'react';
 import Button from '@/components/UI/Button';
 import { Link } from 'next-view-transitions';
+import { hasTranslation } from '@/utilities/utilities';
+import ScaledImage from '@/components/Services/ScaledImage';
 
 const services = [
   {
@@ -30,18 +32,25 @@ export async function generateStaticParams() {
 
 const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
   const t = useTranslations(`services.${slug}`);
-  const numberOfOfferings = slug === 'event-organization' ? 10 : 8;
+  const numberOfOfferings =
+    slug === 'event-organization' ? 10 : slug === 'video-production' ? 16 : 12;
 
   return (
     <main className={styles.service}>
       <Hero slug={slug} />
-      <div className={styles.description}>
+      <div className={styles.service__description}>
         <AnimatedText>{t('description.one')}</AnimatedText>
+        {hasTranslation('description.two', t, slug) && (
+          <>
+            <ScaledImage slug={slug} />
+            <AnimatedText>{t('description.two')}</AnimatedText>
+          </>
+        )}
       </div>
 
-      <div className={styles.offering}>
+      <div className={styles.service__offering}>
         <h2>{t('offering.title')}</h2>
-        <div className={styles.offering__list}>
+        <div className={styles.service__offering__list}>
           {Array.from({ length: numberOfOfferings }).map((_, index) => {
             if (slug === 'event-organization' && index === 8) {
               return (
@@ -58,8 +67,8 @@ const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
                       ),
                     }}
                   />
-                  <div className={styles.offering__spacer} />
-                  <div className={styles.offering__spacer} />
+                  <div className={styles.service__offering__spacer} />
+                  <div className={styles.service__offering__spacer} />
                 </>
               );
             }
@@ -81,9 +90,9 @@ const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
         </div>
       </div>
 
-      <div className={styles.contact}>
-        <h2 className={styles.contact__title}>{t('contact.title')}</h2>
-        <p className={styles.contact__subtitle}>
+      <div className={styles.service__contact}>
+        <h2 className={styles.service__contact__title}>{t('contact.title')}</h2>
+        <p className={styles.service__contact__subtitle}>
           {t('contact.subtitle.one')}
           <span>{t('contact.subtitle.two')}</span>
           {t('contact.subtitle.three')}

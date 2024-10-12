@@ -16,11 +16,11 @@ export const routes: MenuItem[] = [
   },
   {
     label: 'Event Organization',
-    href: '/event-organization',
+    href: '/services/event-organization',
   },
   {
     label: 'Video Production',
-    href: '/video-production',
+    href: '/services/video-production',
   },
   {
     label: 'Contact',
