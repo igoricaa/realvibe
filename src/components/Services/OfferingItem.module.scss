@@ -1,0 +1,15 @@
+.offering__list__item {
+  grid-column: span 1;
+
+  &__title {
+    span {
+      font-family: var(--font-pphatton);
+      font-style: italic;
+    }
+  }
+
+  &__description {
+    font-size: 1.125rem;
+    margin-top: 2rem;
+  }
+}
