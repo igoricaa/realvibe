@@ -30,4 +30,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .animatedText {
+    font-size: 2.5rem;
+
+    .word {
+      margin-right: 0.5rem;
+    }
+  }
 }

@@ -13,3 +13,24 @@
     margin-top: 2rem;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .offering__list__item {
+    &__description {
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .offering__list__item {
+    &__description {
+      font-size: 1rem;
+      margin-top: 1.25rem;
+    }
+
+    &__title {
+      font-size: 1.75rem;
+    }
+  }
+}
