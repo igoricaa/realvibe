@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import styles from './AboutSlider.module.scss';
-import  Link  from 'next/link';
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
@@ -85,9 +85,6 @@ const AboutSlider = () => {
                     <span>{t('our-mission.title.two')}</span>
                   </h4>
                   <p>{t('our-mission.description')}</p>
-                  <Button variant='secondary'>
-                    <Link href={'/contact'}>{t('our-mission.cta')}</Link>
-                  </Button>
                 </div>
               </div>
             );
