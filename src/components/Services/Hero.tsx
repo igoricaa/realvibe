@@ -2,20 +2,16 @@
 
 import { useTranslations } from 'next-intl';
 import Link from '../UI/Link';
-import Image from 'next/image';
-import heroImage from '../../../public/hero-image.png';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import styles from './Hero.module.scss';
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import Button from '../UI/Button';
 import BackgroundGradient from '../UI/BackgroundGradient';
 import useMediaQuery from '../../hooks/useMediaQuery';
-import { hasTranslation } from '@/utilities/utilities';
+import ImageSlider from '../ImageSlider';
 
 const Hero = ({ slug }: { slug: string }) => {
   const heroRef = useRef<HTMLDivElement>(null);
-  const imageRef = useRef<HTMLImageElement>(null);
-  const [viewportHeight, setViewportHeight] = useState(0);
   const t = useTranslations(`services.${slug}.hero`);
 
   const { scrollYProgress } = useScroll({
@@ -38,11 +34,7 @@ const Hero = ({ slug }: { slug: string }) => {
     clamp: true,
   });
 
-  const yPositionUp = useTransform(
-    animationProgress,
-    [0, 1],
-    [0, -viewportHeight]
-  );
+  const yPositionUp = useTransform(animationProgress, [0, 1], [0, -600]);
 
   return (
     <>
@@ -71,18 +63,7 @@ const Hero = ({ slug }: { slug: string }) => {
             <Link href='/contact'>{t('cta')}</Link>
           </Button>
         </motion.div>
-
-        <div className={styles.hero__image}>
-          <Image
-            ref={imageRef}
-            src={heroImage}
-            alt='RealVibe hero image'
-            fill
-            sizes='(max-width: 768px) 257px, 638px'
-            style={{ objectFit: 'cover' }}
-            priority
-          />
-        </div>
+        <ImageSlider />
       </div>
     </>
   );

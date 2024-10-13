@@ -1,5 +1,5 @@
 .hero {
-  height: 100vh;
+  height: calc(100vh - 108px);
   width: calc(100vw - (100vw - 100%));
   display: flex;
   justify-content: center;
@@ -137,12 +137,21 @@
   }
 }
 
+@media screen and (max-height: 850px) {
+  .hero {
+    &__content {
+      padding-top: 7rem;
+    }
+  }
+}
+
 @media screen and (max-width: 1024px) {
 }
 
 @media screen and (max-width: 768px) {
   .hero {
     height: calc(100vh - 65px);
+    height: 80vh;
     padding-top: 5rem;
 
     &__content {
