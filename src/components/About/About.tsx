@@ -8,7 +8,7 @@ const About = () => {
   const t = useTranslations('home.about');
 
   return (
-    <section className={styles.about}>
+    <section id='about-us' className={styles.about}>
       <div className={styles.about__header}>
         <h2>{t('title')}</h2>
         <Button>
