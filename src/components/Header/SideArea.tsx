@@ -123,7 +123,7 @@ const SideArea = () => {
             </div>
           </div>
         </div>
-        <Button>
+        <Button isSideArea={true}>
           <a href='/contact'>{t('cta')}</a>
         </Button>
       </div>

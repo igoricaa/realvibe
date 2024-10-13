@@ -5,7 +5,7 @@
     cursor: pointer;
 
     path {
-      fill: var(--foreground);
+      fill: var(--contrast-color);
     }
   }
 }
@@ -13,14 +13,14 @@
 .overlay {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100vw;
+  left: -728px;
+  width: calc(100vw + 728px);
   height: 100vh;
   background: linear-gradient(
     to right,
-    rgba(var(--rgb-contrast-inverted), 0) 728px,
-    rgba(var(--rgb-contrast-inverted), 0.4) 728px 50%,
-    rgba(var(--rgb-contrast), 0.8) 100%
+    rgba(var(--rgb-contrast), 0) 728px,
+    rgba(var(--rgb-contrast), 0.4) 728px 50%,
+    rgba(var(--rgb-contrast-inverted), 0.8) 100%
   );
   backdrop-filter: blur(8px);
   z-index: 9000;
@@ -41,7 +41,7 @@
   right: 0;
   width: 728px;
   height: 100vh;
-  background-color: var(--foreground);
+  background-color: var(--inverted-contrast-color);
   z-index: 10000;
   transform: translateX(100%);
   transition: transform 0.5s ease-in-out;
@@ -50,7 +50,7 @@
   justify-content: space-between;
   gap: 1.5rem;
   padding: 5rem 6rem 4.5rem;
-  color: var(--text-color-inverted);
+  color: var(--text-color);
 
   > svg {
     position: absolute;
@@ -59,7 +59,7 @@
     cursor: pointer;
 
     path {
-      fill: var(--inverted-contrast-color);
+      fill: var(--contrast-color);
     }
   }
 
@@ -117,7 +117,7 @@
           gap: 0.5rem;
 
           span {
-            transform: translateX(-32px);
+            transform: translateX(-2rem);
             transition: transform 0.5s ease-in-out;
           }
 
@@ -167,7 +167,7 @@
         font-size: 12px;
         font-weight: 500;
         text-transform: uppercase;
-        border: 1px solid var(--text-color-inverted);
+        border: 1px solid var(--text-color);
         padding: 0.5rem 1.5rem;
         border-radius: 3rem;
         width: fit-content;
@@ -176,21 +176,66 @@
   }
 
   button {
-    background-color: var(--foreground);
+    background-color: var(--inverted-contrast-color);
     color: #fff;
-    border: 1px solid var(--text-color-inverted);
+    border: 1px solid var(--text-color);
     padding: 0.5rem 1.5rem;
     border-radius: 3rem;
-    width: fit-content;
+    justify-content: center;
+    width: 100%;
 
     a {
-      color: var(--text-color-inverted);
-      background-color: var(--foreground);
+      color: var(--text-color);
+      background-color: var(--inverted-contrast-color);
     }
 
     &:hover {
       svg {
         transform: translateX(calc(365px + var(--gap)));
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 975px) {
+  .sidearea {
+    > * {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    &:has(button:hover) > *:not(button) {
+      transform: translateY(-100px);
+    }
+
+    button {
+      transform: translateY(50px) !important;
+      opacity: 0.5;
+      transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+      position: relative;
+
+      &:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 10rem;
+        left: 0;
+        top: -5rem;
+        z-index: -1;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 10rem;
+        left: 0;
+        bottom: -5rem;
+        z-index: -1;
+      }
+
+      &:hover {
+        transform: translateY(0px) !important;
+        opacity: 1;
       }
     }
   }
@@ -202,35 +247,34 @@
     padding-bottom: 3.5rem;
 
     &__image {
-      height: 242px;
+      height: 270px;
     }
 
     &__content {
-      margin-top: 2rem;
+      margin-top: 2.5rem;
     }
 
     &__services {
       &__list {
-        margin-top: 2rem;
-        font-size: 1rem;
+        margin-top: 2.5rem;
       }
     }
 
     &__socials {
       &__list {
-        margin-top: 2rem;
+        margin-top: 2.5rem;
       }
     }
 
-    button {
-      font-size: 2rem !important;
+    // button {
+    //   font-size: 2rem !important;
 
-      &:hover {
-        svg {
-          transform: translateX(calc(292px + var(--gap)));
-        }
-      }
-    }
+    //   &:hover {
+    //     svg {
+    //       transform: translateX(calc(292px + var(--gap)));
+    //     }
+    //   }
+    // }
   }
 }
 

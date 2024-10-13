@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import styles from './GridBg.module.scss';
 
 const GridBg = () => {
   return (
@@ -10,6 +9,7 @@ const GridBg = () => {
         width: '100vw',
         height: '100vh',
         zIndex: -10,
+        opacity: 'var(--gridbg-opacity)',
       }}
     >
       <Image

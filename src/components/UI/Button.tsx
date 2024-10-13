@@ -5,25 +5,32 @@ import MagneticWrapper from './MagneticWrapper';
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary';
   className?: string;
+  isSideArea?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
   children,
   variant = 'primary',
   className,
+  isSideArea = false,
   ...props
 }) => {
-  return (
-    <MagneticWrapper>
-      <button
-        className={`${styles.button} ${styles[variant]} ${
-          styles[className || '']
-        }`}
-      >
-        <ArrowIcon />
-        {children}
-      </button>
-    </MagneticWrapper>
+  const buttonElement = (
+    <button
+      className={`${styles.button} ${styles[variant]} ${
+        styles[className || '']
+      }`}
+      {...props}
+    >
+      <ArrowIcon />
+      {children}
+    </button>
+  );
+
+  return !isSideArea ? (
+    <MagneticWrapper>{buttonElement}</MagneticWrapper>
+  ) : (
+    buttonElement
   );
 };
 
