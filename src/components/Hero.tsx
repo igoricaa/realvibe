@@ -104,6 +104,7 @@ const Hero = () => {
             <span>{t('title.one')}</span>
             <span>{t('title.two')}</span>
           </h1>
+
           <p className={styles.hero__subtitle}>
             {t('subtitle.one')} <span>{t('subtitle.two')}</span>{' '}
             {t('subtitle.three')} <span>{t('subtitle.four')}</span>

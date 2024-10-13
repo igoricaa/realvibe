@@ -9,6 +9,7 @@ import Button from '../UI/Button';
 import BackgroundGradient from '../UI/BackgroundGradient';
 import useMediaQuery from '../../hooks/useMediaQuery';
 import ImageSlider from '../ImageSlider';
+import { TextFitContainer } from '../UI/TextFitContainer';
 
 const Hero = ({ slug }: { slug: string }) => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -48,10 +49,13 @@ const Hero = ({ slug }: { slug: string }) => {
         }}
       >
         <div className={styles.hero__content}>
-          <h1 className={styles.hero__title}>
-            <span>{t('title.one')}</span>
-            {slug === 'event-organization' && <span>{t('title.two')}</span>}
-          </h1>
+          <div className={styles.hero__title}>
+            <TextFitContainer>{t('title.one')}</TextFitContainer>
+            {slug === 'event-organization' && (
+              <TextFitContainer>{t('title.two')}</TextFitContainer>
+            )}
+          </div>
+
           <p className={styles.hero__subtitle}>
             {t('subtitle.one')}
             {slug === 'event-organization' && <span>{t('subtitle.two')}</span>}

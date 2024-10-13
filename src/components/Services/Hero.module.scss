@@ -96,13 +96,8 @@
   &__title {
     text-transform: uppercase;
     font-size: clamp(2rem, 10vw, 25rem);
-    width: 100%;
     position: relative;
     z-index: 2;
-
-    span {
-      font-weight: 700;
-    }
   }
 
   &__subtitle {
@@ -176,24 +171,12 @@
     &__title {
       margin-left: -0.5rem;
       font-size: 76px;
-      white-space: normal;
-      display: flex;
-      flex-direction: column;
-
-      span:first-child {
-        width: 100%;
-        white-space: nowrap;
-        word-break: keep-all;
-      }
-
-      span:last-child {
-        align-self: flex-start;
-      }
     }
 
     &__subtitle {
       font-size: 1rem;
       margin-left: 0;
+      margin-top: 0.5rem;
     }
 
     & button {
