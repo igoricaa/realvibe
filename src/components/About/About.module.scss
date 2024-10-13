@@ -1,5 +1,5 @@
 .about {
-  padding: 7rem var(--side-padding) 0;
+  padding: 5rem var(--side-padding) 0;
 
   &__header {
     display: flex;
@@ -38,6 +38,24 @@
         top: -45px;
         left: -90px;
       }
+    }
+  }
+}
+
+@media screen and (min-height: 900px) {
+  .about {
+    &__header {
+      transform: translateY(10vh);
+    }
+  }
+}
+
+@media screen and (min-height: 1150px) {
+  .about {
+    padding-top: 0;
+
+    &__header {
+      transform: translateY(20vh);
     }
   }
 }

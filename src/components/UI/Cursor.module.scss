@@ -2,6 +2,20 @@
   position: fixed;
   z-index: 999999;
   pointer-events: none;
+
+  &__rotating {
+    transition: transform 0.3s ease;
+    animation: rotating 1.5s linear infinite;
+  }
+
+  @keyframes rotating {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 }
 
 .cursorBall {
@@ -14,6 +28,21 @@
   z-index: 888888;
   opacity: 1;
   transition: opacity 0.3s ease;
+  // mix-blend-mode: difference;
+  
+  // -webkit-filter: invert(100%);
+  // filter: invert(100%);
+
+  // &__inner {
+  //   content: '';
+  //   position: absolute;
+  //   width: 40px;
+  //   height: 40px;
+  //   background-color: #000;
+  //   border-radius: 50%;
+  //   display: block;
+    
+  // }
 
   &.notMoving {
     opacity: 0.2;

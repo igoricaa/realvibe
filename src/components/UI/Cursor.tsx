@@ -1,11 +1,12 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import styles from './Cursor.module.scss';
 import { motion, useMotionValue, useSpring } from 'framer-motion';
 import CursorIcon from './CursorIcon';
 
-export default function Cursor({}) {
+export default function Cursor() {
+  const iconRef = useRef<HTMLDivElement>(null);
   const cursorSize = 28;
   const ballSize = 40;
   const ball = {
@@ -33,10 +34,18 @@ export default function Cursor({}) {
     ball.x.set(clientX - ballSize / 2);
     ball.y.set(clientY - ballSize / 2);
 
-    // Reset the timer and set isMoving to true
+    if (iconRef.current) {
+      iconRef.current.classList.add(styles.cursorIcon__rotating);
+    }
+
     setIsMoving(true);
     clearTimeout(moveTimer);
-    moveTimer = setTimeout(() => setIsMoving(false), 100); // Adjust timeout as needed
+    moveTimer = setTimeout(() => {
+      setIsMoving(false);
+      if (iconRef.current) {
+        iconRef.current.classList.remove(styles.cursorIcon__rotating);
+      }
+    }, 100);
   };
 
   useEffect(() => {
@@ -50,6 +59,7 @@ export default function Cursor({}) {
   return (
     <div className={styles.cursorContainer}>
       <motion.div
+        ref={iconRef}
         className={`${styles.cursorIcon}`}
         style={{
           left: mouse.x,
@@ -64,7 +74,8 @@ export default function Cursor({}) {
           top: smoothBall.y,
         }}
         className={`${styles.cursorBall} ${isMoving ? '' : styles.notMoving}`}
-      ></motion.div>
+      >
+      </motion.div>
     </div>
   );
 }
