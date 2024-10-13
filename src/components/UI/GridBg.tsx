@@ -13,7 +13,7 @@ const GridBg = () => {
       }}
     >
       <Image
-        src='/grid-bg.png'
+        src='/grid-bg.svg'
         alt='Grid background'
         fill
         sizes='100vw'
