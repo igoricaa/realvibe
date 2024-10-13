@@ -34,19 +34,20 @@ const Hero = ({ slug }: { slug: string }) => {
     clamp: true,
   });
 
-  const yPositionUp = useTransform(animationProgress, [0, 1], [0, -600]);
+  const yPositionUp = useTransform(animationProgress, [0, 1], [0, -800]);
 
   return (
     <>
       <BackgroundGradient />
-      <div className={styles.hero} ref={heroRef}>
-        <motion.div
-          className={styles.hero__content}
-          style={{
-            opacity: isMobile ? 1 : opacityFast,
-            y: isMobile ? 0 : yPositionUp,
-          }}
-        >
+      <motion.div
+        className={styles.hero}
+        ref={heroRef}
+        style={{
+          opacity: isMobile ? 1 : opacityFast,
+          y: isMobile ? 0 : yPositionUp,
+        }}
+      >
+        <div className={styles.hero__content}>
           <h1 className={styles.hero__title}>
             <span>{t('title.one')}</span>
             {slug === 'event-organization' && <span>{t('title.two')}</span>}
@@ -62,9 +63,9 @@ const Hero = ({ slug }: { slug: string }) => {
           <Button variant='secondary'>
             <Link href='/contact'>{t('cta')}</Link>
           </Button>
-        </motion.div>
+        </div>
         <ImageSlider />
-      </div>
+      </motion.div>
     </>
   );
 };

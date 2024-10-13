@@ -9,7 +9,6 @@
   position: absolute;
   top: calc(100vh - 25vw * 9 / 16);
   right: 300px;
-  transform-origin: top right;
 
   &__image {
     width: 100%;
@@ -33,7 +32,9 @@
 
 @media screen and (max-width: 768px) {
   .imageSlider {
-    top: calc(50vh);
+    // top: calc(50vh);
+    top: calc(200px + 100vw * 9 / 16);
+    // bottom: calc(100vw * 9 / 16 / 2);
     right: 50%;
     transform: translateX(50%);
     width: 100vw;
