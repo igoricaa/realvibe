@@ -59,7 +59,15 @@ const Services = () => {
                 )}
               </AnimatePresence>
             </motion.div>
-            <h2 className={styles.services__item__header__title}>
+            <h2
+              className={styles.services__item__header__title}
+              style={{
+                whiteSpace:
+                  isMobile && (index === 0 || index === 2)
+                    ? 'nowrap'
+                    : 'normal',
+              }}
+            >
               {t(`service-${index + 1}.title`)}
             </h2>
           </motion.div>
