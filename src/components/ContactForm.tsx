@@ -73,7 +73,7 @@ const ContactForm = () => {
         <div className={styles.contactForm__fieldWrapper}>
           <input
             id='name'
-            className={errors.email ? styles.inputError : ''}
+            className={errors.name ? styles.inputError : ''}
             type='text'
             placeholder={t('name')}
             {...register('name', {
@@ -86,42 +86,45 @@ const ContactForm = () => {
         </div>
         <div className={styles.contactForm__fieldWrapper}>
           <input
-            id='subject'
+            id='email'
             className={errors.email ? styles.inputError : ''}
-            type='text'
-            placeholder={t('subject')}
-            {...register('subject', {
+            type='email'
+            placeholder={t('email')}
+            {...register('email', {
               required: { value: true, message: t('required') },
-              maxLength: { value: 50, message: t('maxLength', { max: 50 }) },
+              pattern: {
+                value: /^\S+@\S+$/i,
+                message: t('emailPattern'),
+              },
             })}
-            autoComplete='subject'
+            autoComplete='email'
           />
-          {errors.subject && (
-            <p className={styles.error}>{errors.subject.message}</p>
+          {errors.email && (
+            <p className={styles.error}>{errors.email.message}</p>
           )}
         </div>
       </div>
       <div className={styles.contactForm__fieldWrapper}>
         <input
-          id='email'
-          className={errors.email ? styles.inputError : ''}
-          type='email'
-          placeholder={t('email')}
-          {...register('email', {
+          id='subject'
+          className={errors.subject ? styles.inputError : ''}
+          type='text'
+          placeholder={t('subject')}
+          {...register('subject', {
             required: { value: true, message: t('required') },
-            pattern: {
-              value: /^\S+@\S+$/i,
-              message: t('emailPattern'),
-            },
+            maxLength: { value: 50, message: t('maxLength', { max: 50 }) },
           })}
-          autoComplete='email'
+          autoComplete='subject'
         />
-        {errors.email && <p className={styles.error}>{errors.email.message}</p>}
+        {errors.subject && (
+          <p className={styles.error}>{errors.subject.message}</p>
+        )}
       </div>
+
       <div className={styles.contactForm__fieldWrapper}>
         <textarea
           id='message'
-          className={errors.email ? styles.inputError : ''}
+          className={errors.message ? styles.inputError : ''}
           placeholder={t('message')}
           rows={9}
           {...register('message', {
