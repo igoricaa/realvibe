@@ -2,7 +2,7 @@
   padding: 10rem var(--side-padding) 10rem;
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  row-gap: 1rem;
+  gap: 1rem;
   color: var(--text-color);
   max-width: 1440px;
   margin: 0 auto;
@@ -58,9 +58,8 @@
 
 @media (max-width: 768px) {
   .contact {
-    // grid-template-columns: 1fr;
     padding: 3rem var(--side-padding) 4rem;
-    row-gap: 2rem;
+    gap: 2rem 0;
 
     &__info {
       grid-column: span 12;

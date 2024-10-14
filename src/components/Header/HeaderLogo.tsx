@@ -4,9 +4,9 @@ import logo from '@/../public/realvibe-logo.svg';
 
 const HeaderLogo = () => {
   return (
-    <div className={styles.logoWrapper}>
+    <a href='/' className={styles.logoWrapper}>
       <Image src={logo} alt='Real Vibe Production logo' fill priority />
-    </div>
+    </a>
   );
 };
 

@@ -12,7 +12,7 @@ export const routes: MenuItem[] = [
   },
   {
     label: 'About Us',
-    href: '#about-us',
+    href: '/#about-us',
   },
   {
     label: 'Event Organization',
