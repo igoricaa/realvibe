@@ -8,7 +8,7 @@ const AnimatedText = ({ children }: { children: string }) => {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ['start 0.7', 'start 0.25'],
+    offset: ['start 0.7', 'start 0.05'],
   });
 
   const words: string[] = children.split(' ');
