@@ -2,7 +2,7 @@
   padding: 10rem var(--side-padding) 10rem;
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: 1rem;
+  row-gap: 1rem;
   color: var(--text-color);
   max-width: 1440px;
   margin: 0 auto;
@@ -46,5 +46,68 @@
 
   &__form {
     grid-column: 6 / span 6;
+  }
+
+  &__links__mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  .contact {
+    // grid-template-columns: 1fr;
+    padding: 3rem var(--side-padding) 4rem;
+    row-gap: 2rem;
+
+    &__info {
+      grid-column: span 12;
+
+      &__description {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+      }
+
+      &__subtitle {
+        display: none;
+      }
+
+      &__socials {
+        display: none;
+      }
+    }
+
+    &__form {
+      grid-column: span 12;
+    }
+
+    &__links__mobile {
+      display: block;
+      grid-column: span 12;
+
+      &__subtitle {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        font-weight: 400;
+      }
+
+      &__socials {
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+
+        &__item {
+          font-size: 12px;
+          font-weight: 500;
+          text-transform: uppercase;
+          border: 1px solid var(--text-color);
+          padding: 0.5rem 1.5rem;
+          border-radius: 3rem;
+          width: fit-content;
+        }
+      }
+    }
   }
 }
