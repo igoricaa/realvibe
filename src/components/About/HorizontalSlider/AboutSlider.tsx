@@ -2,38 +2,41 @@
 
 import Image from 'next/image';
 import styles from './AboutSlider.module.scss';
-import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
-import Button from '@/components/UI/Button';
 import useMediaQuery from '@/hooks/useMediaQuery';
 import { useInView } from 'framer-motion';
 
 type CompanyValue = {
   title: string;
+  slug: string;
   image: string;
   icon: string;
 };
 
 const companyValues: CompanyValue[] = [
   {
-    title: 'Naša misija',
+    title: 'Our Mission',
+    slug: 'mission',
     image: '/about/our-mission.png',
     icon: '/about/mission.svg',
   },
   {
-    title: 'Naša misija',
+    title: 'Our Vision',
+    slug: 'vision',
     image: '/about/vision.png',
     icon: '/about/vision.svg',
   },
   {
-    title: 'Naša misija',
+    title: 'Our Team',
+    slug: 'team',
     image: '/about/team.png',
     icon: '/about/team.svg',
   },
   {
-    title: 'Naša misija',
+    title: 'Our Partners',
+    slug: 'partners',
     image: '/about/partners.png',
     icon: '/about/partners.svg',
   },
@@ -81,10 +84,10 @@ const AboutSlider = () => {
                     <Image src={value.icon} alt={value.title} fill />
                   </div>
                   <h4 className={styles.about__slider__item__content__title}>
-                    {t('our-mission.title.one')}
-                    <span>{t('our-mission.title.two')}</span>
+                    {t(`${value.slug}.title.one`)}
+                    <span>{t(`${value.slug}.title.two`)}</span>
                   </h4>
-                  <p>{t('our-mission.description')}</p>
+                  <p>{t(`${value.slug}.description`)}</p>
                 </div>
               </div>
             );

@@ -23,7 +23,7 @@ const MobileMenu = () => {
     { href: '/', label: t('home') },
     { href: '/#about-us', label: t('about') },
     { href: '/services/event-organization', label: t('events') },
-    { href: '/services/video-production', label: t('video-production') },
+    { href: '/services/film-production', label: t('video-production') },
     { href: '/contact', label: t('contact') },
   ];
 

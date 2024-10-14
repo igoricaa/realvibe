@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Link from '../UI/Link';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import styles from './Hero.module.scss';
 import { useRef } from 'react';
@@ -58,7 +57,7 @@ const Hero = ({ slug }: { slug: string }) => {
 
           <p className={styles.hero__subtitle}>
             {t('subtitle.one')}
-            {slug === 'event-organization' && <span>{t('subtitle.two')}</span>}
+            {<span>{t('subtitle.two')}</span>}
             {slug === 'event-organization' && (
               <span>{t('subtitle.three')}</span>
             )}

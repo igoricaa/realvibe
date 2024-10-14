@@ -4,7 +4,7 @@ import styles from './ImageSlider.module.scss';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import filmProduction from '../../public/services/film-production.png';
-import descriptionImage from '../../public/services/video-production/description-image.png';
+import descriptionImage from '../../public/services/film-production/description-image.png';
 import Image from 'next/image';
 
 const ImageSlider = () => {

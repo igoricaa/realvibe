@@ -11,15 +11,19 @@ import ScaledImage from '@/components/Services/ScaledImage';
 const services = [
   {
     slug: 'event-organization',
+    numberOfOfferings: 10,
   },
   {
-    slug: 'video-production',
+    slug: 'film-production',
+    numberOfOfferings: 16,
   },
   {
     slug: 'concepting-and-screening-ad-campaigns',
+    numberOfOfferings: 10,
   },
   {
     slug: 'music-videos-production',
+    numberOfOfferings: 8,
   },
 ];
 
@@ -31,8 +35,6 @@ export async function generateStaticParams() {
 
 const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
   const t = useTranslations(`services.${slug}`);
-  const numberOfOfferings =
-    slug === 'event-organization' ? 10 : slug === 'video-production' ? 16 : 12;
 
   return (
     <main className={styles.service}>
@@ -50,7 +52,11 @@ const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
       <div className={styles.service__offering}>
         <h2>{t('offering.title')}</h2>
         <div className={styles.service__offering__list}>
-          {Array.from({ length: numberOfOfferings }).map((_, index) => {
+          {Array.from({
+            length:
+              services.find((service) => service.slug === slug)
+                ?.numberOfOfferings || 0,
+          }).map((_, index) => {
             if (slug === 'event-organization' && index === 8) {
               return (
                 <>
