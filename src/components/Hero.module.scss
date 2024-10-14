@@ -185,7 +185,7 @@
 
 @media screen and (max-width: 768px) {
   .hero {
-    height: calc(100vh - 65px);
+    height: 100vh;
     padding-top: 5rem;
 
     &__content {
@@ -242,7 +242,7 @@
     &__image {
       width: 257px;
       height: 141px;
-      top: calc(50vh - 134px);
+      top: calc(50vh);
       right: 1rem;
 
       &__text {
@@ -264,6 +264,24 @@
       p {
         font-size: 14px;
       }
+    }
+  }
+}
+
+@media screen and (max-height: 750px) {
+  .hero {
+    height: 100vh;
+    &__image {
+      top: 60vh;
+    }
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .hero {
+    height: 115vh;
+    &__image {
+      top: 65vh;
     }
   }
 }
