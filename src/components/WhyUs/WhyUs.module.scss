@@ -3,7 +3,6 @@
   margin: 4rem auto 0;
   padding-left: var(--side-padding);
   padding-right: var(--side-padding);
-  overflow: hidden;
 
   &__reasons {
     margin-top: 8.6rem;
@@ -19,6 +18,7 @@
 @media screen and (max-width: 768px) {
   .whyUs {
     margin-top: 3.5rem;
+    overflow: hidden;
 
     &__reasons {
       margin-top: 3rem;
