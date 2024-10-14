@@ -19,6 +19,17 @@ const MaskAnimation: React.FC = () => {
     offset: ['start start', 'end start'],
   });
 
+  // if (isInView && ref.current) {
+  //   ref.current.animate(
+  //     [{ clipPath: "inset(0 0 100% 0)" }, { clipPath: "inset(0 0 0 0)" }],
+  //     {
+  //       duration: 1000,
+  //       fill: "forwards",
+  //       easing: "cubic-bezier(0.77, 0, 0.175, 1)",
+  //     },
+  //   );
+  // }
+
   useEffect(() => {
     const updateViewportSize = () => {
       setViewportSize({ width: window.innerWidth, height: window.innerHeight });
