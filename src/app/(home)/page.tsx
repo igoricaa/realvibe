@@ -2,7 +2,7 @@ import styles from './page.module.scss';
 import Hero from '@/components/Hero';
 import Services from '@/components/ServicesSection/Services';
 import About from '@/components/About/About';
-import MaskAnimation from '@/components/MaskAnimation';
+import MaskAnimation from '@/components/MaskComponent/MaskAnimation';
 import WhyUs from '@/components/WhyUs/WhyUs';
 import ContactSection from '@/components/ContactSection';
 

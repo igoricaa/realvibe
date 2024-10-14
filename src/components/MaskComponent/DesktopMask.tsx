@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState, RefObject, useRef } from 'react';
 import {
   motion,
   useScroll,
@@ -8,9 +8,10 @@ import {
   useTransform,
   useMotionValue,
 } from 'framer-motion';
+import Image from 'next/image';
 import styles from './MaskAnimation.module.scss';
 
-const MaskAnimation: React.FC = () => {
+const DesktopMask = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [viewportSize, setViewportSize] = useState({ width: 0, height: 0 });
 
@@ -18,17 +19,6 @@ const MaskAnimation: React.FC = () => {
     target: containerRef,
     offset: ['start start', 'end start'],
   });
-
-  // if (isInView && ref.current) {
-  //   ref.current.animate(
-  //     [{ clipPath: "inset(0 0 100% 0)" }, { clipPath: "inset(0 0 0 0)" }],
-  //     {
-  //       duration: 1000,
-  //       fill: "forwards",
-  //       easing: "cubic-bezier(0.77, 0, 0.175, 1)",
-  //     },
-  //   );
-  // }
 
   useEffect(() => {
     const updateViewportSize = () => {
@@ -77,10 +67,12 @@ const MaskAnimation: React.FC = () => {
           style={{
             clipPath: clipPathValue,
           }}
-        />
+        >
+          <Image src='/masked-image.webp' alt='Masked Image' fill />
+        </motion.div>
       </div>
     </div>
   );
 };
 
-export default MaskAnimation;
+export default DesktopMask;
