@@ -419,6 +419,27 @@
     "concepting-and-screening-ad-campaigns": {},
     "music-videos-production": {}
   },
+  "contact": {
+    "title": "Get in Touch!",
+    "description": "Whether you're looking to collaborate on a music event, need video production services, or have any questions about our offerings, we're here to help. Our dedicated team is ready to bring your creative visions to life.",
+    "todo": "Fill out the form, and we'll get back to you as soon as possible.",
+    "subtitle": "Other links",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "form": {
+      "name": "Name & Surname",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Write your message",
+      "button": "Send Message",
+      "success": "Your message has been sent successfully. Thank you for contacting me!",
+      "error": "There was an error while sending your message. Please try again.",
+      "required": "Required field",
+      "maxLength": "Maximum length is {{max}}",
+      "minLength": "Minimum length is {{min}}",
+      "emailPattern": "Please enter a valid email address"
+    }
+  },
   "notFoundPage": {
     "title": "404"
   }

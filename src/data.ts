@@ -37,22 +37,22 @@ export type Service = {
 export const services: Service[] = [
   {
     title: 'Event Organization',
-    icon: '/services/film-production-icon.svg',
+    icon: '/services/events.svg',
     image: '/services/film-production.png',
   },
   {
     title: 'CONCEPTING AND SCREENING AD CAMPAIGNS',
-    icon: '/services/film-production-icon.svg',
+    icon: '/services/ad-campaigns.svg',
     image: '/services/film-production.png',
   },
   {
     title: 'FILM PRODUCTION',
-    icon: '/services/film-production-icon.svg',
+    icon: '/services/film-production.svg',
     image: '/services/film-production.png',
   },
   {
     title: 'PRODUCING MUSIC VIDEOS',
-    icon: '/services/film-production-icon.svg',
+    icon: '/services/music-videos.svg',
     image: '/services/film-production.png',
   },
 ];

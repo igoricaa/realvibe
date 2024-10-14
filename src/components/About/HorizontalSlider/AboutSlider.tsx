@@ -20,22 +20,22 @@ const companyValues: CompanyValue[] = [
   {
     title: 'Naša misija',
     image: '/about/our-mission.png',
-    icon: '/about/our-mission-icon.svg',
+    icon: '/about/mission.svg',
   },
   {
     title: 'Naša misija',
     image: '/about/vision.png',
-    icon: '/about/our-mission-icon.svg',
+    icon: '/about/vision.svg',
   },
   {
     title: 'Naša misija',
     image: '/about/team.png',
-    icon: '/about/our-mission-icon.svg',
+    icon: '/about/team.svg',
   },
   {
     title: 'Naša misija',
     image: '/about/partners.png',
-    icon: '/about/our-mission-icon.svg',
+    icon: '/about/partners.svg',
   },
 ];
 
