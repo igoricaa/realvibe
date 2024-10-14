@@ -1,11 +1,24 @@
 {
   "nav": {
     "menu": {
-      "home": "Kućaaa",
+      "home": "Home",
       "about": "About Us",
       "events": "Event Organization",
       "video-production": "Video Production",
-      "contact": "Contact"
+      "contact": "Contact",
+      "mobile": {
+        "title": {
+          "one": "RealVibe ",
+          "two": "Studio®"
+        },
+        "subtitle": {
+          "one": "Inspiration in",
+          "two": "Action -",
+          "three": "Art in ",
+          "four": "Creation"
+        },
+        "cta": "Contact Us"
+      }
     },
     "sidearea": {
       "title": {
@@ -46,7 +59,8 @@
     },
     "locale": {
       "en": "en",
-      "sr": "sr"
+      "sr": "sr",
+      "fr": "fr"
     }
   },
   "footer": {
@@ -88,19 +102,19 @@
     "services": {
       "service-1": {
         "title": "Event Organization",
-        "description": "Effective advertising is a <span>powerful tool</span> to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or <span>service</span>."
+        "description": "RealVibe excels at <span>organizing professional business events</span> that inspire, engage, and leave a lasting impression. From corporate conferences to festivals, seminars to product launches, we handle every detail to ensure flawless execution, allowing you to focus on your business goals."
       },
       "service-2": {
         "title": "Concepting and Screening Ad Campaigns",
-        "description": "Effective advertising is a <span>powerful tool</span> to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or <span>service</span>."
+        "description": "Effective advertising is a powerful tool to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or service."
       },
       "service-3": {
         "title": "Film Production",
-        "description": "Effective advertising is a <span>powerful tool</span> to reasch your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or <span>service</span>."
+        "description": "Serbia offers many profitable advantages for film production. As a captivating location for filmmaking collaborations, we can support you throughout every stage of the process, from pre-production to post-production."
       },
       "service-4": {
         "title": "Producing Music Videos",
-        "description": "Effective advertising is a <span>powerful tool</span> to reach your target audience and communicate with the public. We craft high-quality, unique ads that get your brand noticed, and showcase the value of your product or <span>service</span>."
+        "description": "Your artistic vision is complete only with the perfect visual touch. From concept to screen, RealVibe brings your music to life and translates your emotions and message into stunning music videos, crafting a masterpiece that perfectly complements your track."
       }
     },
     "about": {
@@ -108,12 +122,36 @@
       "description": "At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages to the final execution, our dedicated team will support you every step of the way. Discover the convenience and excellence of having everything under one roof with RealVibe Studio. Contact us today to discuss your next event!",
       "cta": "Contact Us",
       "company-values": {
-        "our-mission": {
+        "mission": {
           "title": {
             "one": "Our ",
             "two": "Mission"
           },
-          "description": "At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly",
+          "description": "We foster a culture of creativity and collaboration to make a positive impact on the public and contribute meaningfully to the world, ensuring every project exceeds expectations, paving the way for a better, more connected world.",
+          "cta": "More About Us"
+        },
+        "vision": {
+          "title": {
+            "one": "Our ",
+            "two": "Vision"
+          },
+          "description": "At RealVibe, we strive to be the benchmark for excellence in every project. Through our dedication to exceptional service and innovative solutions, we pave the way for a more connected world, one groundbreaking project at a time.",
+          "cta": "More About Us"
+        },
+        "team": {
+          "title": {
+            "one": "Our ",
+            "two": "Team"
+          },
+          "description": "Our team is a dynamic synergy of seasoned professionals with a wealth of knowledge and creative minds who consistently deliver innovative and top-notch results.",
+          "cta": "More About Us"
+        },
+        "partners": {
+          "title": {
+            "one": "Our ",
+            "two": "Partners"
+          },
+          "description": "With our carefully selected partners, RealVibe creates a powerful network dedicated to exceeding expectations and crafting an unparalleled experience.",
           "cta": "More About Us"
         }
       }
@@ -158,6 +196,453 @@
     "contact": {
       "title": "Reach out! We will definitely have a solution for your needs",
       "linkText": "Contact us"
+    }
+  },
+  "services": {
+    "event-organization": {
+      "hero": {
+        "title": {
+          "one": "Event planing ",
+          "two": "& Organization"
+        },
+        "subtitle": {
+          "one": "Reaction for this ",
+          "two": "Action - ",
+          "three": "Will be your ",
+          "four": "Success"
+        },
+        "cta": "Get started"
+      },
+      "description": {
+        "one": "We specialize in organizing a diverse range of events, including festivals, campaigns, concerts, seminars and more,so reach out, and we will tailor a unique event solution to your needs."
+      },
+      "offering": {
+        "title": "We offer you:",
+        "offering-1": {
+          "title": {
+            "one": "End-to-end event ",
+            "two": "planning"
+          },
+          "description": "From concept to execution, we handle every aspect of your event."
+        },
+        "offering-2": {
+          "title": {
+            "one": "Finding the perfect  ",
+            "two": "location"
+          },
+          "description": "Whether it's a team building or a grand festival, we'll secure the ideal venue for your event."
+        },
+        "offering-3": {
+          "title": {
+            "one": "Quality  ",
+            "two": "catering"
+          },
+          "description": "Indulge your guests with delectable cuisine tailored to your preferences."
+        },
+        "offering-4": {
+          "title": {
+            "one": "Video ",
+            "two": "production"
+          },
+          "description": "Capture every moment with professional video production services."
+        },
+        "offering-5": {
+          "title": {
+            "one": "Transportation ",
+            "two": "organisation"
+          },
+          "description": "Ensure seamless logistics with our transportation services."
+        },
+        "offering-6": {
+          "title": {
+            "one": "Venue ",
+            "two": "decoration"
+          },
+          "description": "Transform your venue into a captivating space with our creative décor solutions."
+        },
+        "offering-7": {
+          "title": {
+            "one": "Sound ",
+            "two": "engineering"
+          },
+          "description": "Set the perfect ambiance with high-quality sound equipment and expertise."
+        },
+        "offering-8": {
+          "title": {
+            "one": "Promotional ",
+            "two": "material"
+          },
+          "description": "Elevate your event with eye-catching promotional materials."
+        },
+        "offering-9": {
+          "title": {
+            "one": "Advertisement & ",
+            "two": "promotion"
+          },
+          "description": "Reach your target audience effectively with strategic advertising and promotion."
+        },
+        "offering-10": {
+          "title": {
+            "one": "The best team ",
+            "two": "for you"
+          },
+          "description": "Our experienced and dedicated team is committed to bringing your concept to life."
+        }
+      },
+      "contact": {
+        "title": "Let RealVibe turn your event concepts into an unforgettable reality. Let's begin planning your next extraordinary event together!",
+        "subtitle": {
+          "one": "Schedule a free ",
+          "two": "Consultation ",
+          "three": "with our team and let's make ",
+          "four": "things happen!"
+        },
+        "cta": "Contact Us"
+      }
+    },
+    "film-production": {
+      "hero": {
+        "title": {
+          "one": "Film Production"
+        },
+        "subtitle": {
+          "one": "Sound? Camera? Aaaaaand ",
+          "two": "ACTION!"
+        },
+        "cta": "Get started"
+      },
+      "description": {
+        "one": "Beside the stunning and diverse locations in Serbia, our country offers numerous advantages for foreign productions. We have a wealth of talented professionals, which is crucial for delivering a high-quality final product.",
+        "two": "Additionally, filming in Serbia can help you save money while providing an incredible adventure and a top-notch production. At RealVibe, we are dedicated to turning your story into a cinematic masterpiece."
+      },
+      "offering": {
+        "title": "We offer you:",
+        "offering-1": {
+          "title": {
+            "one": "Pre ",
+            "two": "Production"
+          },
+          "description": "Detailed planning and preparation to ensure a smooth filming process."
+        },
+        "offering-2": {
+          "title": {
+            "one": "Creative ",
+            "two": "Room"
+          },
+          "description": "A space for brainstorming and developing innovative ideas."
+        },
+        "offering-3": {
+          "title": {
+            "one": "Experienced & Innovative ",
+            "two": "Creative Team"
+          },
+          "description": "A blend of seasoned experts and fresh talent to bring your vision to life."
+        },
+        "offering-4": {
+          "title": {
+            "one": "Production ",
+            "two": "Planning"
+          },
+          "description": "Comprehensive strategies to manage every aspect of your film."
+        },
+        "offering-5": {
+          "title": {
+            "one": "Location ",
+            "two": "Scouting"
+          },
+          "description": "Identifying the perfect settings to enhance your narrative."
+        },
+        "offering-6": {
+          "title": {
+            "one": "Hardworking ",
+            "two": "Crew"
+          },
+          "description": "Dedicated professionals committed to excellence."
+        },
+        "offering-7": {
+          "title": {
+            "one": "Sound Stage & ",
+            "two": "Studio Rentals"
+          },
+          "description": "Access to state-of-the-art facilities for high-quality production."
+        },
+        "offering-8": {
+          "title": {
+            "one": "Expert ",
+            "two": "Consultants"
+          },
+          "description": "Expert guidance to navigate every phase of production."
+        },
+        "offering-9": {
+          "title": {
+            "one": "Casting ",
+            "two": "assistance"
+          },
+          "description": "Finding the right talent to embody your characters."
+        },
+        "offering-10": {
+          "title": {
+            "one": "Travel & ",
+            "two": "Transport"
+          },
+          "description": "Seamless logistics to keep your production on track."
+        },
+        "offering-11": {
+          "title": {
+            "one": "Lodging ",
+            "two": "organisation"
+          },
+          "description": "Comfortable accomodation options for your cast and crew."
+        },
+        "offering-12": {
+          "title": {
+            "one": "Catering ",
+            "two": "organisation"
+          },
+          "description": "Delicious and tailored catering services to keep everyone energized."
+        },
+        "offering-13": {
+          "title": {
+            "one": "Post - ",
+            "two": "Production"
+          },
+          "description": "Comprehensive editing, sound design, and finishing touches."
+        },
+        "offering-14": {
+          "title": {
+            "one": "Permits ",
+            "two": "logistics"
+          },
+          "description": "Assistance with obtaining necessary filming permits."
+        },
+        "offering-15": {
+          "title": {
+            "one": "Simplified transport ",
+            "two": "processes"
+          },
+          "description": "ATA Carnet - Red Gate Option - Import/Export."
+        },
+        "offering-16": {
+          "title": {
+            "one": "Insurance ",
+            "two": "processes"
+          },
+          "description": "For your crew and equipment."
+        }
+      },
+      "contact": {
+        "title": "Let RealVibe help you transform your story into a work of art. Start your cinematic journey with us today!",
+        "subtitle": {
+          "one": "Schedule a free ",
+          "two": "Consultation ",
+          "three": "with our team and let's make ",
+          "four": "things happen!"
+        },
+        "cta": "Contact Us"
+      }
+    },
+    "concepting-and-screening-ad-campaigns": {
+      "hero": {
+        "title": {
+          "one": "Ad Campaigns"
+        },
+        "subtitle": {
+          "one": "Let's Create Your Next",
+          "two": "Winning Campaign!"
+        },
+        "cta": "Get started"
+      },
+      "description": {
+        "one": "Turning a creative idea into reality is always a big but interesting challenge. Communication with the public is the most important step for every company. At RealVibe, it's vital for us to understand your vision and how you see your product or service. Creativity is our second name, and we are here to help you craft a catchy, interesting, and unique ad campaign that resonates with your audience."
+      },
+      "offering": {
+        "title": "We offer you:",
+        "offering-1": {
+          "title": {
+            "one": "Experienced & Innovative ",
+            "two": "Creative Team"
+          },
+          "description": "Our talented team brings fresh perspectives and innovative ideas to every campaign."
+        },
+        "offering-2": {
+          "title": {
+            "one": "Location ",
+            "two": "Scouting"
+          },
+          "description": "We find the perfect settings to achieve your goals and more than that."
+        },
+        "offering-3": {
+          "title": {
+            "one": "Pre",
+            "two": "-Production"
+          },
+          "description": "Comprehensive planning and preparation to ensure a smooth production process."
+        },
+        "offering-4": {
+          "title": {
+            "one": "Hardworking ",
+            "two": "Crew"
+          },
+          "description": "Dedicated professionals committed to delivering exceptional results."
+        },
+        "offering-5": {
+          "title": {
+            "one": "Sound Stages & ",
+            "two": "Studio Rentals"
+          },
+          "description": "Access to top-notch facilities for high-quality production."
+        },
+        "offering-6": {
+          "title": {
+            "one": "Catering",
+            "two": ""
+          },
+          "description": "Delicious and tailored catering options to keep your team energized."
+        },
+        "offering-7": {
+          "title": {
+            "one": "Transport",
+            "two": ""
+          },
+          "description": "Reliable transportation services for seamless logistics."
+        },
+        "offering-8": {
+          "title": {
+            "one": "Consultants",
+            "two": ""
+          },
+          "description": "Expert advice and guidance to enhance your campaign."
+        },
+        "offering-9": {
+          "title": {
+            "one": "Post",
+            "two": "-Production"
+          },
+          "description": "Editing, sound design, and finishing touches to perfect your campaign."
+        },
+        "offering-10": {
+          "title": {
+            "one": "Other Actors ",
+            "two": "(Extras)"
+          },
+          "description": "A network of talented extras to add depth and authenticity to your ads."
+        }
+      },
+      "contact": {
+        "title": "Let RealVibe help you transform your ideas into powerful, unforgettable ad campaigns.",
+        "subtitle": {
+          "one": "Schedule a free ",
+          "two": "Consultation ",
+          "three": "with our team and let's make ",
+          "four": "things happen!"
+        },
+        "cta": "Contact Us"
+      }
+    },
+    "music-videos-production": {
+      "hero": {
+        "title": {
+          "one": "Music Videos"
+        },
+        "subtitle": {
+          "one": "Transform Your Track into an ",
+          "two": "Audio-Visual Hit!"
+        },
+        "cta": "Get started"
+      },
+      "description": {
+        "one": "For completely engaging and capturing the attention of your audience, a quality and interesting video is essential alongside your song. At RealVibe, we understand the power of a compelling music video in amplifying your artistic vision and making your music resonate on a deeper level. We're here to help you complete your masterpiece, turning your musical ideas into captivating visual stories."
+      },
+      "offering": {
+        "title": "We offer you:",
+        "offering-1": {
+          "title": {
+            "one": "Experienced & Innovative ",
+            "two": "Creative Team"
+          },
+          "description": "Our talented team brings fresh perspectives and innovative ideas to every music video."
+        },
+        "offering-2": {
+          "title": {
+            "one": "Location ",
+            "two": "Scouting"
+          },
+          "description": "We find the perfect settings to bring your vision to life."
+        },
+        "offering-3": {
+          "title": {
+            "one": "Pre",
+            "two": "-Production"
+          },
+          "description": "Comprehensive planning and preparation to ensure a smooth production process."
+        },
+        "offering-4": {
+          "title": {
+            "one": "Hardworking ",
+            "two": "Crew"
+          },
+          "description": "Dedicated professionals committed to delivering exceptional results."
+        },
+        "offering-5": {
+          "title": {
+            "one": "Sound Stages & ",
+            "two": "Studio Rentals"
+          },
+          "description": "Access to top-notch facilities for high-quality production."
+        },
+        "offering-6": {
+          "title": {
+            "one": "Consultants",
+            "two": ""
+          },
+          "description": "Expert advice and guidance to enhance your video."
+        },
+        "offering-7": {
+          "title": {
+            "one": "Post",
+            "two": "-Production"
+          },
+          "description": "Editing, sound design, and finishing touches to perfect your music video."
+        },
+        "offering-8": {
+          "title": {
+            "one": "Other Actors ",
+            "two": "(Dancers, Animators, Extras)"
+          },
+          "description": "A network of talented performers to add depth and dynamism to your video."
+        }
+      },
+      "contact": {
+        "title": "Let RealVibe help you transform your music into a visual masterpiece.",
+        "subtitle": {
+          "one": "Schedule a free ",
+          "two": "Consultation ",
+          "three": "with our team and let's make ",
+          "four": "things happen!"
+        },
+        "cta": "Contact Us"
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch!",
+    "description": "Whether you're looking to collaborate on a music event, need video production services, or have any questions about our offerings, we're here to help. Our dedicated team is ready to bring your creative visions to life.",
+    "todo": "Fill out the form, and we'll get back to you as soon as possible.",
+    "subtitle": "Other links",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "form": {
+      "name": "Name & Surname",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Write your message",
+      "button": "Send Message",
+      "success": "Your message has been sent successfully. Thank you for contacting me!",
+      "error": "There was an error while sending your message. Please try again.",
+      "required": "Required field",
+      "maxLength": "Maximum length is {{max}}",
+      "minLength": "Minimum length is {{min}}",
+      "emailPattern": "Please enter a valid email address"
     }
   },
   "notFoundPage": {

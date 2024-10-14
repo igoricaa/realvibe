@@ -37,6 +37,16 @@ export default function LocaleSwitcher() {
       >
         {t('sr')}
       </span>
+      <span className={styles.separator}>|</span>
+      <span
+        className={`${styles.languageOption} ${
+          locale === 'fr' ? styles.active : ''
+        }`}
+        data-locale='fr'
+        onClick={onLanguageChange}
+      >
+        {t('fr')}
+      </span>
     </div>
   );
 }
