@@ -51,10 +51,8 @@ const MaskAnimation: React.FC = () => {
     `circle(${initialMaskSize}px at 50% 50%)`
   );
 
-  const imageBrightness = useTransform(smoothProgress, [0, 1], [100, 150]);
-
   useEffect(() => {
-    const unsubscribe = maskSize.on("change", (v) => {
+    const unsubscribe = maskSize.on('change', (v) => {
       clipPathValue.set(`circle(${v}px at 50% 50%)`);
     });
     return unsubscribe;
@@ -66,7 +64,6 @@ const MaskAnimation: React.FC = () => {
         <motion.div
           className={styles.content__img}
           style={{
-            filter: `brightness(${imageBrightness}%)`,
             clipPath: clipPathValue,
           }}
         />
