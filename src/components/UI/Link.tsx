@@ -5,7 +5,13 @@ interface LinkProps
   children: React.ReactNode;
 }
 
-const Link: React.FC<LinkProps> = ({ children, ...props }) => {
+const Link = ({
+  children,
+  ...props
+}: {
+  children: React.ReactNode;
+  href: string;
+}) => {
   return <TransitionsLink {...props}>{children}</TransitionsLink>;
 };
 

@@ -19,10 +19,11 @@ const Footer = () => {
             {t('subtitle.three')} <span>{t('subtitle.four')}</span>
           </p>
 
-          <Button variant='secondary'>
-            <a href='mailto:contact@realvibestudio.yahoo'>
-              contact@realvibestudio.yahoo
-            </a>
+          <Button
+            href='mailto:contact@realvibestudio.yahoo'
+            variant='secondary'
+          >
+            <span>contact@realvibestudio.yahoo</span>
           </Button>
         </div>
 
@@ -42,8 +43,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <Button variant='secondary'>
-        <a href='mailto:contact@realvibestudio.yahoo'>Contact Us</a>
+      <Button href='mailto:contact@realvibestudio.yahoo' variant='secondary'>
+        <span>Contact Us</span>
       </Button>
     </footer>
   );

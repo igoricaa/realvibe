@@ -64,8 +64,8 @@ const Hero = ({ slug }: { slug: string }) => {
             )}
             {slug === 'event-organization' && <span>{t('subtitle.four')}</span>}
           </p>
-          <Button variant='secondary'>
-            <Link href='/contact'>{t('cta')}</Link>
+          <Button href='/contact' variant='secondary'>
+            <span>{t('cta')}</span>
           </Button>
         </div>
         <ImageSlider />

@@ -111,7 +111,7 @@
     }
   }
 
-  & button {
+  & a {
     margin-top: 3rem;
 
     &:hover {
@@ -158,9 +158,9 @@
       //   height: 6.5rem;
       // }
 
-      button {
-        display: none;
-      }
+      // a {
+      //   display: none;
+      // }
 
       // &::after {
       //   top: 2rem;
@@ -179,7 +179,7 @@
       margin-top: 0.5rem;
     }
 
-    & button {
+    & a {
       margin-top: 3rem;
 
       &:hover {

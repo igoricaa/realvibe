@@ -5,7 +5,6 @@ import AnimatedText from '@/components/UI/AnimatedText';
 import OfferingItem from '@/components/Services/OfferingItem';
 import React from 'react';
 import Button from '@/components/UI/Button';
-import { Link } from 'next-view-transitions';
 import { hasTranslation } from '@/utilities/utilities';
 import ScaledImage from '@/components/Services/ScaledImage';
 
@@ -98,8 +97,8 @@ const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
           {t('contact.subtitle.three')}
           <span>{t('contact.subtitle.four')}</span>
         </p>
-        <Button>
-          <Link href={'/contact'}>{t('contact.cta')}</Link>
+        <Button href={'/contact'}>
+          <span>{t('contact.cta')}</span>
         </Button>
       </div>
     </main>

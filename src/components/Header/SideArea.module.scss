@@ -175,7 +175,7 @@
     }
   }
 
-  button {
+  > a {
     background-color: var(--inverted-contrast-color);
     color: #fff;
     border: 1px solid var(--text-color);
@@ -184,7 +184,7 @@
     justify-content: center;
     width: 100%;
 
-    a {
+    span {
       color: var(--text-color);
       background-color: var(--inverted-contrast-color);
     }
@@ -203,11 +203,11 @@
       transition: transform 0.3s ease-in-out;
     }
 
-    &:has(button:hover) > *:not(button) {
+    &:has(> a:hover) > *:not(> a) {
       transform: translateY(-100px);
     }
 
-    button {
+    > a {
       transform: translateY(50px) !important;
       opacity: 0.5;
       transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;

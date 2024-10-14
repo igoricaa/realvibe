@@ -1,6 +1,7 @@
 import styles from './Button.module.scss';
 import ArrowIcon from './icons/ArrowIcon';
 import MailIcon from './icons/MailIcon';
+import Link from './Link';
 import MagneticWrapper from './MagneticWrapper';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -8,6 +9,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
   isSideArea?: boolean;
   isContactFormButton?: boolean;
+  href?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -16,18 +18,27 @@ const Button: React.FC<ButtonProps> = ({
   className,
   isSideArea = false,
   isContactFormButton = false,
+  href,
   ...props
 }) => {
-  const buttonElement = (
-    <button
-      className={`${styles.button} ${styles[variant]} ${
-        styles[className || '']
-      }`}
-      {...props}
-    >
+  const commonProps = {
+    className: `${styles.button} ${styles[variant]} ${styles[className || '']}`,
+    ...props,
+  };
+
+  const content = (
+    <>
       {isContactFormButton ? <MailIcon /> : <ArrowIcon />}
       {children}
-    </button>
+    </>
+  );
+
+  const buttonElement = href ? (
+    <Link href={href} {...commonProps}>
+      {content}
+    </Link>
+  ) : (
+    <button {...commonProps}>{content}</button>
   );
 
   return !isSideArea ? (

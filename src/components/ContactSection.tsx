@@ -9,8 +9,8 @@ const ContactSection = () => {
   return (
     <section className={styles.contact}>
       <h2>{t('title')}</h2>
-      <Button>
-        <Link href='/contact'>{t('linkText')}</Link>
+      <Button href='/contact'>
+        <span>{t('linkText')}</span>
       </Button>
     </section>
   );

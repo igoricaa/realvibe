@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Link from './UI/Link';
 import Image from 'next/image';
 import heroImage from '../../public/hero-image.png';
 import { useScroll, motion, useTransform } from 'framer-motion';
@@ -109,8 +108,8 @@ const Hero = () => {
             {t('subtitle.one')} <span>{t('subtitle.two')}</span>{' '}
             {t('subtitle.three')} <span>{t('subtitle.four')}</span>
           </p>
-          <Button variant='secondary'>
-            <Link href='/contact'>{t('cta')}</Link>
+          <Button variant='secondary' href='/contact'>
+            <span>{t('cta')}</span>
           </Button>
         </motion.div>
 

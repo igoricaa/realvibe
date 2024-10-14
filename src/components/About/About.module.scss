@@ -77,7 +77,7 @@
         order: 1;
       }
 
-      div:has(button) {
+      div:has(a) {
         order: 3;
         margin-top: 3rem;
       }

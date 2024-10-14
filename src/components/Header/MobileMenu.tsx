@@ -70,7 +70,9 @@ const MobileMenu = () => {
             {t('mobile.subtitle.three')}{' '}
             <span>{t('mobile.subtitle.four')}</span>
           </p>
-          <Button variant='secondary'>{t('mobile.cta')}</Button>
+          <Button href='/contact' onClick={toggleMenu} variant='secondary'>
+            <span>{t('mobile.cta')}</span>
+          </Button>
         </div>
       </div>
       <BurgerIcon onClick={toggleMenu} />
