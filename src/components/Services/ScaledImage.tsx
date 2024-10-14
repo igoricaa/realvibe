@@ -29,6 +29,14 @@ const ScaledImage = ({ slug }: { slug: string }) => {
     };
   }, []);
 
+  const scale = useTransform(scrollYProgress, [0, 1], [0, 1]);
+
+  // const imageScale = useTransform(
+  //   animationProgress,
+  //   [0, 1],
+  //   [1, Math.max(1, viewportWidth / 638)]
+  // );
+
   const width = useTransform(
     scrollYProgress,
     [0, 1],
@@ -41,8 +49,7 @@ const ScaledImage = ({ slug }: { slug: string }) => {
       ref={ref}
       className={styles.scaledImage__wrapper}
       style={{
-        width,
-        height,
+        scale,
       }}
     >
       <div className={styles.scaledImage__image}>

@@ -5,11 +5,14 @@
   max-width: 771px;
   max-height: 423px;
   border-radius: 4rem;
-  will-change: width, height;
+  will-change: transform;
+  width: 771px;
+  height: 423px;
+  transform-origin: top left;
 }
 
 .scaledImage__image {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 771 / 423;
   width: 771px;
   position: relative;
 }
@@ -18,5 +21,11 @@
   .scaledImage__wrapper {
     grid-column: span 12;
     width: calc(100vw - (var(--side-padding) * 2));
+    height: unset;
+  }
+
+  .scaledImage__image {
+    width: calc(100vw - (var(--side-padding) * 2));
+    aspect-ratio: 771 / 423;
   }
 }
