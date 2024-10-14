@@ -7,13 +7,13 @@ const Lenis = ({ children }: PropsWithChildren) => {
     <ReactLenis
       root
       options={{
-        duration: 1.2,
+        duration: 2,
         easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
         orientation: 'vertical',
         gestureOrientation: 'vertical',
         smoothWheel: true,
-        wheelMultiplier: 1,
-        touchMultiplier: 2,
+        wheelMultiplier: 0.75,
+        touchMultiplier: 1,
         infinite: false,
       }}
     >
