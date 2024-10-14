@@ -34,3 +34,20 @@
     }
   }
 }
+
+@media screen and (max-width: 53em) {
+  .mask {
+    height: unset;
+    padding: 0 var(--side-padding);
+    margin-top: 3.5rem;
+  }
+
+  .content {
+    height: unset;
+
+    &__img {
+      width: 100vw;
+      aspect-ratio: 16/9;
+    }
+  }
+}
