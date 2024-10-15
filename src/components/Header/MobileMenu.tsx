@@ -14,6 +14,7 @@ import { TextFitContainer } from '../UI/TextFitContainer';
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const t = useTranslations('nav.menu');
 
   const toggleMenu = () => {
@@ -25,7 +26,21 @@ const MobileMenu = () => {
     { href: '/', label: t('home') },
     { href: '/#about-us', label: t('about') },
     { href: '/services/event-organization', label: t('events') },
-    { href: '/services/film-production', label: t('video-production') },
+    {
+      label: t('video-production'),
+      hasSubmenu: true,
+      submenu: [
+        { href: '/services/film-production', label: t('film-production') },
+        {
+          href: '/services/concepting-and-screening-ad-campaigns',
+          label: t('ad-campaigns'),
+        },
+        {
+          href: '/services/music-videos-production',
+          label: t('music-videos-production'),
+        },
+      ],
+    },
     { href: '/contact', label: t('contact') },
   ];
 
@@ -51,24 +66,80 @@ const MobileMenu = () => {
           </div>
 
           <ul className={styles.mobileMenu__menu}>
-            {routes.map((route) => (
-              <li
-                className={styles.mobileMenu__menu__item}
-                key={route.href}
-                onClick={toggleMenu}
-              >
-                <Link href={route.href as any}>{route.label}</Link>
-              </li>
-            ))}
+            {routes.map((route, index) => {
+              if (route.hasSubmenu) {
+                return (
+                  <li
+                    className={`${styles.mobileMenu__menu__item} ${
+                      styles.mobileMenu__menu__dropdownItem
+                    } ${
+                      isDropdownOpen
+                        ? styles.active
+                        : ''
+                    }`}
+                    key={route.href}
+                    onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                  >
+                    <span>{route.label}</span>
+                    <ul
+                      className={`${
+                        styles.mobileMenu__menu__dropdownItem__dropdown
+                      } ${
+                        isDropdownOpen
+                          ? styles.mobileMenu__menu__dropdownItem__dropdown__open
+                          : ''
+                      }`}
+                    >
+                      {route.submenu.map((subroute, subindex) => {
+                        return (
+                          <>
+                            <li
+                              key={subroute.href}
+                              className={`${styles.mobileMenu__menu__item} ${styles.mobileMenu__menu__dropdownItem__dropdown__item}`}
+                              onClick={toggleMenu}
+                            >
+                              <Link href={subroute.href as any}>
+                                {subroute.label}
+                              </Link>
+                            </li>
+                            {subindex !== 2 && (
+                              <div
+                                className={
+                                  styles.mobileMenu__menu__dropdownItem__dropdown__separator
+                                }
+                              />
+                            )}
+                          </>
+                        );
+                      })}
+                    </ul>
+                  </li>
+                );
+              } else {
+                return (
+                  <li
+                    className={`${styles.mobileMenu__menu__item} ${
+                      isDropdownOpen && index === routes.length - 1
+                        ? styles.mobileMenu__menu__item__translated
+                        : ''
+                    }`}
+                    key={route.href}
+                    onClick={toggleMenu}
+                  >
+                    <Link href={route.href as any}>{route.label}</Link>
+                  </li>
+                );
+              }
+            })}
           </ul>
         </div>
-        <div className={styles.mobileMenu__footer}>
+        <div
+          className={`${styles.mobileMenu__footer} ${
+            isDropdownOpen ? styles.mobileMenu__footer__translated : ''
+          }`}
+        >
           <TextFitContainer>{t('mobile.title.one')}</TextFitContainer>
           <TextFitContainer>{t('mobile.title.two')}</TextFitContainer>
-          {/* <h2 className={styles.mobileMenu__footer__title}>
-            <span>{t('mobile.title.one')}</span>
-            <span>{t('mobile.title.two')}</span>
-          </h2> */}
           <p className={styles.mobileMenu__footer__subtitle}>
             {t('mobile.subtitle.one')} <span>{t('mobile.subtitle.two')}</span>{' '}
             {t('mobile.subtitle.three')}{' '}
