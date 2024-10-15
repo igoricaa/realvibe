@@ -10,6 +10,7 @@ import ThemeSwitcher from '../UI/ThemeSwitcher';
 import { useTranslations } from 'next-intl';
 import Link from '../UI/Link';
 import Button from '../UI/Button';
+import { TextFitContainer } from '../UI/TextFitContainer';
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -62,10 +63,12 @@ const MobileMenu = () => {
           </ul>
         </div>
         <div className={styles.mobileMenu__footer}>
-          <h2 className={styles.mobileMenu__footer__title}>
+          <TextFitContainer>{t('mobile.title.one')}</TextFitContainer>
+          <TextFitContainer>{t('mobile.title.two')}</TextFitContainer>
+          {/* <h2 className={styles.mobileMenu__footer__title}>
             <span>{t('mobile.title.one')}</span>
             <span>{t('mobile.title.two')}</span>
-          </h2>
+          </h2> */}
           <p className={styles.mobileMenu__footer__subtitle}>
             {t('mobile.subtitle.one')} <span>{t('mobile.subtitle.two')}</span>{' '}
             {t('mobile.subtitle.three')}{' '}
