@@ -3,9 +3,9 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import heroImage from '../../public/hero-image.png';
-import { useScroll, motion, useTransform, cubicBezier } from 'framer-motion';
+import { useScroll, motion, useTransform } from 'framer-motion';
 import styles from './Hero.module.scss';
-import { useRef, useEffect, useState } from 'react';
+import { useRef } from 'react';
 import Button from './UI/Button';
 import BackgroundGradient from './UI/BackgroundGradient';
 import useMediaQuery from '../hooks/useMediaQuery';
@@ -15,9 +15,6 @@ const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
   const imageTextRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
-  const [viewportHeight, setViewportHeight] = useState(0);
-  const [viewportWidth, setViewportWidth] = useState(0);
-  const [imageHeight, setImageHeight] = useState(0);
   const t = useTranslations('home.hero');
 
   const { scrollYProgress } = useScroll({
@@ -27,61 +24,15 @@ const Hero = () => {
 
   const isMobile = useMediaQuery('(max-width: 768px)');
 
-  useEffect(() => {
-    const updateViewportDimensions = () => {
-      setViewportHeight(window.innerHeight);
-      setViewportWidth(document.body.clientWidth);
-    };
+  const animationProgress = useTransform(scrollYProgress, [0, 0.3], [0, 1]);
 
-    const updateImageHeight = () => {
-      if (imageRef.current) {
-        setImageHeight(imageRef.current.offsetHeight);
-      }
-    };
+  const opacityFast = useTransform(scrollYProgress, [0, 0.1], [1, 0]);
 
-    updateViewportDimensions();
-    updateImageHeight();
-
-    window.addEventListener('resize', updateViewportDimensions);
-    window.addEventListener('resize', updateImageHeight);
-
-    return () => {
-      window.removeEventListener('resize', updateViewportDimensions);
-      window.removeEventListener('resize', updateImageHeight);
-    };
-  }, []);
-
-  const animationDuration = 0.3;
-
-  const animationProgress = useTransform(
-    scrollYProgress,
-    [0, animationDuration],
-    [0, 1],
-    { clamp: false }
-  );
-
-  const opacityFast = useTransform(scrollYProgress, [0, 0.1], [1, 0], {
-    clamp: true,
-  });
-
-  const opacitySlow = useTransform(scrollYProgress, [0, 0.2], [1, 0], {
-    clamp: true,
-  });
+  const opacitySlow = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
 
   const imageScale = useTransform(animationProgress, [0, 1], [0.25, 1]);
   const imageX = useTransform(animationProgress, [0, 1], [-132, 0]);
-
-  const yPositionUp = useTransform(
-    animationProgress,
-    [0, 1],
-    [0, -viewportHeight]
-  );
-
-  const yPositionDown = useTransform(
-    animationProgress,
-    [0, 1],
-    [0, (viewportHeight - imageHeight) / 2]
-  );
+  const yUp = useTransform(animationProgress, [0, 1], [0, -300]);
 
   return (
     <>
@@ -91,7 +42,7 @@ const Hero = () => {
           className={styles.hero__content}
           style={{
             opacity: isMobile ? 1 : opacityFast,
-            y: isMobile ? 0 : yPositionUp,
+            y: isMobile ? 0 : yUp,
           }}
         >
           <h1 className={styles.hero__title}>
