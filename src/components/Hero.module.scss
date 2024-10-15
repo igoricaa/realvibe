@@ -135,20 +135,13 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-  }
-
-  &__image {
-    width: 100%;
-    height: 100vh;
     position: relative;
-    place-self: start end;
-    transform-origin: 100% 0;
 
     &__text {
       position: absolute;
-      bottom: 0;
-      left: -260px;
-      z-index: 2;
+      top: 15vh;
+      right: 27vw;
+      z-index: 0;
       text-align: end;
 
       h6 {
@@ -162,6 +155,14 @@
         margin-top: 1rem;
       }
     }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    place-self: start end;
+    transform-origin: 100% 0;
   }
 
   .scrollDown {
@@ -242,18 +243,22 @@
       }
     }
 
-    &__image {
-      aspect-ratio: 257 / 141;
-      height: unset;
-
+    &__image__container {
+      padding: 0 var(--side-padding);
       &__text {
+        top: unset;
+        left: unset;
         bottom: -7.125rem;
-        right: 0;
+        right: 1rem;
 
         p {
           margin-top: 12px;
         }
       }
+    }
+    &__image {
+      aspect-ratio: 257 / 141;
+      height: unset;
     }
 
     .scrollDown {

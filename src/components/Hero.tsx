@@ -24,7 +24,11 @@ const Hero = () => {
 
   const isMobile = useMediaQuery('(max-width: 768px)');
 
-  const animationProgress = useTransform(scrollYProgress, [0, isMobile ? 0.1 : 0.3], [0, 1]);
+  const animationProgress = useTransform(
+    scrollYProgress,
+    [0, isMobile ? 0.1 : 0.3],
+    [0, 1]
+  );
 
   const opacityFast = useTransform(scrollYProgress, [0, 0.1], [1, 0]);
 
@@ -69,22 +73,22 @@ const Hero = () => {
 
         <div className={styles.hero__image__container}>
           <motion.div
+            ref={imageTextRef}
+            className={styles.hero__image__container__text}
+            style={{
+              opacity: isMobile ? 1 : opacityFast
+            }}
+          >
+            <h6>{t('demo.title')}</h6>
+            <p dangerouslySetInnerHTML={{ __html: t('demo.description') }} />
+          </motion.div>
+          <motion.div
             className={styles.hero__image}
             style={{
-              scale: imageScale,
+              scale: isMobile ? 1 : imageScale,
               x: isMobile ? 0 : imageX,
             }}
           >
-            <motion.div
-              ref={imageTextRef}
-              className={styles.hero__image__text}
-              style={{
-                opacity: isMobile ? 1 : opacityFast,
-              }}
-            >
-              <h6>{t('demo.title')}</h6>
-              <p dangerouslySetInnerHTML={{ __html: t('demo.description') }} />
-            </motion.div>
             <Image
               ref={imageRef}
               src={heroImage}
