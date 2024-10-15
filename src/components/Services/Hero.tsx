@@ -34,7 +34,7 @@ const Hero = ({ slug }: { slug: string }) => {
     clamp: true,
   });
 
-  const yPositionUp = useTransform(animationProgress, [0, 1], [0, -800]);
+  const yPositionUp = useTransform(animationProgress, [0, 1], [0, -400]);
 
   return (
     <>
