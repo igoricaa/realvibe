@@ -15,7 +15,7 @@ const services = [
   },
   {
     slug: 'film-production',
-    numberOfOfferings: 16,
+    numberOfOfferings: 14,
   },
   {
     slug: 'concepting-and-screening-ad-campaigns',
@@ -68,7 +68,7 @@ const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
               services.find((service) => service.slug === slug)
                 ?.numberOfOfferings || 0,
           }).map((_, index) => {
-            if (slug === 'event-organization' && index === 8) {
+            if (slug !== 'music-videos-production' && index === 8) {
               return (
                 <>
                   <OfferingItem

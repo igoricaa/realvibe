@@ -79,7 +79,6 @@ const Hero = () => {
               opacity: isMobile ? 1 : opacityFast
             }}
           >
-            <h6>{t('demo.title')}</h6>
             <p dangerouslySetInnerHTML={{ __html: t('demo.description') }} />
           </motion.div>
           <motion.div
