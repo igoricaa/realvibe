@@ -31,8 +31,12 @@ const MagneticWrapper = ({ children }: { children: React.ReactNode }) => {
       ref={ref}
       onMouseMove={handleMouse}
       onMouseLeave={reset}
-      animate={{ x, y }}
-      transition={{ type: 'spring', stiffness: 150, damping: 15, mass: 0.1 }}
+      animate={isMobile ? {} : { x, y }}
+      transition={
+        isMobile
+          ? {}
+          : { type: 'spring', stiffness: 150, damping: 15, mass: 0.1 }
+      }
     >
       {children}
     </motion.div>
