@@ -24,14 +24,22 @@ const Hero = () => {
 
   const isMobile = useMediaQuery('(max-width: 768px)');
 
-  const animationProgress = useTransform(scrollYProgress, [0, 0.3], [0, 1]);
+  const animationProgress = useTransform(scrollYProgress, [0, isMobile ? 0.1 : 0.3], [0, 1]);
 
   const opacityFast = useTransform(scrollYProgress, [0, 0.1], [1, 0]);
 
   const opacitySlow = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
 
-  const imageScale = useTransform(animationProgress, [0, 1], [0.25, 1]);
-  const imageX = useTransform(animationProgress, [0, 1], [-132, 0]);
+  const imageScale = useTransform(
+    animationProgress,
+    [0, 1],
+    [isMobile ? 0.5 : 0.25, 1]
+  );
+  const imageX = useTransform(
+    animationProgress,
+    [0, 1],
+    [isMobile ? -132 : -16, 0]
+  );
   const yUp = useTransform(animationProgress, [0, 1], [0, -300]);
 
   return (
@@ -63,7 +71,7 @@ const Hero = () => {
           <motion.div
             className={styles.hero__image}
             style={{
-              scale: isMobile ? 1 : imageScale,
+              scale: imageScale,
               x: isMobile ? 0 : imageX,
             }}
           >

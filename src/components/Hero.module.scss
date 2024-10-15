@@ -135,8 +135,6 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    position: sticky;
-    overflow: hidden;
   }
 
   &__image {
@@ -195,6 +193,7 @@
   .hero {
     height: 100vh;
     padding-top: 5rem;
+    gap: 2rem;
 
     &__content {
       padding-top: 0;
@@ -203,10 +202,6 @@
         width: 6.5rem;
         height: 6.5rem;
       }
-
-      // a {
-      //   display: none;
-      // }
 
       &::after {
         top: 2rem;
@@ -248,10 +243,8 @@
     }
 
     &__image {
-      width: 257px;
-      height: 141px;
-      top: calc(50vh);
-      right: 1rem;
+      aspect-ratio: 257 / 141;
+      height: unset;
 
       &__text {
         bottom: -7.125rem;
@@ -278,18 +271,6 @@
 
 @media screen and (max-height: 750px) {
   .hero {
-    height: 100vh;
-    &__image {
-      top: 60vh;
-    }
-  }
-}
-
-@media screen and (max-height: 650px) {
-  .hero {
-    height: 115vh;
-    &__image {
-      top: 65vh;
-    }
+    height: 120vh;
   }
 }

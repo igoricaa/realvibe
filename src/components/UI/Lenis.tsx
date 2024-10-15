@@ -12,7 +12,7 @@ const Lenis = ({ children }: PropsWithChildren) => {
         orientation: 'vertical',
         gestureOrientation: 'vertical',
         smoothWheel: true,
-        wheelMultiplier: 0.75,
+        wheelMultiplier: 1.2,
         touchMultiplier: 0.75,
         infinite: false,
       }}
