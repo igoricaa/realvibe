@@ -14,7 +14,21 @@ const Header = () => {
     { href: '/', label: t('home') },
     { href: '/#about-us', label: t('about') },
     { href: '/services/event-organization', label: t('events') },
-    { href: '/services/film-production', label: t('video-production') },
+    {
+      label: t('video-production'),
+      hasSubmenu: true,
+      submenu: [
+        { href: '/services/film-production', label: t('film-production') },
+        {
+          href: '/services/concepting-and-screening-ad-campaigns',
+          label: t('ad-campaigns'),
+        },
+        {
+          href: '/services/music-videos-production',
+          label: t('music-videos-production'),
+        },
+      ],
+    },
     { href: '/contact', label: t('contact') },
   ];
 
@@ -26,14 +40,45 @@ const Header = () => {
       </div>
       <nav className={styles.header__nav}>
         <ul className={styles.header__nav__desktopMenu}>
-          {routes.map((route) => (
-            <li
-              className={styles.header__nav__desktopMenu__item}
-              key={route.href}
-            >
-              <Link href={route.href as any}>{route.label}</Link>
-            </li>
-          ))}
+          {routes.map((route) => {
+            if (route.hasSubmenu) {
+              return (
+                <li
+                  className={`${styles.header__nav__desktopMenu__item} ${styles.header__nav__desktopMenu__dropdownItem}`}
+                  key={route.label}
+                >
+                  <span>{route.label}</span>
+                  <ul
+                    className={
+                      styles.header__nav__desktopMenu__dropdownItem__dropdown
+                    }
+                  >
+                    {route.submenu.map((subroute) => {
+                      return (
+                        <li
+                          key={subroute.href}
+                          className={`${styles.header__nav__desktopMenu__item} ${styles.header__nav__desktopMenu__dropdownItem__dropdown__item}`}
+                        >
+                          <Link href={subroute.href as any}>
+                            {subroute.label}
+                          </Link>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </li>
+              );
+            } else {
+              return (
+                <li
+                  className={styles.header__nav__desktopMenu__item}
+                  key={route.href}
+                >
+                  <Link href={route.href as any}>{route.label}</Link>
+                </li>
+              );
+            }
+          })}
         </ul>
         <LocaleSwitcher />
         <SideArea />
