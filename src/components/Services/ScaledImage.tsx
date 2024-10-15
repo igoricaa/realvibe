@@ -35,7 +35,7 @@ const MobileScaledImage = ({ slug }: { slug: string }) => {
           src={`/services/${slug}/description-image.png`}
           alt='Film production in Belgrade'
           fill
-          sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 771px'
+          sizes='(max-width: 768px) 100vw'
           style={{
             objectFit: 'cover',
           }}
@@ -69,7 +69,7 @@ const DesktopScaledImage = ({ slug }: { slug: string }) => {
           src={`/services/${slug}/description-image.png`}
           alt='Film production in Belgrade'
           fill
-          sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 771px'
+          sizes='(max-width: 1200px) 50vw, 771px'
           style={{ objectFit: 'cover' }}
         />
       </div>

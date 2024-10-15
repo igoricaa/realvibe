@@ -67,6 +67,7 @@ const SideArea = () => {
               src={featuredProject}
               alt='Real Vibe Featured Project'
               fill
+              sizes='532px'
               style={{ objectFit: 'cover' }}
             />
           </div>

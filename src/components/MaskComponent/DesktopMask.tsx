@@ -68,7 +68,12 @@ const DesktopMask = () => {
             clipPath: clipPathValue,
           }}
         >
-          <Image src='/masked-image.webp' alt='Masked Image' fill />
+          <Image
+            src='/masked-image.webp'
+            alt='Masked Image'
+            fill
+            sizes='100vw'
+          />
         </motion.div>
       </div>
     </div>

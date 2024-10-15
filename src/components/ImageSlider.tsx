@@ -65,6 +65,7 @@ const ImageSlider = () => {
             alt={image.toString()}
             style={{ objectFit: 'cover' }}
             fill
+            sizes='(max-width: 768px) 55vw, 635px'
           />
         </motion.div>
       ))}

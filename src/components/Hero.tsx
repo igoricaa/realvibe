@@ -93,7 +93,7 @@ const Hero = () => {
               src={heroImage}
               alt='RealVibe hero image'
               fill
-              sizes='(max-width: 768px) 257px, 638px'
+              sizes='(max-width: 768px) 100vw, 635px'
               style={{ objectFit: 'cover' }}
               priority
             />
