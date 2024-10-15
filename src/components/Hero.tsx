@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import heroImage from '../../public/hero-image.png';
-import { useScroll, motion, useTransform } from 'framer-motion';
+import { useScroll, motion, useTransform, cubicBezier } from 'framer-motion';
 import styles from './Hero.module.scss';
 import { useRef, useEffect, useState } from 'react';
 import Button from './UI/Button';
@@ -51,13 +51,13 @@ const Hero = () => {
     };
   }, []);
 
-  const animationDuration = 0.5;
+  const animationDuration = 0.3;
 
   const animationProgress = useTransform(
     scrollYProgress,
     [0, animationDuration],
     [0, 1],
-    { clamp: true }
+    { clamp: false }
   );
 
   const opacityFast = useTransform(scrollYProgress, [0, 0.1], [1, 0], {
@@ -68,11 +68,8 @@ const Hero = () => {
     clamp: true,
   });
 
-  const imageScale = useTransform(
-    animationProgress,
-    [0, 1],
-    [1, Math.max(1, viewportWidth / 638)]
-  );
+  const imageScale = useTransform(animationProgress, [0, 1], [0.25, 1]);
+  const imageX = useTransform(animationProgress, [0, 1], [-132, 0]);
 
   const yPositionUp = useTransform(
     animationProgress,
@@ -85,8 +82,6 @@ const Hero = () => {
     [0, 1],
     [0, (viewportHeight - imageHeight) / 2]
   );
-
-  const xPosition = useTransform(animationProgress, [0, 1], [0, 100]);
 
   return (
     <>
@@ -113,34 +108,35 @@ const Hero = () => {
           </Button>
         </motion.div>
 
-        <motion.div
-          className={styles.hero__image}
-          style={{
-            scale: isMobile ? 1 : imageScale,
-            y: isMobile ? 0 : yPositionDown,
-            x: isMobile ? 0 : xPosition,
-          }}
-        >
+        <div className={styles.hero__image__container}>
           <motion.div
-            ref={imageTextRef}
-            className={styles.hero__image__text}
+            className={styles.hero__image}
             style={{
-              opacity: isMobile ? 1 : opacityFast,
+              scale: isMobile ? 1 : imageScale,
+              x: isMobile ? 0 : imageX,
             }}
           >
-            <h6>{t('demo.title')}</h6>
-            <p dangerouslySetInnerHTML={{ __html: t('demo.description') }} />
+            <motion.div
+              ref={imageTextRef}
+              className={styles.hero__image__text}
+              style={{
+                opacity: isMobile ? 1 : opacityFast,
+              }}
+            >
+              <h6>{t('demo.title')}</h6>
+              <p dangerouslySetInnerHTML={{ __html: t('demo.description') }} />
+            </motion.div>
+            <Image
+              ref={imageRef}
+              src={heroImage}
+              alt='RealVibe hero image'
+              fill
+              sizes='(max-width: 768px) 257px, 638px'
+              style={{ objectFit: 'cover' }}
+              priority
+            />
           </motion.div>
-          <Image
-            ref={imageRef}
-            src={heroImage}
-            alt='RealVibe hero image'
-            fill
-            sizes='(max-width: 768px) 257px, 638px'
-            style={{ objectFit: 'cover' }}
-            priority
-          />
-        </motion.div>
+        </div>
 
         <motion.div
           className={styles.scrollDown}
