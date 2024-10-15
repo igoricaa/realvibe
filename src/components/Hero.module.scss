@@ -192,7 +192,8 @@
 
 @media screen and (max-width: 768px) {
   .hero {
-    height: 100vh;
+    height: 90vh;
+    max-height: 850px;
     padding-top: 5rem;
     gap: 2rem;
 
@@ -276,6 +277,6 @@
 
 @media screen and (max-height: 750px) {
   .hero {
-    height: 120vh;
+    height: 110vh;
   }
 }
