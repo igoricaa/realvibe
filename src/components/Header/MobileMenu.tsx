@@ -72,12 +72,8 @@ const MobileMenu = () => {
                   <li
                     className={`${styles.mobileMenu__menu__item} ${
                       styles.mobileMenu__menu__dropdownItem
-                    } ${
-                      isDropdownOpen
-                        ? styles.active
-                        : ''
-                    }`}
-                    key={route.href}
+                    } ${isDropdownOpen ? styles.active : ''}`}
+                    key={route.label}
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                   >
                     <span>{route.label}</span>
@@ -92,16 +88,15 @@ const MobileMenu = () => {
                     >
                       {route.submenu.map((subroute, subindex) => {
                         return (
-                          <>
-                            <li
-                              key={subroute.href}
+                          <li key={subroute.label}>
+                            <div
                               className={`${styles.mobileMenu__menu__item} ${styles.mobileMenu__menu__dropdownItem__dropdown__item}`}
                               onClick={toggleMenu}
                             >
                               <Link href={subroute.href as any}>
                                 {subroute.label}
                               </Link>
-                            </li>
+                            </div>
                             {subindex !== 2 && (
                               <div
                                 className={
@@ -109,7 +104,7 @@ const MobileMenu = () => {
                                 }
                               />
                             )}
-                          </>
+                          </li>
                         );
                       })}
                     </ul>
@@ -123,7 +118,7 @@ const MobileMenu = () => {
                         ? styles.mobileMenu__menu__item__translated
                         : ''
                     }`}
-                    key={route.href}
+                    key={route.label}
                     onClick={toggleMenu}
                   >
                     <Link href={route.href as any}>{route.label}</Link>

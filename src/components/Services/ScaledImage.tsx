@@ -3,41 +3,27 @@
 import Image from 'next/image';
 import styles from './ScaledImage.module.scss';
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
-import { useEffect, useRef, useState } from 'react';
+import { useRef } from 'react';
 import useMediaQuery from '@/hooks/useMediaQuery';
 
 const ScaledImage = ({ slug }: { slug: string }) => {
+  const isMobile = useMediaQuery('(max-width: 768px)');
+
+  return (
+    <>
+      {isMobile && <MobileScaledImage slug={slug} />}
+      {!isMobile && <DesktopScaledImage slug={slug} />}
+    </>
+  );
+};
+
+export default ScaledImage;
+
+const MobileScaledImage = ({ slug }: { slug: string }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.5 });
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ['start end', 'center center'],
-  });
-  const isMobile = useMediaQuery('(max-width: 768px)');
-  const [viewportWidth, setViewportWidth] = useState(0);
 
-  useEffect(() => {
-    const updateViewportDimensions = () => {
-      setViewportWidth(document.body.clientWidth);
-    };
-
-    updateViewportDimensions();
-
-    window.addEventListener('resize', updateViewportDimensions);
-
-    return () => {
-      window.removeEventListener('resize', updateViewportDimensions);
-    };
-  }, []);
-
-  const width = useTransform(
-    scrollYProgress,
-    [0, 1],
-    [0, isMobile ? viewportWidth - 32 : 771]
-  );
-  const height = useTransform(scrollYProgress, [0, 1], [0, 423]);
-
-  return isMobile ? (
+  return (
     <div
       ref={ref}
       className={`${styles.scaledImage__wrapper} ${
@@ -56,7 +42,20 @@ const ScaledImage = ({ slug }: { slug: string }) => {
         />
       </div>
     </div>
-  ) : (
+  );
+};
+
+const DesktopScaledImage = ({ slug }: { slug: string }) => {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ['start end', 'center center'],
+  });
+
+  const width = useTransform(scrollYProgress, [0, 1], [0, 771]);
+  const height = useTransform(scrollYProgress, [0, 1], [0, 423]);
+
+  return (
     <motion.div
       ref={ref}
       className={`${styles.scaledImage__wrapper}`}
@@ -77,5 +76,3 @@ const ScaledImage = ({ slug }: { slug: string }) => {
     </motion.div>
   );
 };
-
-export default ScaledImage;

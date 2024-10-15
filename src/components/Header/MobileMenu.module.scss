@@ -179,9 +179,6 @@
             font-size: 12px;
             padding: 0.5rem 0;
             transition: transform 0.3s ease-in-out;
-            &:first-of-type {
-              padding-top: 0;
-            }
 
             &::after {
               background-image: url('/icons/arrow-pink.svg');
