@@ -28,31 +28,6 @@
       grid-column: span 1;
     }
   }
-
-  &__contact {
-    max-width: 1440px;
-    margin: 5rem auto 0;
-    display: grid;
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-
-    > * {
-      grid-column: 2 / span 10;
-    }
-
-    &__subtitle {
-      font-size: 1.5rem;
-      margin-top: 2rem;
-
-      span {
-        font-family: var(--font-pphatton);
-        font-style: italic;
-      }
-    }
-
-    a {
-      margin-top: 3rem;
-    }
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -86,22 +61,5 @@
       }
     }
 
-    &__contact {
-      margin-top: 8rem;
-      padding: 0 var(--side-padding);
-
-      > * {
-        grid-column: span 12;
-      }
-
-      &__title {
-        font-size: 2.5rem;
-      }
-
-      &__subtitle {
-        font-size: 1rem;
-        margin-top: 1.5rem;
-      }
-    }
   }
 }

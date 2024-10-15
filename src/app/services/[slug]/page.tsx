@@ -4,9 +4,9 @@ import Hero from '@/components/Services/Hero';
 import AnimatedText from '@/components/UI/AnimatedText';
 import OfferingItem from '@/components/Services/OfferingItem';
 import React from 'react';
-import Button from '@/components/UI/Button';
 import { hasTranslation } from '@/utilities/utilities';
 import ScaledImage from '@/components/Services/ScaledImage';
+import ContactSection from '@/components/Services/ContactSection';
 
 const services = [
   {
@@ -35,6 +35,17 @@ export async function generateStaticParams() {
 
 const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
   const t = useTranslations(`services.${slug}`);
+
+  const contactMessages = {
+    title: t('contact.title'),
+    subtitle: {
+      one: t('contact.subtitle.one'),
+      two: t('contact.subtitle.two'),
+      three: t('contact.subtitle.three'),
+      four: t('contact.subtitle.four'),
+    },
+    cta: t('contact.cta'),
+  };
 
   return (
     <main className={styles.service}>
@@ -95,18 +106,7 @@ const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
         </div>
       </div>
 
-      <div className={styles.service__contact}>
-        <h2 className={styles.service__contact__title}>{t('contact.title')}</h2>
-        <p className={styles.service__contact__subtitle}>
-          {t('contact.subtitle.one')}
-          <span>{t('contact.subtitle.two')}</span>
-          {t('contact.subtitle.three')}
-          <span>{t('contact.subtitle.four')}</span>
-        </p>
-        <Button href={'/contact'}>
-          <span>{t('contact.cta')}</span>
-        </Button>
-      </div>
+      <ContactSection messages={contactMessages} />
     </main>
   );
 };
