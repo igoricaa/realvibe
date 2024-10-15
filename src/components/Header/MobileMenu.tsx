@@ -17,7 +17,6 @@ const MobileMenu = () => {
 
   const toggleMenu = () => {
     document.body.classList.toggle('noscroll');
-    // document.documentElement.classList.toggle('noscroll');
     setIsOpen(!isOpen);
   };
 
@@ -77,7 +76,9 @@ const MobileMenu = () => {
           </Button>
         </div>
       </div>
-      <BurgerIcon onClick={toggleMenu} />
+      <div className={styles.mobileMenu__burger}>
+        <BurgerIcon onClick={toggleMenu} />
+      </div>
     </nav>
   );
 };
