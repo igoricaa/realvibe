@@ -14,28 +14,9 @@ const ImageSlider = () => {
     setPositionIndexes((prevIndexes) => {
       const currentCenterIndex = prevIndexes.indexOf(1);
       if (clickedIndex === currentCenterIndex) return prevIndexes;
-      
+
       const diff = clickedIndex - currentCenterIndex;
-      return prevIndexes.map(index => (index - diff + 3) % 3);
-    });
-  };
-
-  const handleNext = () => {
-    setPositionIndexes((prevIndexes) => {
-      const updatedIndexes = prevIndexes.map(
-        (prevIndex) => (prevIndex + 1) % 3
-      );
-      return updatedIndexes;
-    });
-  };
-
-  const handleBack = () => {
-    setPositionIndexes((prevIndexes) => {
-      const updatedIndexes = prevIndexes.map(
-        (prevIndex) => (prevIndex + 4) % 3
-      );
-
-      return updatedIndexes;
+      return prevIndexes.map((index) => (index - diff + 3) % 3);
     });
   };
 

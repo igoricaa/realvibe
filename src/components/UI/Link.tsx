@@ -1,10 +1,5 @@
 import { Link as TransitionsLink } from 'next-view-transitions';
 
-interface LinkProps
-  extends React.ComponentPropsWithoutRef<typeof TransitionsLink> {
-  children: React.ReactNode;
-}
-
 const Link = ({
   children,
   ...props
