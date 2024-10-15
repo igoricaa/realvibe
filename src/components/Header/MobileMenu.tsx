@@ -16,6 +16,8 @@ const MobileMenu = () => {
   const t = useTranslations('nav.menu');
 
   const toggleMenu = () => {
+    document.body.classList.toggle('noscroll');
+    // document.documentElement.classList.toggle('noscroll');
     setIsOpen(!isOpen);
   };
 
@@ -28,7 +30,7 @@ const MobileMenu = () => {
   ];
 
   return (
-    <nav className={styles.mobileMenu}>
+    <nav className={styles.mobileMenu} data-lenis-prevent>
       <div
         className={`${styles.mobileMenu__menuWrapper} ${
           isOpen ? styles.mobileMenu__menuWrapper__open : ''
