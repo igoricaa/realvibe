@@ -68,9 +68,12 @@ const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
               services.find((service) => service.slug === slug)
                 ?.numberOfOfferings || 0,
           }).map((_, index) => {
-            if (slug !== 'music-videos-production' && index === 8) {
+            if (
+              (slug === 'film-production' && index === 12) ||
+              (slug === 'concepting-and-screening-ad-campaigns' && index === 8)
+            ) {
               return (
-                <>
+                <React.Fragment key={index}>
                   <OfferingItem
                     index={index}
                     messages={{
@@ -85,7 +88,7 @@ const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
                   />
                   <div className={styles.service__offering__spacer} />
                   <div className={styles.service__offering__spacer} />
-                </>
+                </React.Fragment>
               );
             }
 

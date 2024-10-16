@@ -59,7 +59,7 @@
         position: relative;
 
         &::after {
-          transform: rotate(90deg);
+          background-image: url('/icons/arrow-down.svg');
         }
 
         &:hover {

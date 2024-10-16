@@ -86,6 +86,9 @@ const AboutSlider = () => {
                     alt={value.title}
                     fill
                     sizes='(max-width: 768px) 75vw, 448px'
+                    style={{
+                      objectFit: 'cover',
+                    }}
                   />
                 </div>
                 <div className={styles.about__slider__item__content}>

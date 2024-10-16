@@ -54,6 +54,9 @@ const Services = () => {
                       alt={service.title}
                       fill
                       sizes='(max-width: 768px) 22px, 59px'
+                      style={{
+                        objectFit: 'cover',
+                      }}
                     />
                   </motion.div>
                 )}

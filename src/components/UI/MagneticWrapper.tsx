@@ -35,7 +35,7 @@ const MagneticWrapper = ({ children }: { children: React.ReactNode }) => {
       transition={
         isMobile
           ? {}
-          : { type: 'spring', stiffness: 150, damping: 15, mass: 0.1 }
+          : { type: 'spring', stiffness: 150, damping: 40, mass: 0.2 }
       }
     >
       {children}
