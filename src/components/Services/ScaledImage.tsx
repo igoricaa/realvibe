@@ -33,7 +33,7 @@ const MobileScaledImage = ({ slug }: { slug: string }) => {
       <div className={`${styles.scaledImage__image}`}>
         <Image
           src={`/services/${slug}/description-image.png`}
-          alt='Film production in Belgrade'
+          alt='Belgrade by Djordje Cetkovic, designer and photographer based in Belgrade, Serbia | chadjavac instagram'
           fill
           sizes='(max-width: 768px) 100vw'
           style={{
