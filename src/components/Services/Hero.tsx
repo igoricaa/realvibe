@@ -67,7 +67,7 @@ const Hero = ({ slug }: { slug: string }) => {
             <span>{t('cta')}</span>
           </Button>
         </div>
-        <ImageSlider />
+        <ImageSlider slug={slug} />
       </motion.div>
     </>
   );

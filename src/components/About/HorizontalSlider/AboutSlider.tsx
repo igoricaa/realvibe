@@ -1,44 +1,53 @@
 'use client';
 
 import Image from 'next/image';
+import { StaticImageData } from 'next/image';
 import styles from './AboutSlider.module.scss';
 import { useTranslations } from 'next-intl';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
 import useMediaQuery from '@/hooks/useMediaQuery';
 import { useInView } from 'framer-motion';
+import mission from '../../../../public/about/mission.png';
+import missionIcon from '../../../../public/about/mission-icon.svg';
+import vision from '../../../../public/about/vision.png';
+import visionIcon from '../../../../public/about/vision-icon.svg';
+import team from '../../../../public/about/team.png';
+import teamIcon from '../../../../public/about/team-icon.svg';
+import partners from '../../../../public/about/partners.png';
+import partnersIcon from '../../../../public/about/partners-icon.svg';
 
 type CompanyValue = {
   title: string;
   slug: string;
-  image: string;
-  icon: string;
+  image: string | StaticImageData;
+  icon: string | StaticImageData;
 };
 
 const companyValues: CompanyValue[] = [
   {
     title: 'Our Mission',
     slug: 'mission',
-    image: '/about/our-mission.png',
-    icon: '/about/mission.svg',
+    image: mission,
+    icon: missionIcon,
   },
   {
     title: 'Our Vision',
     slug: 'vision',
-    image: '/about/vision.png',
-    icon: '/about/vision.svg',
+    image: vision,
+    icon: visionIcon,
   },
   {
     title: 'Our Team',
     slug: 'team',
-    image: '/about/team.png',
-    icon: '/about/team.svg',
+    image: team,
+    icon: teamIcon,
   },
   {
     title: 'Our Partners',
     slug: 'partners',
-    image: '/about/partners.png',
-    icon: '/about/partners.svg',
+    image: partners,
+    icon: partnersIcon,
   },
 ];
 

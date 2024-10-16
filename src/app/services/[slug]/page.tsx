@@ -11,7 +11,7 @@ import ContactSection from '@/components/Services/ContactSection';
 const services = [
   {
     slug: 'event-organization',
-    numberOfOfferings: 10,
+    numberOfOfferings: 8
   },
   {
     slug: 'film-production',

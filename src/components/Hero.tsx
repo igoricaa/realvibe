@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import heroImage from '../../public/hero-image.png';
+import heroImage from '../../public/home-hero-2.png';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import styles from './Hero.module.scss';
 import { useRef } from 'react';
@@ -93,8 +93,9 @@ const Hero = () => {
               src={heroImage}
               alt='RealVibe hero image'
               fill
-              sizes='(max-width: 768px) 100vw, 635px'
+              sizes='100vw'
               style={{ objectFit: 'cover' }}
+              quality={100}
               priority
             />
           </motion.div>

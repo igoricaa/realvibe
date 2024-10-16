@@ -3,11 +3,9 @@
 import styles from './ImageSlider.module.scss';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import filmProduction from '../../public/services/film-production.png';
-import descriptionImage from '../../public/services/film-production/description-image.png';
 import Image from 'next/image';
 
-const ImageSlider = () => {
+const ImageSlider = ({ slug }: { slug: string }) => {
   const [positionIndexes, setPositionIndexes] = useState([0, 1, 2]);
 
   const handleClick = (clickedIndex: number) => {
@@ -20,7 +18,11 @@ const ImageSlider = () => {
     });
   };
 
-  const images = [filmProduction, descriptionImage, filmProduction];
+  const images = [
+    `/services/${slug}/1.png`,
+    `/services/${slug}/2.png`,
+    `/services/${slug}/3.png`,
+  ];
   const positions = ['left1', 'center', 'right1'];
 
   const imageVariants = {

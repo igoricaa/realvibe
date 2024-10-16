@@ -69,8 +69,8 @@ const DesktopMask = () => {
           }}
         >
           <Image
-            src='/masked-image.webp'
-            alt='Masked Image'
+            src='/masked-image.png'
+            alt='RealVibe Studio Jelena Mirkovic'
             fill
             sizes='100vw'
           />

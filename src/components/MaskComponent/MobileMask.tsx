@@ -6,7 +6,12 @@ const MobileMask: React.FC = () => {
     <div className={styles.mask}>
       <div className={styles.content}>
         <div className={styles.content__img}>
-          <Image src='/masked-image-mobile.webp' alt='Masked Image' fill sizes='100vw'/>
+          <Image
+            src='/masked-mobile.png'
+            alt='RealVibe Studio Jelena Mirkovic'
+            fill
+            sizes='100vw'
+          />
         </div>
       </div>
     </div>
