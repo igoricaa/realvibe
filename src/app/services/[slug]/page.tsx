@@ -4,14 +4,13 @@ import Hero from '@/components/Services/Hero';
 import AnimatedText from '@/components/UI/AnimatedText';
 import OfferingItem from '@/components/Services/OfferingItem';
 import React from 'react';
-import { hasTranslation } from '@/utilities/utilities';
 import ScaledImage from '@/components/Services/ScaledImage';
 import ContactSection from '@/components/Services/ContactSection';
 
 const services = [
   {
     slug: 'event-organization',
-    numberOfOfferings: 8
+    numberOfOfferings: 8,
   },
   {
     slug: 'film-production',
@@ -52,11 +51,12 @@ const ServicePage = ({ params: { slug } }: { params: { slug: string } }) => {
       <Hero slug={slug} />
       <div className={styles.service__description}>
         <AnimatedText>{t('description.one')}</AnimatedText>
-        {hasTranslation('description.two', t, slug) && (
-          <ScaledImage slug={slug} />
-        )}
-        {hasTranslation('description.two', t, slug) && (
-          <AnimatedText>{t('description.two')}</AnimatedText>
+
+        {slug === 'film-production' && (
+          <>
+            <ScaledImage slug={slug} />
+            <AnimatedText>{t('description.two')}</AnimatedText>
+          </>
         )}
       </div>
 
