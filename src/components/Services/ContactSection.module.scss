@@ -24,14 +24,30 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .contact {
-    margin-top: 8rem;
+    margin-top: 10rem;
     padding: 0 var(--side-padding);
 
     > * {
       grid-column: span 12;
     }
+
+    &__title {
+      font-size: 3rem;
+    }
+
+    &__subtitle {
+      font-size: 1.25rem;
+      margin-top: 1.75rem;
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .contact {
+    margin-top: 8rem;
 
     &__title {
       font-size: 2.5rem;

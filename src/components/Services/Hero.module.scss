@@ -62,32 +62,24 @@
 }
 
 @media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 768px) {
   .hero {
     height: calc(100vh - 65px);
     height: 70vh;
     min-height: 550px;
-    padding-top: 5rem;
+    padding-top: 6rem;
 
     &__content {
       padding-top: 0;
     }
 
-    &__title {
-      margin-left: -0.5rem;
-      font-size: 76px;
-    }
-
     &__subtitle {
-      font-size: 1rem;
+      font-size: 1.5rem;
       margin-left: 0;
-      margin-top: 0.5rem;
+      margin-top: 1rem;
     }
 
     & a {
-      margin-top: 3rem;
+      margin-top: 3.5rem;
 
       &:hover {
         svg {
@@ -101,6 +93,25 @@
       height: 141px;
       top: calc(50vh - 134px);
       right: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding-top: 5rem;
+
+    &__content {
+      padding-top: 0;
+    }
+
+    &__subtitle {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    & a {
+      margin-top: 3rem;
     }
   }
 }

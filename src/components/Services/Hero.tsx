@@ -19,7 +19,7 @@ const Hero = ({ slug }: { slug: string }) => {
     offset: ['start start', 'end start'],
   });
 
-  const isMobile = useMediaQuery('(max-width: 768px)');
+  const isMobile = useMediaQuery('(max-width: 1024px)');
 
   const animationDuration = 0.5;
 

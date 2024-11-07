@@ -32,7 +32,29 @@
 
 @media screen and (max-width: 1024px) {
   .service {
-    padding-bottom: 6rem;
+    &__description {
+      margin-top: 4rem;
+      padding: 0 var(--side-padding);
+
+      p {
+        grid-column: span 12;
+      }
+    }
+
+    &__offering {
+      margin-top: 6rem;
+
+      &__list {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 2.5rem 0.75rem;
+        margin-top: 3rem;
+      }
+
+      &__spacer {
+        display: none;
+      }
+    }
+
   }
 }
 
