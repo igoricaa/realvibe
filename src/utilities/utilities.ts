@@ -5,7 +5,6 @@ export const hasTranslation = (
   additionalParam?: string
 ) => {
   const value = t.raw(key);
-  debugger;
 
   const additionalParamKey = additionalParam ? `${additionalParam}.` : '';
   const wholeKey = `services.${slug}.${additionalParamKey}${key}`;

@@ -57,7 +57,7 @@ const AboutSlider = () => {
   const { scrollYProgress } = useScroll({
     target: targetRef,
   });
-  const isMobile = useMediaQuery('(max-width: 768px)');
+  const isMobile = useMediaQuery('(max-width: 1024px)');
 
   const x = useTransform(scrollYProgress, [0, 1], ['0', '-80%']);
 

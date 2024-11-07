@@ -60,17 +60,15 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-height: 1150px) {
   .about {
     &__header {
-      h2 {
-        // inline-size: 100%;
-      }
+      transform: translateY(15vh);
     }
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .about {
     &__header {
       h2 {
@@ -79,23 +77,47 @@
 
       div:has(a) {
         order: 3;
-        margin-top: 3rem;
+        margin-top: 3.5rem;
       }
     }
 
     &__description {
       order: 2;
-      margin-top: 2rem;
+      margin-top: 2.5rem;
 
       p {
         grid-column: span 12;
+        font-size: 18px;
+
+        &::before {
+          width: 64px;
+          height: 73px;
+          top: -2rem;
+          left: unset;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    &__header {
+      div:has(a) {
+        margin-top: 3rem;
+      }
+    }
+
+    &__description {
+      margin-top: 2rem;
+
+      p {
 
         &::before {
           width: 56px;
           height: 66px;
           top: -1.5rem;
-          left: unset;
-          right: 0;
         }
       }
     }

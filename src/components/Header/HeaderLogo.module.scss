@@ -5,6 +5,13 @@
   height: 44px;
 }
 
+@media screen and (max-width: 1024px) {
+  .logoWrapper {
+    width: 70px;
+    height: 38px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .logoWrapper {
     width: 59px;

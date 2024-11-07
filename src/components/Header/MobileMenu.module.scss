@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .mobileMenu {
     display: flex;
     position: relative;
@@ -15,7 +15,7 @@
         content: '';
         display: block;
         width: 1rem;
-        height: 33px;
+        height: 40px;
         position: absolute;
         top: 0;
       }
@@ -29,8 +29,8 @@
       }
 
       svg {
-        width: 16px;
-        height: 33px;
+        width: 20px;
+        height: 40px;
 
         path {
           fill: var(--foreground);
@@ -48,7 +48,7 @@
       z-index: 9999999;
       transform: translateX(100%);
       transition: transform 0.3s ease-in-out, visibility 0s ease-in-out 1s;
-      padding: 1rem 1.75rem 2rem;
+      padding: 1.5rem var(--side-padding) 2.5rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -62,12 +62,12 @@
 
     &__close {
       position: absolute;
-      top: 1rem;
-      right: 2rem;
+      top: 1.5rem;
+      right: 2.5rem;
 
       svg {
-        width: 27px;
-        height: 27px;
+        width: 34px;
+        height: 34px;
 
         path {
           fill: var(--foreground);
@@ -82,7 +82,7 @@
     }
 
     &__themeSwitcher {
-      margin-top: 1rem;
+      margin-top: 1.5rem;
     }
 
     &__menu {
@@ -91,7 +91,7 @@
       display: flex;
       flex-direction: column;
       gap: 2rem;
-      margin-top: 2rem;
+      margin-top: 3rem;
 
       &:has(.mobileMenu__menu__item.active) > &__item:not(.active) {
         &::before {
@@ -110,6 +110,7 @@
       &__item {
         transition: transform 0.2s ease-in-out, backdrop-filter 2s ease-in-out;
         position: relative;
+        font-size: 1.5rem;
 
         &::before {
           content: '';
@@ -200,6 +201,7 @@
 
     &__footer {
       transition: transform 0.2s ease-in-out, opacity 0.2s ease;
+      margin-top: 1.5rem;
       &__translated {
         transform: translateY(11rem);
         opacity: 0.2;
@@ -207,7 +209,7 @@
       }
 
       &__subtitle {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         margin-top: 1rem;
 
         span {
@@ -217,10 +219,96 @@
       }
 
       a {
+        margin-top: 2.5rem;
+        --arrow-size: 3.5rem !important;
+        font-size: 2.5rem !important;
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobileMenu {
+    &__burger {
+      &:before,
+      &:after {
+        height: 33px;
+      }
+
+      svg {
+        width: 16px;
+        height: 33px;
+      }
+    }
+
+    &__menuWrapper {
+      padding: 1rem var(--side-padding) 2rem;
+    }
+
+    &__close {
+      top: 1rem;
+      right: 2rem;
+
+      svg {
+        width: 27px;
+        height: 27px;
+      }
+    }
+
+    &__localeSwitcher {
+      top: 4rem;
+      right: 2rem;
+    }
+
+    &__themeSwitcher {
+      margin-top: 1rem;
+    }
+
+    &__menu {
+      gap: 2rem;
+      margin-top: 2rem;
+
+      &__item {
+        &__translated {
+          transform: translateY(6rem);
+        }
+      }
+
+      &__dropdownItem {
+        &__dropdown {
+          top: 2rem;
+          left: 0.5rem;
+          transform: translateY(-10px);
+
+          &::before {
+            height: 1rem;
+            top: -1rem;
+            left: 0;
+          }
+
+          &__item {
+            font-size: 12px;
+            padding: 0.5rem 0;
+          }
+        }
+      }
+    }
+
+    &__footer {
+      &__translated {
+        transform: translateY(11rem);
+      }
+
+      &__subtitle {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+      }
+
+      a {
         margin-top: 2rem;
         --arrow-size: 3rem !important;
         font-size: 2rem !important;
-        width: 100% !important;
       }
     }
   }

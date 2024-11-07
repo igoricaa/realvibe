@@ -18,7 +18,6 @@ const MobileMenu = () => {
   const t = useTranslations('nav.menu');
 
   const toggleMenu = () => {
-    debugger;
     document.body.classList.toggle('noscroll');
     setIsOpen(!isOpen);
     setIsDropdownOpen(false);

@@ -5,7 +5,7 @@ import DesktopMask from './DesktopMask';
 import MobileMask from './MobileMask';
 
 const MaskAnimation: React.FC = () => {
-  const isMobile = useMediaQuery('(max-width: 768px)');
+  const isMobile = useMediaQuery('(max-width: 1024px)');
 
   return <>{isMobile ? <MobileMask /> : <DesktopMask />}</>;
 };

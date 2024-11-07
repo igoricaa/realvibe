@@ -83,6 +83,26 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .switcher {
+    --switcher-width: 3.5rem;
+    --switcher-height: 1.75rem;
+    --switcher-radius: 1.25rem;
+    --switcher-padding: 0.25rem;
+    --switcher-slider-width: 20px;
+    --switcher-slider-height: 20px;
+    --switcher-icon-width: 16px;
+    --switcher-icon-height: 15px;
+
+    .slider {
+      &.sliderRight {
+        transform: translateX(28px);
+      }
+    }
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .switcher {
     --switcher-width: 3rem;

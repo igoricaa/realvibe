@@ -90,6 +90,17 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .button {
+    --arrow-size: 32px;
+    font-size: 1.75rem;
+    width: 100%;
+    padding: 1.5rem 2.5rem;
+    justify-content: center;
+
+    &.secondary {
+      width: fit-content;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {

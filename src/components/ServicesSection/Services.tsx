@@ -12,7 +12,7 @@ const Services = () => {
   const t = useTranslations('home.services');
   const [activeService, setActiveService] = useState<number | null>(null);
 
-  const isMobile = useMediaQuery('(max-width: 768px)');
+  const isMobile = useMediaQuery('(max-width: 1024px)');
 
   const toggleService = (index: number) => {
     setActiveService(activeService === index ? null : index);

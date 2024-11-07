@@ -188,32 +188,27 @@
 }
 
 @media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 768px) {
   .hero {
-    height: 90vh;
-    max-height: 850px;
-    padding-top: 5rem;
-    gap: 2rem;
+    height: auto;
+    padding-top: 9rem;
+    gap: 2.5rem;
 
     &__content {
       padding-top: 0;
 
       &::before {
-        width: 6.5rem;
-        height: 6.5rem;
+        width: 12rem;
+        height: 12rem;
       }
 
       &::after {
-        top: 2rem;
-        right: -5rem;
+        top: 0rem;
+        right: -2rem;
       }
     }
 
     &__title {
-      margin-left: -0.5rem;
-      font-size: 76px;
+      font-size: 6rem;
       white-space: normal;
       display: flex;
       flex-direction: column;
@@ -230,7 +225,7 @@
     }
 
     &__subtitle {
-      font-size: 1rem;
+      font-size: 1.5rem;
       margin-left: 0;
     }
 
@@ -264,6 +259,69 @@
 
     .scrollDown {
       top: unset;
+      bottom: 2rem;
+      left: 1rem;
+      gap: 0.5rem;
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 90vh;
+    max-height: 850px;
+    padding-top: 5rem;
+    gap: 2rem;
+
+    &__content {
+      padding-top: 0;
+
+      &::before {
+        width: 6.5rem;
+        height: 6.5rem;
+      }
+
+      &::after {
+        top: 2rem;
+        right: -5rem;
+      }
+    }
+
+    &__title {
+      margin-left: -0.5rem;
+      font-size: 4.75rem;
+    }
+
+    &__subtitle {
+      font-size: 1rem;
+    }
+
+    & a {
+      margin-top: 3rem;
+
+      &:hover {
+        svg {
+          transform: translateX(calc(108px + var(--gap))) !important;
+        }
+      }
+    }
+
+    &__image__container {
+      &__text {
+        bottom: -3.125rem;
+        right: 1rem;
+
+        p {
+          margin-top: 12px;
+        }
+      }
+    }
+
+    .scrollDown {
       bottom: 2rem;
       left: 1rem;
       gap: 0.5rem;
