@@ -127,7 +127,7 @@
         }
 
         &__translated {
-          transform: translateY(6rem);
+          transform: translateY(7.5rem);
         }
       }
 
@@ -177,8 +177,8 @@
           &__item {
             white-space: nowrap;
             width: fit-content;
-            font-size: 12px;
-            padding: 0.5rem 0;
+            font-size: 1rem;
+            padding: 0.75rem 0;
             transition: transform 0.3s ease-in-out;
 
             &::after {
