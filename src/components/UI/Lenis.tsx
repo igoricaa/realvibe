@@ -1,16 +1,15 @@
 'use client';
 import { PropsWithChildren, useEffect } from 'react';
 import { ReactLenis, useLenis } from 'lenis/react';
-import { usePathname, useSearchParams } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 
 const Lenis = ({ children }: PropsWithChildren) => {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   const lenis = useLenis();
   useEffect(() => {
     lenis?.scrollTo(0, { immediate: true });
-  }, [pathname, searchParams, lenis]);
+  }, [pathname, lenis]);
 
   return (
     <ReactLenis
