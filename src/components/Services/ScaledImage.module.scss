@@ -22,13 +22,16 @@
     height: unset;
     transform: translateY(200px);
     opacity: 0;
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    will-change: transform, opacity;
+    filter: blur(0.25rem);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out,
+      filter 0.5s ease-in-out;
+    will-change: transform, opacity, filter;
   }
 
   .inView {
     transform: translateY(0);
     opacity: 1;
+    filter: blur(0);
   }
 
   .scaledImage__image {

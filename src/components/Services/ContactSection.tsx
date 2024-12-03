@@ -15,6 +15,7 @@ const ContactSection = ({ messages }: { messages: any }) => {
       className={styles.contact}
       style={{
         opacity: isInView ? 1 : 0,
+        filter: isInView ? 'blur(0)' : 'blur(0.25rem)',
         transform: isInView ? 'translateY(0)' : 'translateY(200px)',
       }}
     >

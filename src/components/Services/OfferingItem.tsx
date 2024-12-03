@@ -29,7 +29,8 @@ const OfferingItem = ({
           ? 'translateY(240px)'
           : 'translateY(200px)',
         opacity: isInView ? 1 : 0,
-        transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${
+        filter: isInView ? 'blur(0)' : 'blur(0.25rem)',
+        transition: `all 0.8s cubic-bezier(0.17, 0.55, 0.55, 1) ${
           index * 0.1
         }s`,
       }}
