@@ -1,13 +1,6 @@
-export const hasTranslation = (
-  key: string,
-  t: any,
-  slug: string,
-  additionalParam?: string
-) => {
+export const hasTranslation = (t: any, key: string, slug: string) => {
   const value = t.raw(key);
-
-  const additionalParamKey = additionalParam ? `${additionalParam}.` : '';
-  const wholeKey = `services.${slug}.${additionalParamKey}${key}`;
+  const wholeKey = `portfolio.${slug}.${key}`;
 
   return value !== wholeKey;
 };
