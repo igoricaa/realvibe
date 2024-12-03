@@ -130,3 +130,20 @@ export const portfolio: Project[] = [
     team: [],
   },
 ];
+
+export const positions = [
+  'production',
+  'producer',
+  'director',
+  'photoDirector',
+  'artDirectorScenographer',
+  'assistantScenographer',
+  'costume',
+  'sarfer',
+  'photographer',
+  'bts',
+  'steadycam',
+  'technics',
+  'agencyextra',
+  'extra',
+];
