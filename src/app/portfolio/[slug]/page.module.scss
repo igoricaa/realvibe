@@ -238,7 +238,6 @@
 
     &__description {
       padding: 2rem 0 5.5rem;
-      will-change: transform, opacity, filter;
 
       h2 {
         grid-column: span 12;
@@ -253,13 +252,11 @@
 
     &__gallery {
       grid-gap: 0.25rem;
-      will-change: transform, opacity, filter;
     }
 
     &__challenge {
       padding: 4rem 0 2rem;
       column-gap: 1rem;
-      will-change: transform, opacity, filter;
 
       h2 {
         grid-column: span 12;
@@ -274,7 +271,6 @@
 
     &__outcome {
       padding: 2rem 0;
-      will-change: transform, opacity, filter;
 
       h2 {
         grid-column: span 12;
@@ -288,7 +284,6 @@
 
     &__team {
       padding: 2rem 0;
-      will-change: transform, opacity, filter;
 
       h2 {
         grid-column: span 12;
@@ -307,7 +302,6 @@
 
     &__navigation {
       padding-top: 2rem;
-      will-change: transform, opacity, filter;
 
       a {
         font-size: 1rem;
