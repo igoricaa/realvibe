@@ -1,0 +1,111 @@
+.splashScreen {
+  position: fixed;
+  inset: 0;
+  background-color: var(--background);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+
+  .rs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500vw;
+    height: 1500vh;
+
+    .r1,
+    .r2,
+    .r3,
+    .r4,
+    .r5,
+    .r6,
+    .r7 {
+      visibility: hidden;
+      animation: appear 0.2s ease-out;
+    }
+
+    .r1 {
+      animation-delay: 0.2s;
+    }
+
+    .r2 {
+      animation-delay: 0.4s;
+    }
+
+    .r3 {
+      animation-delay: 0.6s;
+    }
+
+    .r4 {
+      animation-delay: 0.8s;
+    }
+
+    .r5 {
+      animation-delay: 1s;
+    }
+
+    .r6 {
+      animation-delay: 1.2s;
+    }
+
+    .r7 {
+      animation-delay: 1.4s;
+    }
+
+    .r8 {
+      visibility: hidden;
+      animation: appear 0.2s ease-out 1.6s forwards;
+    }
+
+    > svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__title {
+    font-size: 155px;
+    line-height: 1;
+    text-transform: uppercase;
+    line-height: 109px;
+    display: flex;
+    transform: translateX(345px);
+    animation: moreLeft 0.5s ease-out 2s forwards;
+
+    > span {
+      display: block;
+      line-height: 109px;
+    }
+  }
+
+  .typeWritter {
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  @keyframes appear {
+    0% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+
+  @keyframes moreLeft {
+    0% {
+      transform: translateX(345px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}

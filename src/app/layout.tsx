@@ -12,6 +12,7 @@ import GridBg from '@/components/UI/GridBg';
 import { locales } from '@/i18n/config';
 import Cursor from '@/components/UI/Cursor';
 import { ViewTransitions } from 'next-view-transitions';
+import SplashScreen from '@/components/SplashScreen/SplashScreen';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -72,6 +73,7 @@ export default async function RootLayout({
         <body className={`${inter.variable} ${pphatton.variable}`}>
           <NextIntlClientProvider messages={messages}>
             <ThemeProvider defaultTheme='dark' attribute='data-theme'>
+              <SplashScreen />
               <Lenis>
                 <Cursor />
                 <GridBg />
