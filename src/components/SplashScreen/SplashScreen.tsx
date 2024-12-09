@@ -24,6 +24,7 @@ const SplashScreen = () => {
   const isTablet = useMediaQuery('(max-width: 1024px)');
   const isMobile = useMediaQuery('(max-width: 680px)');
   const [titleVariants, setTitleVariants] = useState({});
+  const [isSplashScreenVisible, setIsSplashScreenVisible] = useState(true);
 
   useEffect(() => {
     const titleVariantsConstructor = {
@@ -41,41 +42,44 @@ const SplashScreen = () => {
     setTimeout(() => {
       controls.start('scaled');
       controls.start('hidden');
-    }, 4300);
+      setIsSplashScreenVisible(false);
+    }, 5000);
   }, []);
 
   return (
-    <motion.div
-      className={styles.splashScreen}
-      variants={splashScreenVariants}
-      initial='normal'
-      animate={controls}
-    >
-      <GridBg />
-      <div className={styles.rs}>
-        <R1 className={styles.r1} />
-        <R2 className={styles.r2} />
-        <R3 className={styles.r3} />
-        <R4 className={styles.r4} />
-        <R5 className={styles.r5} />
-        <R6 className={styles.r6} />
-        <R7 className={styles.r7} />
+    isSplashScreenVisible && (
+      <motion.div
+        className={styles.splashScreen}
+        variants={splashScreenVariants}
+        initial='normal'
+        animate={controls}
+      >
+        <GridBg />
+        <div className={styles.rs}>
+          <R1 className={styles.r1} />
+          <R2 className={styles.r2} />
+          <R3 className={styles.r3} />
+          <R4 className={styles.r4} />
+          <R5 className={styles.r5} />
+          <R6 className={styles.r6} />
+          <R7 className={styles.r7} />
 
-        <div>
-          <div className={styles.splashScreen__title}>
-            <motion.div
-              variants={titleVariants}
-              initial='normal'
-              animate={controls}
-              style={{ display: 'flex' }}
-            >
-              <span className={styles.r8}>R</span>
-              <Typewriter text='eal Vibe' />
-            </motion.div>
+          <div>
+            <div className={styles.splashScreen__title}>
+              <motion.div
+                variants={titleVariants}
+                initial='normal'
+                animate={controls}
+                style={{ display: 'flex' }}
+              >
+                <span className={styles.r8}>R</span>
+                <Typewriter text='eal Vibe' />
+              </motion.div>
+            </div>
           </div>
         </div>
-      </div>
-    </motion.div>
+      </motion.div>
+    )
   );
 };
 
