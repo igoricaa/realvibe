@@ -42,11 +42,11 @@ const SplashScreen = () => {
     setTimeout(() => {
       controls.start('scaled');
       controls.start('hidden');
-    }, 5000);
+    }, 4500);
 
     setTimeout(() => {
       setIsSplashScreenVisible(false);
-    }, 6000);
+    }, 5000);
   }, []);
 
   return (
