@@ -39,8 +39,8 @@ const SplashScreen = () => {
     setTitleVariants(titleVariantsConstructor);
 
     setTimeout(() => {
-      // controls.start('scaled');
-      // controls.start('hidden');
+      controls.start('scaled');
+      controls.start('hidden');
     }, 4300);
   }, []);
 
