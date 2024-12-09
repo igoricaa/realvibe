@@ -33,7 +33,7 @@ const SplashScreen = () => {
       },
       scaled: {
         fontSize: isMobile ? '5000px' : isTablet ? '5500px' : '10000px',
-        transition: { fontSize: { duration: 1 } },
+        transition: { fontSize: { duration: 2.5 } },
       },
     };
 
@@ -46,7 +46,7 @@ const SplashScreen = () => {
 
     setTimeout(() => {
       setIsSplashScreenVisible(false);
-    }, 5000);
+    }, 6500);
   }, []);
 
   return (
