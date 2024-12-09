@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  pointer-events: none;
+  // pointer-events: none;
 
   .rs {
     position: absolute;
@@ -18,6 +18,7 @@
     align-items: center;
     width: 1500vw;
     height: 1500vh;
+    white-space: nowrap;
 
     .r1,
     .r2,
@@ -79,6 +80,7 @@
     display: flex;
     transform: translateX(345px);
     animation: moreLeft 0.5s ease-out 2s forwards;
+    white-space: nowrap;
 
     > span {
       display: block;
@@ -103,6 +105,66 @@
   @keyframes moreLeft {
     0% {
       transform: translateX(345px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .splashScreen {
+    .rs {
+      .r1,
+      .r2,
+      .r3,
+      .r4,
+      .r5,
+      .r6,
+      .r7 {
+        width: 88px;
+      }
+    }
+
+    &__title {
+      font-size: 145px;
+      transform: translateX(325px);
+    }
+  }
+
+  @keyframes moreLeft {
+    0% {
+      transform: translateX(325px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .splashScreen {
+    .rs {
+      .r1,
+      .r2,
+      .r3,
+      .r4,
+      .r5,
+      .r6,
+      .r7 {
+        width: 46px;
+      }
+    }
+
+    &__title {
+      font-size: 70px;
+      transform: translateX(155px);
+    }
+  }
+
+  @keyframes moreLeft {
+    0% {
+      transform: translateX(155px);
     }
     100% {
       transform: translateX(0);

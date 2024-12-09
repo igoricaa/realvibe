@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 
 export const sentenceVariants = {
   hidden: {},
-  visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
+  visible: { opacity: 1, transition: { staggerChildren: 0.3 } },
 };
 
 export const letterVariants = {

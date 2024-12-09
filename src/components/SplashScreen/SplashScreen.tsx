@@ -10,13 +10,9 @@ import R6 from '../SplashScreen/rs/R6';
 import R7 from '../SplashScreen/rs/R7';
 import { Typewriter } from './TextScramble';
 import GridBg from '../UI/GridBg';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-
-const titleVariants = {
-  normal: { fontSize: '155px' },
-  scaled: { fontSize: '6000px', transition: { fontSize: { duration: 1 } } },
-};
+import useMediaQuery from '@/hooks/useMediaQuery';
 
 const splashScreenVariants = {
   normal: { opacity: 1 },
@@ -25,11 +21,26 @@ const splashScreenVariants = {
 
 const SplashScreen = () => {
   const controls = useAnimation();
+  const isTablet = useMediaQuery('(max-width: 1024px)');
+  const isMobile = useMediaQuery('(max-width: 680px)');
+  const [titleVariants, setTitleVariants] = useState({});
 
   useEffect(() => {
+    const titleVariantsConstructor = {
+      normal: {
+        fontSize: isMobile ? '70px' : isTablet ? '145px' : '155px',
+      },
+      scaled: {
+        fontSize: isMobile ? '5000px' : isTablet ? '5500px' : '10000px',
+        transition: { fontSize: { duration: 1 } },
+      },
+    };
+
+    setTitleVariants(titleVariantsConstructor);
+
     setTimeout(() => {
-      controls.start('scaled');
-      controls.start('hidden');
+      // controls.start('scaled');
+      // controls.start('hidden');
     }, 4300);
   }, []);
 
