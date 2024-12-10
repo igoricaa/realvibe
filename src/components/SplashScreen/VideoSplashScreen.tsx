@@ -13,14 +13,14 @@ export default function SplashPage() {
     return () => clearTimeout(timer);
   }, []);
 
-  if (showVideo) {
-    return (
-      <div className={styles.videoSplashScreen}>
+  return (
+    <div className={styles.videoSplashScreen}>
+      {showVideo && (
         <video autoPlay muted playsInline>
           <source src='/realvibe-splash.mp4' type='video/mp4' />
           Your browser does not support the video tag.
         </video>
-      </div>
-    );
-  }
+      )}
+    </div>
+  );
 }
