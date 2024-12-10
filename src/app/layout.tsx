@@ -13,6 +13,7 @@ import { locales } from '@/i18n/config';
 import Cursor from '@/components/UI/Cursor';
 import { ViewTransitions } from 'next-view-transitions';
 import SplashScreen from '@/components/SplashScreen/SplashScreen';
+import VideoSplashScreen from '@/components/SplashScreen/VideoSplashScreen';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -73,7 +74,8 @@ export default async function RootLayout({
         <body className={`${inter.variable} ${pphatton.variable}`}>
           <NextIntlClientProvider messages={messages}>
             <ThemeProvider defaultTheme='dark' attribute='data-theme'>
-              <SplashScreen />
+              {/* <SplashScreen /> */}
+              <VideoSplashScreen />
               <Lenis>
                 <Cursor />
                 <GridBg />
