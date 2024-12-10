@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import styles from './VideoSplashScreen.module.scss';
+import GridBg from '../UI/GridBg';
 
 export default function SplashPage() {
   const [showVideo, setShowVideo] = useState(true);
@@ -14,13 +15,14 @@ export default function SplashPage() {
   }, []);
 
   return (
-    <div className={styles.videoSplashScreen}>
-      {showVideo && (
+    showVideo && (
+      <div className={styles.videoSplashScreen}>
+        <GridBg />
         <video autoPlay muted playsInline>
           <source src='/realvibe-splash.mp4' type='video/mp4' />
           Your browser does not support the video tag.
         </video>
-      )}
-    </div>
+      </div>
+    )
   );
 }
