@@ -17,7 +17,6 @@ export default function SplashPage() {
   return (
     showVideo && (
       <div className={styles.videoSplashScreen}>
-        <GridBg />
         <video autoPlay muted playsInline>
           <source src='/realvibe-splash.mp4' type='video/mp4' />
           Your browser does not support the video tag.
