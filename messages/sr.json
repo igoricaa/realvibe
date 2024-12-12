@@ -79,7 +79,7 @@
     },
     "socials": {
       "title": {
-        "one": "Our",
+        "one": "Our ",
         "two": "Social Media"
       }
     }
@@ -99,7 +99,8 @@
       "cta": "Get started",
       "demo": {
         "description": "Inspire, engage, and<br/>leave a lasting impression."
-      }
+      },
+      "scrollDown": "Scroll Down"
     },
     "services": {
       "service-1": {
@@ -598,6 +599,95 @@
       }
     }
   },
+
+  "portfolio": {
+    "lutam": {
+      "caseStudy": "Case Study",
+      "title": "Lutam",
+      "subtitle": {
+        "one": "Music video for ",
+        "two": "Aca Lukas"
+      },
+      "description": {
+        "title": "About the “LUTAM” project",
+        "text": "At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages."
+      },
+      "challenge": {
+        "title": "Challenge:",
+        "text": "At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages."
+      },
+      "outcome": {
+        "title": "Outcome",
+        "text": "At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages."
+      },
+      "team": {
+        "title": "Team behind the project:",
+        "list": {
+          "production": {
+            "title": "Production",
+            "person": "RealVibe"
+          },
+          "producer": {
+            "title": "Producer",
+            "person": "Jelena Mirković"
+          },
+          "photoDirector": {
+            "title": "Director of photography",
+            "person": "Dušan Ivanović"
+          },
+          "artDirectorScenographer": {
+            "title": "Art Director & Scenographer",
+            "person": "Jovana Radojević"
+          },
+          "assistantScenographer": {
+            "title": "Assistant Scenographer",
+            "person": "Teodora Jeremić"
+          },
+          "costume": {
+            "title": "Costume",
+            "person": "Jovana Mitić"
+          },
+          "stylist": {
+            "title": "Stylist",
+            "person": "Nevena Nikolić"
+          },
+          "gaffer": {
+            "title": "Gaffer",
+            "person": "Nikola Radovanović"
+          },
+          "sarfer": {
+            "title": "Šarfer",
+            "person": "Dražen Mrkonja"
+          },
+          "photographer": {
+            "title": "Photographer on set",
+            "person": "Teodora Milovanović"
+          },
+          "bts": {
+            "title": "BTS Photographer",
+            "person": "Nikola Pavlović"
+          },
+          "steadycam": {
+            "title": "Steadycam",
+            "person": "Lazar Janković"
+          },
+          "technics": {
+            "title": "Technics",
+            "person": "Vision Team"
+          },
+          "agencyextra": {
+            "title": "Agency for extra",
+            "person": "Fresh Cast"
+          },
+          "extra": {
+            "title": "Extra",
+            "person": "Neda Savkić, Andreja Milutinović, Milica Janković, Selma Sadović, Vasilisa Perin, Ana Ilić, Aleksandra Jevtović"
+          }
+        }
+      }
+    }
+  },
+
   "contact": {
     "title": "Get in Touch!",
     "description": "Whether you're looking to organize an event, need video production experts, or have questions about our services, we're here to help. Our dedicated team is ready to bring your creative visions to life.",
@@ -614,8 +704,8 @@
       "success": "Your message has been sent successfully. Thank you for contacting me!",
       "error": "There was an error while sending your message. Please try again.",
       "required": "Required field",
-      "maxLength": "Maximum length is {{max}}",
-      "minLength": "Minimum length is {{min}}",
+      "maxLength": "Maximum length is {max}",
+      "minLength": "Minimum length is {min}",
       "emailPattern": "Please enter a valid email address"
     }
   },

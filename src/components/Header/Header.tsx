@@ -80,7 +80,7 @@ const Header = () => {
             }
           })}
         </ul>
-        {/* <LocaleSwitcher /> */}
+        <LocaleSwitcher />
         <SideArea />
       </nav>
       <MobileMenu />

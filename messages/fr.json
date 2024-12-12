@@ -3,10 +3,10 @@
     "menu": {
       "home": "Home",
       "about": "About Us",
-      "events": "Event Organization",
+      "events": "Organisation d'événements",
       "video-production": "Video Production",
-      "film-production": "Film Production",
-      "ad-campaigns": "Ad Campaigns",
+      "film-production": "Production cinématographique",
+      "ad-campaigns": "Campagnes Publicitaires",
       "music-videos-production": "Music Videos Production",
       "contact": "Contact",
       "mobile": {
@@ -15,12 +15,12 @@
           "two": "Studio®"
         },
         "subtitle": {
-          "one": "Inspiration in",
-          "two": "Action -",
-          "three": "Art in ",
-          "four": "Creation"
+          "one": "L'Inspiration en",
+          "two": "action -",
+          "three": "L'art dans ",
+          "four": "la création"
         },
-        "cta": "Contact Us"
+        "cta": "Nous contacter"
       }
     },
     "sidearea": {
@@ -34,31 +34,31 @@
           "two": "Services"
         },
         "service-1": {
-          "title": "Event Organization"
+          "title": "Organisation d'événements"
         },
         "service-2": {
-          "title": "Concepting and Screening Ad Campaigns"
+          "title": "Conception et diffusion de campagnes publicitaires"
         },
         "service-3": {
-          "title": "Film Production"
+          "title": "Production cinématographique"
         },
         "service-4": {
-          "title": "Producing Music Videos"
+          "title": "Production de clips musicaux"
         },
         "socials": {
           "title": {
-            "one": "Our",
-            "two": "Socials"
+            "one": "Nos",
+            "two": "Réseaux Sociaux"
           }
         }
       },
       "socials": {
         "title": {
-          "one": "Our",
-          "two": "Socials"
+          "one": "Nos",
+          "two": "Réseaux Sociaux"
         }
       },
-      "cta": "Reach out to us"
+      "cta": "Contactez-nous"
     },
     "locale": {
       "en": "en",
@@ -72,15 +72,15 @@
       "two": "Studio®"
     },
     "subtitle": {
-      "one": "Inspiration in",
-      "two": "Action -",
-      "three": "Art in ",
-      "four": "Creation"
+      "one": "L'Inspiration en",
+      "two": "action -",
+      "three": "L'art dans ",
+      "four": "la création"
     },
     "socials": {
       "title": {
-        "one": "Our",
-        "two": "Social Media"
+        "one": "Nos ",
+        "two": "Réseaux Sociaux"
       }
     }
   },
@@ -91,531 +91,621 @@
         "two": "Studio®"
       },
       "subtitle": {
-        "one": "Inspiration in",
-        "two": "Action -",
-        "three": "Art in ",
-        "four": "Creation"
+        "one": "L'Inspiration en",
+        "two": "action -",
+        "three": "L'art dans ",
+        "four": "la création"
       },
-      "cta": "Get started",
+      "cta": "Commencer dès maintenant",
       "demo": {
-        "description": "Inspire, engage, and<br/>leave a lasting impression."
-      }
+        "description": "Inspirez, engagez et<br/>laissez une impression durable."
+      },
+      "scrollDown": "Faire défiler"
     },
     "services": {
       "service-1": {
-        "title": "Event Organization",
-        "description": "We excel at organizing professional business events that <span>inspire</span>, engage, and leave a lasting impression. From corporate conferences to festivals, seminars to product launches, we handle every detail to ensure <span>flawless execution</span>, allowing you to focus on your business goals."
+        "title": "Organisation d'événements",
+        "description": "RealVibe excelle dans l'organisation d'événements professionnels <span>qui inspirent</span>, engagent et laissent une impression durable. Qu'il s'agisse de conférences professionnelles, de festivals, séminaires ou encore de lancements de produits, nous prenons en charge chaque détail pour garantir un résultat propice à vos attentes, vous permettant de vous concentrer sur vos objectifs commerciaux."
       },
       "service-2": {
-        "title": "Concepting and Screening Ad Campaigns",
-        "description": "Effective advertising is a <span>powerful tool</span> to reach your target audience and communicate with the public. We craft high-quality, unique ads that <span>get your brand noticed</span>, and showcase the value of your product or service."
+        "title": "Conception et diffusion de campagnes publicitaires",
+        "description": "Une bonne publicité est le <span>meilleur moyen</span> de promouvoir et de communiquer avec son public. Une annonce unique et de bonne qualité est la stratégie la plus efficace pour présenter votre produit et/ou service à vos clients. Nous vous aiderons à atteindre votre succès."
       },
       "service-3": {
-        "title": "Film Production",
-        "description": "Serbia offers many <span>profitable advantages</span> for film production. As a captivating location for filmmaking collaborations, we can support you throughout every stage of the process, from pre-production to post-production."
+        "title": "Production cinématographique",
+        "description": "Il y a de <span>nombreux avantages</span> à produire des films en Serbie. Avec des lieux et paysages attractifs pour vos tournages, nous vous accompagnerons dans tout ce dont vous avez besoin, en partant de la préproduction à la post-production, avec une équipe créative et expérimentée dans toutes les étapes."
       },
       "service-4": {
-        "title": "Producing Music Videos",
-        "description": "Artistic vision is complete only with the <span>perfect visual touch</span>. From concept to screen, we bring music to life and translate emotions and messages into <span>stunning music videos</span>, crafting a masterpiece that perfectly complements the track."
+        "title": "Production de clips musicaux",
+        "description": "Votre projet sera abouti uniquement grâce à une <span>touche visuelle</span>. Perfectionnez votre musique avec des <span>clips musicaux visuellement époustouflants</span> produits par RealVibe. Nous vous aiderons à donner vie à votre musique et transmettre vos émotions aux spectateurs. Notre équipe créative réalisera le meilleur visuel possible pour votre chanson."
       }
     },
     "about": {
-      "title": "Everything you need under one roof",
-      "description": "We pride ourselves on being your one-stop-shop for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages to the final execution, our dedicated team will support you every step of the way. Contact us and discover the convenience of having everything under one roof.",
-      "cta": "Contact Us",
+      "title": "Tout ce dont vous avez besoin au même endroit",
+      "description": "Chez RealVibe, nous faisons en sorte d'être la solution pour tous vos besoins dans l'organisation d'événements et la production audiovisuelle. L'ensemble de nos services garantit que, quel que soit votre projet, nous avons l'expertise et les ressources nécessaires pour le réaliser sans défaut. De la planification initiale à l'exécution finale, notre équipe dévouée est là pour vous accompagner à chaque étape. Découvrez le confort et l'excellence d'avoir tout en un seul endroit avec RealVibe.",
+      "cta": "Nous contacter",
       "company-values": {
         "mission": {
           "title": {
-            "one": "Our ",
+            "one": "Notre ",
             "two": "Mission"
           },
-          "description": "We foster a culture of creativity and collaboration to make a positive impact on the public and contribute meaningfully to the world, ensuring every project exceeds expectations, paving the way for a better, more connected world.",
+          "description": "En soutenant une pratique de création et de coopération, nous visons à avoir un impact positif sur le public et à contribuer de manière significative au monde artistique, tout en garantissant que chaque projet dépasse les attentes, visant à s'orienter vers un monde meilleur et plus connecté.",
           "cta": "More About Us"
         },
         "vision": {
           "title": {
-            "one": "Our ",
+            "one": "Notre ",
             "two": "Vision"
           },
-          "description": "At RealVibe, we strive to be the benchmark for excellence in every project. Through our dedication to exceptional service and innovative solutions, we pave the way for a more connected world, one groundbreaking project at a time.",
+          "description": "Chez RealVibe, notre objectif est de devenir la référence en matière d'excellence dans chaque projet. Grâce à notre engagement envers un service exceptionnel et des solutions innovantes, nous ouvrons la voie à un monde plus connecté, un projet révolutionnaire à la fois.",
           "cta": "More About Us"
         },
         "team": {
           "title": {
-            "one": "Our ",
-            "two": "Team"
+            "one": "Notre ",
+            "two": "Équipe"
           },
-          "description": "Our team is a dynamic synergy of seasoned professionals with a wealth of knowledge and creative minds who consistently deliver innovative and top-notch results.",
+          "description": "Notre équipe se constitue de professionnels dotés d'une richesse de connaissances et d'esprit créatif qui atteignent constamment des résultats innovants et de haute qualité.",
           "cta": "More About Us"
         },
         "partners": {
           "title": {
-            "one": "Our ",
-            "two": "Partners"
+            "one": "Nos ",
+            "two": "Partenaires"
           },
-          "description": "With our carefully selected partners, RealVibe creates a powerful network dedicated to exceeding expectations and crafting an unparalleled experience.",
+          "description": "Avec nos partenaires soigneusement sélectionnés, RealVibe se crée un réseau puissant dédié à dépasser les attentes et à offrir une expérience inégalée.",
           "cta": "More About Us"
         }
       }
     },
     "why-us": {
-      "title": "Why work with us",
+      "title": "Pourquoi Travailler Avec Nous",
       "reasons": {
         "reason-1": {
           "title": {
-            "one": "Personalized",
-            "two": "Service",
+            "one": "Service",
+            "two": "Personnalisé",
             "three": ""
           },
-          "description": "We believe every event is unique. Through close collaboration with you, we craft a personalized approach that ensures your event is a true reflection of your vision and personality."
+          "description": "Nous croyons que chaque événement est unique. Notre approche personnalisée garantit que vos événements reflètent véritablement votre vision et votre personnalité."
         },
         "reason-2": {
           "title": {
-            "one": "Experienced &",
-            "two": "Creative",
-            "three": "team"
+            "one": "Équipe ",
+            "two": "Expérimentée et",
+            "three": "Créative"
           },
-          "description": "Our team's unique blend of experience and innovation drives the creation of exceptional, visionary projects."
+          "description": "L'unique expérience de l'ensemble de nos collaborateurs et jeunes talents permet la création de projets innovants et de résultats imaginatifs et de qualité supérieure."
         },
         "reason-3": {
           "title": {
-            "one": "Stress-Free",
-            "two": "Experience",
+            "one": "Expérience",
+            "two": "Sans Stress",
             "three": ""
           },
-          "description": "RealVibe studio handles everything from initial planning to flawless execution, ensuring a smooth and efficient process that brings your vision to life."
+          "description": "RealVibe studio prend en charge tous les détails, de la planification à l'exécution, permettant d'assurer un processus efficace qui donne vie à votre vision."
         },
         "reason-4": {
           "title": {
-            "one": "Really Good",
-            "two": "Vibe",
+            "one": "Une vraie",
+            "two": "Good Vibe",
             "three": ""
           },
-          "description": "Our positive, collaborative spirit fosters a great working environment and exceptional outcomes."
+          "description": "Notre esprit positif et collaboratif façonne un excellent environnement de travail et des résultats exceptionnels."
         }
       }
     },
     "contact": {
-      "title": "Reach out! We will definitely have a solution for your needs",
-      "linkText": "Contact us"
+      "title": "Contactez-nous! Nous aurons certainement une solution à vos besoins.",
+      "linkText": "Nous contacter"
     }
   },
   "services": {
     "event-organization": {
       "hero": {
         "title": {
-          "one": "Event planing ",
-          "two": "& Organization"
+          "one": "Organisation ",
+          "two": "d'Événements"
         },
         "subtitle": {
-          "one": "Reaction for this ",
-          "two": "Action - ",
-          "three": "Will be your ",
-          "four": "Success"
+          "one": "Cette Décision ",
+          "two": "est la clé ",
+          "three": "de votre ",
+          "four": "Succès"
         },
-        "cta": "Get started"
+        "cta": "Commencer dès maintenant"
       },
       "description": {
-        "one": "We specialize in organizing a diverse range of events tailored to our client's needs: festivals, campaigns, concerts, seminars - you name it!"
+        "one": "Nous nous spécialisons dans l'organisation d'une large gamme d'événements, incluant des festivals, des campagnes publicitaires, des concerts, des séminaires, et bien plus encore."
       },
       "offering": {
-        "title": "What we offer:",
+        "title": "Nous vous offrons:",
         "offering-1": {
           "title": {
-            "one": "End-to-end event ",
-            "two": "planning"
+            "one": "La planification entière ",
+            "two": "de vos événements"
           },
-          "description": "From concept to execution."
+          "description": "De la conception à l'exécution, nous nous occupons de chaque aspect de votre événement. "
         },
         "offering-2": {
           "title": {
-            "one": "Perfect ",
-            "two": "Location"
+            "one": "L'emplacement ",
+            "two": "idéal"
           },
-          "description": "Whether it's a team building or a grand festival."
+          "description": "Que ce soit pour du team-building ou un grand festival, nous nous engageons à trouver le lieu parfait pour votre événement."
         },
         "offering-3": {
           "title": {
-            "one": "Quality  ",
-            "two": "catering"
+            "one": "Un catering ",
+            "two": "de qualité"
           },
-          "description": "Delectable cuisine tailored to your guests' preferences."
+          "description": "Régalez vos invités avec une cuisine délicieuse adaptée à vos préférences."
         },
         "offering-4": {
           "title": {
-            "one": "Video ",
-            "two": "production"
+            "one": "Une production ",
+            "two": "vidéo"
           },
-          "description": "Capturing every moment."
+          "description": "Remémorez-vous chaque moment grâce à nos photographes professionnels."
         },
         "offering-5": {
           "title": {
-            "one": "Logistics and ",
-            "two": "Transport"
+            "one": "Le ",
+            "two": "transport"
           },
-          "description": "Seamless organization."
+          "description": "Évitez tous problèmes de logistiques grâce à nos services de transport."
         },
         "offering-6": {
           "title": {
-            "one": "Decoration",
-            "two": ""
+            "one": "Une",
+            "two": "décoration"
           },
-          "description": "Personalized creative décor solutions."
+          "description": "Transformez votre lieu de réception en un espace captivant avec nos solutions de décoration créative."
         },
         "offering-7": {
           "title": {
-            "one": "Sound ",
-            "two": ""
+            "one": "Une installation ",
+            "two": "sonore"
           },
-          "description": "High-quality sound equipment and expertise."
+          "description": "Créez l'ambiance parfaite avec un équipement sonore haut de gamme et une expertise garantie."
         },
         "offering-8": {
           "title": {
-            "one": "Advertisement and ",
-            "two": "Promotion"
+            "one": "Du contenu ",
+            "two": "publicitaire"
           },
-          "description": "Strategic marketing activities and personalized promotional material."
+          "description": "Un marketing stratégique et du contenu publicitaire personnalisé."
         }
       },
       "contact": {
-        "title": "Let's begin planning your next extraordinary event!",
+        "title": " Commençons à planifier ensemble votre prochain événement extraordinaire!",
         "subtitle": {
-          "one": "Schedule a free ",
-          "two": "Consultation ",
-          "three": "with our team and let's make ",
-          "four": "things happen!"
+          "one": "Planifiez une consultation ",
+          "two": "gratuite avec notre ",
+          "three": "équipe et faisons avancer ",
+          "four": "les choses!"
         },
-        "cta": "Contact Us"
+        "cta": "Contactez-nous"
       }
     },
     "film-production": {
       "hero": {
         "title": {
-          "one": "Film Production"
+          "one": "Production cinématographique"
         },
         "subtitle": {
-          "one": "Sound? Camera? Aaaaaand ",
+          "one": "Son? Caméra? Etttttt ",
           "two": "ACTION!"
         },
-        "cta": "Get started"
+        "cta": "Commencer dès maintenant"
       },
       "description": {
-        "one": "Besides stunning locations, Serbia offers numerous advantages for foreign productions. We have a wealth of talented professionals - crucial for delivering a high-quality product.",
-        "two": "Additionally, filming in Serbia can help you save money - all while providing a top-notch production. At RealVibe, we are dedicated to turning your story into a cinematic masterpiece."
+        "one": "Outre les lieux magnifiques et variés en Serbie, notre pays offre de nombreux avantages pour les productions étrangères. Nous disposons d'une richesse de professionnels talentueux, ce qui est crucial pour livrer un produit final de haute qualité.",
+        "two": "De plus, tourner en Serbie peut vous aider à économiser de l'argent tout en vous offrant une aventure incroyable et une production de premier ordre. Chez RealVibe, nous sommes dédiés à transformer votre histoire en chef-d'œuvre cinématographique."
       },
       "offering": {
-        "title": "What we offer:",
+        "title": "Nous vous offrons:",
         "offering-1": {
           "title": {
-            "one": "Pre",
-            "two": "-Production"
+            "one": "Une pré ",
+            "two": "production"
           },
-          "description": "Detailed planning and preparation to ensure a smooth filming process."
+          "description": "Nous gérons la planification et préparation complète de votre projet pour garantir un processus de production efficace."
         },
         "offering-2": {
           "title": {
-            "one": "Creative ",
+            "one": "Une Creative ",
             "two": "Room"
           },
-          "description": "A space for brainstorming and developing innovative ideas."
+          "description": "Un espace pour le brainstorming et le développement d'idées novatrices."
         },
         "offering-3": {
           "title": {
-            "one": "Experienced ",
-            "two": "Creative Team"
+            "one": "Une équipe créative ",
+            "two": "expérimentée et innovante"
           },
-          "description": "Bringing your vision to life."
+          "description": "Notre équipe d'experts et de nouveaux talents vous aiderons à donner vie à votre vision."
         },
         "offering-4": {
           "title": {
-            "one": "Production ",
-            "two": "Planning"
+            "one": "Une planification ",
+            "two": "de la production"
           },
-          "description": "Comprehensive strategies to manage every aspect of your film."
+          "description": "Des stratégies complètes pour gérer tous les aspects de votre film."
         },
         "offering-5": {
           "title": {
-            "one": "Location ",
-            "two": "Scouting"
+            "one": "Un repérage ",
+            "two": "de l'emplacement"
           },
-          "description": "Identifying the perfect settings to enhance your narrative."
+          "description": "Nous identifions les décors et les paramètres parfaits pour améliorer votre récit."
         },
         "offering-6": {
           "title": {
-            "one": "Hardworking ",
-            "two": "Crew"
+            "one": "Une équipe ",
+            "two": "de travailleurs acharnés"
           },
-          "description": "Dedicated professionals committed to excellence."
+          "description": "Des professionnels qui sont dévoués et engagés à atteindre l'excellence."
         },
         "offering-7": {
           "title": {
-            "one": "Sound Stage & ",
-            "two": "Studio Rentals"
+            "one": "La location de plateaux ",
+            "two": "et studios de tournage"
           },
-          "description": "Access to state-of-the-art facilities for high-quality production."
+          "description": "Accédez à des installations à la pointe de la technologie pour une production de haute qualité."
         },
         "offering-8": {
           "title": {
-            "one": "Expert ",
-            "two": "Consultants"
+            "one": "Des ",
+            "two": "consultants"
           },
-          "description": "Expert guidance to navigate every phase of production."
+          "description": "Une orientation experte pour vous aider à naviguer dans chaque phase de la production."
         },
         "offering-9": {
           "title": {
-            "one": "Casting ",
+            "one": "Un casting",
             "two": ""
           },
-          "description": "Finding the right talent to embody your characters."
+          "description": "Trouvez des talents adéquats pour incarner vos personnages."
         },
         "offering-10": {
           "title": {
-            "one": "Logistics",
+            "one": "Une logistique sans faille",
             "two": ""
           },
-          "description": "Travel, Transport, Accommodation, Catering."
+          "description": "Nous nous occupons du transport, du logement et du catering"
         },
         "offering-11": {
           "title": {
-            "one": "Post",
-            "two": "-Production"
+            "one": "Une ",
+            "two": "postproduction"
           },
-          "description": "Comprehensive editing, sound design, and finishing touches"
+          "description": "Nous nous chargeons du montage, de la conception sonore et des touches finales pour perfectionner votre clip musical."
         },
         "offering-12": {
           "title": {
-            "one": "Permits",
+            "one": "Les permis",
             "two": ""
           },
-          "description": "Assistance with obtaining necessary filming permits."
+          "description": "Nous vous aidons à obtenir les permis de tournage nécessaires."
         },
         "offering-13": {
           "title": {
-            "one": "Simplified transport ",
-            "two": "processes"
+            "one": "Tous vos processus ",
+            "two": "de transport simplifiés"
           },
-          "description": "ATA Carnet - Red Gate Option - Import/Export."
+          "description": "Carnet ATA - Option Porte Rouge - Import/Export"
         },
         "offering-14": {
           "title": {
-            "one": "Incentives & ",
-            "two": "Insurance"
+            "one": "Incitations",
+            "two": ""
           },
-          "description": "Cash rebates and VAT rate reductions & Insurance for your crew and equipment."
+          "description": "Profitez des avantages financiers tels que des remises en espèces et des réductions de taux de TVA."
         }
       },
       "contact": {
-        "title": "Let's transform your story into a work of art. Start your cinematic journey with us today!",
+        "title": "Laissez RealVibe transformer votre histoire en une œuvre d'art. Commencez votre voyage cinématographique avec nous aujourd'hui !",
         "subtitle": {
-          "one": "Schedule a free ",
-          "two": "Consultation ",
-          "three": "with our team and let's make ",
-          "four": "things happen!"
+          "one": "Planifiez une consultation ",
+          "two": "gratuite avec notre ",
+          "three": "équipe et faisons avancer ",
+          "four": "les choses!"
         },
-        "cta": "Contact Us"
+        "cta": "Contactez-nous"
       }
     },
     "concepting-and-screening-ad-campaigns": {
       "hero": {
         "title": {
-          "one": "Ad Campaigns"
+          "one": "Campagnes Publicitaires"
         },
         "subtitle": {
-          "one": "Let's Create Your Next",
-          "two": "Winning Campaign!"
+          "one": "Créons votre prochaine ",
+          "two": "campagne gagnante"
         },
-        "cta": "Get started"
+        "cta": "Commencer dès maintenant"
       },
       "description": {
-        "one": "Turning a creative idea into reality is always an interesting challenge. We focus on understanding your vision - how you see your product or service. Creativity is our core virtue; we will help you craft a powerful ad campaign that resonates with your hand-picked audience."
+        "one": "Transformer une idée créative en réalité est toujours un défi de taille mais passionnant. La communication avec le public est l'étape la plus importante pour toute entreprise. Chez RealVibe, il est essentiel pour nous de comprendre votre vision et comment vous percevez votre produit ou service. La créativité est notre domaine, et nous sommes là pour vous aider à élaborer une campagne publicitaire accrocheuse, intéressante et unique qui parle à votre audience."
       },
       "offering": {
-        "title": "What we offer:",
+        "title": "Nous vous offrons:",
         "offering-1": {
           "title": {
-            "one": "Experienced ",
-            "two": "Creative Team"
+            "one": "Une équipe créative ",
+            "two": "expérimentée et innovante"
           },
-          "description": "Fresh perspectives and innovative ideas."
+          "description": "Notre équipe talentueuse apporte des perspectives fraîches et des idées novatrices à chaque campagne publicitaire."
         },
         "offering-2": {
           "title": {
-            "one": "Location ",
-            "two": "Scouting"
+            "one": "Un repérage ",
+            "two": "des lieux"
           },
-          "description": "The perfect settings."
+          "description": "Nous trouvons les décors parfaits pour atteindre et même dépasser vos objectifs."
         },
         "offering-3": {
           "title": {
-            "one": "Pre",
-            "two": "-Production"
+            "one": "Une pré ",
+            "two": "production"
           },
-          "description": "Comprehensive planning and preparation."
+          "description": "Nous gérons la planification et préparation complète de votre projet pour garantir un processus de production efficace."
         },
         "offering-4": {
           "title": {
-            "one": "Hardworking ",
-            "two": "Crew"
+            "one": "Une équipe ",
+            "two": "dévouée"
           },
-          "description": "Delivering exceptional results."
+          "description": "Des professionnels qui sont engagés à fournir des résultats exceptionnels."
         },
         "offering-5": {
           "title": {
-            "one": "Sound Stages & ",
-            "two": "Studio Rentals"
+            "one": "Des studios et ",
+            "two": "plateaux de tournage"
           },
-          "description": "Top-notch facilities for high-quality production."
+          "description": "Un accès à des installations de premier ordre pour une production de haute qualité."
         },
         "offering-6": {
           "title": {
-            "one": "Transport & ",
-            "two": "Logistics"
+            "one": "Le transport",
+            "two": ""
           },
-          "description": "Seamless organization."
+          "description": "Evitez tous problèmes de logistiques grâce à nos services de transport."
         },
         "offering-7": {
           "title": {
-            "one": "Catering",
+            "one": "Le catering",
             "two": ""
           },
-          "description": "Tailored catering options to keep your team energized."
+          "description": "Une restauration délicieuse et adaptée pour garder votre équipe énergisée."
         },
         "offering-8": {
           "title": {
-            "one": "Consultants",
+            "one": "Des consultants",
             "two": ""
           },
-          "description": "Expert advice and guidance."
+          "description": "Des experts pour vous conseiller et vous orienter dans le but d'améliorer votre campagne."
         },
         "offering-9": {
           "title": {
-            "one": "Post",
-            "two": "-Production"
+            "one": "Une ",
+            "two": "postproduction"
           },
-          "description": "Editing, sound design, and finishing touches."
+          "description": "Nous nous chargeons du montage, de la conception sonore et des touches finales pour perfectionner votre clip musical."
         },
         "offering-10": {
           "title": {
-            "one": "Other ",
-            "two": "Actors"
+            "one": "Des ",
+            "two": "figurants"
           },
-          "description": "A network of talented extras."
+          "description": "Un réseau de figurants talentueux pour ajouter de l'authenticité à vos annonces."
         }
       },
       "contact": {
-        "title": "Let's transform your ideas into powerful, unforgettable ad campaigns!",
+        "title": "Laissez RealVibe transformer vos idées en campagnes publicitaires puissantes et inoubliables.",
         "subtitle": {
-          "one": "Schedule a free ",
-          "two": "Consultation ",
-          "three": "with our team and let's make ",
-          "four": "things happen!"
+          "one": "Planifiez une consultation ",
+          "two": "gratuite avec notre ",
+          "three": "équipe et faisons ",
+          "four": "avancer les choses!"
         },
-        "cta": "Contact Us"
+        "cta": "Contactez-nous"
       }
     },
     "music-videos-production": {
       "hero": {
         "title": {
-          "one": "Music Videos"
+          "one": "Clips Musicaux"
         },
         "subtitle": {
-          "one": "Transform Your Track into an ",
-          "two": "Audio-Visual Hit!"
+          "one": "Transformez votre morceau ",
+          "two": "en un succès audiovisuel!"
         },
-        "cta": "Get started"
+        "cta": "Commencer dès maintenant"
       },
       "description": {
-        "one": "Capturing your audience's attention today requires a high-quality video, making your music resonate on a deeper level. We understand the power of compelling visuals in amplifying your artistic vision. We're here to help you complete your masterpiece, turning musical ideas into captivating visual stories."
+        "one": "Pour capter l'attention de votre public, une vidéo de qualité et intéressante est indispensable en plus de votre chanson. Chez RealVibe, nous comprenons le pouvoir d'un clip vidéo pour amplifier votre vision artistique et faire résonner votre musique à un niveau plus profond. Nous sommes là pour vous aider à réaliser votre chef-d'œuvre, en transformant vos idées musicales en histoires visuelles captivantes."
       },
       "offering": {
-        "title": "What we offer:",
+        "title": "Nous vous offrons:",
         "offering-1": {
           "title": {
-            "one": "Experienced ",
-            "two": "Creative Team"
+            "one": "Une équipe créative ",
+            "two": "expérimentée et novatrice"
           },
-          "description": "Fresh perspectives and innovative ideas."
+          "description": "Notre équipe talentueuse apporte des perspectives et des idées novatrices à chaque clip musical."
         },
         "offering-2": {
           "title": {
-            "one": "Location ",
-            "two": "Scouting"
+            "one": "Un repérage ",
+            "two": "des lieux"
           },
-          "description": "We find the perfect settings to bring your vision to life."
+          "description": "Nous trouvons les paramètres parfaits pour donner vie à votre vision. "
         },
         "offering-3": {
           "title": {
-            "one": "Pre",
-            "two": "-Production"
+            "one": "Une pré ",
+            "two": "production"
           },
-          "description": "Comprehensive planning and preparation - a smooth production process."
+          "description": "Nous gérons la planification et préparation complète de votre projet pour garantir un processus de production efficace."
         },
         "offering-4": {
           "title": {
-            "one": "Hardworking ",
-            "two": "Crew"
+            "one": "Une équipe ",
+            "two": "dévouée"
           },
-          "description": "Dedicated professionals committed to delivering exceptional results."
+          "description": "Des professionnels engagés à fournir des résultats exceptionnels."
         },
         "offering-5": {
           "title": {
-            "one": "Sound Stages & ",
-            "two": "Studio Rentals"
+            "one": "Des studios et ",
+            "two": "plateaux de tournage"
           },
-          "description": "Top-notch facilities for high-quality production."
+          "description": "Un accès à des installations de premier ordre pour une production de haute qualité."
         },
         "offering-6": {
           "title": {
-            "one": "Consultants",
+            "one": "Des consultants",
             "two": ""
           },
-          "description": "Expert advice and guidance to enhance your video."
+          "description": "Les conseils de nos experts vous aiderons à vous orienter et améliorer votre vidéo."
         },
         "offering-7": {
           "title": {
-            "one": "Post",
-            "two": "-Production"
+            "one": "Une ",
+            "two": "postproduction"
           },
-          "description": "Editing, sound design, and finishing touches."
+          "description": "Nous nous chargeons du montage, de la conception sonore et des touches finales pour perfectionner votre clip musical."
         },
         "offering-8": {
           "title": {
-            "one": "Other Actors ",
-            "two": "(Dancers, Animators, Extras)"
+            "one": "Autres acteurs ",
+            "two": "(danseurs, animateurs, figurants)"
           },
-          "description": "A network of talented performers."
+          "description": "Un réseau d'artistes talentueux pourrons ajouter de la profondeur et du dynamisme à votre vidéo."
         }
       },
       "contact": {
-        "title": "Let's transform your music into a visual masterpiece",
+        "title": "Laissez RealVibe transformer votre musique en chef-d'œuvre visuel.",
         "subtitle": {
-          "one": "Schedule a free ",
-          "two": "Consultation ",
-          "three": "with our team and let's make ",
-          "four": "things happen!"
+          "one": "Planifiez une consultation ",
+          "two": "gratuite avec notre ",
+          "three": "équipe et faisons ",
+          "four": "avancer les choses!"
         },
-        "cta": "Contact Us"
+        "cta": "Contactez-nous"
       }
     }
   },
+
+  "portfolio": {
+    "lutam": {
+      "caseStudy": "Case Study",
+      "title": "Lutam",
+      "subtitle": {
+        "one": "Music video for ",
+        "two": "Aca Lukas"
+      },
+      "description": {
+        "title": "About the “LUTAM” project",
+        "text": "At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages."
+      },
+      "challenge": {
+        "title": "Challenge:",
+        "text": "At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages."
+      },
+      "outcome": {
+        "title": "Outcome",
+        "text": "At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages."
+      },
+      "team": {
+        "title": "Team behind the project:",
+        "list": {
+          "production": {
+            "title": "Production",
+            "person": "RealVibe"
+          },
+          "producer": {
+            "title": "Producer",
+            "person": "Jelena Mirković"
+          },
+          "photoDirector": {
+            "title": "Director of photography",
+            "person": "Dušan Ivanović"
+          },
+          "artDirectorScenographer": {
+            "title": "Art Director & Scenographer",
+            "person": "Jovana Radojević"
+          },
+          "assistantScenographer": {
+            "title": "Assistant Scenographer",
+            "person": "Teodora Jeremić"
+          },
+          "costume": {
+            "title": "Costume",
+            "person": "Jovana Mitić"
+          },
+          "stylist": {
+            "title": "Stylist",
+            "person": "Nevena Nikolić"
+          },
+          "gaffer": {
+            "title": "Gaffer",
+            "person": "Nikola Radovanović"
+          },
+          "sarfer": {
+            "title": "Šarfer",
+            "person": "Dražen Mrkonja"
+          },
+          "photographer": {
+            "title": "Photographer on set",
+            "person": "Teodora Milovanović"
+          },
+          "bts": {
+            "title": "BTS Photographer",
+            "person": "Nikola Pavlović"
+          },
+          "steadycam": {
+            "title": "Steadycam",
+            "person": "Lazar Janković"
+          },
+          "technics": {
+            "title": "Technics",
+            "person": "Vision Team"
+          },
+          "agencyextra": {
+            "title": "Agency for extra",
+            "person": "Fresh Cast"
+          },
+          "extra": {
+            "title": "Extra",
+            "person": "Neda Savkić, Andreja Milutinović, Milica Janković, Selma Sadović, Vasilisa Perin, Ana Ilić, Aleksandra Jevtović"
+          }
+        }
+      }
+    }
+  },
+
   "contact": {
-    "title": "Get in Touch!",
-    "description": "Whether you're looking to organize an event, need video production experts, or have questions about our services, we're here to help. Our dedicated team is ready to bring your creative visions to life.",
-    "todo": "Fill out the form, and we'll get back to you as soon as possible.",
-    "subtitle": "Other links",
+    "title": "Contacter-nous!",
+    "description": "Vous comptez organiser un évènement, vous avez besoion d'experts dans la production, ou avez des questions sur nos services, nous sommes là pour vous. Notre équipe est prête à donner vie à vos projets.",
+    "todo": "Complétez le formulaire, nous vous répondrons au plus vite.",
+    "subtitle": "Autres liens",
     "instagram": "Instagram",
     "tiktok": "TikTok",
     "form": {
-      "name": "Name & Surname",
-      "email": "Email",
-      "subject": "Subject",
-      "message": "Write your message",
-      "button": "Send Message",
+      "name": "Nom & Prénom",
+      "email": "Adresse mail",
+      "subject": "Object",
+      "message": "Ecrivez votre message",
+      "button": "Envoyer",
       "success": "Your message has been sent successfully. Thank you for contacting me!",
       "error": "There was an error while sending your message. Please try again.",
       "required": "Required field",
-      "maxLength": "Maximum length is {{max}}",
-      "minLength": "Minimum length is {{min}}",
+      "maxLength": "Maximum length is {max}",
+      "minLength": "Minimum length is {min}",
       "emailPattern": "Please enter a valid email address"
     }
   },

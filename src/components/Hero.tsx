@@ -76,7 +76,7 @@ const Hero = () => {
             ref={imageTextRef}
             className={styles.hero__image__container__text}
             style={{
-              opacity: isMobile ? 1 : opacityFast
+              opacity: isMobile ? 1 : opacityFast,
             }}
           >
             <p dangerouslySetInnerHTML={{ __html: t('demo.description') }} />
@@ -105,7 +105,7 @@ const Hero = () => {
           className={styles.scrollDown}
           style={{ opacity: opacitySlow }}
         >
-          <p>Scroll Down</p>
+          <p>{t('scrollDown')}</p>
           <ArrowIcon />
         </motion.div>
       </div>

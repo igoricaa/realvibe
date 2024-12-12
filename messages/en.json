@@ -79,7 +79,7 @@
     },
     "socials": {
       "title": {
-        "one": "Our",
+        "one": "Our ",
         "two": "Social Media"
       }
     }
@@ -99,7 +99,8 @@
       "cta": "Get started",
       "demo": {
         "description": "Inspire, engage, and<br/>leave a lasting impression."
-      }
+      },
+      "scrollDown": "Scroll Down"
     },
     "services": {
       "service-1": {
