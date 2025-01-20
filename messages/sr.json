@@ -1,26 +1,26 @@
 {
   "nav": {
     "menu": {
-      "home": "Home",
-      "about": "About Us",
-      "events": "Event Organization",
-      "video-production": "Video Production",
-      "film-production": "Film Production",
-      "ad-campaigns": "Ad Campaigns",
-      "music-videos-production": "Music Videos Production",
-      "contact": "Contact",
+      "home": "Početna",
+      "about": "O nama",
+      "events": "Organizacija događaja",
+      "video-production": "Video Produkcija",
+      "film-production": "Filmska produkcija",
+      "ad-campaigns": "Marketing kampanje",
+      "music-videos-production": "Muzički spotovi",
+      "contact": "Kontakt",
       "mobile": {
         "title": {
           "one": "RealVibe ",
           "two": "Studio®"
         },
         "subtitle": {
-          "one": "Inspiration in",
-          "two": "Action -",
-          "three": "Art in ",
-          "four": "Creation"
+          "one": "Inspiracija ",
+          "two": "u akciji -",
+          "three": "Umetnost ",
+          "four": "u kreaciji"
         },
-        "cta": "Contact Us"
+        "cta": "Kontaktirajte nas"
       }
     },
     "sidearea": {
@@ -34,31 +34,31 @@
           "two": "Services"
         },
         "service-1": {
-          "title": "Event Organization"
+          "title": "Organizacija događaja"
         },
         "service-2": {
-          "title": "Concepting and Screening Ad Campaigns"
+          "title": "Konceptiranje i različenje reklamnih kampanja"
         },
         "service-3": {
-          "title": "Film Production"
+          "title": "Filmska produkcija"
         },
         "service-4": {
-          "title": "Producing Music Videos"
+          "title": "Muzički spotovi"
         },
         "socials": {
           "title": {
-            "one": "Our",
-            "two": "Socials"
+            "one": "Naše",
+            "two": "društvene mreže"
           }
         }
       },
       "socials": {
         "title": {
-          "one": "Our",
-          "two": "Socials"
+          "one": "Naše",
+          "two": "društvene mreže"
         }
       },
-      "cta": "Reach out to us"
+      "cta": "Kontaktirajte nas"
     },
     "locale": {
       "en": "en",
@@ -72,15 +72,15 @@
       "two": "Studio®"
     },
     "subtitle": {
-      "one": "Inspiration in",
-      "two": "Action -",
-      "three": "Art in ",
-      "four": "Creation"
+      "one": "Inspiracija u",
+      "two": "akciji -",
+      "three": "Umetnost u",
+      "four": "kreaciji"
     },
     "socials": {
       "title": {
-        "one": "Our ",
-        "two": "Social Media"
+        "one": "Naše",
+        "two": "društvene mreže"
       }
     }
   },
@@ -91,522 +91,522 @@
         "two": "Studio®"
       },
       "subtitle": {
-        "one": "Inspiration in",
-        "two": "Action -",
-        "three": "Art in ",
-        "four": "Creation"
+        "one": "Inspiracija u",
+        "two": "akciji -",
+        "three": "Umetnost u",
+        "four": "kreaciji"
       },
-      "cta": "Get started",
+      "cta": "Počnite sada",
       "demo": {
-        "description": "Inspire, engage, and<br/>leave a lasting impression."
+        "description": "Inspiriši, zainteresuj i<br/>ostavi utisak."
       },
-      "scrollDown": "Scroll Down"
+      "scrollDown": "Skrolujte dole"
     },
     "services": {
       "service-1": {
-        "title": "Event Organization",
-        "description": "We excel at organizing professional business events that <span>inspire</span>, engage, and leave a lasting impression. From corporate conferences to festivals, seminars to product launches, we handle every detail to ensure <span>flawless execution</span>, allowing you to focus on your business goals."
+        "title": "Organizacija događaja",
+        "description": "Specijalizovani smo za <span>profesionalnu</span> organizaciju korporativnih i muzičkih događaja, prilagođenih potrebama naših klijenata. Bilo da su u pitanju festivali, koncerti, kampanje, prezentacije, seminari ili bilo koji drugi tip događaja - kompletnu organizaciju prepustite nama."
       },
       "service-2": {
-        "title": "Concepting and Screening Ad Campaigns",
-        "description": "Effective advertising is a <span>powerful tool</span> to reach your target audience and communicate with the public. We craft high-quality, unique ads that <span>get your brand noticed</span>, and showcase the value of your product or service."
+        "title": "Snimanje reklamnih spotova",
+        "description": "Reklama je ključ za izgradnju <span>prepoznatljivog</span> brenda. Kroz nju ćete na pravi način predstaviti sebe i svoj proizvod ili uslugu ciljnoj publici. Kvalitetna reklama nije samo promocija - ona je već pola završenog posla. Tu smo da vam pomognemo da ostvarite svoje ciljeve i izgradite imidž koji bez sumnje zaslužujete."
       },
       "service-3": {
-        "title": "Film Production",
-        "description": "Serbia offers many <span>profitable advantages</span> for film production. As a captivating location for filmmaking collaborations, we can support you throughout every stage of the process, from pre-production to post-production."
+        "title": "Filmska produkcija",
+        "description": "Postoji veliki broj <span>prednosti i razloga</span> zašto snimati filmove i serije u Srbiji. Počevši od lokacija i neverovatnih pejzaža koje Srbija nudi, pa sve do finansijskih olakšica za inostrane produkcije. Naš tim je tu da Vam olakša svaki korak, pružajući podršku u svim sektorima i rešavajući sva pitanja tokom procesa snimanja. Sa RealVibe-om dobijate kompletnu uslugu - od priprema i produkcije do završne post-produkcije. Uz našu iskusnu i kreativnu ekipu, vaš projekat je u sigurnim rukama."
       },
       "service-4": {
-        "title": "Producing Music Videos",
-        "description": "Artistic vision is complete only with the <span>perfect visual touch</span>. From concept to screen, we bring music to life and translate emotions and messages into <span>stunning music videos</span>, crafting a masterpiece that perfectly complements the track."
+        "title": "Muzički spotovi",
+        "description": "Vašu pesmu pretvorićemo u <span>jedinstveno vizuelno iskustvo.</span> RealVibe produkcija stvara muzičke spotove koji oživljavaju melodiju i prenose emociju publici na najautentičniji način. Naš kreativni i iskusni tim kreiraće vizuale koji savršeno odražavaju duh i energiju vaše pesme, donoseći pravi vajb koji ćete podeliti sa svetom."
       }
     },
     "about": {
-      "title": "Everything you need under one roof",
-      "description": "We pride ourselves on being your one-stop-shop for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages to the final execution, our dedicated team will support you every step of the way. Contact us and discover the convenience of having everything under one roof.",
-      "cta": "Contact Us",
+      "title": "Sva rešenja pod jednim krovom",
+      "description": "RealVibe je vaše sveobuhvatno rešenje za organizaciju događaja i video produkciju. Naš širok spektar usluga garantuje uspeh vaših projekata, uz jednu posvećenu ekipu koja se prilagođava vašim specifičnim potrebama. Od početne ideje do završne realizacije, naš tim pažljivo upravlja svakim korakom procesa. Doživite udobnost i vrhunsku profesionalnost - sve što vam je potrebno nalazi se pod jednim krovom sa RealVibe-om.",
+      "cta": "Kontaktirajte nas",
       "company-values": {
         "mission": {
           "title": {
-            "one": "Our ",
-            "two": "Mission"
+            "one": "",
+            "two": "Misija"
           },
-          "description": "We foster a culture of creativity and collaboration to make a positive impact on the public and contribute meaningfully to the world, ensuring every project exceeds expectations, paving the way for a better, more connected world.",
-          "cta": "More About Us"
+          "description": "Kreativnošću i saradnjom želimo da stvorimo pozitivan uticaj na publiku i da stvorimo jedinstvenost u svetu umetnosti obezbeđujući da svaki projekat privuče pažnju i ostane upamćen stvarajući jedan bolji i povezaniji svet.",
+          "cta": "Više o nama"
         },
         "vision": {
           "title": {
-            "one": "Our ",
-            "two": "Vision"
+            "one": "",
+            "two": "Vizija"
           },
-          "description": "At RealVibe, we strive to be the benchmark for excellence in every project. Through our dedication to exceptional service and innovative solutions, we pave the way for a more connected world, one groundbreaking project at a time.",
-          "cta": "More About Us"
+          "description": "Težimo da postanemo sinonim za izvrsnost u svakom projektu. Posvećeni vrhunskoj usluzi i inovativnim rešenjima, gradimo put ka povezanijem svetu - projekt po projekt, pomerajući granice mogućeg.",
+          "cta": "Više o nama"
         },
         "team": {
           "title": {
-            "one": "Our ",
-            "two": "Team"
+            "one": "",
+            "two": "Tim"
           },
-          "description": "Our team is a dynamic synergy of seasoned professionals with a wealth of knowledge and creative minds who consistently deliver innovative and top-notch results.",
-          "cta": "More About Us"
+          "description": "Naš tim čine iskusni kreativci s bogatim iskustvom, uvek u potrazi za inovativnim idejama i vrhunskim kvalitetom. Strastveno radimo na projektima, stvarajući pozitivnu energiju i inspirišući ljude oko sebe.",
+          "cta": "Više o nama"
         },
         "partners": {
           "title": {
-            "one": "Our ",
-            "two": "Partners"
+            "one": "",
+            "two": "Partneri"
           },
-          "description": "With our carefully selected partners, RealVibe creates a powerful network dedicated to exceeding expectations and crafting an unparalleled experience.",
-          "cta": "More About Us"
+          "description": "Naši partneri su pažljivo odabrani kako bismo izgradili mrežu saradnika koja omogućava RealVibe-u da svojim klijentima pruži vrhunski i raznovrstan kvalitet svojim klijentima.",
+          "cta": "Više o nama"
         }
       }
     },
     "why-us": {
-      "title": "Why work with us",
+      "title": "Zašto da sarađujete sa nama",
       "reasons": {
         "reason-1": {
           "title": {
-            "one": "Personalized",
-            "two": "Service",
+            "one": "Jedinstveni ",
+            "two": "pristup",
             "three": ""
           },
-          "description": "We believe every event is unique. Through close collaboration with you, we craft a personalized approach that ensures your event is a true reflection of your vision and personality."
+          "description": "Verujemo da je svaki projekat jedinstven, zbog čega pristupamo svakom sa posebnom pažnjom i posvećenošću, osiguravajući da bude realizovan na najbolji mogući način."
         },
         "reason-2": {
           "title": {
-            "one": "Experienced &",
-            "two": "Creative",
-            "three": "team"
+            "one": "Iskusan i ",
+            "two": "kreativan",
+            "three": "tim"
           },
-          "description": "Our team's unique blend of experience and innovation drives the creation of exceptional, visionary projects."
+          "description": "Iskustvo, kreativnost i mladalački entuzijazam svih koji čine RealVibe-a osiguravaju inovativne kreacije i izvanredne rezultate svakog projekta, garantujući visok kvalitet."
         },
         "reason-3": {
           "title": {
-            "one": "Stress-Free",
-            "two": "Experience",
+            "one": "Iskustvo",
+            "two": "bez stresa",
             "three": ""
           },
-          "description": "RealVibe studio handles everything from initial planning to flawless execution, ensuring a smooth and efficient process that brings your vision to life."
+          "description": "RealVibe Studio preuzima potpunu odgovornost za sve detalje od planiranja do izvršenja, osiguravajući efikasan proces oživljavajući vašu viziju."
         },
         "reason-4": {
           "title": {
-            "one": "Really Good",
-            "two": "Vibe",
+            "one": "Zaista dobar",
+            "two": "vajb",
             "three": ""
           },
-          "description": "Our positive, collaborative spirit fosters a great working environment and exceptional outcomes."
+          "description": "Naš pozitivan duh i način saradnje obezbeđuju izuzetno radno okruženje i neverovatne rezultate."
         }
       }
     },
     "contact": {
-      "title": "Reach out! We will definitely have a solution for your needs",
-      "linkText": "Contact us"
+      "title": "Kontaktirajte nas! Sigurno imamo rešenje za vaše poslovne ideje.",
+      "linkText": "Kontaktirajte nas"
     }
   },
   "services": {
     "event-organization": {
       "hero": {
         "title": {
-          "one": "Event planing ",
-          "two": "& Organization"
+          "one": "Organizacija ",
+          "two": "događaja"
         },
         "subtitle": {
-          "one": "Reaction for this ",
-          "two": "Action - ",
-          "three": "Will be your ",
-          "four": "Success"
+          "one": "Ova odluka ",
+          "two": "je ključ ",
+          "three": "vašeg ",
+          "four": "uspeha"
         },
-        "cta": "Get started"
+        "cta": "Počnite sada"
       },
       "description": {
-        "one": "We specialize in organizing a diverse range of events tailored to our client's needs: festivals, campaigns, concerts, seminars - you name it!"
+        "one": "Naša specijalnost i strast je organizacija velikih i malih korporativnih, muzičkih i sportskih događaja kao što su festivali, kampanje, koncerti, seminari, prezentacije i drugo."
       },
       "offering": {
-        "title": "What we offer:",
+        "title": "Sa nama dobijate:",
         "offering-1": {
           "title": {
-            "one": "End-to-end event ",
-            "two": "planning"
+            "one": "End-to-end ",
+            "two": "planiranje događaja"
           },
-          "description": "From concept to execution."
+          "description": "Od izrade koncepta i budžeta do izvršenja"
         },
         "offering-2": {
           "title": {
-            "one": "Perfect ",
-            "two": "Location"
+            "one": "Odgovarajuća ",
+            "two": "lokacija"
           },
-          "description": "Whether it's a team building or a grand festival."
+          "description": "Bez obzira koji je tip događaja, naći ćemo savršenu lokaciju"
         },
         "offering-3": {
           "title": {
-            "one": "Quality  ",
-            "two": "catering"
+            "one": "Kvalitetan ",
+            "two": "ketering"
           },
-          "description": "Delectable cuisine tailored to your guests' preferences."
+          "description": "U zavisnosti od vaših potreba organizujemo odgovarajući ketering"
         },
         "offering-4": {
           "title": {
             "one": "Video ",
-            "two": "production"
+            "two": "produkcija"
           },
-          "description": "Capturing every moment."
+          "description": "Uhvatićemo svaki bitan momenat"
         },
         "offering-5": {
           "title": {
-            "one": "Logistics and ",
-            "two": "Transport"
+            "one": "Transport ",
+            "two": "i logistika"
           },
-          "description": "Seamless organization."
+          "description": "Sveobuhvatna organizacija"
         },
         "offering-6": {
           "title": {
-            "one": "Decoration",
-            "two": ""
+            "one": "",
+            "two": "Dekoracija"
           },
-          "description": "Personalized creative décor solutions."
+          "description": "Jedinstvena dekorativna rešenja"
         },
         "offering-7": {
           "title": {
-            "one": "Sound ",
+            "one": "Ozvučenje",
             "two": ""
           },
-          "description": "High-quality sound equipment and expertise."
+          "description": "Visokokvalitetna zvučna oprema"
         },
         "offering-8": {
           "title": {
-            "one": "Advertisement and ",
-            "two": "Promotion"
+            "one": "Reklamiranje i ",
+            "two": "promocija"
           },
-          "description": "Strategic marketing activities and personalized promotional material."
+          "description": "Izrada marketing strategije i promotivnog materijala"
         }
       },
       "contact": {
-        "title": "Let's begin planning your next extraordinary event!",
+        "title": "Hajde da počnemo sa planiranjem vašeg sledećeg nezaboravnog događaja!",
         "subtitle": {
-          "one": "Schedule a free ",
-          "two": "Consultation ",
-          "three": "with our team and let's make ",
-          "four": "things happen!"
+          "one": "Zakažite ",
+          "two": "besplatnu konsultaciju ",
+          "three": "sa našim ",
+          "four": "timom!"
         },
-        "cta": "Contact Us"
+        "cta": "Kontaktirajte nas"
       }
     },
     "film-production": {
       "hero": {
         "title": {
-          "one": "Film Production"
+          "one": "Filmska produkcija "
         },
         "subtitle": {
-          "one": "Sound? Camera? Aaaaaand ",
-          "two": "ACTION!"
+          "one": "Zvuka? Kamera? Iiiiiiiii ",
+          "two": "AKCIJA!"
         },
-        "cta": "Get started"
+        "cta": "Počnite sada"
       },
       "description": {
-        "one": "Besides stunning locations, Serbia offers numerous advantages for foreign productions. We have a wealth of talented professionals - crucial for delivering a high-quality product.",
-        "two": "Additionally, filming in Serbia can help you save money - all while providing a top-notch production. At RealVibe, we are dedicated to turning your story into a cinematic masterpiece."
+        "one": "Pored zadivljujućih i raznovrsnih lokacija u Srbiji, naša zemlja nudi brojne prednosti za strane produkcije. Veliki izbor talentovanih profesionalaca ključ je za isporuku visokokvalitetnog finalnog proizvoda.",
+        "two": "Takođe, snimanje u Srbiji može vam pomoći da značajno uštedite, dok istovremeno uživate u nezaboravnoj avanturi i produkciji visokog nivoa. U RealVibe-u smo posvećeni tome da vašu priču pretvorimo u pravo filmsko remek-delo."
       },
       "offering": {
-        "title": "What we offer:",
+        "title": "Sa nama dobijate:",
         "offering-1": {
           "title": {
-            "one": "Pre",
-            "two": "-Production"
+            "one": "Pred-",
+            "two": "produkcija"
           },
-          "description": "Detailed planning and preparation to ensure a smooth filming process."
+          "description": "Detaljna priprema koja će olakšati proces snimanja"
         },
         "offering-2": {
           "title": {
             "one": "Creative ",
             "two": "Room"
           },
-          "description": "A space for brainstorming and developing innovative ideas."
+          "description": "Mesto za razmenu ideja i razradu inovativnih ideja"
         },
         "offering-3": {
           "title": {
-            "one": "Experienced ",
-            "two": "Creative Team"
+            "one": "Iskusan i ",
+            "two": "kreativan tim"
           },
-          "description": "Bringing your vision to life."
+          "description": "Realizujemo vašu viziju"
         },
         "offering-4": {
           "title": {
-            "one": "Production ",
-            "two": "Planning"
+            "one": "Produkcijsko ",
+            "two": "planiranje"
           },
-          "description": "Comprehensive strategies to manage every aspect of your film."
+          "description": "Izrada strategija koje će upravljati celim filmskim procesom"
         },
         "offering-5": {
           "title": {
-            "one": "Location ",
-            "two": "Scouting"
+            "one": "Pronalaženje ",
+            "two": "lokacije"
           },
-          "description": "Identifying the perfect settings to enhance your narrative."
+          "description": "Pronalaženje idealnog lokaliteta"
         },
         "offering-6": {
           "title": {
-            "one": "Hardworking ",
-            "two": "Crew"
+            "one": "Vredna ",
+            "two": "ekipa"
           },
-          "description": "Dedicated professionals committed to excellence."
+          "description": "Profesionalnošću do izuzetnosti"
         },
         "offering-7": {
           "title": {
-            "one": "Sound Stage & ",
-            "two": "Studio Rentals"
+            "one": "Najam tehnike ",
+            "two": "i studija"
           },
-          "description": "Access to state-of-the-art facilities for high-quality production."
+          "description": "Dostupnost svih komponenti za visoku produkciju"
         },
         "offering-8": {
           "title": {
-            "one": "Expert ",
-            "two": "Consultants"
+            "one": "Konsalting",
+            "two": ""
           },
-          "description": "Expert guidance to navigate every phase of production."
+          "description": "U svakoj fazi produkcije"
         },
         "offering-9": {
           "title": {
-            "one": "Casting ",
+            "one": "Kasting",
             "two": ""
           },
-          "description": "Finding the right talent to embody your characters."
+          "description": "Pronalaženje odgovarajućih talenata"
         },
         "offering-10": {
           "title": {
-            "one": "Logistics",
+            "one": "Logistika",
             "two": ""
           },
-          "description": "Travel, Transport, Accommodation, Catering."
+          "description": "Smeštaj, Transport, Ketering"
         },
         "offering-11": {
           "title": {
-            "one": "Post",
-            "two": "-Production"
+            "one": "Post-",
+            "two": "produkcija"
           },
-          "description": "Comprehensive editing, sound design, and finishing touches"
+          "description": "Obezbedićemo vam najbolju montažu, obradu zvuka i kolor korekciju"
         },
         "offering-12": {
           "title": {
-            "one": "Permits",
+            "one": "Dozvole",
             "two": ""
           },
-          "description": "Assistance with obtaining necessary filming permits."
+          "description": "Pomoći ćemo vam da obezbedite sve neophodne dozvole za snimanje"
         },
         "offering-13": {
           "title": {
-            "one": "Simplified transport ",
-            "two": "processes"
+            "one": "Osiguranje i",
+            "two": "podsticaj"
           },
-          "description": "ATA Carnet - Red Gate Option - Import/Export."
+          "description": "Smanjenje stope PDV-a i osiguranje za vašu ekipu i opremu"
         },
         "offering-14": {
           "title": {
-            "one": "Incentives & ",
-            "two": "Insurance"
+            "one": "Pojednostavljen proces",
+            "two": "transporta"
           },
-          "description": "Cash rebates and VAT rate reductions & Insurance for your crew and equipment."
+          "description": "Import/Export - transportni proces je pojednostavljen"
         }
       },
       "contact": {
-        "title": "Let's transform your story into a work of art. Start your cinematic journey with us today!",
+        "title": "Pretvorimo vašu priču u remek delo. Započnite vaše filmsko putovanje sa nama već danas!",
         "subtitle": {
-          "one": "Schedule a free ",
-          "two": "Consultation ",
-          "three": "with our team and let's make ",
-          "four": "things happen!"
+          "one": "Zakažite ",
+          "two": "besplatnu konsultaciju ",
+          "three": "sa našim ",
+          "four": "timom!"
         },
-        "cta": "Contact Us"
+        "cta": "Kontaktirajte nas"
       }
     },
     "concepting-and-screening-ad-campaigns": {
       "hero": {
         "title": {
-          "one": "Ad Campaigns"
+          "one": "Video reklame"
         },
         "subtitle": {
-          "one": "Let's Create Your Next",
-          "two": "Winning Campaign!"
+          "one": "Kreirajmo vašu sledeću ",
+          "two": "kampanju"
         },
-        "cta": "Get started"
+        "cta": "Počnite sada"
       },
       "description": {
-        "one": "Turning a creative idea into reality is always an interesting challenge. We focus on understanding your vision - how you see your product or service. Creativity is our core virtue; we will help you craft a powerful ad campaign that resonates with your hand-picked audience."
+        "one": "Realizacija kreativne ideje uvek je veliki, ali uzbudljiv izazov. Komunikacija s publikom najvažniji je korak za svaku kompaniju. Nama u RealVibe-u je ključno da razumemo vašu viziju i način na koji doživljavate svoj proizvod ili uslugu. Kreativnost je naša specijalnost, a tu smo da osmislimo reklamnu kampanju koja će biti privlačna, zanimljiva i jedinstvena - kampanju koja prenosi vašoj ciljnoj grupi jaku poruku."
       },
       "offering": {
-        "title": "What we offer:",
+        "title": "Sa nama dobijate:",
         "offering-1": {
           "title": {
-            "one": "Experienced ",
-            "two": "Creative Team"
+            "one": "Iskusan i ",
+            "two": "kreativan tim"
           },
-          "description": "Fresh perspectives and innovative ideas."
+          "description": "Sveža perspektiva i inovativne ideje"
         },
         "offering-2": {
           "title": {
-            "one": "Location ",
-            "two": "Scouting"
+            "one": "Pronalaženje ",
+            "two": "lokacija"
           },
-          "description": "The perfect settings."
+          "description": "Pronalaženje idealnog lokaliteta"
         },
         "offering-3": {
           "title": {
-            "one": "Pre",
-            "two": "-Production"
+            "one": "Pred-",
+            "two": "produkcija"
           },
-          "description": "Comprehensive planning and preparation."
+          "description": "Detaljna priprema koja će olakšati proces snimanja"
         },
         "offering-4": {
           "title": {
-            "one": "Hardworking ",
-            "two": "Crew"
+            "one": "Vredna ",
+            "two": "ekipa"
           },
-          "description": "Delivering exceptional results."
+          "description": "Profesionalnošću do izuzetnosti"
         },
         "offering-5": {
           "title": {
-            "one": "Sound Stages & ",
-            "two": "Studio Rentals"
+            "one": "Najam tehnike i ",
+            "two": "studija"
           },
-          "description": "Top-notch facilities for high-quality production."
+          "description": "Dostupnost svih komponenti za visoku produkciju"
         },
         "offering-6": {
           "title": {
-            "one": "Transport & ",
-            "two": "Logistics"
+            "one": "Transport i ",
+            "two": "logistika"
           },
-          "description": "Seamless organization."
+          "description": "Sveobuhvatna organizacija"
         },
         "offering-7": {
           "title": {
-            "one": "Catering",
+            "one": "Ketering",
             "two": ""
           },
-          "description": "Tailored catering options to keep your team energized."
+          "description": "Čuvamo energiju ekipe kako bi proizvod bio što bolji"
         },
         "offering-8": {
           "title": {
-            "one": "Consultants",
+            "one": "Konsalting",
             "two": ""
           },
-          "description": "Expert advice and guidance."
+          "description": "U svakoj fazi produkcije"
         },
         "offering-9": {
           "title": {
-            "one": "Post",
-            "two": "-Production"
+            "one": "Post-",
+            "two": "produkcija"
           },
-          "description": "Editing, sound design, and finishing touches."
+          "description": "Obezbedićemo vam najbolju montažu, obradu zvuka i kolor korekciju"
         },
         "offering-10": {
           "title": {
-            "one": "Other ",
-            "two": "Actors"
+            "one": "Ostali ",
+            "two": "akteri"
           },
-          "description": "A network of talented extras."
+          "description": "Baza raznovrsnih talenata"
         }
       },
       "contact": {
-        "title": "Let's transform your ideas into powerful, unforgettable ad campaigns!",
+        "title": "Pretvorimo vašu ideju u moćnu, nezaboravnu reklamnu kampanju.",
         "subtitle": {
-          "one": "Schedule a free ",
-          "two": "Consultation ",
-          "three": "with our team and let's make ",
-          "four": "things happen!"
+          "one": "Zakažite ",
+          "two": "besplatnu konsultaciju ",
+          "three": "sa našim ",
+          "four": "timom!"
         },
-        "cta": "Contact Us"
+        "cta": "Kontaktirajte nas"
       }
     },
     "music-videos-production": {
       "hero": {
         "title": {
-          "one": "Music Videos"
+          "one": "Muzički spotovi"
         },
         "subtitle": {
-          "one": "Transform Your Track into an ",
-          "two": "Audio-Visual Hit!"
+          "one": "Transformez votre morceau ",
+          "two": "en un succès audiovisuel!"
         },
-        "cta": "Get started"
+        "cta": "Počnite sada"
       },
       "description": {
-        "one": "Capturing your audience's attention today requires a high-quality video, making your music resonate on a deeper level. We understand the power of compelling visuals in amplifying your artistic vision. We're here to help you complete your masterpiece, turning musical ideas into captivating visual stories."
+        "one": "Da biste u potpunosti osvojili pažnju svoje publike, vaša pesma zaslužuje kvalitetan i atraktivan video koji upotpunjuje muzički doživljaj. U RealVibe-u verujemo u snagu muzičkog spota koji će da oživi vašu umetničku viziju i prenese emociju na višem nivou. Tu smo da vaše ideje pretvorimo u vizuelne priče koje ostavljaju trajan utisak."
       },
       "offering": {
-        "title": "What we offer:",
+        "title": "Sa nama dobijate:",
         "offering-1": {
           "title": {
-            "one": "Experienced ",
-            "two": "Creative Team"
+            "one": "Iskusan i ",
+            "two": "kreativan tim"
           },
-          "description": "Fresh perspectives and innovative ideas."
+          "description": "Realizujemo vašu viziju"
         },
         "offering-2": {
           "title": {
-            "one": "Location ",
-            "two": "Scouting"
+            "one": "Pronalaženje ",
+            "two": "lokacija"
           },
-          "description": "We find the perfect settings to bring your vision to life."
+          "description": "Pronalaženje idealnog lokaliteta"
         },
         "offering-3": {
           "title": {
-            "one": "Pre",
-            "two": "-Production"
+            "one": "Pred-",
+            "two": "produkcija"
           },
-          "description": "Comprehensive planning and preparation - a smooth production process."
+          "description": "Detaljna priprema koja će olakšati proces snimanja"
         },
         "offering-4": {
           "title": {
-            "one": "Hardworking ",
-            "two": "Crew"
+            "one": "Vredna ",
+            "two": "ekipa"
           },
-          "description": "Dedicated professionals committed to delivering exceptional results."
+          "description": "Profesionalnošću do izuzetnosti"
         },
         "offering-5": {
           "title": {
-            "one": "Sound Stages & ",
-            "two": "Studio Rentals"
+            "one": "Najam tehnike i ",
+            "two": "studija"
           },
-          "description": "Top-notch facilities for high-quality production."
+          "description": "Dostupnost svih komponenti za visoku produkciju"
         },
         "offering-6": {
           "title": {
-            "one": "Consultants",
+            "one": "Konsalting",
             "two": ""
           },
-          "description": "Expert advice and guidance to enhance your video."
+          "description": "U svakoj fazi produkcije"
         },
         "offering-7": {
           "title": {
-            "one": "Post",
-            "two": "-Production"
+            "one": "Post-",
+            "two": "produkcija"
           },
-          "description": "Editing, sound design, and finishing touches."
+          "description": "Obezbedićemo vam najbolju montažu, obradu zvuka i kolor korekciju"
         },
         "offering-8": {
           "title": {
-            "one": "Other Actors ",
-            "two": "(Dancers, Animators, Extras)"
+            "one": "Ostali ",
+            "two": "akteri"
           },
-          "description": "A network of talented performers."
+          "description": "Baza raznovrsnih talenata"
         }
       },
       "contact": {
-        "title": "Let's transform your music into a visual masterpiece",
+        "title": "Pretvorimo vašu pesmu u uspešan muzički spot.",
         "subtitle": {
-          "one": "Schedule a free ",
-          "two": "Consultation ",
-          "three": "with our team and let's make ",
-          "four": "things happen!"
+          "one": "Zakažite ",
+          "two": "besplatnu konsultaciju ",
+          "three": "sa našim ",
+          "four": "timom!"
         },
-        "cta": "Contact Us"
+        "cta": "Kontaktirajte nas"
       }
     }
   },
 
   "portfolio": {
     "lutam": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Studija slučaja",
       "title": "Lutam",
       "subtitle": {
-        "one": "Music video for ",
-        "two": "Aca Lukas"
+        "one": "Muzički spot za ",
+        "two": "Acu Lukasa"
       },
       "description": {
         "title": "About the “LUTAM” project",
@@ -689,24 +689,24 @@
   },
 
   "contact": {
-    "title": "Get in Touch!",
-    "description": "Whether you're looking to organize an event, need video production experts, or have questions about our services, we're here to help. Our dedicated team is ready to bring your creative visions to life.",
-    "todo": "Fill out the form, and we'll get back to you as soon as possible.",
-    "subtitle": "Other links",
+    "title": "Kontaktirajte nas!",
+    "description": "Bilo da vam treba da organizujete događaj, video produkcija ili imate pitanja o našim uslugama, mi smo tu da vam pomognemo. Naš tim je spreman da vam pomogne da realizujete svoje ideje.",
+    "todo": "Popunite formu, i odgovorićemo što pre.",
+    "subtitle": "Ostali linkovi",
     "instagram": "Instagram",
     "tiktok": "TikTok",
     "form": {
-      "name": "Name & Surname",
-      "email": "Email",
-      "subject": "Subject",
-      "message": "Write your message",
-      "button": "Send Message",
-      "success": "Your message has been sent successfully. Thank you for contacting me!",
-      "error": "There was an error while sending your message. Please try again.",
-      "required": "Required field",
-      "maxLength": "Maximum length is {max}",
-      "minLength": "Minimum length is {min}",
-      "emailPattern": "Please enter a valid email address"
+      "name": "Ime & prezime",
+      "email": "E-mail",
+      "subject": "Predmet",
+      "message": "Napišite svoju poruku",
+      "button": "Pošalji",
+      "success": "Vaša poruka je uspešno poslata. Hvala Vam što ste nas kontaktirali!",
+      "error": "Došlo je do greške pri slanju vaše poruke. Pokušajte ponovno.",
+      "required": "Obavezno polje",
+      "maxLength": "Maksimalna dužina je {max}",
+      "minLength": "Minimalna dužina je {min}",
+      "emailPattern": "Molimo unesite validnu e-mail adresu"
     }
   },
   "notFoundPage": {

@@ -27,7 +27,7 @@ export default function LocaleSwitcher() {
       >
         {t('en')}
       </span>
-      {/* <span className={styles.separator}>|</span>
+      <span className={styles.separator}>|</span>
       <span
         className={`${styles.languageOption} ${
           locale === 'sr' ? styles.active : ''
@@ -36,7 +36,7 @@ export default function LocaleSwitcher() {
         onClick={onLanguageChange}
       >
         {t('sr')}
-      </span> */}
+      </span>
       <span className={styles.separator}>|</span>
       <span
         className={`${styles.languageOption} ${
