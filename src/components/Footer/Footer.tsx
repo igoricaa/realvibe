@@ -31,12 +31,15 @@ const Footer = () => {
           </p>
 
           <div className={styles.footer__content__socials__items}>
-            <a href='https://instagram.com/realvibestudio/' target='_blank'>
+            <a
+              href='https://www.instagram.com/realvibe.studio/'
+              target='_blank'
+            >
               Instagram
             </a>
-            <a href='https://tiktok.com/@realvibestudio' target='_blank'>
+            {/* <a href='https://tiktok.com/@realvibestudio' target='_blank'>
               TikTok
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

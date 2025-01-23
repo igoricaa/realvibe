@@ -14,15 +14,18 @@ const ContactPage = () => {
         <h4 className={styles.contact__info__subtitle}>{t('subtitle')}</h4>
         <ul className={styles.contact__info__socials}>
           <li className={styles.contact__info__socials__item}>
-            <a href='https://www.instagram.com/realvibestudio/' target='_blank'>
+            <a
+              href='https://www.instagram.com/realvibe.studio/'
+              target='_blank'
+            >
               Instagram
             </a>
           </li>
-          <li className={styles.contact__info__socials__item}>
+          {/* <li className={styles.contact__info__socials__item}>
             <a href='https://www.tiktok.com/@realvibestudio' target='_blank'>
               TikTok
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className={styles.contact__form}>
@@ -34,15 +37,18 @@ const ContactPage = () => {
         </h4>
         <ul className={styles.contact__links__mobile__socials}>
           <li className={styles.contact__links__mobile__socials__item}>
-            <a href='https://www.instagram.com/realvibestudio/' target='_blank'>
+            <a
+              href='https://www.instagram.com/realvibe.studio/'
+              target='_blank'
+            >
               Instagram
             </a>
           </li>
-          <li className={styles.contact__links__mobile__socials__item}>
+          {/* <li className={styles.contact__links__mobile__socials__item}>
             <a href='https://www.tiktok.com/@realvibestudio' target='_blank'>
               TikTok
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </main>

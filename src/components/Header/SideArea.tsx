@@ -106,20 +106,20 @@ const SideArea = () => {
               <ul className={styles.sidearea__socials__list}>
                 <li className={styles.sidearea__socials__list__item}>
                   <a
-                    href='https://www.instagram.com/realvibestudio/'
+                    href='https://www.instagram.com/realvibe.studio/'
                     target='_blank'
                   >
                     Instagram
                   </a>
                 </li>
-                <li className={styles.sidearea__socials__list__item}>
+                {/* <li className={styles.sidearea__socials__list__item}>
                   <a
                     href='https://www.tiktok.com/@realvibestudio'
                     target='_blank'
                   >
                     TikTok
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
