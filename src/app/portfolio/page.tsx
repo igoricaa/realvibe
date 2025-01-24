@@ -12,6 +12,7 @@ const Page = () => {
         <Link
           href={`/portfolio/${project.slug}`}
           className={styles.portfolio__item}
+          key={project.slug}
         >
           <article>
             <div className={styles.portfolio__item__image}>
@@ -20,6 +21,8 @@ const Page = () => {
                 alt={project.title}
                 fill
                 sizes='(max-width: 1024px) 100vw, 50vw'
+                style={{ objectFit: 'cover' }}
+                priority
               />
             </div>
             <div className={styles.portfolio__item__info}>

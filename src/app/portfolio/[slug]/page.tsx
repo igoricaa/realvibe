@@ -6,6 +6,7 @@ import ListIcon from '@/components/UI/icons/list-icon';
 import ArrowIcon from '@/components/UI/icons/ArrowIcon';
 import { useTranslations } from 'next-intl';
 import Content from '@/components/project/content';
+import { getTranslations } from '@/utilities/utilities';
 
 export async function generateStaticParams() {
   return portfolio.map((project: Project) => ({
@@ -21,6 +22,8 @@ const Page = ({ params: { slug } }: { params: { slug: string } }) => {
   if (!project) {
     return <div>Project not found</div>;
   }
+
+  const translations = getTranslations(t, slug);
 
   const nextProject =
     portfolio.find(
@@ -47,12 +50,13 @@ const Page = ({ params: { slug } }: { params: { slug: string } }) => {
             fill
             priority
             sizes='100vw'
+            quality={100}
             style={{ objectFit: 'cover' }}
           />
         </div>
       </section>
 
-      <Content project={project} slug={slug} />
+      <Content project={project} translations={translations} slug={slug} />
 
       <section className={styles.project__navigation}>
         <Link href='/portfolio'>

@@ -3,19 +3,24 @@
 import { useInView } from 'framer-motion';
 import styles from '../../app/portfolio/[slug]/page.module.scss';
 import { useRef } from 'react';
-import { hasTranslation } from '@/utilities/utilities';
-import { useTranslations } from 'next-intl';
+import { hasTranslationText } from '@/utilities/utilities';
 import { Project } from '@/data';
 import Image from 'next/image';
 import { positions } from '@/data';
 
-const Content = ({ project, slug }: { project: Project; slug: string }) => {
+const Content = ({
+  project,
+  translations,
+}: {
+  project: Project;
+  translations: any;
+  slug: string;
+}) => {
   const descriptionRef = useRef(null);
   const galleryRef = useRef(null);
   const challengeRef = useRef(null);
   const outcomeRef = useRef(null);
   const teamRef = useRef(null);
-  const t = useTranslations(`portfolio.${slug}`);
   const isInViewDescription = useInView(descriptionRef, {
     once: true,
     amount: 0.1,
@@ -49,8 +54,10 @@ const Content = ({ project, slug }: { project: Project; slug: string }) => {
           transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s`,
         }}
       >
-        <h2>{t('description.title')}</h2>
-        <p>{t('description.text')}</p>
+        <h2>{translations.description.title}</h2>
+        {translations.description.text.map((text: string, index: number) => (
+          <p key={index}>{text}</p>
+        ))}
       </section>
 
       <section
@@ -73,6 +80,8 @@ const Content = ({ project, slug }: { project: Project; slug: string }) => {
             <Image
               src={image}
               alt={`RealVibe Studio - ${project.title}`}
+              quality={100}
+              sizes={`${[0, 3].includes(index) ? '70vw' : '30vw'}`}
               fill
               style={{ objectFit: 'cover' }}
             />
@@ -90,8 +99,8 @@ const Content = ({ project, slug }: { project: Project; slug: string }) => {
           transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.4s`,
         }}
       >
-        <h2>{t('challenge.title')}</h2>
-        <p>{t('challenge.text')}</p>
+        <h2>{translations.challenge.title}</h2>
+        <p>{translations.challenge.text}</p>
       </section>
 
       <section
@@ -104,8 +113,8 @@ const Content = ({ project, slug }: { project: Project; slug: string }) => {
           transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.6s`,
         }}
       >
-        <h2>{t('outcome.title')}</h2>
-        <p>{t('outcome.text')}</p>
+        <h2>{translations.outcome.title}</h2>
+        <p>{translations.outcome.text}</p>
       </section>
 
       <section
@@ -118,18 +127,18 @@ const Content = ({ project, slug }: { project: Project; slug: string }) => {
           transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.8s`,
         }}
       >
-        <h2>{t('team.title')}</h2>
+        <h2>{translations.team.title}</h2>
         <div className={styles.project__team__list}>
           <ul>
             {positions.slice(0, positions.length / 2).map((position) => {
-              if (hasTranslation(t, `team.list.${position}.title`, slug)) {
+              if (hasTranslationText(translations.team.list, `${position}`)) {
                 return (
                   <li
                     key={position}
                     className={styles.project__team__list__item}
                   >
-                    <span>{t(`team.list.${position}.title`)}:</span>{' '}
-                    {t(`team.list.${position}.person`)}
+                    <span>{translations.team.list[position].title}:</span>{' '}
+                    {translations.team.list[position].person}
                   </li>
                 );
               }
@@ -139,14 +148,14 @@ const Content = ({ project, slug }: { project: Project; slug: string }) => {
           <ul>
             {' '}
             {positions.slice(positions.length / 2).map((position) => {
-              if (hasTranslation(t, `team.list.${position}.title`, slug)) {
+              if (hasTranslationText(translations.team.list, `${position}`)) {
                 return (
                   <li
                     key={position}
                     className={styles.project__team__list__item}
                   >
-                    <span>{t(`team.list.${position}.title`)}:</span>{' '}
-                    {t(`team.list.${position}.person`)}
+                    <span>{translations.team.list[position].title}:</span>{' '}
+                    {translations.team.list[position].person}
                   </li>
                 );
               }

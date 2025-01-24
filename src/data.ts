@@ -66,84 +66,134 @@ export type Project = {
   featuredImage: string;
   category: string;
   images: string[];
-  description: {
-    title: string;
-    text: string;
-  };
-  challenge: string;
-  outcome: string;
-  team: any;
+  // description: {
+  //   title: string;
+  //   text: string;
+  // };
+  // challenge: string;
+  // outcome: string;
+  // team: any;
 };
 
 export const portfolio: Project[] = [
   {
     title: 'Lutam',
     slug: 'lutam',
-    featuredImage: '/portfolio/lutam.png',
+    featuredImage: '/portfolio/lutam/aca-lukas-lutam-cover.jpg',
     category: 'Video Production',
     images: [
-      '/portfolio/lutam/lutam-1.png',
-      '/portfolio/lutam/lutam-2.png',
-      '/portfolio/lutam/lutam-3.png',
-      '/portfolio/lutam/lutam-4.png',
+      '/portfolio/lutam/aca-lukas-lutam-1.jpg',
+      '/portfolio/lutam/aca-lukas-lutam-2.jpg',
+      '/portfolio/lutam/aca-lukas-lutam-3.jpg',
+      '/portfolio/lutam/aca-lukas-lutam-4.jpg',
     ],
-    description: {
-      title: 'About the "Lutam" project',
-      text: 'At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages ',
-    },
-    challenge:
-      'At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages ',
-    outcome:
-      'At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages ',
-    team: [],
   },
   {
     title: 'Krik',
     slug: 'krik',
-    featuredImage: '/portfolio/krik.png',
+    featuredImage: '/portfolio/krik/aca-lukas-mira-skoric-krik-cover.jpg',
     category: 'Video Production',
-    images: [],
-    description: {
-      title: 'About the "Krik" project',
-      text: 'At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages ',
-    },
-    challenge:
-      'At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages ',
-    outcome:
-      'At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages ',
-    team: [],
+    images: [
+      '/portfolio/krik/aca-lukas-mira-skoric-krik-1.jpg',
+      '/portfolio/krik/aca-lukas-mira-skoric-krik-2.jpg',
+      '/portfolio/krik/aca-lukas-mira-skoric-krik-3.jpg',
+      '/portfolio/krik/aca-lukas-mira-skoric-krik-4.jpg',
+    ],
   },
   {
     title: 'Besprekorno loš',
     slug: 'besprekorno-los',
-    featuredImage: '/portfolio/besprekorno-los.png',
+    featuredImage:
+      '/portfolio/besprekorno-los/aca-lukas-besprekorno-los-cover.jpg',
     category: 'Video Production',
-    images: [],
-    description: {
-      title: 'About the "Besprekorno loš" project',
-      text: 'At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages ',
-    },
-    challenge:
-      'At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages ',
-    outcome:
-      'At RealVibe, we pride ourselves on being your comprehensive solution for all event organization and audio-visual production needs. Our extensive range of services guarantees we have the expertise and resources to deliver any project seamlessly, meeting all your event organization and audio-visual production needs. From the initial planning stages ',
-    team: [],
+    images: [
+      '/portfolio/besprekorno-los/aca-lukas-besprekorno-los-1.jpg',
+      '/portfolio/besprekorno-los/aca-lukas-besprekorno-los-2.jpg',
+      '/portfolio/besprekorno-los/aca-lukas-besprekorno-los-3.jpg',
+      '/portfolio/besprekorno-los/aca-lukas-besprekorno-los-4.jpg',
+    ],
+  },
+  {
+    title: 'Duga',
+    slug: 'duga',
+    featuredImage: '/portfolio/duga/aca-lukas-duga-cover.jpg',
+    category: 'Video Production',
+    images: [
+      '/portfolio/duga/aca-lukas-duga-1.jpg',
+      '/portfolio/duga/aca-lukas-duga-2.jpg',
+      '/portfolio/duga/aca-lukas-duga-3.jpg',
+      '/portfolio/duga/aca-lukas-duga-4.jpg',
+    ],
+  },
+  {
+    title: 'Lenka',
+    slug: 'lenka',
+    featuredImage: '/portfolio/lenka/aca-lukas-lenka-cover.jpg',
+    category: 'Video Production',
+    images: [
+      '/portfolio/lenka/aca-lukas-lenka-1.jpg',
+      '/portfolio/lenka/aca-lukas-lenka-2.jpg',
+      '/portfolio/lenka/aca-lukas-lenka-3.jpg',
+      '/portfolio/lenka/aca-lukas-lenka-4.jpg',
+    ],
+  },
+  {
+    title: 'Najjači kad nemam',
+    slug: 'najjaci-kad-nemam',
+    featuredImage:
+      '/portfolio/najjaci-kad-nemam/aca-lukas-najjaci-kad-nemam-cover.jpg',
+    category: 'Video Production',
+    images: [
+      '/portfolio/najjaci-kad-nemam/aca-lukas-najjaci-kad-nemam-1.jpg',
+      '/portfolio/najjaci-kad-nemam/aca-lukas-najjaci-kad-nemam-2.jpg',
+      '/portfolio/najjaci-kad-nemam/aca-lukas-najjaci-kad-nemam-3.jpg',
+      '/portfolio/najjaci-kad-nemam/aca-lukas-najjaci-kad-nemam-4.jpg',
+    ],
+  },
+  {
+    title: 'Preko vetrova',
+    slug: 'preko-vetrova',
+    featuredImage: '/portfolio/preko-vetrova/aca-lukas-preko-vetrova-cover.jpg',
+    category: 'Video Production',
+    images: [
+      '/portfolio/preko-vetrova/aca-lukas-preko-vetrova-1.jpg',
+      '/portfolio/preko-vetrova/aca-lukas-preko-vetrova-2.jpg',
+      '/portfolio/preko-vetrova/aca-lukas-preko-vetrova-3.jpg',
+      '/portfolio/preko-vetrova/aca-lukas-preko-vetrova-4.jpg',
+    ],
   },
 ];
 
 export const positions = [
   'production',
   'producer',
-  'director',
   'photoDirector',
+  'videoDirectors',
   'artDirectorScenographer',
+  'setDecorator',
+  'cameraOperator',
+  'dancer',
+  'actor',
+  'trumpet',
   'assistantScenographer',
   'costume',
+  'fashionDesigner',
+  'stylist',
+  'hairStylist',
+  'gaffer',
   'sarfer',
   'photographer',
   'bts',
+  'cameraRental',
   'steadycam',
   'technics',
   'agencyextra',
+  'dancers',
+  'guitarists',
+  'woman',
+  'productionAssistant',
   'extra',
+  'lenka',
+  'tamburaPlayers',
+  'tavernGuests',
 ];
