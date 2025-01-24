@@ -87,7 +87,7 @@ export const getTranslations = (t: any, slug: string) => {
             t,
             'team.list.artDirectorScenographer.person',
             slug
-          ),
+          ) && t('team.list.artDirectorScenographer.person'),
         },
         assistantScenographer: {
           title:
