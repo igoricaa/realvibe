@@ -47,14 +47,14 @@
         },
         "socials": {
           "title": {
-            "one": "Naše",
+            "one": "Naše ",
             "two": "društvene mreže"
           }
         }
       },
       "socials": {
         "title": {
-          "one": "Naše",
+          "one": "Naše ",
           "two": "društvene mreže"
         }
       },
@@ -79,7 +79,7 @@
     },
     "socials": {
       "title": {
-        "one": "Naše",
+        "one": "Naše ",
         "two": "društvene mreže"
       }
     }
@@ -419,7 +419,7 @@
     "concepting-and-screening-ad-campaigns": {
       "hero": {
         "title": {
-          "one": "Video reklame"
+          "one": "Marketing kampanje"
         },
         "subtitle": {
           "one": "Kreirajmo vašu sledeću ",
@@ -520,8 +520,8 @@
           "one": "Muzički spotovi"
         },
         "subtitle": {
-          "one": "Transformez votre morceau ",
-          "two": "en un succès audiovisuel!"
+          "one": "Transformisite svoju pesmu u ",
+          "two": "jedinstveno audio-vizuelno delo!"
         },
         "cta": "Počnite sada"
       },
