@@ -75,7 +75,7 @@ export default async function RootLayout({
           <NextIntlClientProvider messages={messages}>
             <ThemeProvider defaultTheme='dark' attribute='data-theme'>
               {/* <SplashScreen /> */}
-              {/* <VideoSplashScreen /> */}
+              <VideoSplashScreen />
               <Lenis>
                 <Cursor />
                 <GridBg />
