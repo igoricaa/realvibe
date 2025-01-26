@@ -1,7 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
 import styles from './VideoSplashScreen.module.scss';
-import GridBg from '../UI/GridBg';
 
 export default function SplashPage() {
   const [showVideo, setShowVideo] = useState(true);

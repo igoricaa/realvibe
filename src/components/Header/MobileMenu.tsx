@@ -56,9 +56,9 @@ const MobileMenu = () => {
           <div className={styles.mobileMenu__close}>
             <XIcon onClick={toggleMenu} />
           </div>
-          {/* <div className={styles.mobileMenu__localeSwitcher}>
+          <div className={styles.mobileMenu__localeSwitcher}>
             <LocaleSwitcher />
-          </div> */}
+          </div>
 
           <HeaderLogo />
 
