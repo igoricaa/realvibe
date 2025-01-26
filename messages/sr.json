@@ -601,11 +601,10 @@
   },
 
   "portfolio": {
+    "caseStudy": "Studija slučaja",
     "seeNext": "Sledeći",
     "backToList": "Nazad na listu",
     "lutam": {
-      "caseStudy": "Studija slučaja",
-
       "title": "Lutam",
       "subtitle": {
         "one": "Muzički spot za ",
@@ -694,8 +693,6 @@
       }
     },
     "besprekorno-los": {
-      "caseStudy": "Studija slučaja",
-
       "title": "Besprekorno loš",
       "subtitle": {
         "one": "Muzički spot za ",
@@ -774,7 +771,6 @@
       }
     },
     "krik": {
-      "caseStudy": "Studija slučaja",
       "title": "Aca Lukas ft Mira Škorić - Krik",
       "subtitle": {
         "one": "Muzički spot za ",
@@ -865,7 +861,6 @@
       }
     },
     "najjaci-kad-nemam": {
-      "caseStudy": "Studija slučaja",
       "title": "Najjači kad nemam",
       "subtitle": {
         "one": "Muzički spot za ",
@@ -950,8 +945,6 @@
       }
     },
     "duga": {
-      "caseStudy": "Studija slučaja",
-
       "title": "Duga",
       "subtitle": {
         "one": "Muzički spot za ",
@@ -1048,8 +1041,6 @@
       }
     },
     "preko-vetrova": {
-      "caseStudy": "Studija slučaja",
-
       "title": "Preko vetrova",
       "subtitle": {
         "one": "Muzički spot za ",
@@ -1101,8 +1092,6 @@
       }
     },
     "kakao": {
-      "caseStudy": "Studija slučaja",
-
       "title": "Kakao",
       "subtitle": {
         "one": "Muzički spot za ",
@@ -1190,8 +1179,6 @@
       }
     },
     "udisaj": {
-      "caseStudy": "Studija slučaja",
-
       "title": "Udisaj",
       "subtitle": {
         "one": "Muzički spot za ",
@@ -1280,8 +1267,6 @@
       }
     },
     "lenka": {
-      "caseStudy": "Studija slučaja",
-
       "title": "Lenka",
       "subtitle": {
         "one": "Muzički spot za ",
@@ -1374,8 +1359,6 @@
       }
     },
     "branim-se": {
-      "caseStudy": "Studija slučaja",
-
       "title": "Branim se",
       "subtitle": {
         "one": "Muzički spot za ",

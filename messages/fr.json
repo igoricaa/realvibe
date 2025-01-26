@@ -603,10 +603,9 @@
   "portfolio": {
     "seeNext": "Voir la suite",
     "backToList": "Retour à la liste",
+    "caseStudy": "Étude de cas",
     "lutam": {
-      "caseStudy": "Étude de cas",
       "title": "Lutam",
-
       "subtitle": {
         "one": "Clip vidéo pour ",
         "two": "Aca Lukas"
@@ -694,7 +693,6 @@
       }
     },
     "besprekorno-los": {
-      "caseStudy": "Étude de cas",
       "title": "Besprekorno loš",
       "subtitle": {
         "one": "Clip vidéo pour ",
@@ -773,7 +771,6 @@
       }
     },
     "krik": {
-      "caseStudy": "Étude de cas",
       "title": "Aca Lukas ft Mira Škorić - Krik",
 
       "subtitle": {
@@ -865,8 +862,6 @@
       }
     },
     "najjaci-kad-nemam": {
-      "caseStudy": "Étude de cas",
-
       "title": "Najjači kad nemam",
       "subtitle": {
         "one": "Clip vidéo pour ",
@@ -951,8 +946,6 @@
       }
     },
     "duga": {
-      "caseStudy": "Étude de cas",
-
       "title": "Duga",
       "subtitle": {
         "one": "Music video pour ",
@@ -1049,8 +1042,6 @@
       }
     },
     "preko-vetrova": {
-      "caseStudy": "Étude de cas",
-
       "title": "Preko vetrova",
       "subtitle": {
         "one": "Clip vidéo pour ",
@@ -1102,8 +1093,6 @@
       }
     },
     "kakao": {
-      "caseStudy": "Étude de cas",
-
       "title": "Kakao",
       "subtitle": {
         "one": "Music video pour ",
@@ -1191,8 +1180,6 @@
       }
     },
     "udisaj": {
-      "caseStudy": "Étude de cas",
-
       "title": "Udisaj",
       "subtitle": {
         "one": "Music video pour ",
@@ -1281,8 +1268,6 @@
       }
     },
     "lenka": {
-      "caseStudy": "Étude de cas",
-
       "title": "Lenka",
       "subtitle": {
         "one": "Music video pour ",
