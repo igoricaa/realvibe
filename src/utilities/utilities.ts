@@ -83,11 +83,12 @@ export const getTranslations = (t: any, slug: string) => {
               'team.list.artDirectorScenographer.title',
               slug
             ) && t('team.list.artDirectorScenographer.title'),
-          person: hasTranslation(
-            t,
-            'team.list.artDirectorScenographer.person',
-            slug
-          ) && t('team.list.artDirectorScenographer.person'),
+          person:
+            hasTranslation(
+              t,
+              'team.list.artDirectorScenographer.person',
+              slug
+            ) && t('team.list.artDirectorScenographer.person'),
         },
         assistantScenographer: {
           title:
@@ -109,7 +110,9 @@ export const getTranslations = (t: any, slug: string) => {
           title:
             hasTranslation(t, 'team.list.cameraOperator.title', slug) &&
             t('team.list.cameraOperator.title'),
-          person: hasTranslation(t, 'team.list.cameraOperator.person', slug),
+          person:
+            hasTranslation(t, 'team.list.cameraOperator.person', slug) &&
+            t('team.list.cameraOperator.person'),
         },
         costume: {
           title:
@@ -142,6 +145,14 @@ export const getTranslations = (t: any, slug: string) => {
           person:
             hasTranslation(t, 'team.list.hairStylist.person', slug) &&
             t('team.list.hairStylist.person'),
+        },
+        makeup: {
+          title:
+            hasTranslation(t, 'team.list.makeup.title', slug) &&
+            t('team.list.makeup.title'),
+          person:
+            hasTranslation(t, 'team.list.makeup.person', slug) &&
+            t('team.list.makeup.person'),
         },
         gaffer: {
           title:

@@ -601,748 +601,762 @@
   },
 
   "portfolio": {
+    "seeNext": "Voir la suite",
+    "backToList": "Retour à la liste",
     "lutam": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Étude de cas",
       "title": "Lutam",
+
       "subtitle": {
-        "one": "Music video for ",
+        "one": "Clip vidéo pour ",
         "two": "Aca Lukas"
       },
       "description": {
-        "title": "About the “LUTAM” project",
+        "title": "À PROPOS DU PROJET",
         "text": {
-          "one": "A song that moves and captivates. “Every night I wander, always causing a scene, I only have one life, and I do everything my way…” - a song that leaves no one indifferent and invites you to dance until your last ounce of energy.",
-          "two": "As in life, so in this video, everyone plays their role. The main Madam, surrounded by alluring women, leads a dynamic story that intertwines with the \"strange world\" surrounding Lukas. Each character brings unique energy, contributing to the one-of-a-kind atmosphere.",
-          "three": "The set design is a true masterpiece - lavish pedestals, a rich feast filled with diverse food and drinks, glasses and bottles hinting at an endless celebration. The red curtain evokes a theater setting, while the stage hosts a performance to remember. With such energy and atmosphere, it's hard to wish the night to ever end! The video was filmed at Hype Studio."
+          "one": "Une chanson qui bouge et qui captive. « Chaque nuit, j'erre, je fais toujours des vagues, je n'ai qu'une vie, et je fais tout à ma façon… » - une chanson qui ne laisse personne indifférent et vous invite à danser jusqu'à la dernière once d'énergie.",
+          "two": "Comme dans la vie, dans ce clip, chacun joue son rôle. La Madame principale, entourée de femmes séduisantes, mène une histoire dynamique qui s'entrelace avec le « monde étrange » qui entoure Lukas. Chaque personnage apporte une énergie unique, contribuant à une atmosphère incomparable.",
+          "three": "La scénographie est une véritable œuvre d'art - des piédestaux somptueux, un festin riche rempli de plats et de boissons variés, des verres et des bouteilles qui suggèrent une fête sans fin. Le rideau rouge évoque un décor de théâtre, tandis que la scène accueille une représentation mémorable. Avec une telle énergie et ambiance, il est difficile de souhaiter que la nuit se termine un jour ! Le clip a été tourné au studio Hype."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "YouTube has increasingly begun to restrict artistic freedom, and we certainly dislike creating anything that feels \"cheap.\" How to make it seductive without being vulgar? Well, like this."
+        "title": "Défis:",
+        "text": "YouTube a commencé à limiter considérablement la liberté artistique, et nous n'aimons certainement pas que ce que nous faisons paraisse « bon marché ». Comment faire quelque chose de séduisant sans être vulgaire ? Eh bien, comme ceci."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "The entire team had a fantastic time shooting the video, channeling their energy to the performers on camera, and most importantly—no one got lost! 🙂"
+        "title": "Résultat",
+        "text": "Toute l'équipe s'est incroyablement amusée pendant le tournage, transmettant son énergie aux acteurs devant la caméra, et surtout—personne ne s'est perdu! 🙂"
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Équipe impliquée dans la réalisation du clip:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Production du clip",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Productrice du clip",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Directeur de la photographie et réalisateur",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Directrice artistique et scénographe",
             "person": "Jovana Radojević"
           },
           "assistantScenographer": {
-            "title": "Assistant Set Designer",
+            "title": "Assistante scénographe",
             "person": "Teodora Jeremić"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Costumière",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Maquillage et coiffure",
             "person": "Nevena Nikolić"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "Chef électricien": "Gaffer",
             "person": "Nikola Radovanović"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Assistant mise au point",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Photographe sur le plateau",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Vidéaste BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Opérateur Steadicam",
             "person": "Lazar Janković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Équipe technique",
             "person": "Vision Team"
           },
           "agencyextra": {
-            "title": "Extras Agency",
+            "title": "Agence de figurants",
             "person": "Fresh Cast"
           },
           "extra": {
-            "title": "Extra",
+            "title": "Figurantes",
             "person": "Neda Savkić, Andreja Milutinović, Milica Janković, Selma Sadović, Vasilisa Perin, Ana Ilić, Aleksandra Jevtović"
           }
         }
       }
     },
     "besprekorno-los": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Étude de cas",
       "title": "Besprekorno loš",
       "subtitle": {
-        "one": "Music video for ",
+        "one": "Clip vidéo pour ",
         "two": "Aca Lukas"
       },
       "description": {
-        "title": "About the “Besprekorno loš” project",
+        "title": "À propos du projet",
         "text": {
-          "one": "The song “Besprekorno los” is the first track from Aca Lukas's new album, with a music video produced by RealVibe Studio. This love ballad portrays the artist describing the girl as the brightest and purest point in his life while he lives in darkness, vice, and surrounded by the wrong people. The video is an emotional depiction of his story, in which he is searching for her all the time—she is his vision, his desire, unattainable and distant. Just when he thinks he has finally reached her, he realizes she isn't really there. “Leave me, just wave your wings.” The video was filmed at Avala Studio."
+          "one": "La chanson « Besprekorno los » est le premier titre du nouvel album d'Aca Lukas, avec un clip réalisé par la production RealVibe Studio. Cette ballade romantique dépeint l'artiste décrivant la fille comme le point le plus lumineux et le plus pur de sa vie, alors qu'il vit dans l'obscurité, le vice, entouré de mauvaises personnes. Le clip est une représentation émotive de son histoire, où il la cherche constamment - elle est sa vision, son désir, inaccessible et lointaine. Au moment où il pense enfin l'avoir atteinte, il se rend compte qu'elle n'est pas réellement là. « Pars loin de moi, agite seulement tes ailes. » Le clip a été tourné aux studios Avala."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "As this was the first collaboration between Aca Lukas and RealVibe, the challenge was to create a concept that the artist would like, establish an atmosphere during filming that would suit him, and ensure he felt comfortable throughout the process."
+        "title": "Défis:",
+        "text": "Étant donné qu'il sagissait de la première collaboration entre Aca Lukas et RealVibe, le défi consistait à élaborer un concept qui plairait à l'artiste, à créer une ambiance de tournage adaptée à ses attentes et dans laquelle il se sentirait à l'aise."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "Aca and his entire team were so satisfied with the result that they hired us for the entire album. The team thoroughly enjoyed working with Aca, and we were all eagerly looking forward to the next collaboration. 🙂"
+        "title": "Résultat",
+        "text": "Aca et toute son équipe ont été tellement satisfaits du résultat qu'ils nous ont engagés pour tout l'album. L'équipe a pris beaucoup de plaisir à collaborer avec Aca, et nous attendions tous avec impatience une prochaine rencontre. 🙂"
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Équipe ayant participé à la réalisation du clip vidéo:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Production du clip",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Productrice du clip",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Directeur de la photographie et réalisateur",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Directrice artistique et scénographe",
             "person": "Jovana Radojević"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Décorateur",
             "person": "Miloš Zogović"
           },
           "cameraOperator": {
-            "title": "Camera Operator",
+            "title": "Cadreur",
             "person": "Miloš Krcmarov"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Maquillage et coiffure",
             "person": "Danijela Pjanović"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Photographe sur le plateau",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Vidéaste BTS",
             "person": "Nikola Pavlović"
           },
           "dancer": {
-            "title": "Dancer",
+            "title": "Danseuse",
             "person": "Elena Caparević"
           },
           "actor": {
-            "title": "Actor",
+            "title": "Acteur",
             "person": "Dejan Stamenković"
           },
           "trumpet": {
-            "title": "Trumpet",
+            "title": "Trompette",
             "person": "Laura"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Équipe technique",
             "person": "Vision Team"
           }
         }
       }
     },
     "krik": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Étude de cas",
       "title": "Aca Lukas ft Mira Škorić - Krik",
+
       "subtitle": {
-        "one": "Music video for ",
+        "one": "Clip vidéo pour ",
         "two": "Aca Lukas"
       },
       "description": {
-        "title": "About the “Krik“ project",
+        "title": "À propos du projet “Krik“",
         "text": {
-          "one": "The return of Mira Škorić to the small screen, but in a grand style. A duet of two major Balkan stars mixed into a dynamic love ballad. They reminisce about their past, suffering for one another. The video tells the story set in an abandoned house filled with historical masterpieces—their souls still live there. The video begins with their old duet, a song over twenty years old. We see them telling their story again, but this time, it's a \"Cry from the Soul.\" The video was filmed in a luxurious villa."
+          "one": "Le retour de Mira Skoric sur le petit écran, mais en grande pompe. Un duo entre deux grandes stars des Balkans réuni dans une ballade d'amour dynamique. Ils se remémorent leur passé, souffrant l'un pour l'autre. Le clip raconte une histoire dans une maison abandonnée, remplie de chefs-d'œuvre historiques - leurs âmes y vivent encore. Le clip commence par leur ancien duo, une chanson vieille de plus de vingt ans. On les voit raconter à nouveau leur histoire, mais cette fois, c'est un « Cri de l'âme ». Le clip a été tourné dans une villa somptueuse."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "This was the first collaboration with Mira. The video had to tell a truly romantic story, make it artistic, introduce new details, and use world-renowned masterpieces in the best possible way."
+        "title": "Défis:",
+        "text": "C'était la première collaboration avec Mira. Le clip devait raconter une histoire d'amour véritable, la rendre artistique, introduire de nouveaux détails et utiliser des chefs-d'œuvre mondialement célèbres de la meilleure manière possible."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "Both artists were pleased. The set design was utilized to its full potential, featuring paintings by some of the world's most famous painters and sculptures that enhanced the song's emotion, longing, and mood. The lighting and other elements complemented each other, creating the perfect atmosphere, merging the past and present. Editing and color grading elevated the final product to an even higher level."
+        "title": "Résultat",
+        "text": "Les deux artistes étaient satisfaits. La scénographie a été exploitée de manière optimale, avec des tableaux des peintres les plus célèbres au monde et des sculptures qui renforcent l'émotion, le désir et l'atmosphère de la chanson. L'éclairage et les autres éléments se complètent, créant une ambiance parfaite qui fusionne le passé et le présent. Le montage et l'étalonnage des couleurs ont porté le produit final à un niveau encore supérieur."
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Équipe impliquée dans la réalisation du clip:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Production du clip",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Productrice du clip",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Directeur de la photographie et réalisateur",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Directrice artistique et scénographe",
             "person": "Jovana Radojević"
           },
           "assistantScenographer": {
-            "title": "Assistant Set Designer",
+            "title": "Assistant scénographe",
             "person": "Teodora Jeremić"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Décorateur",
             "person": "Miloš Zogović"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Styliste",
             "person": "Jovana Mitić"
           },
           "fashionDesigner": {
-            "title": "Fashion Designer",
+            "title": "Créateur de mode",
             "person": "Bata Spasojević"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Coiffure",
             "person": "Nevena Nikolić"
           },
+          "makeup": {
+            "title": "Maquillage",
+            "person": "Olja Beočanin"
+          },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Chef électricien",
             "person": "Nikola Ristić"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Assistant mise au point",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Photographe sur le plateau",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Vidéaste BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Opérateur Steadicam",
             "person": "Lazar Janković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Équipe technique",
             "person": "Vision Team"
           }
         }
       }
     },
     "najjaci-kad-nemam": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Étude de cas",
+
       "title": "Najjači kad nemam",
       "subtitle": {
-        "one": "Music video for ",
+        "one": "Clip vidéo pour ",
         "two": "Aca Lukas"
       },
       "description": {
-        "title": "About the “Najjači kad nemam” project",
+        "title": "À propos du projet “Najjači kad nemam”",
         "text": {
-          "one": "An autobiographical song. This deeply emotional piece is accompanied by a touching video, perfectly designed to capture every feeling. A large part of the video consists of authentic footage from Aca's extensive archive of performances, while additional scenes were shot at Hype Studio, on a plane, and in front of a mirror.",
-          "two": "In an intimate moment before the mirror, Aca dedicates the song to himself, preparing to step onto the stage. The airplane scenes tell a special story—moments from Aca's tour travels with his Folk House band. While everyone on the plane rests, Aca reflects: \"I am the strongest when I have nothing—who am I when I have it all?\"",
-          "three": "The newest album by Aca Lukas is symbolically named after this beautiful song: “STRONGEST WHEN I HAVE NOTHING.”"
+          "one": "Une chanson autobiographique. Ce morceau profondément émouvant est accompagné d'un clip touchant, parfaitement conçu pour capturer chaque émotion. Une grande partie du clip est composée de séquences authentiques issues de l'immense archive des performances d'Aca, tandis que des scènes supplémentaires ont été tournées au Hype Studio, dans un avion et devant un miroir.",
+          "two": "Dans un moment intime devant le miroir, Aca se dédie la chanson à lui-même, se préparant à monter sur scène. Les scènes en avion racontent une histoire particulière : des instants du départ d'Aca en tournée avec son groupe Folk House. Alors que tout le monde dans l'avion se repose, Aca réfléchit : « Je suis le plus fort quand je n'ai rien - qui suis-je quand j'ai tout ? »",
+          "three": "Le tout nouvel album d'Aca Lukas porte symboliquement le nom de cette magnifique chanson : « LE PLUS FORT QUAND JE N'AI RIEN »."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "The biggest challenge in realizing this project was conveying emotion through visuals and selecting the best moments from such an extensive archive to fit into 4 minutes and 30 seconds."
+        "title": "Défis:",
+        "text": "Le plus grand défi de ce projet était de transmettre l'émotion à travers les visuels et de sélectionner les meilleurs moments parmi une archive si vaste, pour les condenser en 4 minutes et 30 secondes."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "Let us know your thoughts—we were all moved to tears and goosebumps at the same time. 🙂"
+        "title": "Résultat",
+        "text": "Dites-nous vos impressions—nous avons tous pleuré et eu des frissons en même temps. 🙂"
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Équipe impliquée dans la réalisation du clip:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Production du clip",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Productrice du clip",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Directeur de la photographie et réalisateur",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Directrice artistique et scénographe",
             "person": "Jovana Radojević"
           },
           "assistantScenographer": {
-            "title": "Assistant Set Designer",
+            "title": "Assistant scénographe",
             "person": "Teodora Jeremić"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Décorateur",
             "person": "Miloš Zogović"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Styliste",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Maquillage et coiffure",
             "person": "Nevena Nikolić"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Chef électricien",
             "person": "Nikola Radovanović"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Assistant mise au point",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Photographe sur le plateau",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Vidéaste BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Opérateur Steadicam",
             "person": "Lazar Janković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Équipe technique",
             "person": "Vision Team"
           }
         }
       }
     },
     "duga": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Étude de cas",
+
       "title": "Duga",
       "subtitle": {
-        "one": "Music video for ",
+        "one": "Music video pour ",
         "two": "Aca Lukas"
       },
       "description": {
-        "title": "About the “DUGA” project",
+        "title": "À propos du projet “DUGA”",
         "text": {
-          "one": "Our \"Duga (Rainbow)\" took us straight to Spain. Magnificent flamenco dancers, along with other participants, added an irresistible visual charm to this emotional ballad.",
-          "two": "Under the moonlight, Aca poses a question that resonates: “Is sorrow the ID card of love?” While sitting at the table, a captivating woman in a fiery red dress—the color of love—approaches, takes a rose, and disappears into the night. Earlier, we saw that roses don't seem to mean much to her. Yet, the question lingers—could this rose be different?",
-          "three": "This touching story and the atmosphere of Spain make “Duga (Rainbow)” an unforgettable ballad that will stay in your heart."
+          "one": "Notre « Duga (Arc-en-ciel) » nous a emmenés directement en Espagne. Les magnifiques danseurs de flamenco, accompagnés des autres participants, ont ajouté un charme visuel irrésistible à cette ballade émotionnelle.",
+          "two": "Sous la lumière de la lune, Aca pose une question qui résonne : « La tristesse est-elle la carte d'identité de l'amour ? » Assis à une table, une femme captivante en robe rouge flamboyante—la couleur de l'amour—s'approche, prend une rose, puis disparaît dans la nuit. Plus tôt, nous avions vu que les roses ne semblent pas avoir beaucoup de signification pour elle. Pourtant, la question reste : cette rose pourrait-elle être différente?",
+          "three": "Cette histoire émouvante et l'atmosphère espagnole font de « Duga (Arc-en-ciel) » une ballade inoubliable qui restera dans votre cœur."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "Dancing for nearly five minutes without pause was a challenge; however, we believe that our dancers were guided by the melody and their love for their craft, delivering phenomenal performances alongside the rest of the team."
+        "title": "Défis:",
+        "text": "Danser presque cinq minutes sans pause a été un défi ; cependant, nous croyons que nos danseurs, guidés par la mélodie et leur amour pour leur métier, ont livré des performances phénoménales, tout comme le reste de l'équipe."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "We believe we succeeded in taking you on a brief journey to Spain, and we're confident that \"Duga (Rainbow)\" will become another favorite song on your playlist."
+        "title": "Résultat",
+        "text": "Nous croyons avoir réussi à vous emmener brièvement en Espagne et sommes convaincus que « Duga (Arc-en-ciel) » deviendra une autre chanson préférée sur votre playlist."
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Équipe impliquée dans la réalisation du clip: ",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Production du clip",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Productrice du clip",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Directeur de la photographie et réalisateur",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Directrice artistique et scénographe",
             "person": "Jovana Radojević"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Décorateur",
             "person": "Miloš Zogović"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Styliste",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Maquillage et coiffure",
             "person": "Nevena Nikolić"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Chef électricien",
             "person": "Nikola Ristić"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Assistant mise au point",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Photographe sur le plateau",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Vidéaste BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Opérateur Steadicam",
             "person": "Miloš Savković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Équipe technique",
             "person": "Vision Team"
           },
           "agencyextra": {
-            "title": "Extras Agency",
+            "title": "Agence de figurants",
             "person": "Fresh Cast"
           },
           "dancers": {
-            "title": "Dancers",
+            "title": "Danseurs",
             "person": "Katarina Lazarevski, Bojan Lazarevski"
           },
           "guitarists": {
-            "title": "Guitarists",
+            "title": "Guitaristes",
             "person": "Zoran Čubrilo, Stefan Jovandrić"
           },
           "woman": {
-            "title": "Woman",
+            "title": "Actrice",
             "person": "Mira Bulatović"
           }
         }
       }
     },
     "preko-vetrova": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Étude de cas",
+
       "title": "Preko vetrova",
       "subtitle": {
-        "one": "Music video for ",
+        "one": "Clip vidéo pour ",
         "two": "Aca Lukas"
       },
       "description": {
-        "title": "About the “PREKO VETROVA” project",
+        "title": "À propos du projet “PREKO VETROVA”",
         "text": {
-          "one": "There are songs that carry a special story, and this one waited for its moment for nearly three decades, hidden in Aca's drawer, until the filming of the movie “Stravicno.” They say the most beautiful songs are those that the artist creates from the heart - and this is one of them.",
-          "two": "The music video for the song combines emotions and storytelling, blending newly filmed scenes of Aca at the piano with unforgettable moments from the movie. The result is a visual and musical masterpiece that will remain etched in the audience's memory."
+          "one": "Il existe des chansons qui portent une histoire particulière, et celle-ci a attendu son moment pendant près de trois décennies, cachée dans le tiroir d'Aca, jusqu'au tournage du film « Stravicno ». On dit que les plus belles chansons sont celles que l'artiste crée avec son cœur - et celle-ci en fait partie.",
+          "two": "Le clip de la chanson mêle émotions et narration, combinant des scènes nouvellement tournées d'Aca au piano avec des moments inoubliables du film. Le résultat est un chef-d'œuvre visuel et musical qui restera gravé dans la mémoire du public."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "To justify everyone's trust in RealVibe's team to edit and create the music video using scenes from the movie."
+        "title": "Défis:",
+        "text": "Justifier la confiance de tous pour que l'équipe de RealVibe monte et crée le clip à partir des scènes du film."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "You watch the video and listen to the song in a single breath that lasts over five minutes."
+        "title": "Résultat",
+        "text": "Vous regardez le clip et écoutez la chanson d'un seul souffle qui dure plus de cinq minutes."
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Équipe impliquée dans la réalisation du clip:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Production du clip",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Productrice du clip",
             "person": "Jelena Mirković"
           },
           "videoDirectors": {
-            "title": "Video Directors",
-            "person": "Suzana Purković and Dušan Ivanović"
+            "title": "Réalisateurs du clip",
+            "person": "Suzana Purković et Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Directeur artistique et scénographe",
             "person": "Jovana Radojević"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Décorateur",
             "person": "Miloš Zogović"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Photographe sur le plateau",
             "person": "Teodora Milovanović"
           }
         }
       }
     },
     "kakao": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Étude de cas",
+
       "title": "Kakao",
       "subtitle": {
-        "one": "Music video for ",
+        "one": "Music video pour ",
         "two": "Aca Lukas"
       },
       "description": {
-        "title": "About the “KAKAO” project",
+        "title": "À propos du projet “KAKAO”",
         "text": {
-          "one": "Another touching love ballad that quickly found its place in taverns - as they are the spaces for laughter, tears, and unforgotten loves. The music video for this song was filmed in the authentic setting of an old sugar factory, inspired by the magical atmosphere of the movie \"Charlie and the Chocolate Factory.\" The girl in the video, dressed in white, symbolizes his vision - an angel who haunts him as he moves through the darkness of life. “My world is as black as cocoa, and I'm waiting for my turn for hell, where miracles never happen” is a metaphor for the pain of unfulfilled loves.",
-          "two": "This song and video win hearts with their emotions and the story that deeply touches every soul."
+          "one": "Une autre ballade d'amour touchante qui a rapidement trouvé sa place dans les tavernes - car ce sont des espaces de rires, de larmes et d'amours non oubliées. Le clip de cette chanson a été tourné dans un cadre authentique, une ancienne raffinerie de sucre, inspiré par l'atmosphère magique du film « Charlie et la chocolaterie ». La fille dans le clip, vêtue de blanc, symbolise sa vision - un ange qui le hante alors qu'il traverse l'obscurité de la vie. « Mon monde est aussi noir que du cacao, et j'attends mon tour pour l'enfer, là où les miracles ne se produisent jamais » est une métaphore pour la douleur d'amours qui ne se sont jamais réalisées.",
+          "two": "Cette chanson et ce clip gagnent les cœurs par leurs émotions et l'histoire qui touche profondément chaque âme."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "Enduring the cold on set because it was impossible to heat the space."
+        "title": "Défis:",
+        "text": "Supporter le froid sur le plateau car il était impossible de chauffer l'espace."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "Enjoy every tone of both the song and the imagery."
+        "title": "Résultat",
+        "text": "Profitez de chaque note de la chanson ainsi que de l'imagerie."
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Équipe impliquée dans la réalisation du clip:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Production du clip",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Productrice du clip",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Directeur de la photographie et réalisateur",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Directeur artistique et scénographe",
             "person": "Jovana Radojević"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Décorateur",
             "person": "Miloš Zogović"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Costumière",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Maquillage et coiffure",
             "person": "Nevena Nikolić"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Chef électricien",
             "person": "Nikola Radovanović"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Assistant mise au point",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Photographe sur le plateau",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Vidéaste BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Opérateur Steadicam",
             "person": "Lazar Janković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Équipe technique",
             "person": "Vision Team"
           },
           "agencyextra": {
-            "title": "Extras Agency",
+            "title": "Agence de figurants",
             "person": "Fresh Cast"
           },
           "extra": {
-            "title": "Extra",
+            "title": "Figurant",
             "person": "Neda Čakarević"
           }
         }
       }
     },
     "udisaj": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Étude de cas",
+
       "title": "Udisaj",
       "subtitle": {
-        "one": "Music video for ",
+        "one": "Music video pour ",
         "two": "Aca Lukas"
       },
       "description": {
-        "title": "About the “UDISAJ” project",
+        "title": "À propos du projet “UDISAJ”",
         "text": {
-          "one": "Another energetic song that promises unforgettable nights in the clubs! This time, our time machine transported us to the magical 1950s, bringing an authentic retro vibe infused with a modern rhythm.",
-          "two": "The video is a true visual refreshment, thanks to the exceptionally beautiful and talented participants. The phenomenal Folk House band infused the shoot with their signature energy, while the young models captivated everyone with their charm and charisma. Their perfect synergy created an atmosphere that mesmerizes and leaves no one indifferent.",
-          "three": "This is a song and video that will get you on your feet and take you back to a time when dancing and having fun were all that mattered!"
+          "one": "Une autre chanson énergique qui promet des soirées inoubliables en club ! Cette fois, notre machine à remonter le temps nous a transportés dans les années 1950 magiques, apportant une ambiance rétro authentique avec une touche de modernité.",
+          "two": "Le clip est un véritable souffle d'air frais visuel, grâce à la beauté et au talent exceptionnels des participants. Le phénoménal groupe Folk House a insufflé son énergie unique, tandis que les jeunes mannequins ont charmé tout le monde par leur charisme et leur charme. Leur synergie parfaite a créé une atmosphère captivante qui ne laisse personne indifférent.",
+          "three": "Cette chanson et ce clip vous feront danser et vous transporteront dans une époque où la danse et le plaisir étaient essentiels!"
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "Creating a less controversial video that complies with YouTube's monetization policies while still giving the video soul and extravagance."
+        "title": "Défis:",
+        "text": "Créer un clip moins controversé pour respecter les règles de monétisation de YouTube tout en conservant l'âme et l'extravagance de la vidéo."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "YouTube approved the video, and we achieved exactly the atmosphere we envisioned."
+        "title": "Résultat",
+        "text": "YouTube a approuvé le clip, et nous avons obtenu exactement l'atmosphère que nous avions imaginée."
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Équipe impliquée dans la réalisation du clip:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Production du clip",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Productrice du clip",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Directeur de la photographie et réalisateur",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Directeur artistique et scénographe",
             "person": "Jovana Radojević"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Décorateur",
             "person": "Miloš Zogović"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Costumière",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Maquillage et coiffure",
             "person": "Nevena Nikolić"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Éclairagiste",
             "person": "Nikola Ristić"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Pointeur",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Photographe sur le plateau",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Vidéaste BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Opérateur Steadicam",
             "person": "Miloš Savković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Équipe technique",
             "person": "Vision Team"
           },
           "agencyextra": {
-            "title": "Extras Agency",
+            "title": "Agence de figurants",
             "person": "Fresh Cast"
           },
           "extra": {
-            "title": "Extra",
+            "title": "Figurant",
             "person": "Milena Tunguz, Teodora Rakić, Maja Stolić, Viktorija Zeljković, Jovana Mitrekanić, Šćepan Knežević, Dženis Hatibović, Nikola Milovanović"
           }
         }
       }
     },
     "lenka": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Étude de cas",
+
       "title": "Lenka",
       "subtitle": {
-        "one": "Music video for ",
+        "one": "Music video pour ",
         "two": "Aca Lukas"
       },
       "description": {
-        "title": "About the “LENKA” project",
+        "title": "À propos du projet “LENKA”",
         "text": {
-          "one": "“Lenka” is a cheerful and playful song from 2022 that has captured the hearts of fans of the lively tavern atmosphere with its lyrics and energetic rhythm. Lines like, “Oh Lenka, life knows you well. And even when I dream of you, the morning steals you away from me,” tell the story of the unattainable Lenka, who lives in the hearts of many men.",
-          "two": "The music video, filmed at Hype Studio, radiates a phenomenal vibe thanks to the talented cast and the impeccable energy of the team. This was the final music video in the project with Aca, making it an emotional moment as every step of the collaboration was filled with laughter and creativity.",
-          "three": "For those who want to feel a part of that energy, BTS videos are available from the shoot, showcasing the good vibes and joy brought by the RealVibe Studio team. “Lenka” is not just a song - it's a charming story about joy, laughter, and a love for music!"
+          "one": "“Lenka” est une chanson joyeuse et entraînante de 2022, qui conquiert le cœur des amateurs de l'ambiance festive des tavernes avec ses paroles et son rythme énergique. Des vers comme : « Oh Lenka, la vie te connaît bien. Et même quand je rêve de toi, le matin te vole loin de moi » racontent l'histoire de l'insaisissable Lenka, qui vit dans les cœurs de nombreux hommes.",
+          "two": "Le clip, tourné au Hype Studio, dégage une ambiance phénoménale grâce à des acteurs talentueux et à l'énergie impeccable de l'équipe. Il s'agissait du dernier clip du projet avec Aca, rendant ce moment chargé d'émotions, car chaque étape de cette collaboration a été marquée par des rires et une créativité débordante.",
+          "three": "Pour ceux qui souhaitent ressentir cette énergie, des vidéos BTS du tournage sont disponibles, mettant en lumière les bonnes vibrations et la joie apportées par l'équipe du studio RealVibe. “Lenka” n'est pas seulement une chanson - c'est une histoire charmante sur la joie, les rires et l'amour de la musique !"
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "The only challenge on this project was resisting the temptation to have a drink amid the fantastic music and atmosphere."
+        "title": "Défis:",
+        "text": "Le seul défi de ce projet a été de résister à l'envie de trinquer au milieu de cette musique fantastique et de cette ambiance."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "The tavern came to life, and Lenka has never been more beautiful or more unattainable!"
+        "title": "Résultat",
+        "text": "La taverne a pris vie, et Lenka n'a jamais été aussi belle ni aussi insaisissable!"
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Équipe impliquée dans la réalisation du clip:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Production du clip",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Productrice du clip",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Directeur de la photographie et réalisateur",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Directeur artistique et scénographe",
             "person": "Jovana Radojević"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Costumière",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Maquillage et coiffure",
             "person": "Nevena Nikolić"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Chef électricien",
             "person": "Nikola Radivojević"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Assistant mise au point",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Photographe sur le plateau",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Vidéaste BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Opérateur Steadicam",
             "person": "Lazar Janković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Équipe technique",
             "person": "Vision Team"
           },
           "agencyextra": {
-            "title": "Extras Agency",
+            "title": "Agence de figurants",
             "person": "Fresh Cast"
           },
           "lenka": {
@@ -1350,11 +1364,11 @@
             "person": "Milica Stanković"
           },
           "tamburaPlayers": {
-            "title": "Tambura Players",
+            "title": "Joueurs de tambura",
             "person": "Miloš Repić, Marko Mastilović, Nikola Gradinac, Jovan Aleksić"
           },
           "tavernGuests": {
-            "title": "Tavern Guests",
+            "title": "Clients de la taverne",
             "person": "Vladimir Stojković, Vladimir Panić"
           }
         }
@@ -1362,93 +1376,94 @@
     },
     "branim-se": {
       "caseStudy": "Case Study",
+
       "title": "Branim se",
       "subtitle": {
-        "one": "Music video for ",
+        "one": "Music video pour ",
         "two": "Aca Lukas"
       },
       "description": {
-        "title": "About the “BRANIM SE” project",
+        "title": "À propos du projet “BRANIM SE”",
         "text": {
-          "one": "We proudly present Mira Škorić in an entirely new light! After the successful duet with Aca Lukas in the song “Krik,” Mira brings a refreshing change to the local music scene with her new hit, “Branim se.” This song, accompanied by an impressive music video, tells a story of love, heartbreak, and resilience.",
-          "two": "The video is rich in symbolism and visual spectacle - from the scene where Mira steps out of the car, surrounded by reporters bombarding her with questions, to the mysterious man trying to break through her impenetrable “shield.” The circle and shadows in the opening gradually reveal the main characters, while the shattered glass Mira peers into symbolizes her wounded soul and heart.",
-          "three": "Despite the overwhelming emotions, Mira remains steadfast - determined to protect herself from the man who hurt her. But just as she believes she has closed the door to her past, he reappears…",
-          "four": "“Branim se” is not just a song - it's a story of struggle, vulnerability, and inner strength, told in a way befitting a true star."
+          "one": "Nous vous présentons Mira Škorić sous un tout nouveau jour ! Après son duo à succès avec Aca Lukas sur la chanson “Krik,” Mira apporte un vent de fraîcheur sur la scène musicale locale avec son nouveau tube, “Branim se.” Cette chanson, accompagnée d'un clip impressionnant, raconte une histoire d'amour, de blessures et de résilience.",
+          "two": "Le clip regorge de symbolisme et de spectacle visuel - de la scène où Mira sort de la voiture, assaillie par les questions des journalistes, à l'homme mystérieux qui tente de briser son “bouclier” impénétrable. Le cercle et les ombres dans l'introduction dévoilent progressivement les personnages principaux, tandis que le verre brisé dans lequel Mira se regarde symbolise son âme et son cœur blessés.",
+          "three": "Malgré les émotions qui l'envahissent, Mira reste inébranlable - déterminée à se protéger de l'homme qui l'a blessée. Mais, juste au moment où elle pense avoir fermé la porte du passé, il réapparaît…",
+          "four": "“Branim se” n'est pas seulement une chanson - c'est une histoire de lutte, de vulnérabilité et de force intérieure, racontée comme il se doit par une véritable star."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "Clicking the camera flash quickly and frequently enough."
+        "title": "Défis:",
+        "text": "Cliquer sur le flash de l'appareil photo suffisamment vite et suffisamment souvent."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "An amazing video, with everyone thrilled and exceptionally satisfied."
+        "title": "Résultat",
+        "text": "Un clip phénoménal, avec une équipe comblée et pleinement satisfaite."
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Équipe impliquée dans la réalisation du clip:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Production du clip",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Productrice du clip",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Directeur de la photographie et réalisateur",
             "person": "Jovan Radović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Directeur artistique et scénographe",
             "person": "Jovana Radojević"
           },
           "setDecorator": {
-            "title": "Set Decorator",
-            "person": "Miloš Zogović and Nemanja Zejaković"
+            "title": "Décorateur",
+            "person": "Miloš Zogović et Nemanja Zejaković"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Costumière",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup Artists",
-            "person": "Olja Beočanin and Aleksandra Bajić"
+            "title": "Maquillage",
+            "person": "Olja Beočanin et Aleksandra Bajić"
           },
           "hairStylist": {
-            "title": "Hair Stylist",
+            "title": "Coiffeur",
             "person": "Dejan Stefanović"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Chef électricien",
             "person": "Nikola Radovanović"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Photographe sur le plateau",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Vidéaste BTS",
             "person": "Nikola Pavlović"
           },
           "cameraEquipment": {
-            "title": "Camera Equipment",
+            "title": "Équipement de caméra",
             "person": "Kamera Rental"
           },
           "agencyextra": {
-            "title": "Extras Agency",
+            "title": "Agence de figurants",
             "person": "Fresh Cast"
           },
           "productionAssistant": {
-            "title": "Production Assistant",
+            "title": "Assistant de production",
             "person": "Miloš Nastić"
           },
           "fashionDesigner": {
-            "title": "Fashion Designer",
+            "title": "Créateur de mode",
             "person": "Bata Spasojević"
           },
           "extra": {
-            "title": "Extra",
+            "title": "Figurant",
             "person": "Nikola Milovanović"
           }
         }

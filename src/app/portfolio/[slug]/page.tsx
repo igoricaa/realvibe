@@ -15,7 +15,8 @@ export async function generateStaticParams() {
 }
 
 const Page = ({ params: { slug } }: { params: { slug: string } }) => {
-  const t = useTranslations(`portfolio.${slug}`);
+  const t = useTranslations(`portfolio`);
+  const t2 = useTranslations(`portfolio.${slug}`);
 
   const project = portfolio.find((project: Project) => project.slug === slug);
 
@@ -23,7 +24,7 @@ const Page = ({ params: { slug } }: { params: { slug: string } }) => {
     return <div>Project not found</div>;
   }
 
-  const translations = getTranslations(t, slug);
+  const translations = getTranslations(t2, slug);
 
   const nextProject =
     portfolio.find(
@@ -37,10 +38,12 @@ const Page = ({ params: { slug } }: { params: { slug: string } }) => {
           <span className={styles.project__intro__info__caseStudy}>
             {t('caseStudy')}
           </span>
-          <h1 className={styles.project__intro__info__title}>{t('title')}</h1>
+          <h1 className={styles.project__intro__info__title}>
+            {t(`${slug}.title`)}
+          </h1>
           <h4 className={styles.project__intro__info__subtitle}>
-            {t('subtitle.one')}
-            <span>{t('subtitle.two')}</span>
+            {t(`${slug}.subtitle.one`)}
+            <span>{t(`${slug}.subtitle.two`)}</span>
           </h4>
         </div>
         <div className={styles.project__intro__image}>
@@ -61,11 +64,11 @@ const Page = ({ params: { slug } }: { params: { slug: string } }) => {
       <section className={styles.project__navigation}>
         <Link href='/portfolio'>
           <ListIcon />
-          Back to list
+          {t('backToList')}
         </Link>
 
         <Link href={`/portfolio/${nextProject.slug}`}>
-          See Next <ArrowIcon color='var(--text-color)' />
+          {t('seeNext')} <ArrowIcon color='var(--text-color)' />
         </Link>
       </section>
     </main>

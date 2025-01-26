@@ -601,748 +601,761 @@
   },
 
   "portfolio": {
+    "seeNext": "Sledeći",
+    "backToList": "Nazad na listu",
     "lutam": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Studija slučaja",
+
       "title": "Lutam",
       "subtitle": {
-        "one": "Music video for ",
-        "two": "Aca Lukas"
+        "one": "Muzički spot za ",
+        "two": "Acu Lukas"
       },
       "description": {
-        "title": "About the “LUTAM” project",
+        "title": "O projektu “Lutam”",
         "text": {
-          "one": "A song that moves and captivates. “Every night I wander, always causing a scene, I only have one life, and I do everything my way…” - a song that leaves no one indifferent and invites you to dance until your last ounce of energy.",
-          "two": "As in life, so in this video, everyone plays their role. The main Madam, surrounded by alluring women, leads a dynamic story that intertwines with the \"strange world\" surrounding Lukas. Each character brings unique energy, contributing to the one-of-a-kind atmosphere.",
-          "three": "The set design is a true masterpiece - lavish pedestals, a rich feast filled with diverse food and drinks, glasses and bottles hinting at an endless celebration. The red curtain evokes a theater setting, while the stage hosts a performance to remember. With such energy and atmosphere, it's hard to wish the night to ever end! The video was filmed at Hype Studio."
+          "one": "Pesma koja pokreće i osvaja. „Svake noći lutam, stalno pravim lom, imam samo jedan život, sve radim po svom…” - pesma koja jednostavno ne ostavlja nikoga ravnodušnim i mami vas na ples do poslednjeg atoma snage.",
+          "two": "Kao i u životu, tako i u ovom spotu, svako igra svoju ulogu. Glavna Madam, okružena zavodljivim devojkama, predvodi dinamičnu priču u kojoj se sve prepliće sa „čudnim svetom“ koji okružuje Lukasa. Svaki lik unosi posebnu energiju, doprinoseći jedinstvenoj atmosferi.",
+          "three": "Scenografija je pravo remek-delo - raskošni postamenti, bogata trpeza prepuna raznovrsne hrane i pića, čaše i flaše koje nagoveštavaju slavlje koje ne prestaje. Crvena zavesa daje utisak pozorišta, dok se na pozornici odvija predstava za pamćenje. Uz ovakvu energiju i atmosferu, teško je poželeti da se veče ikada završi! Spot je snimljen u studiju Hype."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "YouTube has increasingly begun to restrict artistic freedom, and we certainly dislike creating anything that feels \"cheap.\" How to make it seductive without being vulgar? Well, like this."
+        "title": "Izazov:",
+        "text": "YouTube je počeo dosta da ograničava umetničku slobodu, a mi svakako ne volimo da ono što radimo da izgleda “jeftino”. Kako da bude zavodljivo, a da ne bude vulgarno? Pa evo ovako."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "The entire team had a fantastic time shooting the video, channeling their energy to the performers on camera, and most importantly—no one got lost! 🙂"
+        "title": "Ishod",
+        "text": "Cela ekipa se sjajno provela na snimanju spota, svoju energiju je prenela i na aktere ispred kamera i ono što je najbitnije niko nije zalutao! 🙂"
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Tim koji je učestvovao u realizaciji spota:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Produkcija spota",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Producent spota",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Direktor fotografije i reditelj",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Art direktor i scenograf",
             "person": "Jovana Radojević"
           },
           "assistantScenographer": {
-            "title": "Assistant Set Designer",
+            "title": "Asistent scenografa",
             "person": "Teodora Jeremić"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Kostimograf",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Šminka i frizura",
             "person": "Nevena Nikolić"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Gafer",
             "person": "Nikola Radovanović"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Šarfer",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Fotograf na setu",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Snimatelj BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Stedikem",
             "person": "Lazar Janković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Tehnika",
             "person": "Vision Team"
           },
           "agencyextra": {
-            "title": "Extras Agency",
+            "title": "Agencija za statiste",
             "person": "Fresh Cast"
           },
           "extra": {
-            "title": "Extra",
+            "title": "Statisti",
             "person": "Neda Savkić, Andreja Milutinović, Milica Janković, Selma Sadović, Vasilisa Perin, Ana Ilić, Aleksandra Jevtović"
           }
         }
       }
     },
     "besprekorno-los": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Studija slučaja",
+
       "title": "Besprekorno loš",
       "subtitle": {
-        "one": "Music video for ",
+        "one": "Muzički spot za ",
         "two": "Aca Lukas"
       },
       "description": {
-        "title": "About the “Besprekorno loš” project",
+        "title": "O projektu “Besprekorno loš”",
         "text": {
-          "one": "The song “Besprekorno los” is the first track from Aca Lukas's new album, with a music video produced by RealVibe Studio. This love ballad portrays the artist describing the girl as the brightest and purest point in his life while he lives in darkness, vice, and surrounded by the wrong people. The video is an emotional depiction of his story, in which he is searching for her all the time—she is his vision, his desire, unattainable and distant. Just when he thinks he has finally reached her, he realizes she isn't really there. “Leave me, just wave your wings.” The video was filmed at Avala Studio."
+          "one": "Pesma “Besprekorno loš” je prva u nizu pesama sa novog albuma izvođača Ace Lukasa za koju je spot radila produkcija RealVibe Studio. Ljubavna balada u kojoj izvođač devojku opisuje kao najsvetliju i najčistiju tačku u svom životu dok on živi u mraku, bludu, okružen pogrešnim ljudima. Spot je emotivni prikaz njegove priče, u kom on zapravo nju sve vreme traži, ona je njegovo priviđenje i njegova želja, nedostižna, daleka, onda kada misli da ju je konačno stigao, shvata da nje zapravo nema. “Odlazi od mene, samo mahni krilima”. Spot je snimljen u Avala Studiu."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "As this was the first collaboration between Aca Lukas and RealVibe, the challenge was to create a concept that the artist would like, establish an atmosphere during filming that would suit him, and ensure he felt comfortable throughout the process."
+        "title": "Izazov:",
+        "text": "Kako je ovo bila prva saradnja izvođača Ace Lukasa i RealVibe-a izazov je bio napraviti koncept koji će se dopasti izvođaču, atmosferu na snimanju koja će mu odgovarati i u kojoj će se osećati prijatno."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "Aca and his entire team were so satisfied with the result that they hired us for the entire album. The team thoroughly enjoyed working with Aca, and we were all eagerly looking forward to the next collaboration. 🙂"
+        "title": "Ishod",
+        "text": "Aca i ceo njegov tim su bili toliko zadovoljni proizvodom da su nas angažovali za ceo album. Ekipa je uživala u saradnji sa Acom i svi smo jedva čekali ponovni susret. 🙂"
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Tim koji je učestvovao u realizaciji spota:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Produkcija spota",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Producent spota",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Direktor fotografije i reditelj",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Art direktor i scenograf",
             "person": "Jovana Radojević"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Dekorater",
             "person": "Miloš Zogović"
           },
           "cameraOperator": {
-            "title": "Camera Operator",
+            "title": "Švenker",
             "person": "Miloš Krcmarov"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Šminka i frizura",
             "person": "Danijela Pjanović"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Fotograf na setu",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Snimatelj BTS",
             "person": "Nikola Pavlović"
           },
           "dancer": {
-            "title": "Dancer",
+            "title": "Plesačica",
             "person": "Elena Caparević"
           },
           "actor": {
-            "title": "Actor",
+            "title": "Glumac",
             "person": "Dejan Stamenković"
           },
           "trumpet": {
-            "title": "Trumpet",
+            "title": "Truba",
             "person": "Laura"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Tehnika",
             "person": "Vision Team"
           }
         }
       }
     },
     "krik": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Studija slučaja",
       "title": "Aca Lukas ft Mira Škorić - Krik",
       "subtitle": {
-        "one": "Music video for ",
-        "two": "Aca Lukas"
+        "one": "Muzički spot za ",
+        "two": "Acu Lukasa i Miru Škorić"
       },
       "description": {
-        "title": "About the “Krik“ project",
+        "title": "O projektu “Krik“",
         "text": {
-          "one": "The return of Mira Škorić to the small screen, but in a grand style. A duet of two major Balkan stars mixed into a dynamic love ballad. They reminisce about their past, suffering for one another. The video tells the story set in an abandoned house filled with historical masterpieces—their souls still live there. The video begins with their old duet, a song over twenty years old. We see them telling their story again, but this time, it's a \"Cry from the Soul.\" The video was filmed in a luxurious villa."
+          "one": "Povratak Mire Škorić na male ekrane ali na velika vrata. Duet dve velike balkanske zvezde u spoju u jednoj dinamičnoj ljubavnoj baladi. Sećaju se svoje prošlosti kroz koju pate jedno za drugim. Spot priča priču u napuštenoj kući, punoj istorijskih remek-dela, njihove duše još uvek žive tamo. Spot počinje njihovim starim duetom, pesmom starom više od dvadeset godina, vidimo njih dvoje kako ponovo zajedno pričaju svoju priču samo je to ovog puta Krik iz duše. Spot je snimljen u raskošnoj vili."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "This was the first collaboration with Mira. The video had to tell a truly romantic story, make it artistic, introduce new details, and use world-renowned masterpieces in the best possible way."
+        "title": "Izazov:",
+        "text": "Prva saradnja sa Mirom. Spot mora da ispriča jednu istinski ljubavnu priču, napraviti je arty, uvesti neke nove detalje, iskoristiti svetski poznata dela na najbolji mogući način."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "Both artists were pleased. The set design was utilized to its full potential, featuring paintings by some of the world's most famous painters and sculptures that enhanced the song's emotion, longing, and mood. The lighting and other elements complemented each other, creating the perfect atmosphere, merging the past and present. Editing and color grading elevated the final product to an even higher level."
+        "title": "Ishod",
+        "text": "Oba izvođača su zadovoljna, scenografija je iskorišćena na najbolji mogući način, slike najpoznatijih svetskih slikara, postumenti, dočaravaju pesmu, emociju, žudnju, rasveta i sve ostale komponente dopunjuju jedna drugu stvarajući idealnu atmosferu spajajući prošlost i sadašnjost, dok montaža i kolor korekcija sve dovode na još viši nivo."
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Tim koji je učestvovao u realizaciji spota:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Produkcija spota",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Producent spota",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Direktor fotografije i reditelj",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Art direktor i scenograf",
             "person": "Jovana Radojević"
           },
           "assistantScenographer": {
-            "title": "Assistant Set Designer",
+            "title": "Asistent scenografa",
             "person": "Teodora Jeremić"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Dekorater",
             "person": "Miloš Zogović"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Kostimograf",
             "person": "Jovana Mitić"
           },
           "fashionDesigner": {
-            "title": "Fashion Designer",
+            "title": "Modni dizajner",
             "person": "Bata Spasojević"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Frizura",
             "person": "Nevena Nikolić"
           },
+          "makeup": {
+            "title": "Šminka",
+            "person": "Olja Beočanin"
+          },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Gafer",
             "person": "Nikola Ristić"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Šarfer",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Fotograf na setu",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Snimatelj BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Stedikem",
             "person": "Lazar Janković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Tehnika",
             "person": "Vision Team"
           }
         }
       }
     },
     "najjaci-kad-nemam": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Studija slučaja",
       "title": "Najjači kad nemam",
       "subtitle": {
-        "one": "Music video for ",
+        "one": "Muzički spot za ",
         "two": "Aca Lukas"
       },
       "description": {
-        "title": "About the “Najjači kad nemam” project",
+        "title": "O projektu “Najjači kad nemam”",
         "text": {
-          "one": "An autobiographical song. This deeply emotional piece is accompanied by a touching video, perfectly designed to capture every feeling. A large part of the video consists of authentic footage from Aca's extensive archive of performances, while additional scenes were shot at Hype Studio, on a plane, and in front of a mirror.",
-          "two": "In an intimate moment before the mirror, Aca dedicates the song to himself, preparing to step onto the stage. The airplane scenes tell a special story—moments from Aca's tour travels with his Folk House band. While everyone on the plane rests, Aca reflects: \"I am the strongest when I have nothing—who am I when I have it all?\"",
-          "three": "The newest album by Aca Lukas is symbolically named after this beautiful song: “STRONGEST WHEN I HAVE NOTHING.”"
+          "one": "Autobiografska pesma. Ovu duboko emotivna pesma prati dirljiv spot, savršeno osmišljen da dočara svaku emociju. Veći deo spota čine autentični snimci iz bogate arhive Acinih nastupa, dok su dodatni kadrovi snimljeni u studiju Hype, u avionu i ispred ogledala. U intimnom trenutku ispred ogledala, Aca posvećuje pesmu sebi, pripremajući se za izlazak na scenu.",
+          "two": "Scene iz aviona donose posebnu priču - trenutke Acinog odlaska na turneju sa svojim bendom Folk House. Dok svi u avionu odmaraju, Aca razmišlja: „Ja sam najjači kad nemam - ko sam ja kad imam sve?“",
+          "three": "Upravo po ovoj prelepoj pesmi, najnoviji album Ace Lukasa nosi simboličan naziv - \"NAJJAČI KAD NEMAM\"."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "The biggest challenge in realizing this project was conveying emotion through visuals and selecting the best moments from such an extensive archive to fit into 4 minutes and 30 seconds."
+        "title": "Izazov:",
+        "text": "Najveći izazov za realizaciju ovog projekta je bio upravo kako vizualima preneti emociju i kako iz tolike arhive odabrati one najbolje momente koji mogu da se svedu na 4 minuta i 30 sekundi."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "Let us know your thoughts—we were all moved to tears and goosebumps at the same time. 🙂"
+        "title": "Ishod",
+        "text": "Javite nam vaše utiske pošto smo svi plakali i ježili se istovremeno. 🙂"
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Tim koji je učestvovao u realizaciji spota:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Produkcija spota",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Producent spota",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Direktor fotografije i reditelj",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Art direktor i scenograf",
             "person": "Jovana Radojević"
           },
           "assistantScenographer": {
-            "title": "Assistant Set Designer",
+            "title": "Asistent scenografa",
             "person": "Teodora Jeremić"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Dekorater",
             "person": "Miloš Zogović"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Kostimograf",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Šminka i frizura",
             "person": "Nevena Nikolić"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Gafer",
             "person": "Nikola Radovanović"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Šarfer",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Fotograf na setu",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Snimatelj BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Stedikem",
             "person": "Lazar Janković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Tehnika",
             "person": "Vision Team"
           }
         }
       }
     },
     "duga": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Studija slučaja",
+
       "title": "Duga",
       "subtitle": {
-        "one": "Music video for ",
-        "two": "Aca Lukas"
+        "one": "Muzički spot za ",
+        "two": "Acu Lukasa"
       },
       "description": {
-        "title": "About the “DUGA” project",
+        "title": "O projektu “Duga”",
         "text": {
-          "one": "Our \"Duga (Rainbow)\" took us straight to Spain. Magnificent flamenco dancers, along with other participants, added an irresistible visual charm to this emotional ballad.",
-          "two": "Under the moonlight, Aca poses a question that resonates: “Is sorrow the ID card of love?” While sitting at the table, a captivating woman in a fiery red dress—the color of love—approaches, takes a rose, and disappears into the night. Earlier, we saw that roses don't seem to mean much to her. Yet, the question lingers—could this rose be different?",
-          "three": "This touching story and the atmosphere of Spain make “Duga (Rainbow)” an unforgettable ballad that will stay in your heart."
+          "one": "Nas je “Duga” odvela pravo do Španije. Predivni flamenko plesači, zajedno sa ostalim akterima, dodali su neodoljiv vizualni šarm ovoj emotivnoj baladi.",
+          "two": "Pod svetlošću mesečine, Aca postavlja pitanje koje odzvanja: „Zar je tuga lična karta ljubavi?“ Dok sedi za stolom, privlačna devojka u vatrenocrvenoj haljini - boji ljubavi - prilazi, uzima ružu i nestaje u noći. Pre toga smo videli da ruže nisu nešto što njoj mnogo znači. Ipak, ostaje pitanje - da li je baš ova ruža drugačija?",
+          "three": "Ova dirljiva priča i atmosfera Španije čine „Dugu“ nezaboravnom baladom koja će vam ostati u srcu."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "Dancing for nearly five minutes without pause was a challenge; however, we believe that our dancers were guided by the melody and their love for their craft, delivering phenomenal performances alongside the rest of the team."
+        "title": "Izazov:",
+        "text": "Izazovno je plesati skoro pet minuta bez pauze, međutim, verujemo da je naše plesače vodila melodija i ljubav prema svom poslu te su biti fenomenalni kao i svi ostali."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "We believe we succeeded in taking you on a brief journey to Spain, and we're confident that \"Duga (Rainbow)\" will become another favorite song on your playlist."
+        "title": "Ishod",
+        "text": "Verujemo da smo uspeli da vas odvedemo na kratko u Španiju ali i da će “Duga” biti još jedna omiljena pesma na vašoj playlisti."
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Tim koji je učestvovao u realizaciji spota:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Produkcija spota",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Producent spota",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Direktor fotografije i reditelj",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Art direktor i scenograf",
             "person": "Jovana Radojević"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Dekorater",
             "person": "Miloš Zogović"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Kostimograf",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Šminka i frizura",
             "person": "Nevena Nikolić"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Gafer",
             "person": "Nikola Ristić"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Šarfer",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Fotograf na setu",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Snimatelj BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Stedikem",
             "person": "Miloš Savković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Tehnika",
             "person": "Vision Team"
           },
           "agencyextra": {
-            "title": "Extras Agency",
+            "title": "Agencija za statiste",
             "person": "Fresh Cast"
           },
           "dancers": {
-            "title": "Dancers",
+            "title": "Plesači",
             "person": "Katarina Lazarevski, Bojan Lazarevski"
           },
           "guitarists": {
-            "title": "Guitarists",
+            "title": "Gitare",
             "person": "Zoran Čubrilo, Stefan Jovandrić"
           },
           "woman": {
-            "title": "Woman",
+            "title": "Žena",
             "person": "Mira Bulatović"
           }
         }
       }
     },
     "preko-vetrova": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Studija slučaja",
+
       "title": "Preko vetrova",
       "subtitle": {
-        "one": "Music video for ",
-        "two": "Aca Lukas"
+        "one": "Muzički spot za ",
+        "two": "Acu Lukasa"
       },
       "description": {
-        "title": "About the “PREKO VETROVA” project",
+        "title": "O projektu “Preko vetrova”",
         "text": {
-          "one": "There are songs that carry a special story, and this one waited for its moment for nearly three decades, hidden in Aca's drawer, until the filming of the movie “Stravicno.” They say the most beautiful songs are those that the artist creates from the heart - and this is one of them.",
-          "two": "The music video for the song combines emotions and storytelling, blending newly filmed scenes of Aca at the piano with unforgettable moments from the movie. The result is a visual and musical masterpiece that will remain etched in the audience's memory."
+          "one": "Postoje pesme koje nose posebnu priču, a ova je čekala svoj trenutak gotovo tri decenije, skrivena u Acinoj fioci, sve do snimanja filma “Stravično”. Kažu da su najlepše pesme upravo one koje umetnik stvori iz srca - i ovo je jedna od njih.",
+          "two": "Spot za pesmu donosi spoj emocija i priče, kombinujući dosnimljene kadrove Ace za klavirom i nezaboravne scene iz filma. Rezultat je vizuelno i muzičko remek-delo koje će ostati urezano u sećanju publike."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "To justify everyone's trust in RealVibe's team to edit and create the music video using scenes from the movie."
+        "title": "Izazov:",
+        "text": "Opravdati poverenje svih da upravo ekipa RealVibe-a izmontira i napravi spot od kadrova iz filma."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "You watch the video and listen to the song in a single breath that lasts over five minutes."
+        "title": "Ishod",
+        "text": "Spot gledate i pesmu slušate u jednom dahu koji traje duže od pet minuta."
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Tim koji je učestvovao u realizaciji spota:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Produkcija spota",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Producent spota",
             "person": "Jelena Mirković"
           },
           "videoDirectors": {
-            "title": "Video Directors",
-            "person": "Suzana Purković and Dušan Ivanović"
+            "title": "Direktori spota",
+            "person": "Suzana Purković i Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Art direktor i scenograf",
             "person": "Jovana Radojević"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Dekorater",
             "person": "Miloš Zogović"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Fotograf na setu",
             "person": "Teodora Milovanović"
           }
         }
       }
     },
     "kakao": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Studija slučaja",
+
       "title": "Kakao",
       "subtitle": {
-        "one": "Music video for ",
-        "two": "Aca Lukas"
+        "one": "Muzički spot za ",
+        "two": "Acu Lukasa"
       },
       "description": {
-        "title": "About the “KAKAO” project",
+        "title": "O projektu “Kakao”",
         "text": {
-          "one": "Another touching love ballad that quickly found its place in taverns - as they are the spaces for laughter, tears, and unforgotten loves. The music video for this song was filmed in the authentic setting of an old sugar factory, inspired by the magical atmosphere of the movie \"Charlie and the Chocolate Factory.\" The girl in the video, dressed in white, symbolizes his vision - an angel who haunts him as he moves through the darkness of life. “My world is as black as cocoa, and I'm waiting for my turn for hell, where miracles never happen” is a metaphor for the pain of unfulfilled loves.",
-          "two": "This song and video win hearts with their emotions and the story that deeply touches every soul."
+          "one": "Još jedna dirljiva ljubavna balada koja je brzo pronašla svoje mesto u kafanama - jer upravo su one prostor za smeh, suze i neprežaljene ljubavi. Spot za ovu pesmu sniman je u autentičnom ambijentu stare šećerane, inspirisan magičnom atmosferom filma “Čarli i fabrika čokolade”. Devojka u spotu, odevena u belo, simbolizuje njegovo priviđenje - anđela koji ga proganja dok prolazi kroz tamu života. “Moj svet je crn k'o kakao, a ja čekam red za pakao, tu se čuda nikad i ne dogode” metafora je za bol zbog ljubavi koje se nikad nisu dogodile.",
+          "two": "Ova pesma i spot osvajaju emocijama i pričom koja duboko dotiče svako srce."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "Enduring the cold on set because it was impossible to heat the space."
+        "title": "Izazov:",
+        "text": "Izdržati hladnoću na setu jer je prostor bilo nemoguće zagrejati."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "Enjoy every tone of both the song and the imagery."
+        "title": "Ishod",
+        "text": "Uživajte u svakom tonu kako pesme tako i slike."
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Tim koji je učestvovao u realizaciji spota:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Produkcija spota",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Producent spota",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Direktor fotografije i reditelj",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Art direktor i scenograf",
             "person": "Jovana Radojević"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Dekorater",
             "person": "Miloš Zogović"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Kostimograf",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Šminka i frizura",
             "person": "Nevena Nikolić"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Gafer",
             "person": "Nikola Radovanović"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Šarfer",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Fotograf na setu",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Snimatelj BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Stedikem",
             "person": "Lazar Janković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Tehnika",
             "person": "Vision Team"
           },
           "agencyextra": {
-            "title": "Extras Agency",
+            "title": "Agencija za statiste",
             "person": "Fresh Cast"
           },
           "extra": {
-            "title": "Extra",
+            "title": "Statist",
             "person": "Neda Čakarević"
           }
         }
       }
     },
     "udisaj": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Studija slučaja",
+
       "title": "Udisaj",
       "subtitle": {
-        "one": "Music video for ",
-        "two": "Aca Lukas"
+        "one": "Muzički spot za ",
+        "two": "Acu Lukasa"
       },
       "description": {
-        "title": "About the “UDISAJ” project",
+        "title": "O projektu “Udisaj”",
         "text": {
-          "one": "Another energetic song that promises unforgettable nights in the clubs! This time, our time machine transported us to the magical 1950s, bringing an authentic retro vibe infused with a modern rhythm.",
-          "two": "The video is a true visual refreshment, thanks to the exceptionally beautiful and talented participants. The phenomenal Folk House band infused the shoot with their signature energy, while the young models captivated everyone with their charm and charisma. Their perfect synergy created an atmosphere that mesmerizes and leaves no one indifferent.",
-          "three": "This is a song and video that will get you on your feet and take you back to a time when dancing and having fun were all that mattered!"
+          "one": "Još jedna energična pesma koja garantuje nezaboravan provod u klubovima! Ovoga puta, vremeplov nas je odveo u čarobne pedesete, donoseći autentičan retro duh u savremenom ritmu.",
+          "two": "Spot je pravo vizuelno osveženje, zahvaljujući izuzetno lepim i talentovanim učesnicima. Članovi fenomenalnog Folk House benda uneli su svoju prepoznatljivu energiju, dok su mladi manekeni i manekenke svojim šarmom i harizmom očarali sve prisutne. Njihova savršena sinergija stvorila je atmosferu koja pleni i ne ostavlja nikoga ravnodušnim.",
+          "three": "Ovo je pesma i spot koji će vas podići na noge i preneti vas u vreme kad su ples i dobra zabava bili najvažniji!"
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "Creating a less controversial video that complies with YouTube's monetization policies while still giving the video soul and extravagance."
+        "title": "Izazov:",
+        "text": "Osmisliti manje kontroverzan spot kako YouTube ne bi ukinuo monetarizaciju a opet dati spotu dušu i ekstravagantnost."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "YouTube approved the video, and we achieved exactly the atmosphere we envisioned."
+        "title": "Ishod",
+        "text": "YouTube je odobrio spot, a mi smo dobili baš onakvu atmosferu kakvu smo i zamišljali."
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Tim koji je učestvovao u realizaciji spota:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Produkcija spota",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Producent spota",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Direktor fotografije i reditelj",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Art direktor i scenograf",
             "person": "Jovana Radojević"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Dekorater",
             "person": "Miloš Zogović"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Kostimograf",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Šminka i frizura",
             "person": "Nevena Nikolić"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Gafer",
             "person": "Nikola Ristić"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Šarfer",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Fotograf na setu",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Snimatelj BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Stedikem",
             "person": "Miloš Savković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Tehnika",
             "person": "Vision Team"
           },
           "agencyextra": {
-            "title": "Extras Agency",
+            "title": "Agencija za statiste",
             "person": "Fresh Cast"
           },
           "extra": {
-            "title": "Extra",
+            "title": "Statisti",
             "person": "Milena Tunguz, Teodora Rakić, Maja Stolić, Viktorija Zeljković, Jovana Mitrekanić, Šćepan Knežević, Dženis Hatibović, Nikola Milovanović"
           }
         }
       }
     },
     "lenka": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Studija slučaja",
+
       "title": "Lenka",
       "subtitle": {
-        "one": "Music video for ",
-        "two": "Aca Lukas"
+        "one": "Muzički spot za ",
+        "two": "Acu Lukasa"
       },
       "description": {
-        "title": "About the “LENKA” project",
+        "title": "O projektu “Lenka”",
         "text": {
-          "one": "“Lenka” is a cheerful and playful song from 2022 that has captured the hearts of fans of the lively tavern atmosphere with its lyrics and energetic rhythm. Lines like, “Oh Lenka, life knows you well. And even when I dream of you, the morning steals you away from me,” tell the story of the unattainable Lenka, who lives in the hearts of many men.",
-          "two": "The music video, filmed at Hype Studio, radiates a phenomenal vibe thanks to the talented cast and the impeccable energy of the team. This was the final music video in the project with Aca, making it an emotional moment as every step of the collaboration was filled with laughter and creativity.",
-          "three": "For those who want to feel a part of that energy, BTS videos are available from the shoot, showcasing the good vibes and joy brought by the RealVibe Studio team. “Lenka” is not just a song - it's a charming story about joy, laughter, and a love for music!"
+          "one": "\"Lenka\" je vesela i razigrana pesma iz 2022. godine koja svojim tekstom i energičnim ritmom osvaja srca ljubitelja kafanske atmosfere. Stihovi poput: “Ajoj Lenka, život tebe znade. I kad te sanjam jutro mi te krade” govore o nedostižnoj Lenki koja živi u srcima mnogih muškaraca.",
+          "two": "Spot, snimljen u studiju Hype, odiše fenomenalnom atmosferom zahvaljujući talentovanim akterima i besprekornoj energiji ekipe. Ovo je bio poslednji spot u okviru projekta s Acom - što je donelo mnogo emocija, jer svaki trenutak saradnje bio je ispunjen smehom i kreativnošću.",
+          "three": "Za sve koji žele da osete deo te energije, dostupni su BTS videi sa svog snimanja koji prenose dobru vibraciju i radost koju je donela ekipa RealVibe studija. \"Lenka\" nije samo pesma, već prava mala priča o radosti, smehu i ljubavi prema muzici!"
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "The only challenge on this project was resisting the temptation to have a drink amid the fantastic music and atmosphere."
+        "title": "Izazov:",
+        "text": "Jedini izazov na ovom projektu je bio da ne popijemo po koju uz fenomenalnu muziku i atmosferu."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "The tavern came to life, and Lenka has never been more beautiful or more unattainable!"
+        "title": "Ishod",
+        "text": "Kafana je oživela, a Lenka nikad lepša i nedostižnija!"
       },
       "team": {
         "title": "Team involved in the production of the video:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Produkcija spota",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Producent spota",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Direktor fotografije i reditelj",
             "person": "Dušan Ivanović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Art direktor i scenograf",
             "person": "Jovana Radojević"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Kostimograf",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Šminka i frizura",
             "person": "Nevena Nikolić"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Gafer",
             "person": "Nikola Radivojević"
           },
           "sarfer": {
-            "title": "Focus Puller",
+            "title": "Šarfer",
             "person": "Dražen Mrkonja"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Fotograf na setu",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Snimatelj BTS",
             "person": "Nikola Pavlović"
           },
           "steadycam": {
-            "title": "Steadicam Operator",
+            "title": "Stedikem",
             "person": "Lazar Janković"
           },
           "technics": {
-            "title": "Technical Team",
+            "title": "Tehnika",
             "person": "Vision Team"
           },
           "agencyextra": {
-            "title": "Extras Agency",
+            "title": "Agencija za statiste",
             "person": "Fresh Cast"
           },
           "lenka": {
@@ -1350,105 +1363,106 @@
             "person": "Milica Stanković"
           },
           "tamburaPlayers": {
-            "title": "Tambura Players",
+            "title": "Tamburaši",
             "person": "Miloš Repić, Marko Mastilović, Nikola Gradinac, Jovan Aleksić"
           },
           "tavernGuests": {
-            "title": "Tavern Guests",
+            "title": "Gosti kafane",
             "person": "Vladimir Stojković, Vladimir Panić"
           }
         }
       }
     },
     "branim-se": {
-      "caseStudy": "Case Study",
+      "caseStudy": "Studija slučaja",
+
       "title": "Branim se",
       "subtitle": {
-        "one": "Music video for ",
-        "two": "Aca Lukas"
+        "one": "Muzički spot za ",
+        "two": "Miru Škorić"
       },
       "description": {
-        "title": "About the “BRANIM SE” project",
+        "title": "O projektu “Branim se”",
         "text": {
-          "one": "We proudly present Mira Škorić in an entirely new light! After the successful duet with Aca Lukas in the song “Krik,” Mira brings a refreshing change to the local music scene with her new hit, “Branim se.” This song, accompanied by an impressive music video, tells a story of love, heartbreak, and resilience.",
-          "two": "The video is rich in symbolism and visual spectacle - from the scene where Mira steps out of the car, surrounded by reporters bombarding her with questions, to the mysterious man trying to break through her impenetrable “shield.” The circle and shadows in the opening gradually reveal the main characters, while the shattered glass Mira peers into symbolizes her wounded soul and heart.",
-          "three": "Despite the overwhelming emotions, Mira remains steadfast - determined to protect herself from the man who hurt her. But just as she believes she has closed the door to her past, he reappears…",
-          "four": "“Branim se” is not just a song - it's a story of struggle, vulnerability, and inner strength, told in a way befitting a true star."
+          "one": "Predstavljamo vam Miru Škorić u potpuno novom svetlu! Nakon uspešnog dueta s Acom Lukasom u pesmi “Krik”, Mira donosi osveženje na domaćoj sceni s novim hitom “Branim se”. Ova pesma, praćena impresivnim spotom, donosi priču o ljubavi, povređenosti ali i snazi.",
+          "two": "Spot odiše simbolikom i vizuelnom spektakularnošću - od scene u kojoj Mira izlazi iz automobila, dok je novinari opsedaju pitanjima, do misterioznog muškarca koji pokušava da probije njen neprobojni “štit”. Krug i senke u uvodu postepeno otkrivaju glavne aktere, dok slomljeno staklo u kojem Mira posmatra sebe simbolizuje njenu ranjenu dušu i srce.",
+          "three": "Uprkos emocijama koje je preplavljuju, Mira ostaje nepokolebljiva - odlučna da zaštiti sebe od muškarca koji ju je povredio. Ali, baš kada pomisli da je zatvorila vrata prošlosti, on se ponovo pojavljuje...",
+          "four": "“Branim se” nije samo pesma - to je priča o borbi, ranjivosti i unutrašnjoj snazi, ispričana na način dostojan prave zvezde."
         }
       },
       "challenge": {
-        "title": "Challenge:",
-        "text": "Clicking the camera flash quickly and frequently enough."
+        "title": "Izazov:",
+        "text": "Kliknuti dovoljno brzo i dovoljno puta blic na fotoaparatu."
       },
       "outcome": {
-        "title": "Outcome",
-        "text": "An amazing video, with everyone thrilled and exceptionally satisfied."
+        "title": "Ishod",
+        "text": "Fenomenalan spot, svi smo srećni i izuzetno zadovoljni."
       },
       "team": {
-        "title": "Team involved in the production of the video:",
+        "title": "Tim koji je učestvovao u realizaciji spota:",
         "list": {
           "production": {
-            "title": "Video Production",
+            "title": "Produkcija spota",
             "person": "RealVibe Studio"
           },
           "producer": {
-            "title": "Video Producer",
+            "title": "Producent spota",
             "person": "Jelena Mirković"
           },
           "photoDirector": {
-            "title": "Director of Photography and Director",
+            "title": "Direktor fotografije i reditelj",
             "person": "Jovan Radović"
           },
           "artDirectorScenographer": {
-            "title": "Art Director and Set Designer",
+            "title": "Art direktor i scenograf",
             "person": "Jovana Radojević"
           },
           "setDecorator": {
-            "title": "Set Decorator",
+            "title": "Dekorater",
             "person": "Miloš Zogović and Nemanja Zejaković"
           },
           "costume": {
-            "title": "Costume Designer",
+            "title": "Kostimograf",
             "person": "Jovana Mitić"
           },
           "stylist": {
-            "title": "Makeup Artists",
+            "title": "Šminka",
             "person": "Olja Beočanin and Aleksandra Bajić"
           },
           "hairStylist": {
-            "title": "Hair Stylist",
+            "title": "Frizura",
             "person": "Dejan Stefanović"
           },
           "gaffer": {
-            "title": "Gaffer",
+            "title": "Gafer",
             "person": "Nikola Radovanović"
           },
           "photographer": {
-            "title": "On-Set Photographer",
+            "title": "Fotograf na setu",
             "person": "Teodora Milovanović"
           },
           "bts": {
-            "title": "BTS Videographer",
+            "title": "Snimatelj BTS",
             "person": "Nikola Pavlović"
           },
           "cameraEquipment": {
-            "title": "Camera Equipment",
+            "title": "Oprema za snimanje",
             "person": "Kamera Rental"
           },
           "agencyextra": {
-            "title": "Extras Agency",
+            "title": "Agencija za statiste",
             "person": "Fresh Cast"
           },
           "productionAssistant": {
-            "title": "Production Assistant",
+            "title": "Asistent produkcije",
             "person": "Miloš Nastić"
           },
           "fashionDesigner": {
-            "title": "Fashion Designer",
+            "title": "Modni dizajner",
             "person": "Bata Spasojević"
           },
           "extra": {
-            "title": "Extra",
+            "title": "Statista",
             "person": "Nikola Milovanović"
           }
         }

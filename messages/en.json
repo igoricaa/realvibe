@@ -600,9 +600,12 @@
     }
   },
   "portfolio": {
+    "seeNext": "See Next",
+    "backToList": "Back to List",
     "lutam": {
       "caseStudy": "Case Study",
       "title": "Lutam",
+
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -696,6 +699,7 @@
     "besprekorno-los": {
       "caseStudy": "Case Study",
       "title": "Besprekorno loš",
+
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -775,6 +779,7 @@
     "krik": {
       "caseStudy": "Case Study",
       "title": "Aca Lukas ft Mira Škorić - Krik",
+
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -829,8 +834,12 @@
             "person": "Bata Spasojević"
           },
           "stylist": {
-            "title": "Makeup and Hair",
+            "title": "Hair",
             "person": "Nevena Nikolić"
+          },
+          "makeup": {
+            "title": "Makeup Artist",
+            "person": "Olja Beočanin"
           },
           "gaffer": {
             "title": "Gaffer",
@@ -862,6 +871,7 @@
     "najjaci-kad-nemam": {
       "caseStudy": "Case Study",
       "title": "Najjači kad nemam",
+
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -947,6 +957,7 @@
     "duga": {
       "caseStudy": "Case Study",
       "title": "Duga",
+
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -1044,6 +1055,7 @@
     "preko-vetrova": {
       "caseStudy": "Case Study",
       "title": "Preko vetrova",
+
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -1096,6 +1108,7 @@
     "kakao": {
       "caseStudy": "Case Study",
       "title": "Kakao",
+
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -1184,6 +1197,7 @@
     "udisaj": {
       "caseStudy": "Case Study",
       "title": "Udisaj",
+
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -1273,6 +1287,7 @@
     "lenka": {
       "caseStudy": "Case Study",
       "title": "Lenka",
+
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -1366,9 +1381,10 @@
     "branim-se": {
       "caseStudy": "Case Study",
       "title": "Branim se",
+
       "subtitle": {
         "one": "Music video for ",
-        "two": "Aca Lukas"
+        "two": "Mira Škorić"
       },
       "description": {
         "title": "About the “BRANIM SE” project",
