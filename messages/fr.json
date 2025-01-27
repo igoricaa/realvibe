@@ -4,7 +4,7 @@
       "home": "Home",
       "about": "About Us",
       "events": "Organisation d'événements",
-      "video-production": "Video Production",
+      "video-production": "Production Vidéo",
       "film-production": "Production cinématographique",
       "ad-campaigns": "Campagnes Publicitaires",
       "music-videos-production": "Music Videos Production",
@@ -606,6 +606,7 @@
     "caseStudy": "Étude de cas",
     "lutam": {
       "title": "Lutam",
+      "category": "Production Vidéo",
       "subtitle": {
         "one": "Clip vidéo pour ",
         "two": "Aca Lukas"
@@ -694,6 +695,7 @@
     },
     "besprekorno-los": {
       "title": "Besprekorno loš",
+      "category": "Production Vidéo",
       "subtitle": {
         "one": "Clip vidéo pour ",
         "two": "Aca Lukas"
@@ -772,7 +774,7 @@
     },
     "krik": {
       "title": "Aca Lukas ft Mira Škorić - Krik",
-
+      "category": "Production Vidéo",
       "subtitle": {
         "one": "Clip vidéo pour ",
         "two": "Aca Lukas"
@@ -863,6 +865,7 @@
     },
     "najjaci-kad-nemam": {
       "title": "Najjači kad nemam",
+      "category": "Production Vidéo",
       "subtitle": {
         "one": "Clip vidéo pour ",
         "two": "Aca Lukas"
@@ -947,6 +950,7 @@
     },
     "duga": {
       "title": "Duga",
+      "category": "Production Vidéo",
       "subtitle": {
         "one": "Music video pour ",
         "two": "Aca Lukas"
@@ -1043,6 +1047,7 @@
     },
     "preko-vetrova": {
       "title": "Preko vetrova",
+      "category": "Production Vidéo",
       "subtitle": {
         "one": "Clip vidéo pour ",
         "two": "Aca Lukas"
@@ -1094,6 +1099,7 @@
     },
     "kakao": {
       "title": "Kakao",
+      "category": "Production Vidéo",
       "subtitle": {
         "one": "Music video pour ",
         "two": "Aca Lukas"
@@ -1181,6 +1187,7 @@
     },
     "udisaj": {
       "title": "Udisaj",
+      "category": "Production Vidéo",
       "subtitle": {
         "one": "Music video pour ",
         "two": "Aca Lukas"
@@ -1269,6 +1276,7 @@
     },
     "lenka": {
       "title": "Lenka",
+      "category": "Production Vidéo",
       "subtitle": {
         "one": "Music video pour ",
         "two": "Aca Lukas"
@@ -1361,7 +1369,7 @@
     },
     "branim-se": {
       "caseStudy": "Case Study",
-
+      "category": "Production Vidéo",
       "title": "Branim se",
       "subtitle": {
         "one": "Music video pour ",
@@ -1453,9 +1461,126 @@
           }
         }
       }
+    },
+    "klovn": {
+      "title": "Klovn",
+      "category": "Production Vidéo",
+      "subtitle": {
+        "one": "Music video pour ",
+        "two": "Aca Lukas"
+      },
+      "description": {
+        "title": "À propos du projet “KLOVN”",
+        "text": {
+          "one": "Vous êtes-vous déjà senti comme un \"Clown\" ? Dans cette ballade, Aca exprime sa vision de lui-même dans la vie, comme quelqu'un qui porte en lui une grande insatisfaction, de la tristesse et de la peur. Il se décrit comme \"un clown qui sourit avec des yeux tristes.\"",
+          "two": "Le clown, symboliquement, représente une personne qui cache sa tristesse derrière un masque de sourire. Les paroles de la chanson et les éléments visuels du clip suggèrent une blessure émotionnelle profonde causée par une trahison, que ce soit dans l'amour ou les relations proches. Le clown n'est pas seulement une figure de divertissement, mais aussi un symbole de solitude et de douleur, résultant de l'impossibilité de se confier aux autres.",
+          "three": "Dans le clip, nous avons utilisé les expressions faciales des clowns pour illustrer diverses peurs, permettant aux spectateurs de comprendre que les peurs font partie intégrante de chacun de nous.",
+          "four": "Le clip porte un ton ironique - le clown, censé divertir, devient une figure tragique. Cela peut refléter l'introspection de l'artiste, voire une autocritique de ses choix, erreurs ou relations dans la vie.",
+          "five": "Le personnage du clown est quelque chose auquel beaucoup peuvent s'identifier. Nous portons tous, parfois, un \"masque\" en public, dissimulant notre véritable état. La chanson et le clip véhiculent un message de solidarité - les sentiments de tristesse et de solitude sont universels, même si nous les cachons souvent.",
+          "six": "Le clip utilise une atmosphère sombre, accentuée par des jeux de lumière et d'ombre, qui intensifient davantage la profondeur émotionnelle de la chanson."
+        }
+      },
+      "challenge": {
+        "title": "Défis:",
+        "text": "Créer un petit groupe d'acrobates talentueux et de personnages marquants."
+      },
+      "outcome": {
+        "title": "Résultat",
+        "text": "Nous avons réalisé un clip exceptionnel avec une production de haute qualité."
+      },
+      "team": {
+        "title": "Équipe impliquée dans la production du clip:",
+        "list": {
+          "production": {
+            "title": "Production du clip",
+            "person": "RealVibe Studio"
+          },
+          "producer": {
+            "title": "Productrice du clip",
+            "person": "Jelena Mirković"
+          },
+          "photoDirector": {
+            "title": "Directeur de la photographie et réalisateur",
+            "person": "Dušan Ivanović"
+          },
+          "artDirectorScenographer": {
+            "title": "Directeur artistique et scénographe",
+            "person": "Jovana Radojević"
+          },
+          "setDecorator": {
+            "title": "Décorateur",
+            "person": "Miloš Zogović"
+          },
+          "costume": {
+            "title": "Costumier",
+            "person": "Jovana Mitić"
+          },
+          "stylist": {
+            "title": "Maquillage et coiffure",
+            "person": "Nevena Nikolić"
+          },
+          "gaffer": {
+            "title": "Chef électricien",
+            "person": "Nikola Ristić"
+          },
+          "sarfer": {
+            "title": "Assistant mise au point",
+            "person": "Dražen Mrkonja"
+          },
+          "photographer": {
+            "title": "Photographe sur le plateau",
+            "person": "Teodora Milovanović"
+          },
+          "bts": {
+            "title": "Vidéaste BTS",
+            "person": "Nikola Pavlović"
+          },
+          "steadycam": {
+            "title": "Opérateur Steadicam",
+            "person": "Miloš Savković"
+          },
+          "technics": {
+            "title": "Équipe technique",
+            "person": "Vision Team"
+          },
+          "agencyextra": {
+            "title": "Agence de figurants",
+            "person": "Fresh Cast"
+          },
+          "extra": {
+            "title": "Figurant",
+            "person": "Folk House Band, Vladan Matović, Selma Sadović, Vladimir Stojković Feba, Kristian Al Droubi, Jelena Grbušić, Aleksandar Denić, Dunja Petković"
+          }
+        }
+      }
+    },
+    "jedno-nebo": {
+      "title": "Jedno nebo",
+      "category": "Production Vidéo"
+    },
+    "thunder-top-team": {
+      "title": "Thunder Top Team",
+      "category": "Organisation d'évènements",
+      "subtitle": {
+        "one": "Organisation d'évènements pour ",
+        "two": "Thunder Top Team"
+      },
+      "description": {
+        "title": "À propos du projet “Thunder Top Team”",
+        "text": {
+          "one": "Nos amis du centre de sports et arts martiaux “Thunder Top Team” nous ont confié l'organisation complète de leur inauguration. L'événement a mis en avant les boissons “TOX” et “DETOX”, un DJ, divers stands représentant des entreprises soutenant le centre, ainsi que des présentations captivantes des services de xSC de manière créative. Le soutien des médias, des influenceurs et des meilleurs athlètes serbes et régionaux a également été au rendez-vous. La satisfaction mutuelle était indéniable."
+        }
+      },
+      "challenge": {
+        "title": "Défis:",
+        "text": "Concevoir et réaliser le concept dans un délai très court."
+      },
+      "outcome": {
+        "title": "Résultat",
+        "text": "Dans un espace de plus de 1 000 mètres carrés, il ne restait presque plus de place. L'atmosphère était exceptionnelle, et l'événement a été largement relayé par de nombreux médias et réseaux sociaux."
+      }
     }
   },
-
   "contact": {
     "title": "Contacter-nous!",
     "description": "Vous comptez organiser un évènement, vous avez besoion d'experts dans la production, ou avez des questions sur nos services, nous sommes là pour vous. Notre équipe est prête à donner vie à vos projets.",

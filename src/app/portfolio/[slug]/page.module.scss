@@ -14,6 +14,7 @@
 
       &__title {
         text-transform: uppercase;
+        text-align: center;
       }
       &__subtitle {
         font-size: 1.5rem;
@@ -27,8 +28,8 @@
 
     &__image {
       position: relative;
-      width: calc(100% - 180px);
-      aspect-ratio: 1260 / 524;
+      width: 67%;
+      aspect-ratio: 16 / 9;
       margin: 0 auto;
       transform: translateY(-4.5rem);
       z-index: -10;
@@ -41,8 +42,13 @@
     grid-template-columns: repeat(12, minMax(0, 1fr));
     column-gap: 1rem;
 
-    h2 {
+    &__title {
       grid-column: 2 / 12;
+      display: flex;
+      gap: 2rem;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
     }
 
     p {
@@ -161,6 +167,32 @@
   }
 }
 
+@media (max-width: 1920px) {
+  .project {
+    &__intro {
+      &__info {
+        &__title {
+          font-size: 7vw;
+        }
+      }
+
+      &__image {
+        width: calc(100% - 180px);
+      }
+    }
+  }
+}
+
+@media (max-width: 1700px) {
+  .project {
+    &__intro {
+      &__image {
+        width: calc(100% - 180px);
+      }
+    }
+  }
+}
+
 @media (max-width: 1024px) {
   .project {
     padding: 4rem var(--side-padding);
@@ -239,8 +271,11 @@
     &__description {
       padding: 2rem 0 5.5rem;
 
-      h2 {
+      &__title {
         grid-column: span 12;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 1rem;
       }
 
       p {

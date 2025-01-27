@@ -10,6 +10,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   isSideArea?: boolean;
   isContactFormButton?: boolean;
   href?: string;
+  external?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -19,6 +20,7 @@ const Button: React.FC<ButtonProps> = ({
   isSideArea = false,
   isContactFormButton = false,
   href,
+  external = false,
   ...props
 }) => {
   const commonProps = {
@@ -34,7 +36,7 @@ const Button: React.FC<ButtonProps> = ({
   );
 
   const buttonElement = href ? (
-    <Link href={href} {...commonProps}>
+    <Link href={href} {...commonProps} external={external}>
       {content}
     </Link>
   ) : (

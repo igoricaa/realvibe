@@ -606,6 +606,7 @@
     "backToList": "Nazad na listu",
     "lutam": {
       "title": "Lutam",
+      "category": "Video produkcija",
       "subtitle": {
         "one": "Muzički spot za ",
         "two": "Acu Lukas"
@@ -694,6 +695,7 @@
     },
     "besprekorno-los": {
       "title": "Besprekorno loš",
+      "category": "Video produkcija",
       "subtitle": {
         "one": "Muzički spot za ",
         "two": "Aca Lukas"
@@ -772,6 +774,7 @@
     },
     "krik": {
       "title": "Aca Lukas ft Mira Škorić - Krik",
+      "category": "Video produkcija",
       "subtitle": {
         "one": "Muzički spot za ",
         "two": "Acu Lukasa i Miru Škorić"
@@ -862,6 +865,7 @@
     },
     "najjaci-kad-nemam": {
       "title": "Najjači kad nemam",
+      "category": "Video produkcija",
       "subtitle": {
         "one": "Muzički spot za ",
         "two": "Aca Lukas"
@@ -946,6 +950,7 @@
     },
     "duga": {
       "title": "Duga",
+      "category": "Video produkcija",
       "subtitle": {
         "one": "Muzički spot za ",
         "two": "Acu Lukasa"
@@ -1042,6 +1047,7 @@
     },
     "preko-vetrova": {
       "title": "Preko vetrova",
+      "category": "Video produkcija",
       "subtitle": {
         "one": "Muzički spot za ",
         "two": "Acu Lukasa"
@@ -1093,6 +1099,7 @@
     },
     "kakao": {
       "title": "Kakao",
+      "category": "Video produkcija",
       "subtitle": {
         "one": "Muzički spot za ",
         "two": "Acu Lukasa"
@@ -1180,6 +1187,7 @@
     },
     "udisaj": {
       "title": "Udisaj",
+      "category": "Video produkcija",
       "subtitle": {
         "one": "Muzički spot za ",
         "two": "Acu Lukasa"
@@ -1268,6 +1276,7 @@
     },
     "lenka": {
       "title": "Lenka",
+      "category": "Video produkcija",
       "subtitle": {
         "one": "Muzički spot za ",
         "two": "Acu Lukasa"
@@ -1360,6 +1369,7 @@
     },
     "branim-se": {
       "title": "Branim se",
+      "category": "Video produkcija",
       "subtitle": {
         "one": "Muzički spot za ",
         "two": "Miru Škorić"
@@ -1450,9 +1460,125 @@
           }
         }
       }
+    },
+    "klovn": {
+      "title": "Klovn",
+      "category": "Video produkcija",
+      "subtitle": {
+        "one": "Muzički spot za ",
+        "two": "Acu Lukasa"
+      },
+      "description": {
+        "title": "O projektu “Klovn”",
+        "text": {
+          "one": "Da li se i vi osećate nekada kao “Klovn”? Aca je u ovoj baladi opisao svoje viđenje sebe u životu, kao nekoga ko nosi veliko nezadovoljstvo, tugu i strah. Opisuje sebe kao “klovna koji se smeje tužnim očima”.",
+          "two": "Klovn, simbolično, predstavlja osobu koja skriva svoju tugu iza maske osmeha. Tekst pesme i vizuelni elementi spota sugerišu duboku emotivnu ranu izazvanu izdajom, bilo u ljubavi ili bliskim odnosima. Klovn nije samo figura zabave, već i simbol usamljenosti i bola koji dolazi iz nemogućnosti da se poverimo drugima. Tako smo kroz ovaj spot iskoristili facijalne ekspresije klovnova da dočaraju različite fobije kako bi gledaoci razumeli da su strahovi sastavni deo svih nas.",
+          "three": "Spot nosi ironičan ton - klovn, koji bi trebalo da zabavlja, sam postaje tragična figura. To može odražavati i autorovu introspekciju, možda čak i samokritiku prema sopstvenim izborima, greškama ili odnosima u životu.",
+          "four": "Lik klovna je nešto sa čime se mnogi mogu poistovetiti. Svi smo ponekad u situaciji da moramo da „nosimo masku“ u društvu, skrivajući svoje pravo stanje. Pesma i spot šalju poruku solidarnosti - osećaj tuge i usamljenosti je univerzalan, iako ga često skrivamo.",
+          "five": "Spot koristi mračnu atmosferu, naglašenu igrom svetla i senki, koja dodatno pojačava emotivni intenzitet pesme."
+        }
+      },
+      "challenge": {
+        "title": "Izazov:",
+        "text": "Napraviti uži krug dobrih akrobata i likova."
+      },
+      "outcome": {
+        "title": "Ishod",
+        "text": "Dobili smo odličan spot visoke produkcije."
+      },
+      "team": {
+        "title": "Tim koji je učestvovao u realizaciji spota:",
+        "list": {
+          "production": {
+            "title": "Video produkcija",
+            "person": "RealVibe Studio"
+          },
+          "producer": {
+            "title": "Producent spota",
+            "person": "Jelena Mirković"
+          },
+          "photoDirector": {
+            "title": "Direktor fotografije i reditelj",
+            "person": "Dušan Ivanović"
+          },
+          "artDirectorScenographer": {
+            "title": "Art direktor i scenograf",
+            "person": "Jovana Radojević"
+          },
+          "setDecorator": {
+            "title": "Dekorater",
+            "person": "Miloš Zogović"
+          },
+          "costume": {
+            "title": "Kostimograf",
+            "person": "Jovana Mitić"
+          },
+          "stylist": {
+            "title": "Šminka i frizura",
+            "person": "Nevena Nikolić"
+          },
+          "gaffer": {
+            "title": "Gafer",
+            "person": "Nikola Ristić"
+          },
+          "sarfer": {
+            "title": "Šarfer",
+            "person": "Dražen Mrkonja"
+          },
+          "photographer": {
+            "title": "Fotograf na setu",
+            "person": "Teodora Milovanović"
+          },
+          "bts": {
+            "title": "Snimatelj BTS",
+            "person": "Nikola Pavlović"
+          },
+          "steadycam": {
+            "title": "Stedikem",
+            "person": "Miloš Savković"
+          },
+          "technics": {
+            "title": "Tehnika",
+            "person": "Vision Team"
+          },
+          "agencyextra": {
+            "title": "Agencija za statiste",
+            "person": "Fresh Cast"
+          },
+          "extra": {
+            "title": "Statisti",
+            "person": "Folk House Band, Vladan Matović, Selma Sadović, Vladimir Stojković Feba, Kristian Al Droubi, Jelena Grbušić, Aleksandar Denić, Dunja Petković"
+          }
+        }
+      }
+    },
+    "jedno-nebo": {
+      "title": "Jedno nebo",
+      "category": "Video produkcija"
+    },
+    "thunder-top-team": {
+      "title": "Thunder Top Team",
+      "category": "Organizacija događaja",
+      "subtitle": {
+        "one": "Organizacija događaja za ",
+        "two": "Thunder Top Team"
+      },
+      "description": {
+        "title": "O projektu “Thunder Top Team”",
+        "text": {
+          "one": "Naši prijatelji iz sporsko-borilačkog centra “Thunder Top Team” poverili su nam celokupnu organizaciju otvaranja. Pa se tako na otvaranju našlo piće “TOX” i “DETOX”, DJ, različiti rafovi firmi koje podržavaju postojanje ovog sportskog centra ali i prezentacija usluga koje xSC nudi na mnoge zanimljive načine. Nije izostala ni podrška od strane raznih medijskih kuća i influensera ali i najboljih srpskih i regionalnih sportista. Krajnje zadovoljstvo je bilo obostrano."
+        }
+      },
+      "challenge": {
+        "title": "Izazov:",
+        "text": "U kratkom roku osmisliti koncept i realizovati ga."
+      },
+      "outcome": {
+        "title": "Ishod",
+        "text": "U prostoru većem od 1.000 kvadratnih metara gotovo da nije bilo više mesta, odlična atmosfera, vest je preneta preko mnogih medijskih kanala kao i preko društvenih mreža."
+      }
     }
   },
-
   "contact": {
     "title": "Kontaktirajte nas!",
     "description": "Bilo da vam treba da organizujete događaj, video produkcija ili imate pitanja o našim uslugama, mi smo tu da vam pomognemo. Naš tim je spreman da vam pomogne da realizujete svoje ideje.",

@@ -7,6 +7,7 @@ import { hasTranslationText } from '@/utilities/utilities';
 import { Project } from '@/data';
 import Image from 'next/image';
 import { positions } from '@/data';
+import Button from '../UI/Button';
 
 const Content = ({
   project,
@@ -54,7 +55,14 @@ const Content = ({
           transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s`,
         }}
       >
-        <h2>{translations.description.title}</h2>
+        <div className={styles.project__description__title}>
+          <h2>{translations.description.title}</h2>
+          {project.link && (
+            <Button href={project.link} external>
+              <span>Play Video</span>
+            </Button>
+          )}
+        </div>
         {translations.description.text.map((text: string, index: number) => (
           <p key={index}>{text}</p>
         ))}
@@ -70,23 +78,24 @@ const Content = ({
           transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.4s`,
         }}
       >
-        {project.images.map((image, index: number) => (
-          <div
-            key={index}
-            className={`${styles.project__gallery__item} ${
-              styles[`project__gallery__item__${index + 1}`]
-            }`}
-          >
-            <Image
-              src={image}
-              alt={`RealVibe Studio - ${project.title}`}
-              quality={100}
-              sizes={`${[0, 3].includes(index) ? '70vw' : '30vw'}`}
-              fill
-              style={{ objectFit: 'cover' }}
-            />
-          </div>
-        ))}
+        {project.images &&
+          project.images.map((image, index: number) => (
+            <div
+              key={index}
+              className={`${styles.project__gallery__item} ${
+                styles[`project__gallery__item__${index + 1}`]
+              }`}
+            >
+              <Image
+                src={image}
+                alt={`RealVibe Studio - ${project.title}`}
+                quality={100}
+                sizes={`${[0, 3].includes(index) ? '70vw' : '30vw'}`}
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+          ))}
       </section>
 
       <section

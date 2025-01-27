@@ -605,6 +605,7 @@
     "caseStudy": "Case Study",
     "lutam": {
       "title": "Lutam",
+      "category": "Video Production",
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -696,9 +697,8 @@
       }
     },
     "besprekorno-los": {
-      
       "title": "Besprekorno loš",
-
+      "category": "Video Production",
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -776,9 +776,8 @@
       }
     },
     "krik": {
-      
       "title": "Aca Lukas ft Mira Škorić - Krik",
-
+      "category": "Video Production",
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -868,9 +867,8 @@
       }
     },
     "najjaci-kad-nemam": {
-      
       "title": "Najjači kad nemam",
-
+      "category": "Video Production",
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -954,9 +952,8 @@
       }
     },
     "duga": {
-      
       "title": "Duga",
-
+      "category": "Video Production",
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -1052,9 +1049,8 @@
       }
     },
     "preko-vetrova": {
-      
       "title": "Preko vetrova",
-
+      "category": "Video Production",
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -1105,9 +1101,8 @@
       }
     },
     "kakao": {
-      
       "title": "Kakao",
-
+      "category": "Video Production",
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -1194,9 +1189,8 @@
       }
     },
     "udisaj": {
-      
       "title": "Udisaj",
-
+      "category": "Video Production",
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -1284,9 +1278,8 @@
       }
     },
     "lenka": {
-      
       "title": "Lenka",
-
+      "category": "Video Production",
       "subtitle": {
         "one": "Music video for ",
         "two": "Aca Lukas"
@@ -1373,6 +1366,98 @@
           "tavernGuests": {
             "title": "Tavern Guests",
             "person": "Vladimir Stojković, Vladimir Panić"
+          }
+        }
+      }
+    },
+    "klovn": {
+      "title": "Klovn",
+      "category": "Video Production",
+      "subtitle": {
+        "one": "Music video for ",
+        "two": "Aca Lukas"
+      },
+      "description": {
+        "title": "About the “KLOVN” project",
+        "text": {
+          "one": "Have you ever felt like a \"Clown\"? In this ballad, Aca reflects on his perception of himself in life, as someone who carries deep dissatisfaction, sadness, and fear. He describes himself as \"a clown smiling with sad eyes.\"",
+          "two": "The clown, symbolically, represents someone hiding their sorrow behind a mask of smiles. The song's lyrics and the visual elements of the music video suggest a profound emotional wound caused by betrayal, whether in love or close relationships. The clown is not just a figure of entertainment but also a symbol of loneliness and pain that stems from the inability to confide in others.",
+          "three": "In the music video, we used the facial expressions of clowns to portray various fears, helping viewers understand that fears are an integral part of all of us.",
+          "four": "The video carries an ironic tone - the clown, who is supposed to entertain, becomes a tragic figure. This could reflect the artist's introspection, perhaps even self-criticism about his choices, mistakes, or relationships in life.",
+          "five": "The clown is a relatable figure for many. We all, at times, wear a \"mask\" in public, concealing our true state. The song and video convey a message of solidarity - the feelings of sadness and loneliness are universal, even though we often hide them.",
+          "six": "The video features a dark atmosphere, highlighted by the interplay of light and shadow, which further intensifies the song's emotional depth."
+        }
+      },
+      "challenge": {
+        "title": "Challenge:",
+        "text": "To assemble a smaller group of skilled acrobats and characters."
+      },
+      "outcome": {
+        "title": "Outcome",
+        "text": "We achieved an exceptional video with a high-quality production."
+      },
+      "team": {
+        "title": "Team involved in the production of the video:",
+        "list": {
+          "production": {
+            "title": "Video Production",
+            "person": "RealVibe Studio"
+          },
+          "producer": {
+            "title": "Video Producer",
+            "person": "Jelena Mirković"
+          },
+          "photoDirector": {
+            "title": "Director of Photography and Director",
+            "person": "Dušan Ivanović"
+          },
+          "artDirectorScenographer": {
+            "title": "Art Director and Set Designer",
+            "person": "Jovana Radojević"
+          },
+          "setDecorator": {
+            "title": "Set Decorator",
+            "person": "Miloš Zogović"
+          },
+          "costume": {
+            "title": "Costume Designer",
+            "person": "Jovana Mitić"
+          },
+          "stylist": {
+            "title": "Makeup & Hair",
+            "person": "Nevena Nikolić"
+          },
+          "gaffer": {
+            "title": "Gaffer",
+            "person": "Nikola Ristić"
+          },
+          "sarfer": {
+            "title": "Focus Puller",
+            "person": "Dražen Mrkonja"
+          },
+          "photographer": {
+            "title": "On-Set Photographer",
+            "person": "Teodora Milovanović"
+          },
+          "bts": {
+            "title": "BTS Videographer",
+            "person": "Nikola Pavlović"
+          },
+          "steadycam": {
+            "title": "Steadicam Operator",
+            "person": "Miloš Savković"
+          },
+          "technics": {
+            "title": "Technical Team",
+            "person": "Vision Team"
+          },
+          "agencyextra": {
+            "title": "Extras Agency",
+            "person": "Fresh Cast"
+          },
+          "extra": {
+            "title": "Extra",
+            "person": "Folk House Band, Vladan Matović, Selma Sadović, Vladimir Stojković Feba, Kristian Al Droubi, Jelena Grbušić, Aleksandar Denić, Dunja Petković"
           }
         }
       }
@@ -1469,6 +1554,32 @@
             "person": "Nikola Milovanović"
           }
         }
+      }
+    },
+    "jedno-nebo": {
+      "title": "Jedno nebo",
+      "category": "Video Production"
+    },
+    "thunder-top-team": {
+      "title": "Thunder Top Team",
+      "category": "Event Organization",
+      "subtitle": {
+        "one": "Event organization for ",
+        "two": "Thunder Top Team"
+      },
+      "description": {
+        "title": "About the “Thunder Top Team” project",
+        "text": {
+          "one": "Our friends from the sports and martial arts center “Thunder Top Team” entrusted us with the complete organization of their grand opening. The event featured “TOX” and “DETOX” drinks, a DJ, various booths representing companies that support the center, as well as engaging presentations of xSC's services in creative ways. Media outlets, influencers, and top Serbian and regional athletes also lent their support. The mutual satisfaction was undeniable."
+        }
+      },
+      "challenge": {
+        "title": "Challenge:",
+        "text": "Designing and executing the concept within a short timeframe."
+      },
+      "outcome": {
+        "title": "Outcome",
+        "text": "In a space exceeding 1,000 square meters, there was hardly any room left. The atmosphere was exceptional, and the event was widely covered by numerous media channels and social networks."
       }
     }
   },
