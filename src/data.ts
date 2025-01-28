@@ -92,8 +92,7 @@ export const portfolio: Project[] = [
     title: 'Krik',
     slug: 'krik',
     featuredImage: '/portfolio/krik/aca-lukas-mira-skoric-krik-cover.png',
-    featuredImageList:
-      '/portfolio/krik/aca-lukas-mira-skoric-krik-cover.png',
+    featuredImageList: '/portfolio/krik/aca-lukas-mira-skoric-krik-cover.png',
     images: [
       '/portfolio/krik/aca-lukas-mira-skoric-krik-1.jpg',
       '/portfolio/krik/aca-lukas-mira-skoric-krik-2.jpg',
@@ -240,6 +239,18 @@ export const portfolio: Project[] = [
       '/portfolio/jedno-nebo/aca-lukas-jedno-nebo-cover-list.png',
     link: 'https://www.youtube.com/watch?v=LHqf-CRJcDc',
     noContent: true,
+  },
+  {
+    title: 'folklor',
+    slug: 'folklor',
+    featuredImage: '/portfolio/folklor/folklor-cover.png',
+    featuredImageList: '/portfolio/folklor/folklor-cover-list.png',
+    images: [
+      '/portfolio/folklor/folklor-1.jpg',
+      '/portfolio/folklor/folklor-2.jpg',
+      '/portfolio/folklor/folklor-3.jpg',
+      '/portfolio/folklor/folklor-4.jpg',
+    ],
   },
 ];
 

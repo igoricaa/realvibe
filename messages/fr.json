@@ -1580,6 +1580,28 @@
         "title": "Résultat",
         "text": "Dans un espace de plus de 1 000 mètres carrés, il ne restait presque plus de place. L'atmosphère était exceptionnelle, et l'événement a été largement relayé par de nombreux médias et réseaux sociaux."
       }
+    },
+    "folklor": {
+      "title": "L'organisation d'un festival traditionnel",
+      "category": "Organisation d'évènements",
+      "subtitle": {
+        "one": "Organisation d'un festival traditionnel ",
+        "two": "de folklore"
+      },
+      "description": {
+        "title": "À propos du projet “Folklor”",
+        "text": {
+          "one": "RealVibe Studio soutient fièrement toutes les manifestations culturelles et traditionnelles. C'est pourquoi nous avons collaboré avec nos amis de l'Association pour la préservation de la tradition et de la culture “Šiljkan” pour les aider à organiser leur cinquième festival des vétérans du folklore, intitulé « Belgrade, déploie tes branches et accueille-nous, les vétérans. Cet événement a réuni plus de vingt sociétés folkloriques et culturelles de Serbie et de la région. De plus, nous avons réalisé une vidéo complète de l'événement, incluant le défilé (une marche dans les principales rues de Belgrade en costumes traditionnels) ainsi que le concert principal. Cependant, nous avons laissé la célébration au restaurant comme un souvenir privé et personnel pour les participants."
+        }
+      },
+      "challenge": {
+        "title": "Défi:",
+        "text": "Organiser un grand défilé sécurisé et gérer la logistique d'un événement aussi important hors de notre base."
+      },
+      "outcome": {
+        "title": "Résultat",
+        "text": "Plus de 20 sociétés culturelles et artistiques ont participé, repartant avec uniquement des impressions positives."
+      }
     }
   },
   "contact": {

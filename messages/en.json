@@ -1582,6 +1582,28 @@
         "title": "Outcome",
         "text": "In a space exceeding 1,000 square meters, there was hardly any room left. The atmosphere was exceptional, and the event was widely covered by numerous media channels and social networks."
       }
+    },
+    "folklor": {
+      "title": "Organizacija smotre folklornih veterana",
+      "category": "Event Organization",
+      "subtitle": {
+        "one": "Organization of a traditional ",
+        "two": "folklor event"
+      },
+      "description": {
+        "title": "About the “Folklor” project",
+        "text": {
+          "one": "RealVibe Studio proudly supports all cultural and traditional events, which is why we partnered with our friends from the Association for the Preservation of Tradition and Culture “Šiljkan” to help organize their fifth festival of folklore veterans, titled “Belgrade, Spread Your Branches and Welcome Us Veterans.” This event brought together over twenty folklore and cultural societies from Serbia and the region. In addition, we created a video capturing the entire event, which includes the parade (a walk through Belgrade's main streets in traditional costumes) and the main concert. However, we left the celebration in the restaurant as a private and personal memory for the participants."
+        }
+      },
+      "challenge": {
+        "title": "Challenge:",
+        "text": "Organizing a large, safe parade and managing the logistics of such a grand event outside our home base."
+      },
+      "outcome": {
+        "title": "Outcome",
+        "text": "Over 20 cultural and artistic societies participated, taking home only positive impressions."
+      }
     }
   },
   "contact": {

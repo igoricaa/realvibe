@@ -1578,6 +1578,28 @@
         "title": "Ishod",
         "text": "U prostoru većem od 1.000 kvadratnih metara gotovo da nije bilo više mesta, odlična atmosfera, vest je preneta preko mnogih medijskih kanala kao i preko društvenih mreža."
       }
+    },
+    "folklor": {
+      "title": "Organizacija smotre folklornih veterana",
+      "category": "Organizacija događaja",
+      "subtitle": {
+        "one": "Organizacija događaja za ",
+        "two": "veterane folklora "
+      },
+      "description": {
+        "title": "O projektu",
+        "text": {
+          "one": "RealVibe Studio podržava sve kulturne i tradicionalne manifestacije pa smo samim tim pomogli našim prijateljima iz Udruženja za očuvanje tradicije i kulture “Šiljkan” da organizuju svoju petu smotru folklornih veterana pod nazivom “Beograde širi svoje grane i prihvati nas veterane”. Na ovakvoj manifestaciji, učestvovalo je preko dvadeset folklornih i kulturnih društava iz Srbije ali i regiona. Takođe, za njih smo odradili i video celokupnog događaja koji uključuje defile (šetnju glavnim ulicama Beograda u nošnjama) ali i sam koncert. Proslavu u restoranu smo ipak ostavili da bude deo privatne i pojedinačne uspomene."
+        }
+      },
+      "challenge": {
+        "title": "Izazov:",
+        "text": "Organizovati veliki bezbedni defile, i celokupnu logistiku tako velike manifestacije van baze."
+      },
+      "outcome": {
+        "title": "Ishod",
+        "text": "Učestvovalo je preko 20 kulturno-umetničkih društava i poneli su sa sobom samo pozitivne utiske."
+      }
     }
   },
   "contact": {
