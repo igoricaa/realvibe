@@ -93,7 +93,7 @@ export const portfolio: Project[] = [
     slug: 'krik',
     featuredImage: '/portfolio/krik/aca-lukas-mira-skoric-krik-cover.png',
     featuredImageList:
-      '/portfolio/krik/aca-lukas-mira-skoric-krik-cover-list.jpg',
+      '/portfolio/krik/aca-lukas-mira-skoric-krik-cover.png',
     images: [
       '/portfolio/krik/aca-lukas-mira-skoric-krik-1.jpg',
       '/portfolio/krik/aca-lukas-mira-skoric-krik-2.jpg',
