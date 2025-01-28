@@ -12,6 +12,7 @@ const Header = () => {
 
   const routes = [
     { href: '/', label: t('home') },
+    { href: '/portfolio', label: t('portfolio') },
     { href: '/#about-us', label: t('about') },
     { href: '/services/event-organization', label: t('events') },
     {

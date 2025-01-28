@@ -9,6 +9,10 @@ export const routes: MenuItem[] = [
     href: '/',
   },
   {
+    label: 'Portfolio',
+    href: '/portfolio',
+  },
+  {
     label: 'About Us',
     href: '/#about-us',
   },
