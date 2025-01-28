@@ -31,6 +31,10 @@
         align-items: center;
         position: relative;
 
+        a, span {
+          white-space: nowrap;
+        }
+
         &::after {
           content: '';
           display: block;
@@ -119,6 +123,54 @@
       position: relative;
       width: 20px;
       height: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .header {
+    &__helper__wrapper {
+      gap: 1.5rem;
+    }
+  
+    &__nav {
+      gap: 3rem;
+  
+      &__desktopMenu {
+        gap: 3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .header {
+    &__helper__wrapper {
+      gap: 1.5rem;
+    }
+  
+    &__nav {
+      gap: 2.5rem;
+  
+      &__desktopMenu {
+        gap: 2.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    &__helper__wrapper {
+      gap: 1.5rem;
+    }
+  
+    &__nav {
+      gap: 2rem;
+  
+      &__desktopMenu {
+        gap: 2rem;
+      }
     }
   }
 }

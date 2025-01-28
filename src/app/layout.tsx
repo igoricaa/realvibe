@@ -12,7 +12,6 @@ import GridBg from '@/components/UI/GridBg';
 import { locales } from '@/i18n/config';
 import Cursor from '@/components/UI/Cursor';
 import { ViewTransitions } from 'next-view-transitions';
-import SplashScreen from '@/components/SplashScreen/SplashScreen';
 import VideoSplashScreen from '@/components/SplashScreen/VideoSplashScreen';
 
 const inter = Inter({
@@ -74,8 +73,7 @@ export default async function RootLayout({
         <body className={`${inter.variable} ${pphatton.variable}`}>
           <NextIntlClientProvider messages={messages}>
             <ThemeProvider defaultTheme='dark' attribute='data-theme'>
-              {/* <SplashScreen /> */}
-              <VideoSplashScreen />
+              {/* <VideoSplashScreen /> */}
               <Lenis>
                 <Cursor />
                 <GridBg />
