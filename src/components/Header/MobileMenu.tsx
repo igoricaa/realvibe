@@ -18,8 +18,9 @@ const MobileMenu = () => {
   const t = useTranslations('nav.menu');
 
   const toggleMenu = () => {
-    document.body.style.overflow = 'hidden';
-    document.body.setAttribute('data-lenis-prevent', 'true');
+    document.body.toggleAttribute('data-lenis-prevent', !isOpen);
+    document.body.style.overflow = isOpen ? 'auto' : 'hidden';
+
     setIsOpen(!isOpen);
     setIsDropdownOpen(false);
   };
