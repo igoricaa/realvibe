@@ -238,7 +238,7 @@ export const portfolio: Project[] = [
     featuredImageList:
       '/portfolio/jedno-nebo/aca-lukas-jedno-nebo-cover-list.png',
     link: 'https://www.youtube.com/watch?v=LHqf-CRJcDc',
-    noContent: true,
+    // noContent: true,
   },
   {
     title: 'folklor',

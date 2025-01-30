@@ -1555,7 +1555,72 @@
     },
     "jedno-nebo": {
       "title": "Jedno nebo",
-      "category": "Video produkcija"
+      "category": "Video produkcija",
+      "subtitle": {
+        "one": "Muzički spot",
+        "two": ""
+      },
+      "description": {
+        "title": "O projektu “Jedno nebo”",
+        "text": {
+          "one": "Još jedna uspešna saradnja s Hype Production, ali ovog puta na posebnom projektu - pesmi i spotu za decu. Nema lepše publike i boljih saradnika od najmlađih, a ovaj projekat to savršeno dokazuje.",
+          "two": "Pesma nosi snažnu poruku o ravnopravnosti i nediskriminaciji, podsećajući na vrednosti koje su danas često zaboravljene - ljubav i solidarnost. Spot prikazuje dve porodice, jednu siromašnu, a drugu bogatu, ali ističe univerzalnu istinu: sva deca sveta sanjaju o istom - radosti, toplini i zajedništvu.",
+          "three": "Ekipa RealVibe-a, u saradnji s Hype Production, DKCB i dečjim horom “Čarolija”, stvorila je vizuelnu i emotivnu čaroliju koja kroz pesmu i priču inspiriše i podseća na ono najvažnije - da su ljubav i razumevanje temelj svakog srećnog društva."
+        }
+      },
+      "challenge": {
+        "title": "Izazov:",
+        "text": "Odvojiti se od dece nakon snimanja. Uneli su našoj ekipi novu energiju."
+      },
+      "outcome": {
+        "title": "Ishod",
+        "text": "Svet je dobio poučnu dečju pesmicu i spot koji je prati."
+      },
+      "team": {
+        "title": "Tim koji je učestvovao u realizaciji spota:",
+        "list": {
+          "production": {
+            "title": "Video produkcija",
+            "person": "RealVibe Studio, Hype Production, Children's Cultural Center Belgrade"
+          },
+          "producer": {
+            "title": "Producent spota",
+            "person": "Jelena Mirković"
+          },
+          "photoDirector": {
+            "title": "Direktor fotografije",
+            "person": "Periša Đinđić"
+          },
+          "artDirectorScenographer": {
+            "title": "Art direktor i scenograf",
+            "person": "Jovana Radojević"
+          },
+          "setDecorator": {
+            "title": "Dekorateri",
+            "person": "Miloš Zogović and Nemanja Zejaković"
+          },
+          "costume": {
+            "title": "Kostimograf",
+            "person": "Jovana Mitić"
+          },
+          "stylist": {
+            "title": "Šminka i frizura",
+            "person": "Danijela Pjanović"
+          },
+          "cameraOperator": {
+            "title": "Operator kamera",
+            "person": "Milan Đinđić"
+          },
+          "technics": {
+            "title": "Tehnički tim",
+            "person": "Vision Team"
+          },
+          "extra": {
+            "title": "Tim produkcije - Center za kulturu dece",
+            "person": "Dalibor Stojanović, Predrag Nedeljković, Aleksandar Despotović"
+          }
+        }
+      }
     },
     "thunder-top-team": {
       "title": "Thunder Top Team",

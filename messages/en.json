@@ -1559,7 +1559,72 @@
     },
     "jedno-nebo": {
       "title": "Jedno nebo",
-      "category": "Video Production"
+      "category": "Video Production",
+      "subtitle": {
+        "one": "Music video",
+        "two": ""
+      },
+      "description": {
+        "title": "About the “JEDNO NEBO” project",
+        "text": {
+          "one": "Another successful collaboration with Hype Production, but this time on a very special project - a song and video for children. There is no better audience or more inspiring collaborators than the youngest ones, and this project is a perfect example of that.",
+          "two": "The song carries a powerful message of equality and non-discrimination, reminding us of values often forgotten today - love and solidarity. The video portrays two families, one poor and one wealthy, but highlights a universal truth: all children around the world dream of the same things - joy, warmth, and togetherness.",
+          "three": "The RealVibe team, in collaboration with Hype Production, DKCB (Children's Cultural Center Belgrade), and the “Čarolija” children's choir, created a visual and emotional masterpiece. Through its song and story, it inspires and reminds us of what truly matters - love and understanding as the foundation of any happy society."
+        }
+      },
+      "challenge": {
+        "title": "Challenge:",
+        "text": "Saying goodbye to the kids after filming. They brought a fresh wave of energy to our team."
+      },
+      "outcome": {
+        "title": "Outcome",
+        "text": "The world now has an educational children's song and a meaningful video to accompany it."
+      },
+      "team": {
+        "title": "Team involved in the production of the video:",
+        "list": {
+          "production": {
+            "title": "Video Production",
+            "person": "RealVibe Studio, Hype Production, Children's Cultural Center Belgrade"
+          },
+          "producer": {
+            "title": "Video Producer",
+            "person": "Jelena Mirković"
+          },
+          "photoDirector": {
+            "title": "Director of Photography ",
+            "person": "Periša Đinđić"
+          },
+          "artDirectorScenographer": {
+            "title": "Art Director and Set Designer",
+            "person": "Jovana Radojević"
+          },
+          "setDecorator": {
+            "title": "Set Decorators",
+            "person": "Miloš Zogović and Nemanja Zejaković"
+          },
+          "costume": {
+            "title": "Costume Designer",
+            "person": "Jovana Mitić"
+          },
+          "stylist": {
+            "title": "Makeup & Hair",
+            "person": "Danijela Pjanović"
+          },
+          "cameraOperator": {
+            "title": "Camera Operator",
+            "person": "Milan Đinđić"
+          },
+          "technics": {
+            "title": "Technical Team",
+            "person": "Vision Team"
+          },
+          "extra": {
+            "title": "Production Team - Children's Cultural Center Belgrade",
+            "person": "Dalibor Stojanović, Predrag Nedeljković, Aleksandar Despotović"
+          }
+        }
+      }
     },
     "thunder-top-team": {
       "title": "Thunder Top Team",
