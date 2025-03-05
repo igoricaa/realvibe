@@ -160,6 +160,30 @@
         }
       }
     },
+    "awards": {
+      "award-1": {
+        "title": "Best Female Director",
+        "description-1": "Mira Škorić - Branim se",
+        "description-2": "Jelena Mirković - Video Producer"
+      },
+      "award-2": {
+        "title": "Best Production",
+        "description-1": "Aca Lukas - Lutam",
+        "description-2": "Jelena Mirković - Video Producer",
+        "description-3": "RealVibe Production"
+      },
+      "award-3": {
+        "title": "Best Costume",
+        "description-1": "Aca Lukas - Klovn",
+        "description-2": "Jelena Mirković - Video Producer",
+        "description-3": "Jovana Micić - Costume"
+      },
+      "award-4": {
+        "title": "Best Pop Music Video",
+        "description-1": "Aca Lukas - Najjači kad nemam",
+        "description-2": "Jelena Mirković - Video Producer"
+      }
+    },
     "why-us": {
       "title": "Why work with us",
       "reasons": {

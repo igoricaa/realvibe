@@ -1,6 +1,6 @@
 .whyUs {
   max-width: calc(1440px + 2 * var(--side-padding));
-  margin: 4rem auto 0;
+  margin: 8rem auto 0;
   padding-left: var(--side-padding);
   padding-right: var(--side-padding);
 
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 768px) {
   .whyUs {
-    margin-top: 3.5rem;
+    margin-top: 5rem;
     overflow: hidden;
 
     &__reasons {

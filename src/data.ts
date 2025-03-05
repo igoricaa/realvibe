@@ -59,6 +59,49 @@ export const services: Service[] = [
   },
 ];
 
+export type Award = {
+  title: string;
+  description: string[];
+  image: string;
+};
+
+export const awards: Award[] = [
+  {
+    title: 'Best Female Director',
+    description: [
+      'Mira Škorić - Branim se',
+      'Jelena Mirković - Video Producer',
+    ],
+    image: '/awards/best-female-director.png',
+  },
+  {
+    title: 'Best Production',
+    description: [
+      'Aca Lukas - Lutam',
+      'Jelena Mirković - Video Producer',
+      'RealVibe Production',
+    ],
+    image: '/awards/best-production.png',
+  },
+  {
+    title: 'Best Costume',
+    description: [
+      'Aca Lukas - Klovn',
+      'Jelena Mirković - Video Producer',
+      'Jovana Micić Costume',
+    ],
+    image: '/awards/best-costume.png',
+  },
+  {
+    title: 'Best Pop Music Video',
+    description: [
+      'Aca Lukas - Najjači kad nemam',
+      'Jelena Mirković - Video Producer',
+    ],
+    image: '/awards/best-pop-music-video.png',
+  },
+];
+
 export type ProjectTeam = {
   name: string;
   role: string;

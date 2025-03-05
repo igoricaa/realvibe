@@ -160,6 +160,30 @@
         }
       }
     },
+    "awards": {
+      "award-1": {
+        "title": "Meilleure réalisatrice féminine",
+        "description-1": "Mira Škorić - Branim se",
+        "description-2": "Jelena Mirković - Producteur"
+      },
+      "award-2": {
+        "title": "Meilleure production",
+        "description-1": "Aca Lukas - Lutam",
+        "description-2": "Jelena Mirković - Producteur",
+        "description-3": "RealVibe Production"
+      },
+      "award-3": {
+        "title": "Meilleur costume",
+        "description-1": "Aca Lukas - Klovn",
+        "description-2": "Jelena Mirković - Producteur",
+        "description-3": "Jovana Micić - Costume"
+      },
+      "award-4": {
+        "title": "Meilleur clip pop",
+        "description-1": "Aca Lukas - Najjači kad nemam",
+        "description-2": "Jelena Mirković - Producteur"
+      }
+    },
     "why-us": {
       "title": "Pourquoi Travailler Avec Nous",
       "reasons": {

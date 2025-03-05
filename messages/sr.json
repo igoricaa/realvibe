@@ -160,6 +160,30 @@
         }
       }
     },
+    "awards": {
+      "award-1": {
+        "title": "Najbolja ženska režija",
+        "description-1": "Mira Škorić - Branim se",
+        "description-2": "Jelena Mirković - producent"
+      },
+      "award-2": {
+        "title": "Najbolja produkcija",
+        "description-1": "Aca Lukas - Lutam",
+        "description-2": "Jelena Mirković - producent",
+        "description-3": "RealVibe produkcija"
+      },
+      "award-3": {
+        "title": "Najbolji kostim",
+        "description-1": "Aca Lukas - Klovn",
+        "description-2": "Jelena Mirković - producent",
+        "description-3": "Jovana Micić - kostimograf"
+      },
+      "award-4": {
+        "title": "Najbolji pop muzički spot",
+        "description-1": "Aca Lukas - Najjači kad nemam",
+        "description-2": "Jelena Mirković - producent"
+      }
+    },
     "why-us": {
       "title": "Zašto da sarađujete sa nama",
       "reasons": {
