@@ -73,7 +73,7 @@ export default async function RootLayout({
         <body className={`${inter.variable} ${pphatton.variable}`}>
           <NextIntlClientProvider messages={messages}>
             <ThemeProvider defaultTheme='dark' attribute='data-theme'>
-              {/* <VideoSplashScreen /> */}
+              <VideoSplashScreen />
               <Lenis>
                 <Cursor />
                 <GridBg />
