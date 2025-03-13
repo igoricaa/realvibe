@@ -187,8 +187,6 @@ export const portfolio: Project[] = [
     slug: 'najjaci-kad-nemam',
     featuredImage:
       '/portfolio/najjaci-kad-nemam/aca-lukas-najjaci-kad-nemam-cover.png',
-    featuredImageList:
-      '/portfolio/najjaci-kad-nemam/aca-lukas-najjaci-kad-nemam-cover-list.jpg',
     images: [
       '/portfolio/najjaci-kad-nemam/aca-lukas-najjaci-kad-nemam-1.jpg',
       '/portfolio/najjaci-kad-nemam/aca-lukas-najjaci-kad-nemam-2.jpg',
