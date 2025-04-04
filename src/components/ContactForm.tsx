@@ -56,14 +56,9 @@ const ContactForm = () => {
     <form onSubmit={handleSubmit(onSubmit)} className={styles.contactForm}>
       <input
         type='hidden'
-        value='d6e71984-e7f1-466c-875e-041c2f0ac562'
+        value='e7e963e2-98b3-4906-aa39-d29c022ea24c'
         {...register('access_key')}
       />
-      {/* <input
-        type='hidden'
-        value='Kontakt forma sa realvibestudio.com'
-        {...register('subject')}
-      /> */}
       <input
         type='hidden'
         value='Kontakt forma realvibestudio.com'
