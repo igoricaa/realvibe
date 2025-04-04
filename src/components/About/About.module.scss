@@ -103,6 +103,7 @@
 
 @media screen and (max-width: 768px) {
   .about {
+    padding-top: 3rem;
     &__header {
       div:has(a) {
         margin-top: 3rem;
